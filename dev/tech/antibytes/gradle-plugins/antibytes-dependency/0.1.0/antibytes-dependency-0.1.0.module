@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-dependency",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-0.1.0.jar",
+          "url": "antibytes-dependency-0.1.0.jar",
+          "size": 19139,
+          "sha512": "cd76105a33b772ed5bd85c2a5184637b17eb6d0ba9fef33389764958f1f8dc663fcc5d109f29ef15ae98ad1e6f62472e7033e28ecd66562bd28174c41322663a",
+          "sha256": "5ebcc5d84feccb7cdfa26a2c57292c00c1db821ed85dd1c02e67cb1bddc99c64",
+          "sha1": "b1b45d8b9ac6f5e02a98abf7652038b01decbdac",
+          "md5": "33fe98a879a768bc3dc4e839ef2eab2f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.5.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-0.1.0.jar",
+          "url": "antibytes-dependency-0.1.0.jar",
+          "size": 19139,
+          "sha512": "cd76105a33b772ed5bd85c2a5184637b17eb6d0ba9fef33389764958f1f8dc663fcc5d109f29ef15ae98ad1e6f62472e7033e28ecd66562bd28174c41322663a",
+          "sha256": "5ebcc5d84feccb7cdfa26a2c57292c00c1db821ed85dd1c02e67cb1bddc99c64",
+          "sha1": "b1b45d8b9ac6f5e02a98abf7652038b01decbdac",
+          "md5": "33fe98a879a768bc3dc4e839ef2eab2f"
+        }
+      ]
+    }
+  ]
+}
