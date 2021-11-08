@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-coverage",
+    "version": "618a9eb",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-coverage-618a9eb.jar",
+          "url": "antibytes-coverage-618a9eb.jar",
+          "size": 7674,
+          "sha512": "08bebdb9de0c2e8fd96fcf6e70edca39f5cbc9d995f85937959f8f1c99090615abd2c1f2614c70ff167a9745d5a81b3d8bd9f82195d77bbf77223bcc550cd4ab",
+          "sha256": "b0944db38beda4d6bac5e500e62761b8e7c7dd920d104ae305e0107b34622dd8",
+          "sha1": "fe08735df306c05587f08a27d32679bf075f62a3",
+          "md5": "83ebd833a22bc2a29c6d534868f51e2a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "org.jacoco",
+          "module": "org.jacoco.core",
+          "version": {
+            "requires": "0.8.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-coverage-618a9eb.jar",
+          "url": "antibytes-coverage-618a9eb.jar",
+          "size": 7674,
+          "sha512": "08bebdb9de0c2e8fd96fcf6e70edca39f5cbc9d995f85937959f8f1c99090615abd2c1f2614c70ff167a9745d5a81b3d8bd9f82195d77bbf77223bcc550cd4ab",
+          "sha256": "b0944db38beda4d6bac5e500e62761b8e7c7dd920d104ae305e0107b34622dd8",
+          "sha1": "fe08735df306c05587f08a27d32679bf075f62a3",
+          "md5": "83ebd833a22bc2a29c6d534868f51e2a"
+        }
+      ]
+    }
+  ]
+}
