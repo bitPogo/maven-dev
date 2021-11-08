@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-dependency",
+    "version": "a513fea",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-a513fea.jar",
+          "url": "antibytes-dependency-a513fea.jar",
+          "size": 40863,
+          "sha512": "16ff001a623526e6013c1cf428b457442f38fdbe40ce208807b24e93b5c523073b3fb31b163becbb003e2546671edd483c6940d89afe4d77514288dd17063389",
+          "sha256": "15cb289f397af3b7d8ee744a2cf667cb3fc4a1d03062cbb3e9994caf32cd5f25",
+          "sha1": "2c5f8740da26a72c69cd773e8797b3a4a67f2ab8",
+          "md5": "0181727fe60286c2544ac511e35943b1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "com.github.ben-manes",
+          "module": "gradle-versions-plugin",
+          "version": {
+            "requires": "0.39.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-a513fea.jar",
+          "url": "antibytes-dependency-a513fea.jar",
+          "size": 40863,
+          "sha512": "16ff001a623526e6013c1cf428b457442f38fdbe40ce208807b24e93b5c523073b3fb31b163becbb003e2546671edd483c6940d89afe4d77514288dd17063389",
+          "sha256": "15cb289f397af3b7d8ee744a2cf667cb3fc4a1d03062cbb3e9994caf32cd5f25",
+          "sha1": "2c5f8740da26a72c69cd773e8797b3a4a67f2ab8",
+          "md5": "0181727fe60286c2544ac511e35943b1"
+        }
+      ]
+    }
+  ]
+}
