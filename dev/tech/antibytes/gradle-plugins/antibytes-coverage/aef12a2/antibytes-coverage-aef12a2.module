@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-coverage",
+    "version": "aef12a2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-coverage-aef12a2.jar",
+          "url": "antibytes-coverage-aef12a2.jar",
+          "size": 15388,
+          "sha512": "2141a0af3d3cc637a91c89c369e3c5336d5b217d792fe8de13f4bc96e5790a60d18baa54173150e92e3e22a9f8e887c11e74e537c427186abf30642426483e9d",
+          "sha256": "360a03337c3021aae1b29ae429512c86276df27befa56ac9976b0d9ed226d54a",
+          "sha1": "5f9c17b92842de144775b761b150ec9339bf0ea5",
+          "md5": "6bef9ac3ff8189a573daed88dcefa133"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "org.jacoco",
+          "module": "org.jacoco.core",
+          "version": {
+            "requires": "0.8.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-coverage-aef12a2.jar",
+          "url": "antibytes-coverage-aef12a2.jar",
+          "size": 15388,
+          "sha512": "2141a0af3d3cc637a91c89c369e3c5336d5b217d792fe8de13f4bc96e5790a60d18baa54173150e92e3e22a9f8e887c11e74e537c427186abf30642426483e9d",
+          "sha256": "360a03337c3021aae1b29ae429512c86276df27befa56ac9976b0d9ed226d54a",
+          "sha1": "5f9c17b92842de144775b761b150ec9339bf0ea5",
+          "md5": "6bef9ac3ff8189a573daed88dcefa133"
+        }
+      ]
+    }
+  ]
+}

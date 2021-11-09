@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-dependency",
+    "version": "aef12a2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-aef12a2.jar",
+          "url": "antibytes-dependency-aef12a2.jar",
+          "size": 31361,
+          "sha512": "d4698dd95e3e23681fa32bc88fe18febf4323d61b48a45ec3b9137c8f640323da5c89264f8901eec6d4e78bbd5124858d4e666d5fd8669da0f7687701e53f33f",
+          "sha256": "4979381a5a97a0ec15fb43bd88ffdae98e34392068151e97476f6c3961832e4e",
+          "sha1": "6ccb7e557462541b4fadf93274fb32c25533a63d",
+          "md5": "cba7e3eab142b55724356ca976e5899e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "com.github.ben-manes",
+          "module": "gradle-versions-plugin",
+          "version": {
+            "requires": "0.39.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-aef12a2.jar",
+          "url": "antibytes-dependency-aef12a2.jar",
+          "size": 31361,
+          "sha512": "d4698dd95e3e23681fa32bc88fe18febf4323d61b48a45ec3b9137c8f640323da5c89264f8901eec6d4e78bbd5124858d4e666d5fd8669da0f7687701e53f33f",
+          "sha256": "4979381a5a97a0ec15fb43bd88ffdae98e34392068151e97476f6c3961832e4e",
+          "sha1": "6ccb7e557462541b4fadf93274fb32c25533a63d",
+          "md5": "cba7e3eab142b55724356ca976e5899e"
+        }
+      ]
+    }
+  ]
+}
