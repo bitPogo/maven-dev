@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-coverage",
+    "version": "cec61ab",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-coverage-cec61ab.jar",
+          "url": "antibytes-coverage-cec61ab.jar",
+          "size": 105072,
+          "sha512": "243e3370fea39c709d9fa0f74862ccfa59ded21a3635aa8bd2d0a7cc527c88871636ba2bea745de445bc509c76a7d6b425666ae000a989ab56fcda6876bd158a",
+          "sha256": "3fa857b76b2d400f41f2b44cef8c52e312a071f9a2c8d812778c33f4f56b9b06",
+          "sha1": "6860d879e9f93711c746bbd1416da4e4c6a6c47e",
+          "md5": "31342632d4c139365d2f6e1bd5e08a0a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "org.jacoco",
+          "module": "org.jacoco.core",
+          "version": {
+            "requires": "0.8.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-coverage-cec61ab.jar",
+          "url": "antibytes-coverage-cec61ab.jar",
+          "size": 105072,
+          "sha512": "243e3370fea39c709d9fa0f74862ccfa59ded21a3635aa8bd2d0a7cc527c88871636ba2bea745de445bc509c76a7d6b425666ae000a989ab56fcda6876bd158a",
+          "sha256": "3fa857b76b2d400f41f2b44cef8c52e312a071f9a2c8d812778c33f4f56b9b06",
+          "sha1": "6860d879e9f93711c746bbd1416da4e4c6a6c47e",
+          "md5": "31342632d4c139365d2f6e1bd5e08a0a"
+        }
+      ]
+    }
+  ]
+}
