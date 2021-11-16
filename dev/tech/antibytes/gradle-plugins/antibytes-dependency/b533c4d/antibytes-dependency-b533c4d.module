@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-dependency",
+    "version": "b533c4d",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-b533c4d.jar",
+          "url": "antibytes-dependency-b533c4d.jar",
+          "size": 31361,
+          "sha512": "a0d8d9e1af53dc5ece1b194a4a0874ed05d25f0672a87150c512392a62a84d929b5145626bf50535f1f8e41fbcc737eaa8e29b794c55d471a7231dc09bd23a64",
+          "sha256": "874c558b8d944db1746d4e99e0d3d4ad76b881f3c27c33a60b6529c67f0f2601",
+          "sha1": "7e706576cff0ad6f45b50ce54c749879ebda6fac",
+          "md5": "4ae2a8caa21fca661330ccb2e170e553"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "com.github.ben-manes",
+          "module": "gradle-versions-plugin",
+          "version": {
+            "requires": "0.39.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-b533c4d.jar",
+          "url": "antibytes-dependency-b533c4d.jar",
+          "size": 31361,
+          "sha512": "a0d8d9e1af53dc5ece1b194a4a0874ed05d25f0672a87150c512392a62a84d929b5145626bf50535f1f8e41fbcc737eaa8e29b794c55d471a7231dc09bd23a64",
+          "sha256": "874c558b8d944db1746d4e99e0d3d4ad76b881f3c27c33a60b6529c67f0f2601",
+          "sha1": "7e706576cff0ad6f45b50ce54c749879ebda6fac",
+          "md5": "4ae2a8caa21fca661330ccb2e170e553"
+        }
+      ]
+    }
+  ]
+}
