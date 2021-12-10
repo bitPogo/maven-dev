@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-gradle-test-utils",
+    "version": "5cedb25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-gradle-test-utils-5cedb25.jar",
+          "url": "antibytes-gradle-test-utils-5cedb25.jar",
+          "size": 15071,
+          "sha512": "33dbf5f11c910ddaae6dd08ec7fdc549c2141958dbe245e59f2119b59519511c08981aa2625b13d40f73dead68a9df64491abca26f468bb6ce7953fbf5b536d6",
+          "sha256": "6f85d9559354b0e53c9cf4e3501a2d782ee5318e707e7a9741ce8b8cfb740d21",
+          "sha1": "f0d839c5e543c0ad6ff22f6e8458a7129f7159f9",
+          "md5": "6c39e7df2199af16340e80b3cfffc312"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "io.mockk",
+          "module": "mockk",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "com.appmattus.fixture",
+          "module": "fixture",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-gradle-test-utils-5cedb25.jar",
+          "url": "antibytes-gradle-test-utils-5cedb25.jar",
+          "size": 15071,
+          "sha512": "33dbf5f11c910ddaae6dd08ec7fdc549c2141958dbe245e59f2119b59519511c08981aa2625b13d40f73dead68a9df64491abca26f468bb6ce7953fbf5b536d6",
+          "sha256": "6f85d9559354b0e53c9cf4e3501a2d782ee5318e707e7a9741ce8b8cfb740d21",
+          "sha1": "f0d839c5e543c0ad6ff22f6e8458a7129f7159f9",
+          "md5": "6c39e7df2199af16340e80b3cfffc312"
+        }
+      ]
+    }
+  ]
+}
