@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-configuration",
+    "version": "73badf1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-configuration-73badf1.jar",
+          "url": "antibytes-configuration-73badf1.jar",
+          "size": 33915,
+          "sha512": "c7849c7d3c466df2925e89ae448716a6215ea2c3f5f63be1a5ab895eeb1e14893a21b60ce4e1f3b20c93a2d5da253ebb4592c55b2598efa411288833e30b3a2e",
+          "sha256": "5181634c4d79b4831231334ba199d8f7c9a40674cf90d1ec0221093f9c26f5eb",
+          "sha1": "526c48da3c1c572866fe1a6aa1e6a08d388c50bc",
+          "md5": "7a7d19426d19b498be57e0334363aa6c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.0.3"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "73badf1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-configuration-73badf1.jar",
+          "url": "antibytes-configuration-73badf1.jar",
+          "size": 33915,
+          "sha512": "c7849c7d3c466df2925e89ae448716a6215ea2c3f5f63be1a5ab895eeb1e14893a21b60ce4e1f3b20c93a2d5da253ebb4592c55b2598efa411288833e30b3a2e",
+          "sha256": "5181634c4d79b4831231334ba199d8f7c9a40674cf90d1ec0221093f9c26f5eb",
+          "sha1": "526c48da3c1c572866fe1a6aa1e6a08d388c50bc",
+          "md5": "7a7d19426d19b498be57e0334363aa6c"
+        }
+      ]
+    }
+  ]
+}
