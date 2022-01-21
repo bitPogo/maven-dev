@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-publishing",
+    "version": "f23dbed",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-f23dbed.jar",
+          "url": "antibytes-publishing-f23dbed.jar",
+          "size": 105743,
+          "sha512": "2997703ab9786c4555b12a7783377dc0aafa012ee7a5cbeeba6f85bed25ca2f023cb219f876aba33b4d55f392d863e77b9e67a9406847132d5ce3b2cc9373038",
+          "sha256": "18dd1c485af9a61c504c02b1a699a6389e2aa830c8a44ef1d6685d2c815febd9",
+          "sha1": "ca0904f499cbfe3bfd5c73fec040381425c42e82",
+          "md5": "3e22f3955dc6e91aaf6f6921f4abadd8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "6.0.0.202111291000-r"
+          }
+        },
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.12.2"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "f23dbed"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-f23dbed.jar",
+          "url": "antibytes-publishing-f23dbed.jar",
+          "size": 105743,
+          "sha512": "2997703ab9786c4555b12a7783377dc0aafa012ee7a5cbeeba6f85bed25ca2f023cb219f876aba33b4d55f392d863e77b9e67a9406847132d5ce3b2cc9373038",
+          "sha256": "18dd1c485af9a61c504c02b1a699a6389e2aa830c8a44ef1d6685d2c815febd9",
+          "sha1": "ca0904f499cbfe3bfd5c73fec040381425c42e82",
+          "md5": "3e22f3955dc6e91aaf6f6921f4abadd8"
+        }
+      ]
+    }
+  ]
+}
