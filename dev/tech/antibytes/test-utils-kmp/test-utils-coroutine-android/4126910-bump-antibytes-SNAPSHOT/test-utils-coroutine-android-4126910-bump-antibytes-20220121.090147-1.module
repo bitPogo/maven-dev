@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-coroutine/4126910-bump-antibytes-SNAPSHOT/test-utils-coroutine-4126910-bump-antibytes-SNAPSHOT.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-coroutine",
+    "version": "4126910-bump-antibytes-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "test-utils-coroutine-release.aar",
+          "url": "test-utils-coroutine-android-4126910-bump-antibytes-SNAPSHOT.aar",
+          "size": 10091,
+          "sha512": "2149c2afd2bab24b3dee04682c733d437770c8bfac1f0faa62837a3ab22bdcbc1c83e271939c210f00c5c1f240a0614fb4021f7b28e7cb1825a8e5f047a64729",
+          "sha256": "5a16f55b070f5843ca4b09df1bd19a21982666f785f802fa63e372da62b85436",
+          "sha1": "76105af35e9f91653bf47c44c4bed46022b5c6d3",
+          "md5": "42fd41ffe94349014163b677d0d2be18"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.0-native-mt"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0-native-mt"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-coroutine-release.aar",
+          "url": "test-utils-coroutine-android-4126910-bump-antibytes-SNAPSHOT.aar",
+          "size": 10091,
+          "sha512": "2149c2afd2bab24b3dee04682c733d437770c8bfac1f0faa62837a3ab22bdcbc1c83e271939c210f00c5c1f240a0614fb4021f7b28e7cb1825a8e5f047a64729",
+          "sha256": "5a16f55b070f5843ca4b09df1bd19a21982666f785f802fa63e372da62b85436",
+          "sha1": "76105af35e9f91653bf47c44c4bed46022b5c6d3",
+          "md5": "42fd41ffe94349014163b677d0d2be18"
+        }
+      ]
+    }
+  ]
+}
