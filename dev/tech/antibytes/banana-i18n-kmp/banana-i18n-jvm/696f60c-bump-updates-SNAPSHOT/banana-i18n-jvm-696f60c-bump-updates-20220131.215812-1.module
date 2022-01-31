@@ -1,0 +1,95 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../banana-i18n/696f60c-bump-updates-SNAPSHOT/banana-i18n-696f60c-bump-updates-SNAPSHOT.module",
+    "group": "tech.antibytes.banana-i18n-kmp",
+    "module": "banana-i18n",
+    "version": "696f60c-bump-updates-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "banana-i18n-jvm.jar",
+          "url": "banana-i18n-jvm-696f60c-bump-updates-SNAPSHOT.jar",
+          "size": 171534,
+          "sha512": "941109c2ba61562a2ee360fae826afbceda0c6950e94781b7fbf25b53430e6429c10e876181710b829d9c48ad0e1302e03a54fc0c6fd9fef39a16b371a4368c1",
+          "sha256": "a76b375623e446538f203167e61efa1dd3165a1734c805be42f170c08a7eb9dd",
+          "sha1": "24c3b3bc1591570d9ee13748e894572ccdad3dd2",
+          "md5": "914c9f8781469699e02416f319a93693"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.ibm.icu",
+          "module": "icu4j",
+          "version": {
+            "requires": "70.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.1.5"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-jdk8"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "banana-i18n-jvm.jar",
+          "url": "banana-i18n-jvm-696f60c-bump-updates-SNAPSHOT.jar",
+          "size": 171534,
+          "sha512": "941109c2ba61562a2ee360fae826afbceda0c6950e94781b7fbf25b53430e6429c10e876181710b829d9c48ad0e1302e03a54fc0c6fd9fef39a16b371a4368c1",
+          "sha256": "a76b375623e446538f203167e61efa1dd3165a1734c805be42f170c08a7eb9dd",
+          "sha1": "24c3b3bc1591570d9ee13748e894572ccdad3dd2",
+          "md5": "914c9f8781469699e02416f319a93693"
+        }
+      ]
+    }
+  ]
+}
