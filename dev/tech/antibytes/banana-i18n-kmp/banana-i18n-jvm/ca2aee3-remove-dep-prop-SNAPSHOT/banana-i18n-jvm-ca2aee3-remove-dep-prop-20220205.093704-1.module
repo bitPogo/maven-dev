@@ -1,0 +1,95 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../banana-i18n/ca2aee3-remove-dep-prop-SNAPSHOT/banana-i18n-ca2aee3-remove-dep-prop-SNAPSHOT.module",
+    "group": "tech.antibytes.banana-i18n-kmp",
+    "module": "banana-i18n",
+    "version": "ca2aee3-remove-dep-prop-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "banana-i18n-jvm.jar",
+          "url": "banana-i18n-jvm-ca2aee3-remove-dep-prop-SNAPSHOT.jar",
+          "size": 171534,
+          "sha512": "7123ff673524d8f833fa545e430c5505f3c8fddda1897e68a68cbe4987dc7062e88e19ca35a0208785fd75fac166d729902abad0d93303fa9220e93b593ccdd9",
+          "sha256": "6a2ba1d1bd192304faacccc2fc6466e6f98789eeecf1ed0481c24ab0ba55871a",
+          "sha1": "b3da9161ab05bdad7abf55a097365b216f699658",
+          "md5": "05c92da9e033e4cc82e33b5c8669830f"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.ibm.icu",
+          "module": "icu4j",
+          "version": {
+            "requires": "70.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.1.5"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-jdk8"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "banana-i18n-jvm.jar",
+          "url": "banana-i18n-jvm-ca2aee3-remove-dep-prop-SNAPSHOT.jar",
+          "size": 171534,
+          "sha512": "7123ff673524d8f833fa545e430c5505f3c8fddda1897e68a68cbe4987dc7062e88e19ca35a0208785fd75fac166d729902abad0d93303fa9220e93b593ccdd9",
+          "sha256": "6a2ba1d1bd192304faacccc2fc6466e6f98789eeecf1ed0481c24ab0ba55871a",
+          "sha1": "b3da9161ab05bdad7abf55a097365b216f699658",
+          "md5": "05c92da9e033e4cc82e33b5c8669830f"
+        }
+      ]
+    }
+  ]
+}
