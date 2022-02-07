@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-coroutine/b05828c-add-ios-SNAPSHOT/test-utils-coroutine-b05828c-add-ios-SNAPSHOT.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-coroutine",
+    "version": "b05828c-add-ios-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0-native-mt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-coroutine.klib",
+          "url": "test-utils-coroutine-iosx64-b05828c-add-ios-SNAPSHOT.klib",
+          "size": 9695,
+          "sha512": "389ab876fa0e30248910a538b807eb8027cdbddb5981ba0d38a20b2ec086ee97de062e9e46f8f70a4cf606d438ced4ccb85a248647f1c2e10c56e4c127af8bea",
+          "sha256": "e678571d059cc4a5dfb515375fdfe722bef0357d8e4e870638110638a214cdab",
+          "sha1": "67aef98a30d3d0a7f01bbd890a495a95e91a84cd",
+          "md5": "9f3d3a9c975b85ddbdd4fc68b9732b05"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0-native-mt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-coroutine-iosx64-metadata.jar",
+          "url": "test-utils-coroutine-iosx64-b05828c-add-ios-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "ebbb7789f38250bec2e3c4b4aba6145ee16ff231b09c3f526ec2b2f3f9b542105914efb7c0e2da29f77a69eba59bf0de3b7ebeef873e0caa65dad909fc5580cb",
+          "sha256": "310237ce796ac01abc2e0809ad61b72abe4234359fbd778d23ecd2f3fde627c3",
+          "sha1": "c1d1f3a301c31234c2749d3c520f6e917bf5b0bf",
+          "md5": "6a0d3b3b56027cd2f163642e265a8244"
+        }
+      ]
+    }
+  ]
+}
