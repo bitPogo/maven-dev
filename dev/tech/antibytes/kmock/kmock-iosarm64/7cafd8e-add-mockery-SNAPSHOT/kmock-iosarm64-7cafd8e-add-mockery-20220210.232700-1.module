@@ -1,0 +1,70 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kmock/7cafd8e-add-mockery-SNAPSHOT/kmock-7cafd8e-add-mockery-SNAPSHOT.module",
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "7cafd8e-add-mockery-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-concurrency",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "tech.antibytes.test-utils-kmp",
+          "module": "test-utils",
+          "version": {
+            "requires": "753d329-add-ios-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock.klib",
+          "url": "kmock-iosarm64-7cafd8e-add-mockery-SNAPSHOT.klib",
+          "size": 66911,
+          "sha512": "b2cce9ce30badb888e1d9b12ae80ab5e9bab3efb37a462f222564d5d79a06b96b95a9415a99da471e3eb65763ba0c62a49a682d6647893422b0744e959c1e4a2",
+          "sha256": "903f4ad47294ef955427caee7380f720fe4b042ab0dd0efa3116ab4ea729a9cd",
+          "sha1": "b22024aa5800f5438fa8b781fcf4cb0c4dbbfd15",
+          "md5": "ea1ee0730c1d1db6f4877fbffc4091c7"
+        }
+      ]
+    }
+  ]
+}
