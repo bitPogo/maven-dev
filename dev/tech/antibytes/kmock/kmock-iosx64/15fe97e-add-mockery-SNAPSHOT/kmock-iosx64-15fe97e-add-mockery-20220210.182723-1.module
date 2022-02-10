@@ -1,0 +1,70 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kmock/15fe97e-add-mockery-SNAPSHOT/kmock-15fe97e-add-mockery-SNAPSHOT.module",
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "15fe97e-add-mockery-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-concurrency",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "tech.antibytes.test-utils-kmp",
+          "module": "test-utils",
+          "version": {
+            "requires": "753d329-add-ios-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock.klib",
+          "url": "kmock-iosx64-15fe97e-add-mockery-SNAPSHOT.klib",
+          "size": 55778,
+          "sha512": "e0640bc392e697726d4868fe17d0cf551fd32299714b56585e4e66a989df83b2430ad6a6926eb5e8f6b8e6e3771c04e8ceb6d90e01d704017c22c4dff2e70b5a",
+          "sha256": "ff8dbf64f750bab8e6e7f0870b532ec181f4517392f0dbd0fcbbf8cdbfe23cae",
+          "sha1": "bb6347f1dea473c86bbda7c6dc93ad76f78fa647",
+          "md5": "dcec5acd4a19d0877ebdffd75c07bc43"
+        }
+      ]
+    }
+  ]
+}
