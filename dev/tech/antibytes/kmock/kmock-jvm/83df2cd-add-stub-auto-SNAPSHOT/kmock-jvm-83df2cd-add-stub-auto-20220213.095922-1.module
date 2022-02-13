@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kmock/83df2cd-add-stub-auto-SNAPSHOT/kmock-83df2cd-add-stub-auto-SNAPSHOT.module",
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "83df2cd-add-stub-auto-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-jvm.jar",
+          "url": "kmock-jvm-83df2cd-add-stub-auto-SNAPSHOT.jar",
+          "size": 130756,
+          "sha512": "739b0d8ea1f7b7562f5f59106d8fa2e8e7f25eceeb26bebe5c3ee58fa740addcff9d06545a14486d993bcdbb7db9096302c951e25cc236c668195b2551a6699d",
+          "sha256": "7400343a6f867df78b136299e036047119b2f312026f827fce87db2f572e3974",
+          "sha1": "5ff37928dbda1a5a1743a7873b40212f88d21000",
+          "md5": "11f18ed1eec06297959bb3716474a546"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-concurrency",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "tech.antibytes.test-utils-kmp",
+          "module": "test-utils",
+          "version": {
+            "requires": "7b11c9d-add-ios-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-jvm.jar",
+          "url": "kmock-jvm-83df2cd-add-stub-auto-SNAPSHOT.jar",
+          "size": 130756,
+          "sha512": "739b0d8ea1f7b7562f5f59106d8fa2e8e7f25eceeb26bebe5c3ee58fa740addcff9d06545a14486d993bcdbb7db9096302c951e25cc236c668195b2551a6699d",
+          "sha256": "7400343a6f867df78b136299e036047119b2f312026f827fce87db2f572e3974",
+          "sha1": "5ff37928dbda1a5a1743a7873b40212f88d21000",
+          "md5": "11f18ed1eec06297959bb3716474a546"
+        }
+      ]
+    }
+  ]
+}
