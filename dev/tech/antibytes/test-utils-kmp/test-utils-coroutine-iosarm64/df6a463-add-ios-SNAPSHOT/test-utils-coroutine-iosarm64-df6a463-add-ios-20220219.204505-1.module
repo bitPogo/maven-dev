@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-coroutine/df6a463-add-ios-SNAPSHOT/test-utils-coroutine-df6a463-add-ios-SNAPSHOT.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-coroutine",
+    "version": "df6a463-add-ios-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0-native-mt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-coroutine.klib",
+          "url": "test-utils-coroutine-iosarm64-df6a463-add-ios-SNAPSHOT.klib",
+          "size": 10123,
+          "sha512": "10c9db4f0c9b4635abbaaff580006a3f64bf8194ac79491fc55f3b844fca94679282b33c38e59715b35dd2b35cb9a3af3f1ebda5a4980f0bd78ec2cfc5fca7dd",
+          "sha256": "72564496fea31c8d738cff0910d76580b18684e25e71aa3277d7e20ad4334d2b",
+          "sha1": "e1f1ffd87962052fd9a1f50fee397285144fcaeb",
+          "md5": "dc1e56df809dc42d2927a364000c8274"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0-native-mt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-coroutine-iosarm64-df6a463-add-ios-SNAPSHOT-metadata.jar",
+          "url": "test-utils-coroutine-iosarm64-df6a463-add-ios-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "e198d84cb204bc486f38faba0eb074be25def9bfdf09a5802dd26cb5151cb1d858d94cb951884f0115fe99bd38e878960d36f8a49fdf4ddd0b2b598fb97434ba",
+          "sha256": "3023760228ad146cc6fa015bdd8995bcd557ef28c4f3ed72cf3941ae8c62d678",
+          "sha1": "2a5b9c92ce750fa0ba6b3cb7a7a37d8db2917c2e",
+          "md5": "a7d001ad6ae1556a8aaa2b4be250ee4a"
+        }
+      ]
+    }
+  ]
+}
