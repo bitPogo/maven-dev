@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kmock/6a6cfdb-change-atomics-SNAPSHOT/kmock-6a6cfdb-change-atomics-SNAPSHOT.module",
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "6a6cfdb-change-atomics-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-jvm-6a6cfdb-change-atomics-SNAPSHOT.jar",
+          "url": "kmock-jvm-6a6cfdb-change-atomics-SNAPSHOT.jar",
+          "size": 123325,
+          "sha512": "5bd95dd44d65cb9c468ec4e4c0c8d916d401c06a41612c7fd15a9468f6240261b47c9bef7f24be128caef5c7b76f46bb587bd43cf78ea19e77afdfd66cc70146",
+          "sha256": "df3c6529574152da1813cf85b92f15f5da5e72b7ae6c30a003d0f9353966b67d",
+          "sha1": "d74c22040184438310c12ae2a63ec1bf8a89256d",
+          "md5": "3009fa8e88b9825539167baa23cc3d0c"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "tech.antibytes.test-utils-kmp",
+          "module": "test-utils",
+          "version": {
+            "requires": "56c5f3f"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-jvm-6a6cfdb-change-atomics-SNAPSHOT.jar",
+          "url": "kmock-jvm-6a6cfdb-change-atomics-SNAPSHOT.jar",
+          "size": 123325,
+          "sha512": "5bd95dd44d65cb9c468ec4e4c0c8d916d401c06a41612c7fd15a9468f6240261b47c9bef7f24be128caef5c7b76f46bb587bd43cf78ea19e77afdfd66cc70146",
+          "sha256": "df3c6529574152da1813cf85b92f15f5da5e72b7ae6c30a003d0f9353966b67d",
+          "sha1": "d74c22040184438310c12ae2a63ec1bf8a89256d",
+          "md5": "3009fa8e88b9825539167baa23cc3d0c"
+        }
+      ]
+    }
+  ]
+}
