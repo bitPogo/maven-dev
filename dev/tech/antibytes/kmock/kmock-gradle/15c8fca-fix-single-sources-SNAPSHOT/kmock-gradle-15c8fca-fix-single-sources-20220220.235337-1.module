@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "15c8fca-fix-single-sources-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-15c8fca-fix-single-sources-SNAPSHOT.jar",
+          "url": "kmock-gradle-15c8fca-fix-single-sources-SNAPSHOT.jar",
+          "size": 29356,
+          "sha512": "076abca94b64712a391b7d28577459f9b6e2fd046337af298fdd9c1372c02bbfca9cc4df2118e8e6d7a0277b0e3d100d23fb1681040bd6becb4619f240f65cca",
+          "sha256": "15150933b1175bf0b6039c868c5ac9adfb59c565b9ff02791d810465adc6a638",
+          "sha1": "c566a80e55c9dd9e3c6a1759709ad9f0ebf4c616",
+          "md5": "0a8402bd4e653478afe8ad1703dfe38e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "5b2583f"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-15c8fca-fix-single-sources-SNAPSHOT.jar",
+          "url": "kmock-gradle-15c8fca-fix-single-sources-SNAPSHOT.jar",
+          "size": 29356,
+          "sha512": "076abca94b64712a391b7d28577459f9b6e2fd046337af298fdd9c1372c02bbfca9cc4df2118e8e6d7a0277b0e3d100d23fb1681040bd6becb4619f240f65cca",
+          "sha256": "15150933b1175bf0b6039c868c5ac9adfb59c565b9ff02791d810465adc6a638",
+          "sha1": "c566a80e55c9dd9e3c6a1759709ad9f0ebf4c616",
+          "md5": "0a8402bd4e653478afe8ad1703dfe38e"
+        }
+      ]
+    }
+  ]
+}
