@@ -1,0 +1,260 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-ktor",
+    "version": "d18f9a2-fix-coroutine-publishing-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.6.7"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "1.6.7"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor-metadata-d18f9a2-fix-coroutine-publishing-SNAPSHOT-all.jar",
+          "url": "test-utils-ktor-d18f9a2-fix-coroutine-publishing-SNAPSHOT-all.jar",
+          "size": 5156,
+          "sha512": "5f66b7d26b9e29315235c60cb7c06a330ae472456cab5b38308789714b30eb5f6e019a30c61f4abd4de7bf62f72503c6a64253be57ffa66218585fc192de1eeb",
+          "sha256": "1574128623bc09b1c106eec58f0e2e7902621ee5e898d888ba1c6fce88602f2c",
+          "sha1": "2b7b9f9cc35e1a1ff9f6a8ad9378cc80165a5db7",
+          "md5": "0904be7e6839cc23e08bbea66328597f"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "test-utils-ktor-d18f9a2-fix-coroutine-publishing-SNAPSHOT.jar",
+          "url": "test-utils-ktor-d18f9a2-fix-coroutine-publishing-SNAPSHOT.jar",
+          "size": 2501,
+          "sha512": "a4d467c2ba8ff05ec90e78f212dda31d545272ff5a1a632ff5125b0153acfd7ba850a22626069188b5f5304b1c76c4cc3c5bf7f65929879171e431975c44d63c",
+          "sha256": "b53ddd710337c4492747407e1520ed0c8d4c528726bc79df060933e8b584c4f3",
+          "sha1": "ad33374b1c22d52f10ca38df00fbe54f3c2a6453",
+          "md5": "a50fdbc71ddc44de8442a69bd6ebc1f4"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-utils-ktor-android/d18f9a2-fix-coroutine-publishing-SNAPSHOT/test-utils-ktor-android-d18f9a2-fix-coroutine-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-ktor-android",
+        "version": "d18f9a2-fix-coroutine-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-utils-ktor-android/d18f9a2-fix-coroutine-publishing-SNAPSHOT/test-utils-ktor-android-d18f9a2-fix-coroutine-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-ktor-android",
+        "version": "d18f9a2-fix-coroutine-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-ktor-iosarm64/d18f9a2-fix-coroutine-publishing-SNAPSHOT/test-utils-ktor-iosarm64-d18f9a2-fix-coroutine-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-ktor-iosarm64",
+        "version": "d18f9a2-fix-coroutine-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-ktor-iosarm64/d18f9a2-fix-coroutine-publishing-SNAPSHOT/test-utils-ktor-iosarm64-d18f9a2-fix-coroutine-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-ktor-iosarm64",
+        "version": "d18f9a2-fix-coroutine-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-ktor-iosx64/d18f9a2-fix-coroutine-publishing-SNAPSHOT/test-utils-ktor-iosx64-d18f9a2-fix-coroutine-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-ktor-iosx64",
+        "version": "d18f9a2-fix-coroutine-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-ktor-iosx64/d18f9a2-fix-coroutine-publishing-SNAPSHOT/test-utils-ktor-iosx64-d18f9a2-fix-coroutine-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-ktor-iosx64",
+        "version": "d18f9a2-fix-coroutine-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../test-utils-ktor-js/d18f9a2-fix-coroutine-publishing-SNAPSHOT/test-utils-ktor-js-d18f9a2-fix-coroutine-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-ktor-js",
+        "version": "d18f9a2-fix-coroutine-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../test-utils-ktor-js/d18f9a2-fix-coroutine-publishing-SNAPSHOT/test-utils-ktor-js-d18f9a2-fix-coroutine-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-ktor-js",
+        "version": "d18f9a2-fix-coroutine-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../test-utils-ktor-jvm/d18f9a2-fix-coroutine-publishing-SNAPSHOT/test-utils-ktor-jvm-d18f9a2-fix-coroutine-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-ktor-jvm",
+        "version": "d18f9a2-fix-coroutine-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../test-utils-ktor-jvm/d18f9a2-fix-coroutine-publishing-SNAPSHOT/test-utils-ktor-jvm-d18f9a2-fix-coroutine-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-ktor-jvm",
+        "version": "d18f9a2-fix-coroutine-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-ktor-linuxx64/d18f9a2-fix-coroutine-publishing-SNAPSHOT/test-utils-ktor-linuxx64-d18f9a2-fix-coroutine-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-ktor-linuxx64",
+        "version": "d18f9a2-fix-coroutine-publishing-SNAPSHOT"
+      }
+    }
+  ]
+}
