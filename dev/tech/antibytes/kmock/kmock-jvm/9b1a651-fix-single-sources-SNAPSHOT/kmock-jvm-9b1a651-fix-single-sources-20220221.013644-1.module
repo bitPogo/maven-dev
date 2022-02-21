@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kmock/9b1a651-fix-single-sources-SNAPSHOT/kmock-9b1a651-fix-single-sources-SNAPSHOT.module",
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "9b1a651-fix-single-sources-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-jvm-9b1a651-fix-single-sources-SNAPSHOT.jar",
+          "url": "kmock-jvm-9b1a651-fix-single-sources-SNAPSHOT.jar",
+          "size": 123325,
+          "sha512": "4c51b3cb08a21ee5b9845055b9c27e65461b03cc7d0f762bda7315930b3e806f97c95b860f49e7dcad291bbb95f74b319e62ee2474e4fdd8b5cbe53eda2a5a6e",
+          "sha256": "0f3a6b12c05e1ece9c9c0bd25c62a8e3ac27e01024840513bcc20e03c0d1b9c3",
+          "sha1": "fed6b8756510470276c05e44850c64fc0f74a3f0",
+          "md5": "495d189a4651017e3aeb19cccaf927b8"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "tech.antibytes.test-utils-kmp",
+          "module": "test-utils",
+          "version": {
+            "requires": "56c5f3f"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-jvm-9b1a651-fix-single-sources-SNAPSHOT.jar",
+          "url": "kmock-jvm-9b1a651-fix-single-sources-SNAPSHOT.jar",
+          "size": 123325,
+          "sha512": "4c51b3cb08a21ee5b9845055b9c27e65461b03cc7d0f762bda7315930b3e806f97c95b860f49e7dcad291bbb95f74b319e62ee2474e4fdd8b5cbe53eda2a5a6e",
+          "sha256": "0f3a6b12c05e1ece9c9c0bd25c62a8e3ac27e01024840513bcc20e03c0d1b9c3",
+          "sha1": "fed6b8756510470276c05e44850c64fc0f74a3f0",
+          "md5": "495d189a4651017e3aeb19cccaf927b8"
+        }
+      ]
+    }
+  ]
+}
