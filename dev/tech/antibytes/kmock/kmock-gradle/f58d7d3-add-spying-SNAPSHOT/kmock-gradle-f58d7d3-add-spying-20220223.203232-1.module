@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "f58d7d3-add-spying-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-f58d7d3-add-spying-SNAPSHOT.jar",
+          "url": "kmock-gradle-f58d7d3-add-spying-SNAPSHOT.jar",
+          "size": 33306,
+          "sha512": "2bf4d8f203c09fe5ff0632f93fe540f7d53e2cfbd20e8b9887dc77dd8b73e6f529e54796b579ddae07ac9a829175064a5ecc3e81922f833450cdcf92c6e96711",
+          "sha256": "7075eb5813d350561f566ec4eaffe9ab7ab513547ad41021007d564663460b01",
+          "sha1": "8bb16282ef7620957bb0b5188caf668289a28384",
+          "md5": "2bf12e4f7fc8a08be8c707e24ca55e61"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "bb22160"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-f58d7d3-add-spying-SNAPSHOT.jar",
+          "url": "kmock-gradle-f58d7d3-add-spying-SNAPSHOT.jar",
+          "size": 33306,
+          "sha512": "2bf4d8f203c09fe5ff0632f93fe540f7d53e2cfbd20e8b9887dc77dd8b73e6f529e54796b579ddae07ac9a829175064a5ecc3e81922f833450cdcf92c6e96711",
+          "sha256": "7075eb5813d350561f566ec4eaffe9ab7ab513547ad41021007d564663460b01",
+          "sha1": "8bb16282ef7620957bb0b5188caf668289a28384",
+          "md5": "2bf12e4f7fc8a08be8c707e24ca55e61"
+        }
+      ]
+    }
+  ]
+}
