@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "09351ee-fix-spy-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-09351ee-fix-spy-SNAPSHOT.jar",
+          "url": "kmock-gradle-09351ee-fix-spy-SNAPSHOT.jar",
+          "size": 42792,
+          "sha512": "9e97928f8044a05fbb0f9b779c7225df566f51a75544d5433697fbb6ec6eda641aacfcf9063b095b663de03e066d2cb7cc9b8fa5a1ea473a17354a353f556010",
+          "sha256": "ffc7a1368b7517bd6acc8f6fd94b8fda834a5e48808de3e3504ff4685a1cdf72",
+          "sha1": "a974f96450b3e6a52988b3423b056e4d5b491e1f",
+          "md5": "9c9461cb87b89cab4a397fdae8055e2f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "ed855ae"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-09351ee-fix-spy-SNAPSHOT.jar",
+          "url": "kmock-gradle-09351ee-fix-spy-SNAPSHOT.jar",
+          "size": 42792,
+          "sha512": "9e97928f8044a05fbb0f9b779c7225df566f51a75544d5433697fbb6ec6eda641aacfcf9063b095b663de03e066d2cb7cc9b8fa5a1ea473a17354a353f556010",
+          "sha256": "ffc7a1368b7517bd6acc8f6fd94b8fda834a5e48808de3e3504ff4685a1cdf72",
+          "sha1": "a974f96450b3e6a52988b3423b056e4d5b491e1f",
+          "md5": "9c9461cb87b89cab4a397fdae8055e2f"
+        }
+      ]
+    }
+  ]
+}
