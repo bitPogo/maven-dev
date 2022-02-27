@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "91316d4-add-relaxunitfun-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-91316d4-add-relaxunitfun-SNAPSHOT.jar",
+          "url": "kmock-gradle-91316d4-add-relaxunitfun-SNAPSHOT.jar",
+          "size": 42855,
+          "sha512": "d0976fe7892ff385dd0fbf0ca0d12f7ecb34785e356c0f2a1d5e2020e1b342a7e93852699e058ee4bdf8c5a7266174000bd3ea2ff577397d658f70e774b332c1",
+          "sha256": "91cd371a8e2754edd1c97833bdaefc1a986ae5a5bb1dbb6c0a6a7be1193314be",
+          "sha1": "f9f440feec9284871f9ed47c047ecf01ac95056c",
+          "md5": "6f3be5e9aa4cb15fbb3faf6475aaec42"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "ed855ae"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-91316d4-add-relaxunitfun-SNAPSHOT.jar",
+          "url": "kmock-gradle-91316d4-add-relaxunitfun-SNAPSHOT.jar",
+          "size": 42855,
+          "sha512": "d0976fe7892ff385dd0fbf0ca0d12f7ecb34785e356c0f2a1d5e2020e1b342a7e93852699e058ee4bdf8c5a7266174000bd3ea2ff577397d658f70e774b332c1",
+          "sha256": "91cd371a8e2754edd1c97833bdaefc1a986ae5a5bb1dbb6c0a6a7be1193314be",
+          "sha1": "f9f440feec9284871f9ed47c047ecf01ac95056c",
+          "md5": "6f3be5e9aa4cb15fbb3faf6475aaec42"
+        }
+      ]
+    }
+  ]
+}
