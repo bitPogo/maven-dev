@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "ee3b487-add-constraints-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-ee3b487-add-constraints-SNAPSHOT.jar",
+          "url": "kmock-gradle-ee3b487-add-constraints-SNAPSHOT.jar",
+          "size": 42852,
+          "sha512": "5fb750b5fa966a202dfaf04f82bbaa8ecd06a300af40d6e3fc3cb84aaafa12ae89b226f627a5c5c2129b460767ab15a368465f99ae7fac063f2ffeee69929ad9",
+          "sha256": "8d5f0e047d2603dcd699e544450afd6006f4b6c7c4ea550fdfc5d98e65e1e43a",
+          "sha1": "ac92dbf8c077e06160a89f39ce54ff92faadf3c1",
+          "md5": "738bae574f4297876d2c38df9cc93eea"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "ed855ae"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-ee3b487-add-constraints-SNAPSHOT.jar",
+          "url": "kmock-gradle-ee3b487-add-constraints-SNAPSHOT.jar",
+          "size": 42852,
+          "sha512": "5fb750b5fa966a202dfaf04f82bbaa8ecd06a300af40d6e3fc3cb84aaafa12ae89b226f627a5c5c2129b460767ab15a368465f99ae7fac063f2ffeee69929ad9",
+          "sha256": "8d5f0e047d2603dcd699e544450afd6006f4b6c7c4ea550fdfc5d98e65e1e43a",
+          "sha1": "ac92dbf8c077e06160a89f39ce54ff92faadf3c1",
+          "md5": "738bae574f4297876d2c38df9cc93eea"
+        }
+      ]
+    }
+  ]
+}
