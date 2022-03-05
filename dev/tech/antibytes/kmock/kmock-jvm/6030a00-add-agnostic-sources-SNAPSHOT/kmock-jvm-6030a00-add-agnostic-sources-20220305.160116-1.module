@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kmock/6030a00-add-agnostic-sources-SNAPSHOT/kmock-6030a00-add-agnostic-sources-SNAPSHOT.module",
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "6030a00-add-agnostic-sources-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-jvm-6030a00-add-agnostic-sources-SNAPSHOT.jar",
+          "url": "kmock-jvm-6030a00-add-agnostic-sources-SNAPSHOT.jar",
+          "size": 195134,
+          "sha512": "91838510c2d4e1a89940c13c4a4ca8fd7eaa8fc31607002fef670c9a6a0e195ceecd3adab6840d5d4d7c43de29ee111eb5498c743e7d903067d112b4664c3738",
+          "sha256": "f8f5dc4fee0b0128513db5c10b060d9d21597e98842c98773a2aaa3aec6eec7e",
+          "sha1": "fdd5bb0636c0d4bb196cf45e9b23a9d52c0d9d0e",
+          "md5": "90ac5e81311fdbb1652f41c2d4832c7a"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "tech.antibytes.test-utils-kmp",
+          "module": "test-utils",
+          "version": {
+            "requires": "c3e5acf"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-jvm-6030a00-add-agnostic-sources-SNAPSHOT.jar",
+          "url": "kmock-jvm-6030a00-add-agnostic-sources-SNAPSHOT.jar",
+          "size": 195134,
+          "sha512": "91838510c2d4e1a89940c13c4a4ca8fd7eaa8fc31607002fef670c9a6a0e195ceecd3adab6840d5d4d7c43de29ee111eb5498c743e7d903067d112b4664c3738",
+          "sha256": "f8f5dc4fee0b0128513db5c10b060d9d21597e98842c98773a2aaa3aec6eec7e",
+          "sha1": "fdd5bb0636c0d4bb196cf45e9b23a9d52c0d9d0e",
+          "md5": "90ac5e81311fdbb1652f41c2d4832c7a"
+        }
+      ]
+    }
+  ]
+}
