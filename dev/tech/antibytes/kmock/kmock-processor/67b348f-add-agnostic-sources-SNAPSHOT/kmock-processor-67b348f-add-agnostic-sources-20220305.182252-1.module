@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-processor",
+    "version": "67b348f-add-agnostic-sources-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-67b348f-add-agnostic-sources-SNAPSHOT.jar",
+          "url": "kmock-processor-67b348f-add-agnostic-sources-SNAPSHOT.jar",
+          "size": 48749,
+          "sha512": "9bc978a52ccba11c5023c88d2dc091aece74a9a5aa139056e8bac26e4be26bcdd4d626574428b02f683e0f9d41aa3e622bbea92f7fe9131a626cc858c807e039",
+          "sha256": "449d0e79e27a7420c25c2a82b77f1a215419f71223bc05344318357d1856c0fc",
+          "sha1": "e38e791e0c6c1ed3a8cea6808a3a979c6648bb2e",
+          "md5": "caca74d2aef077eaa54806dade8ba9c9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.10.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-ksp",
+          "version": {
+            "requires": "1.10.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "tech.antibytes.kmock",
+          "module": "kmock",
+          "version": {
+            "requires": "67b348f-add-agnostic-sources-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-67b348f-add-agnostic-sources-SNAPSHOT.jar",
+          "url": "kmock-processor-67b348f-add-agnostic-sources-SNAPSHOT.jar",
+          "size": 48749,
+          "sha512": "9bc978a52ccba11c5023c88d2dc091aece74a9a5aa139056e8bac26e4be26bcdd4d626574428b02f683e0f9d41aa3e622bbea92f7fe9131a626cc858c807e039",
+          "sha256": "449d0e79e27a7420c25c2a82b77f1a215419f71223bc05344318357d1856c0fc",
+          "sha1": "e38e791e0c6c1ed3a8cea6808a3a979c6648bb2e",
+          "md5": "caca74d2aef077eaa54806dade8ba9c9"
+        }
+      ]
+    }
+  ]
+}
