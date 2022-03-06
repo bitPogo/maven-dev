@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "4bf7bd2-change-mocks-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-4bf7bd2-change-mocks-SNAPSHOT.jar",
+          "url": "kmock-gradle-4bf7bd2-change-mocks-SNAPSHOT.jar",
+          "size": 54451,
+          "sha512": "bf5817d14c2ce8bca06f9089192151b5283757edaabf3c5b3b0a52f763b16f6a324389db2e3705328a205520e4f81319621e135d3cbd53a2a83a6fb1fa370546",
+          "sha256": "8eb4da72b9276bdbe1225af8c4e723aef454d993d6251fa349c0cb09fbf4fbae",
+          "sha1": "50ec24ec788088a07043d24218fb981aa3d6fb43",
+          "md5": "7755a8c22c51e6fe8ba900ea8dfbdda1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "ed855ae"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-4bf7bd2-change-mocks-SNAPSHOT.jar",
+          "url": "kmock-gradle-4bf7bd2-change-mocks-SNAPSHOT.jar",
+          "size": 54451,
+          "sha512": "bf5817d14c2ce8bca06f9089192151b5283757edaabf3c5b3b0a52f763b16f6a324389db2e3705328a205520e4f81319621e135d3cbd53a2a83a6fb1fa370546",
+          "sha256": "8eb4da72b9276bdbe1225af8c4e723aef454d993d6251fa349c0cb09fbf4fbae",
+          "sha1": "50ec24ec788088a07043d24218fb981aa3d6fb43",
+          "md5": "7755a8c22c51e6fe8ba900ea8dfbdda1"
+        }
+      ]
+    }
+  ]
+}
