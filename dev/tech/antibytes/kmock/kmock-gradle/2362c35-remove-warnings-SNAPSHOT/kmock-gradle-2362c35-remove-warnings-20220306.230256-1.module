@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "2362c35-remove-warnings-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-2362c35-remove-warnings-SNAPSHOT.jar",
+          "url": "kmock-gradle-2362c35-remove-warnings-SNAPSHOT.jar",
+          "size": 56345,
+          "sha512": "85afe16e1fda914b3023bcfc5d0adbf8185fa2e086979e3002cb4dbe769a0b18436b5c23bf49e78e70fdb02872cc9b9092b3e8e306f0f15a18e7806b15c3227d",
+          "sha256": "02f5de862b949811101b2aef230ae5cbe3518bb39701f705e78364b528383a62",
+          "sha1": "a4762948f9f2c77aa0401c14c9fa6d89895ad7ee",
+          "md5": "d1b1c31206cbeb4eb6adeccecd16ee04"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-2362c35-remove-warnings-SNAPSHOT.jar",
+          "url": "kmock-gradle-2362c35-remove-warnings-SNAPSHOT.jar",
+          "size": 56345,
+          "sha512": "85afe16e1fda914b3023bcfc5d0adbf8185fa2e086979e3002cb4dbe769a0b18436b5c23bf49e78e70fdb02872cc9b9092b3e8e306f0f15a18e7806b15c3227d",
+          "sha256": "02f5de862b949811101b2aef230ae5cbe3518bb39701f705e78364b528383a62",
+          "sha1": "a4762948f9f2c77aa0401c14c9fa6d89895ad7ee",
+          "md5": "d1b1c31206cbeb4eb6adeccecd16ee04"
+        }
+      ]
+    }
+  ]
+}
