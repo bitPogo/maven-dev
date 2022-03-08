@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "09a0395-fix-tests-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-09a0395-fix-tests-SNAPSHOT.jar",
+          "url": "kmock-gradle-09a0395-fix-tests-SNAPSHOT.jar",
+          "size": 56202,
+          "sha512": "7dae2b458722ff2940295c1e94758bf7e51e1d184e2fad7b46e7fdad0acdccaf1e7edd3b630ff0e86d1c2ebc80cbd10d7bad767f7ae1ad6ded90b7240d692098",
+          "sha256": "daf13a19ab44bae6e39a22dda52af5269dfc5e4e03a15e7474c01a0a843f6d64",
+          "sha1": "b65c76d17559004da10f53e3873634df998c3298",
+          "md5": "56e8598319fd7d63f7c8cb93af131ef6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-09a0395-fix-tests-SNAPSHOT.jar",
+          "url": "kmock-gradle-09a0395-fix-tests-SNAPSHOT.jar",
+          "size": 56202,
+          "sha512": "7dae2b458722ff2940295c1e94758bf7e51e1d184e2fad7b46e7fdad0acdccaf1e7edd3b630ff0e86d1c2ebc80cbd10d7bad767f7ae1ad6ded90b7240d692098",
+          "sha256": "daf13a19ab44bae6e39a22dda52af5269dfc5e4e03a15e7474c01a0a843f6d64",
+          "sha1": "b65c76d17559004da10f53e3873634df998c3298",
+          "md5": "56e8598319fd7d63f7c8cb93af131ef6"
+        }
+      ]
+    }
+  ]
+}
