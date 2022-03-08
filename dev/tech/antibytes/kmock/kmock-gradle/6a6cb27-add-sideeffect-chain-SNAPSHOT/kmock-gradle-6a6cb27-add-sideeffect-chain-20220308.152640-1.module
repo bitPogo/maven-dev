@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "6a6cb27-add-sideeffect-chain-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-6a6cb27-add-sideeffect-chain-SNAPSHOT.jar",
+          "url": "kmock-gradle-6a6cb27-add-sideeffect-chain-SNAPSHOT.jar",
+          "size": 56282,
+          "sha512": "3ee604f28e61c31d9d3a88d8c18fb51b400cfc5bde4e7d352f1714abcdd127dace222a37ffc6e2d9f8ac00b5390f11fbe8e6c4d34fb2722065eecb18e149cc43",
+          "sha256": "60eacee4e03d8cf4b9ef53d4d30a548898ebcd1a2a87f42f8333fe292781148c",
+          "sha1": "18eab53d63adaa9ba92c30a7b29348e86d4113f2",
+          "md5": "11fb5225f70c73cdbb7c0e24c53a67fa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-6a6cb27-add-sideeffect-chain-SNAPSHOT.jar",
+          "url": "kmock-gradle-6a6cb27-add-sideeffect-chain-SNAPSHOT.jar",
+          "size": 56282,
+          "sha512": "3ee604f28e61c31d9d3a88d8c18fb51b400cfc5bde4e7d352f1714abcdd127dace222a37ffc6e2d9f8ac00b5390f11fbe8e6c4d34fb2722065eecb18e149cc43",
+          "sha256": "60eacee4e03d8cf4b9ef53d4d30a548898ebcd1a2a87f42f8333fe292781148c",
+          "sha1": "18eab53d63adaa9ba92c30a7b29348e86d4113f2",
+          "md5": "11fb5225f70c73cdbb7c0e24c53a67fa"
+        }
+      ]
+    }
+  ]
+}
