@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "8dd424f-fix-common-move-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-8dd424f-fix-common-move-SNAPSHOT.jar",
+          "url": "kmock-gradle-8dd424f-fix-common-move-SNAPSHOT.jar",
+          "size": 50515,
+          "sha512": "2e60858c49331f0b14f00bdf8df12788b34f943c25407dcb755f93d92ef0670a47e8f900125a9ec88f6e14a82a301e9ec6e706941566a5e56923e47b08702934",
+          "sha256": "8fe08ff4e2753a5129b15dc53f34069f1266911f222db6bff56ea0c629601385",
+          "sha1": "378fc8e6b6b1b665aae95cf36336e588914138ca",
+          "md5": "4f95ff87ded14ac3eff69bcb6bb18419"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-8dd424f-fix-common-move-SNAPSHOT.jar",
+          "url": "kmock-gradle-8dd424f-fix-common-move-SNAPSHOT.jar",
+          "size": 50515,
+          "sha512": "2e60858c49331f0b14f00bdf8df12788b34f943c25407dcb755f93d92ef0670a47e8f900125a9ec88f6e14a82a301e9ec6e706941566a5e56923e47b08702934",
+          "sha256": "8fe08ff4e2753a5129b15dc53f34069f1266911f222db6bff56ea0c629601385",
+          "sha1": "378fc8e6b6b1b665aae95cf36336e588914138ca",
+          "md5": "4f95ff87ded14ac3eff69bcb6bb18419"
+        }
+      ]
+    }
+  ]
+}
