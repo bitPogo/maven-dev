@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "8944e16-change-minor-things-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-8944e16-change-minor-things-SNAPSHOT.jar",
+          "url": "kmock-gradle-8944e16-change-minor-things-SNAPSHOT.jar",
+          "size": 50514,
+          "sha512": "0d6ca59edeb12d18abbbe38ac39b9dd10acdc6b0b8d2e4b8cab1b899bbf288a3d7baeb204f4e8288f1b5dcd598efd20c1700675b6ad6948a0aba349a554527eb",
+          "sha256": "1b4426904b6c9b973ad69d5433e0f10e881b2b3c5ed66133ea5bcdba87d370dd",
+          "sha1": "b877540835d73f3a8ade28e7ae4535c48bd8ba7f",
+          "md5": "0af33f306650c92adc6a8638c655b68a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-8944e16-change-minor-things-SNAPSHOT.jar",
+          "url": "kmock-gradle-8944e16-change-minor-things-SNAPSHOT.jar",
+          "size": 50514,
+          "sha512": "0d6ca59edeb12d18abbbe38ac39b9dd10acdc6b0b8d2e4b8cab1b899bbf288a3d7baeb204f4e8288f1b5dcd598efd20c1700675b6ad6948a0aba349a554527eb",
+          "sha256": "1b4426904b6c9b973ad69d5433e0f10e881b2b3c5ed66133ea5bcdba87d370dd",
+          "sha1": "b877540835d73f3a8ade28e7ae4535c48bd8ba7f",
+          "md5": "0af33f306650c92adc6a8638c655b68a"
+        }
+      ]
+    }
+  ]
+}
