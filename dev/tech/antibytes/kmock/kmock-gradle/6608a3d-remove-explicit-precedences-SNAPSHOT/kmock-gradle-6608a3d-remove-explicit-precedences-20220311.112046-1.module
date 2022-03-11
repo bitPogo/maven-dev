@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "6608a3d-remove-explicit-precedences-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-6608a3d-remove-explicit-precedences-SNAPSHOT.jar",
+          "url": "kmock-gradle-6608a3d-remove-explicit-precedences-SNAPSHOT.jar",
+          "size": 50143,
+          "sha512": "1b42d86934315fabe9ca22731c9b0c33440af8ce6282a3b4b98cbcf3b34c5ac42ec8d03972bef050059eb42cc6a83fd7f58dc768902b524b1876e0bdaf2f6f5c",
+          "sha256": "fef9daa19da731ea77fdb9872f12f5ea8782ff7dd28834e943491bb40b50ab48",
+          "sha1": "66e5f9854b8da7f20dd3bd050fe874f567295c5b",
+          "md5": "d5312b67ebfb1dd264352cd698719152"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-6608a3d-remove-explicit-precedences-SNAPSHOT.jar",
+          "url": "kmock-gradle-6608a3d-remove-explicit-precedences-SNAPSHOT.jar",
+          "size": 50143,
+          "sha512": "1b42d86934315fabe9ca22731c9b0c33440af8ce6282a3b4b98cbcf3b34c5ac42ec8d03972bef050059eb42cc6a83fd7f58dc768902b524b1876e0bdaf2f6f5c",
+          "sha256": "fef9daa19da731ea77fdb9872f12f5ea8782ff7dd28834e943491bb40b50ab48",
+          "sha1": "66e5f9854b8da7f20dd3bd050fe874f567295c5b",
+          "md5": "d5312b67ebfb1dd264352cd698719152"
+        }
+      ]
+    }
+  ]
+}
