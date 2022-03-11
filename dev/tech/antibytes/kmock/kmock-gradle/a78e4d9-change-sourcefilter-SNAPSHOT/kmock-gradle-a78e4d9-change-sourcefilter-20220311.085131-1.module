@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "a78e4d9-change-sourcefilter-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-a78e4d9-change-sourcefilter-SNAPSHOT.jar",
+          "url": "kmock-gradle-a78e4d9-change-sourcefilter-SNAPSHOT.jar",
+          "size": 50651,
+          "sha512": "1fa8f8b3cfe64e9d4420d6232d89edd30816aaf92528947953ac573d72248c288c6ebae480dd6da383fadbaf090f698ae6f238a4b25be2b3e7719005d850ee14",
+          "sha256": "c8dadad6d91bcafd0a32b52e6297e0bc4acf32db713498a1bc1eba6a6c174e2b",
+          "sha1": "afe7589f51d8ea0ad3a825c326cd5708b5f0186a",
+          "md5": "07bb6534aa1071e7c17855ba29069797"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-a78e4d9-change-sourcefilter-SNAPSHOT.jar",
+          "url": "kmock-gradle-a78e4d9-change-sourcefilter-SNAPSHOT.jar",
+          "size": 50651,
+          "sha512": "1fa8f8b3cfe64e9d4420d6232d89edd30816aaf92528947953ac573d72248c288c6ebae480dd6da383fadbaf090f698ae6f238a4b25be2b3e7719005d850ee14",
+          "sha256": "c8dadad6d91bcafd0a32b52e6297e0bc4acf32db713498a1bc1eba6a6c174e2b",
+          "sha1": "afe7589f51d8ea0ad3a825c326cd5708b5f0186a",
+          "md5": "07bb6534aa1071e7c17855ba29069797"
+        }
+      ]
+    }
+  ]
+}
