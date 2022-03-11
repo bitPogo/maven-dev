@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "5c5fd4f-add-dokka-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-5c5fd4f-add-dokka-SNAPSHOT.jar",
+          "url": "kmock-gradle-5c5fd4f-add-dokka-SNAPSHOT.jar",
+          "size": 49810,
+          "sha512": "c1f8f03f88274e93eb17c0511a2201f4bae2c34e067bacedd41b3679bf364d8b05231eb4ef5f622c034d08830a6be0214196b2659da3f20becedcb68e3775ac2",
+          "sha256": "95db717863540982d6c1c429f36c9857869fea1bacd16bc35cc82e0c570efa88",
+          "sha1": "1aff8e62cba49c8cef9d5735977c66bc11fca9c2",
+          "md5": "15b8cb04d73fbe47ee2f28e4fc2b9c30"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-5c5fd4f-add-dokka-SNAPSHOT.jar",
+          "url": "kmock-gradle-5c5fd4f-add-dokka-SNAPSHOT.jar",
+          "size": 49810,
+          "sha512": "c1f8f03f88274e93eb17c0511a2201f4bae2c34e067bacedd41b3679bf364d8b05231eb4ef5f622c034d08830a6be0214196b2659da3f20becedcb68e3775ac2",
+          "sha256": "95db717863540982d6c1c429f36c9857869fea1bacd16bc35cc82e0c570efa88",
+          "sha1": "1aff8e62cba49c8cef9d5735977c66bc11fca9c2",
+          "md5": "15b8cb04d73fbe47ee2f28e4fc2b9c30"
+        }
+      ]
+    }
+  ]
+}
