@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "9eee054-change-tests-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-9eee054-change-tests-SNAPSHOT.jar",
+          "url": "kmock-gradle-9eee054-change-tests-SNAPSHOT.jar",
+          "size": 49811,
+          "sha512": "58ac4b3fed45e6bfd7dd2597a0dce40152987f10c3921f81b369c0d9aacbcca44d39a433b22fbb06e0161e8dd6cb6e10ce99f31f93c1b25b1b31c26782498822",
+          "sha256": "8ee2d17dd8c337731ed5bb658fc18a47baf4e6db13ad5af0517f490d0ff881cf",
+          "sha1": "26119914f147c543cc6c49b7388c112444d54d0c",
+          "md5": "4a32a8ccb60113708654ea8e427bf92c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-9eee054-change-tests-SNAPSHOT.jar",
+          "url": "kmock-gradle-9eee054-change-tests-SNAPSHOT.jar",
+          "size": 49811,
+          "sha512": "58ac4b3fed45e6bfd7dd2597a0dce40152987f10c3921f81b369c0d9aacbcca44d39a433b22fbb06e0161e8dd6cb6e10ce99f31f93c1b25b1b31c26782498822",
+          "sha256": "8ee2d17dd8c337731ed5bb658fc18a47baf4e6db13ad5af0517f490d0ff881cf",
+          "sha1": "26119914f147c543cc6c49b7388c112444d54d0c",
+          "md5": "4a32a8ccb60113708654ea8e427bf92c"
+        }
+      ]
+    }
+  ]
+}
