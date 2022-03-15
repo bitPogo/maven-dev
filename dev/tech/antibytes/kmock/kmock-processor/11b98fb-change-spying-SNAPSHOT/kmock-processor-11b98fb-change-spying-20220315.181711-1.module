@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-processor",
+    "version": "11b98fb-change-spying-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-11b98fb-change-spying-SNAPSHOT.jar",
+          "url": "kmock-processor-11b98fb-change-spying-SNAPSHOT.jar",
+          "size": 84829,
+          "sha512": "810923f983fae943a74d921c59c947088a2114cebce67332da1165ff4fa37153c44aeb3ab2d3f63cffff1e5cbfe14b85289b8379a0b1f96b4d3ddbec8b1df979",
+          "sha256": "094f9fd9d06240c60ae01bd80195ceb51baf7b4ff5a2e4aa1167db7e886c84b9",
+          "sha1": "971dd342f6c04dde553d3e30785cc72214d62d9d",
+          "md5": "18b89ad2c5efea12375b49c51a32537b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.10.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-ksp",
+          "version": {
+            "requires": "1.10.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "tech.antibytes.kmock",
+          "module": "kmock",
+          "version": {
+            "requires": "11b98fb-change-spying-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-11b98fb-change-spying-SNAPSHOT.jar",
+          "url": "kmock-processor-11b98fb-change-spying-SNAPSHOT.jar",
+          "size": 84829,
+          "sha512": "810923f983fae943a74d921c59c947088a2114cebce67332da1165ff4fa37153c44aeb3ab2d3f63cffff1e5cbfe14b85289b8379a0b1f96b4d3ddbec8b1df979",
+          "sha256": "094f9fd9d06240c60ae01bd80195ceb51baf7b4ff5a2e4aa1167db7e886c84b9",
+          "sha1": "971dd342f6c04dde553d3e30785cc72214d62d9d",
+          "md5": "18b89ad2c5efea12375b49c51a32537b"
+        }
+      ]
+    }
+  ]
+}
