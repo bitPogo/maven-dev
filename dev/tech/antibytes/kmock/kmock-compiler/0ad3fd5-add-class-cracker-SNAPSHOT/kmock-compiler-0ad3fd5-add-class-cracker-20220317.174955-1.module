@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-compiler",
+    "version": "0ad3fd5-add-class-cracker-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-compiler-0ad3fd5-add-class-cracker-SNAPSHOT.jar",
+          "url": "kmock-compiler-0ad3fd5-add-class-cracker-SNAPSHOT.jar",
+          "size": 15942,
+          "sha512": "7702b27325c6dc5d2dd013310894f8596daca909ed3c8c9d234191f320e4c2f212b60f58e5ec6c502a16fd0929c7a986dc73c44075d6361edc477fbeab5bd15b",
+          "sha256": "68cce004ac5d285dbc0bb3798c43b87f9b254ba353ff6859ed475f170b34e6bd",
+          "sha1": "666456c6e21fca03daab67de23fd2481c8aec39e",
+          "md5": "d8467cded466fdb403ce835c20d6cbf6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-compiler-embeddable",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-compiler-0ad3fd5-add-class-cracker-SNAPSHOT.jar",
+          "url": "kmock-compiler-0ad3fd5-add-class-cracker-SNAPSHOT.jar",
+          "size": 15942,
+          "sha512": "7702b27325c6dc5d2dd013310894f8596daca909ed3c8c9d234191f320e4c2f212b60f58e5ec6c502a16fd0929c7a986dc73c44075d6361edc477fbeab5bd15b",
+          "sha256": "68cce004ac5d285dbc0bb3798c43b87f9b254ba353ff6859ed475f170b34e6bd",
+          "sha1": "666456c6e21fca03daab67de23fd2481c8aec39e",
+          "md5": "d8467cded466fdb403ce835c20d6cbf6"
+        }
+      ]
+    }
+  ]
+}
