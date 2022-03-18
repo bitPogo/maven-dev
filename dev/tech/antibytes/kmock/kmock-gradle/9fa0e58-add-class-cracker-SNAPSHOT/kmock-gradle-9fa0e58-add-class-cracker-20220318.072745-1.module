@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "9fa0e58-add-class-cracker-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-9fa0e58-add-class-cracker-SNAPSHOT.jar",
+          "url": "kmock-gradle-9fa0e58-add-class-cracker-SNAPSHOT.jar",
+          "size": 51740,
+          "sha512": "59b703d30fc28f31ec6afef512f4cee5ceb52fd7e59af35801d8be97ccaac987e198a52d2488714055edfc48ffc39356aaee4b416cefbae1d3262d5ed812b317",
+          "sha256": "d1ad0e8c18f89ae2947637613fa8b0d13e334595930fff65fd1827e5fcbfa88b",
+          "sha1": "096d6e2907cb76d342c51cd132ab13005fec50f9",
+          "md5": "4ff498417066c69dce66b8d44c89b0c3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        },
+        {
+          "group": "tech.antibytes.kmock",
+          "module": "kmock-compiler",
+          "version": {
+            "requires": "9fa0e58-add-class-cracker-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-9fa0e58-add-class-cracker-SNAPSHOT.jar",
+          "url": "kmock-gradle-9fa0e58-add-class-cracker-SNAPSHOT.jar",
+          "size": 51740,
+          "sha512": "59b703d30fc28f31ec6afef512f4cee5ceb52fd7e59af35801d8be97ccaac987e198a52d2488714055edfc48ffc39356aaee4b416cefbae1d3262d5ed812b317",
+          "sha256": "d1ad0e8c18f89ae2947637613fa8b0d13e334595930fff65fd1827e5fcbfa88b",
+          "sha1": "096d6e2907cb76d342c51cd132ab13005fec50f9",
+          "md5": "4ff498417066c69dce66b8d44c89b0c3"
+        }
+      ]
+    }
+  ]
+}
