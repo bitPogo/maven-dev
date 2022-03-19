@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-processor",
+    "version": "ee9aeba-add-recursive-selector-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-ee9aeba-add-recursive-selector-SNAPSHOT.jar",
+          "url": "kmock-processor-ee9aeba-add-recursive-selector-SNAPSHOT.jar",
+          "size": 104406,
+          "sha512": "e1faba5d3083c01536db4a36ace60409ac685051741325b3aa6af53186c985ad4a177254c058dc942055766251de25933c840f09dedbc0a9cae9a1884b6bfee8",
+          "sha256": "804651879aa55e858ac26661643a52647040f5a5ddb3e137c5c886d5d220afca",
+          "sha1": "45a09145204c3464d3696563e215be18531ea763",
+          "md5": "410084b697d71c151c2d5d926888df93"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.10.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-ksp",
+          "version": {
+            "requires": "1.10.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "tech.antibytes.kmock",
+          "module": "kmock",
+          "version": {
+            "requires": "ee9aeba-add-recursive-selector-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-ee9aeba-add-recursive-selector-SNAPSHOT.jar",
+          "url": "kmock-processor-ee9aeba-add-recursive-selector-SNAPSHOT.jar",
+          "size": 104406,
+          "sha512": "e1faba5d3083c01536db4a36ace60409ac685051741325b3aa6af53186c985ad4a177254c058dc942055766251de25933c840f09dedbc0a9cae9a1884b6bfee8",
+          "sha256": "804651879aa55e858ac26661643a52647040f5a5ddb3e137c5c886d5d220afca",
+          "sha1": "45a09145204c3464d3696563e215be18531ea763",
+          "md5": "410084b697d71c151c2d5d926888df93"
+        }
+      ]
+    }
+  ]
+}

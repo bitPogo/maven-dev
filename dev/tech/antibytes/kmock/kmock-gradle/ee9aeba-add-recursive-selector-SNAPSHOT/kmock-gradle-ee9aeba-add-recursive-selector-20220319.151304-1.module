@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "ee9aeba-add-recursive-selector-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-ee9aeba-add-recursive-selector-SNAPSHOT.jar",
+          "url": "kmock-gradle-ee9aeba-add-recursive-selector-SNAPSHOT.jar",
+          "size": 52812,
+          "sha512": "55a0d77614a42f8a4b90f3fba3d100876167c27db8e07b078ca13c44f4c4a774fa745b1d14d6c3eae4c449cab78f76134e13dae79a362e629a1ce9729450eff2",
+          "sha256": "9ed5d72762e191d8c37c0336afc30adb6961d3d549a07a20c5f403edb5ff376c",
+          "sha1": "4129b9216e17a47b05ec09908d0df2d96ad9a0b8",
+          "md5": "82414a80f9292feee05e3f4a2f4a5feb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-ee9aeba-add-recursive-selector-SNAPSHOT.jar",
+          "url": "kmock-gradle-ee9aeba-add-recursive-selector-SNAPSHOT.jar",
+          "size": 52812,
+          "sha512": "55a0d77614a42f8a4b90f3fba3d100876167c27db8e07b078ca13c44f4c4a774fa745b1d14d6c3eae4c449cab78f76134e13dae79a362e629a1ce9729450eff2",
+          "sha256": "9ed5d72762e191d8c37c0336afc30adb6961d3d549a07a20c5f403edb5ff376c",
+          "sha1": "4129b9216e17a47b05ec09908d0df2d96ad9a0b8",
+          "md5": "82414a80f9292feee05e3f4a2f4a5feb"
+        }
+      ]
+    }
+  ]
+}
