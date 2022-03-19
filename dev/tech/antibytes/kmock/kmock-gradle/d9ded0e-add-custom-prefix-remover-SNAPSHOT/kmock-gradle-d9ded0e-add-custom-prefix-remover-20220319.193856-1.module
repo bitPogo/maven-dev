@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "d9ded0e-add-custom-prefix-remover-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-d9ded0e-add-custom-prefix-remover-SNAPSHOT.jar",
+          "url": "kmock-gradle-d9ded0e-add-custom-prefix-remover-SNAPSHOT.jar",
+          "size": 53413,
+          "sha512": "354a8b3ad1f7ea5256b84967770561eab270b8c746d51769e16bbaddb9bddfee2897b885d77a489138585a9e56bc8717084a8869235df3a83256311ef738ca19",
+          "sha256": "0ebcd2456af4b79a4608e6dd5a5d33b7a0aec47c5329be88cef7b0cd89fda125",
+          "sha1": "857b449634c295b05f557a23ddcbc09851b1bea9",
+          "md5": "8098559c814e6230bd768d9f8130e0a5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-d9ded0e-add-custom-prefix-remover-SNAPSHOT.jar",
+          "url": "kmock-gradle-d9ded0e-add-custom-prefix-remover-SNAPSHOT.jar",
+          "size": 53413,
+          "sha512": "354a8b3ad1f7ea5256b84967770561eab270b8c746d51769e16bbaddb9bddfee2897b885d77a489138585a9e56bc8717084a8869235df3a83256311ef738ca19",
+          "sha256": "0ebcd2456af4b79a4608e6dd5a5d33b7a0aec47c5329be88cef7b0cd89fda125",
+          "sha1": "857b449634c295b05f557a23ddcbc09851b1bea9",
+          "md5": "8098559c814e6230bd768d9f8130e0a5"
+        }
+      ]
+    }
+  ]
+}
