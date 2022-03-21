@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-processor",
+    "version": "8dfdbe7-fix-hickup-on-repetitive-execution-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-8dfdbe7-fix-hickup-on-repetitive-execution-SNAPSHOT.jar",
+          "url": "kmock-processor-8dfdbe7-fix-hickup-on-repetitive-execution-SNAPSHOT.jar",
+          "size": 105503,
+          "sha512": "f3ea7fd277d527787518ac90b26e1f49ae1c60e82a9b3ed03e7e729c2dccd299b1daec0a318d4c6d4ae6120e75469fb8009aed6f1ef739a1f661b66083a0bbc0",
+          "sha256": "5d7dc541bee0656145920fc8c5d064dcdb27edca278a2f4091fef248bbf6c3ae",
+          "sha1": "cddd4955882c52e18f544097f49413bd74f7c442",
+          "md5": "89d9b7eae8da73be1bbf97dc9fc511cc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.10.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-ksp",
+          "version": {
+            "requires": "1.10.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "tech.antibytes.kmock",
+          "module": "kmock",
+          "version": {
+            "requires": "8dfdbe7-fix-hickup-on-repetitive-execution-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-8dfdbe7-fix-hickup-on-repetitive-execution-SNAPSHOT.jar",
+          "url": "kmock-processor-8dfdbe7-fix-hickup-on-repetitive-execution-SNAPSHOT.jar",
+          "size": 105503,
+          "sha512": "f3ea7fd277d527787518ac90b26e1f49ae1c60e82a9b3ed03e7e729c2dccd299b1daec0a318d4c6d4ae6120e75469fb8009aed6f1ef739a1f661b66083a0bbc0",
+          "sha256": "5d7dc541bee0656145920fc8c5d064dcdb27edca278a2f4091fef248bbf6c3ae",
+          "sha1": "cddd4955882c52e18f544097f49413bd74f7c442",
+          "md5": "89d9b7eae8da73be1bbf97dc9fc511cc"
+        }
+      ]
+    }
+  ]
+}
