@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "0.1.0-bump-gradle-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-0.1.0-bump-gradle-SNAPSHOT.jar",
+          "url": "kmock-gradle-0.1.0-bump-gradle-SNAPSHOT.jar",
+          "size": 33072,
+          "sha512": "f3f885b39a0c72c875076bc292518c9615d624142c0aee5e52fc5e97a9a953d1b20281ede26fc93dc9b66e5f74b96e4a13ad7fc944a77b5e5d6afc8922e952b5",
+          "sha256": "9e3d29c06be6225294071a270d70b961a78e8a169c252194a2ac1ebb0f450eef",
+          "sha1": "631d8c375228e38e5bf0bb018df49936c452ff64",
+          "md5": "649d1bce573fe97022920257fbf9c5f7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-0.1.0-bump-gradle-SNAPSHOT.jar",
+          "url": "kmock-gradle-0.1.0-bump-gradle-SNAPSHOT.jar",
+          "size": 33072,
+          "sha512": "f3f885b39a0c72c875076bc292518c9615d624142c0aee5e52fc5e97a9a953d1b20281ede26fc93dc9b66e5f74b96e4a13ad7fc944a77b5e5d6afc8922e952b5",
+          "sha256": "9e3d29c06be6225294071a270d70b961a78e8a169c252194a2ac1ebb0f450eef",
+          "sha1": "631d8c375228e38e5bf0bb018df49936c452ff64",
+          "md5": "649d1bce573fe97022920257fbf9c5f7"
+        }
+      ]
+    }
+  ]
+}
