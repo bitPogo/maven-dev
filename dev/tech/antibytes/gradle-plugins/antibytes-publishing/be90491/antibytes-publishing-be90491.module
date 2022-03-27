@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-publishing",
+    "version": "be90491",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-be90491.jar",
+          "url": "antibytes-publishing-be90491.jar",
+          "size": 106835,
+          "sha512": "49e70a86d0af03d1befdb406f393f47182fcf035c27f94aba9e300cf62b290f80dc2dd56da60901d010a357dae6dd9bc66ad7e07d56e5095965aa2a3f7a84d5f",
+          "sha256": "7942cb86c95dfa2c87e8806781f449ca444be60eba73ccdfd61b76d194ff27c3",
+          "sha1": "d37381865482fe0d3fcd7da56b0c5941f7868f1e",
+          "md5": "32a843e545eed3de9227c79bcda3369b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.12.2"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "be90491"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-be90491.jar",
+          "url": "antibytes-publishing-be90491.jar",
+          "size": 106835,
+          "sha512": "49e70a86d0af03d1befdb406f393f47182fcf035c27f94aba9e300cf62b290f80dc2dd56da60901d010a357dae6dd9bc66ad7e07d56e5095965aa2a3f7a84d5f",
+          "sha256": "7942cb86c95dfa2c87e8806781f449ca444be60eba73ccdfd61b76d194ff27c3",
+          "sha1": "d37381865482fe0d3fcd7da56b0c5941f7868f1e",
+          "md5": "32a843e545eed3de9227c79bcda3369b"
+        }
+      ]
+    }
+  ]
+}
