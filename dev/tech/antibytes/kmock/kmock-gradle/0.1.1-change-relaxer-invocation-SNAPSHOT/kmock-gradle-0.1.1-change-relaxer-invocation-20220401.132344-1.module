@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "0.1.1-change-relaxer-invocation-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-0.1.1-change-relaxer-invocation-SNAPSHOT.jar",
+          "url": "kmock-gradle-0.1.1-change-relaxer-invocation-SNAPSHOT.jar",
+          "size": 33268,
+          "sha512": "011e5ea24f9e3daeefb5c13d5040adbcc9dfeeeb1262f015bdfa213f0df06440984ce0889935e1f1db35c8582c69abaf7c3bdff6a413aa66be34e0908c52eea8",
+          "sha256": "a9ac8599252b9532acc00301aa61be31691bcc26ea25a69bc73af26c365e9f8b",
+          "sha1": "227be3d1a69dd89c76e07fbdd6112e47ffad508c",
+          "md5": "c8d9b3fede1fcf32e428ac8c0c14274c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-0.1.1-change-relaxer-invocation-SNAPSHOT.jar",
+          "url": "kmock-gradle-0.1.1-change-relaxer-invocation-SNAPSHOT.jar",
+          "size": 33268,
+          "sha512": "011e5ea24f9e3daeefb5c13d5040adbcc9dfeeeb1262f015bdfa213f0df06440984ce0889935e1f1db35c8582c69abaf7c3bdff6a413aa66be34e0908c52eea8",
+          "sha256": "a9ac8599252b9532acc00301aa61be31691bcc26ea25a69bc73af26c365e9f8b",
+          "sha1": "227be3d1a69dd89c76e07fbdd6112e47ffad508c",
+          "md5": "c8d9b3fede1fcf32e428ac8c0c14274c"
+        }
+      ]
+    }
+  ]
+}

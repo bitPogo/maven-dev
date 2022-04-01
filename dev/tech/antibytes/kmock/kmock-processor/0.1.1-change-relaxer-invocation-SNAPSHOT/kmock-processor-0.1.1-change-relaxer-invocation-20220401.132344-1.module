@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-processor",
+    "version": "0.1.1-change-relaxer-invocation-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.1.1-change-relaxer-invocation-SNAPSHOT.jar",
+          "url": "kmock-processor-0.1.1-change-relaxer-invocation-SNAPSHOT.jar",
+          "size": 122413,
+          "sha512": "4ac96bb7019af433508c8beeec0372a9c64e91a347ae93b87d81171d57a0faa223401638d51987110af2951affb1882a163c573ea1a1ff168cbf47e8c709d4f3",
+          "sha256": "355d43241d64b5c70dcda19b599d0499f62d0ab9bf73cf5c18045f9e7f091db0",
+          "sha1": "c13945ca2bf2d276fc52156d8e95db8770fe4528",
+          "md5": "59150e50a67383d7d30844d86cfe5b66"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.10.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-ksp",
+          "version": {
+            "requires": "1.10.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "tech.antibytes.kmock",
+          "module": "kmock",
+          "version": {
+            "requires": "0.1.1-change-relaxer-invocation-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.1.1-change-relaxer-invocation-SNAPSHOT.jar",
+          "url": "kmock-processor-0.1.1-change-relaxer-invocation-SNAPSHOT.jar",
+          "size": 122413,
+          "sha512": "4ac96bb7019af433508c8beeec0372a9c64e91a347ae93b87d81171d57a0faa223401638d51987110af2951affb1882a163c573ea1a1ff168cbf47e8c709d4f3",
+          "sha256": "355d43241d64b5c70dcda19b599d0499f62d0ab9bf73cf5c18045f9e7f091db0",
+          "sha1": "c13945ca2bf2d276fc52156d8e95db8770fe4528",
+          "md5": "59150e50a67383d7d30844d86cfe5b66"
+        }
+      ]
+    }
+  ]
+}
