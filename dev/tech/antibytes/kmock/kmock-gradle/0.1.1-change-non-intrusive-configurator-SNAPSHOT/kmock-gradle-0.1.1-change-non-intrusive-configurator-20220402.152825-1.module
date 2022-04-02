@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "0.1.1-change-non-intrusive-configurator-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-0.1.1-change-non-intrusive-configurator-SNAPSHOT.jar",
+          "url": "kmock-gradle-0.1.1-change-non-intrusive-configurator-SNAPSHOT.jar",
+          "size": 33274,
+          "sha512": "9a49201a65249a0779a8e351819db2459487edfb9e3c9243fafe30457c607fe2ee7b1775c91e2dbd1c9d4aac7581018156ac28d104aca4b985d3edbc3742e3fd",
+          "sha256": "8bc6c06141b92d2fc04e927731bcab6c3b325bab27efea952954f32749b57c37",
+          "sha1": "4b544195e6f24846b0710a0d31d120a973e217d3",
+          "md5": "52948297b22ced28bb46aeaba85e1ca8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-0.1.1-change-non-intrusive-configurator-SNAPSHOT.jar",
+          "url": "kmock-gradle-0.1.1-change-non-intrusive-configurator-SNAPSHOT.jar",
+          "size": 33274,
+          "sha512": "9a49201a65249a0779a8e351819db2459487edfb9e3c9243fafe30457c607fe2ee7b1775c91e2dbd1c9d4aac7581018156ac28d104aca4b985d3edbc3742e3fd",
+          "sha256": "8bc6c06141b92d2fc04e927731bcab6c3b325bab27efea952954f32749b57c37",
+          "sha1": "4b544195e6f24846b0710a0d31d120a973e217d3",
+          "md5": "52948297b22ced28bb46aeaba85e1ca8"
+        }
+      ]
+    }
+  ]
+}
