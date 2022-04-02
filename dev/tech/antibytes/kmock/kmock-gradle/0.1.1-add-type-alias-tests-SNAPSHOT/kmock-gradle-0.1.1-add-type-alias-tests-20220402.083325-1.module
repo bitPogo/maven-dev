@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "0.1.1-add-type-alias-tests-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-0.1.1-add-type-alias-tests-SNAPSHOT.jar",
+          "url": "kmock-gradle-0.1.1-add-type-alias-tests-SNAPSHOT.jar",
+          "size": 33266,
+          "sha512": "1a400c4bf92631ac4d0d93cb9c918dd3e2c8e4609991befdc6016250ca50153d955c89474b46e9933375e55a848e2ee377b4b6f76477081416ba41cae3d09bd7",
+          "sha256": "75968c34799a71d83b5d79be0e1442d78c84deb6d271be721426a7b108fb64a8",
+          "sha1": "997bf05c4de41cab6ca9c26081e9f1bc9bf45be3",
+          "md5": "afa3a288f6bf5f5733fe06c999846bf1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-0.1.1-add-type-alias-tests-SNAPSHOT.jar",
+          "url": "kmock-gradle-0.1.1-add-type-alias-tests-SNAPSHOT.jar",
+          "size": 33266,
+          "sha512": "1a400c4bf92631ac4d0d93cb9c918dd3e2c8e4609991befdc6016250ca50153d955c89474b46e9933375e55a848e2ee377b4b6f76477081416ba41cae3d09bd7",
+          "sha256": "75968c34799a71d83b5d79be0e1442d78c84deb6d271be721426a7b108fb64a8",
+          "sha1": "997bf05c4de41cab6ca9c26081e9f1bc9bf45be3",
+          "md5": "afa3a288f6bf5f5733fe06c999846bf1"
+        }
+      ]
+    }
+  ]
+}
