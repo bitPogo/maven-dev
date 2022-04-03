@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "0.1.1-change-separation-forzen-unfrozen-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-0.1.1-change-separation-forzen-unfrozen-SNAPSHOT.jar",
+          "url": "kmock-gradle-0.1.1-change-separation-forzen-unfrozen-SNAPSHOT.jar",
+          "size": 33275,
+          "sha512": "43c0fc1115fd9329327bea14bde3d1cc6588a497b9d8d41a0043038b1e3b56be2cab585ff8948a392b02e2fa9a6d4c68ac9ac522b46ec3dba3b7cf94956f4cfd",
+          "sha256": "f71abf120980f132adacff7d50e5a2b41990d304318cd3ddd77a85bd14d0379a",
+          "sha1": "7f34c52c0d541ed74ac52e6bc9f64749b3e75220",
+          "md5": "7fa5936ec023cf11622df021e9fa5fea"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-0.1.1-change-separation-forzen-unfrozen-SNAPSHOT.jar",
+          "url": "kmock-gradle-0.1.1-change-separation-forzen-unfrozen-SNAPSHOT.jar",
+          "size": 33275,
+          "sha512": "43c0fc1115fd9329327bea14bde3d1cc6588a497b9d8d41a0043038b1e3b56be2cab585ff8948a392b02e2fa9a6d4c68ac9ac522b46ec3dba3b7cf94956f4cfd",
+          "sha256": "f71abf120980f132adacff7d50e5a2b41990d304318cd3ddd77a85bd14d0379a",
+          "sha1": "7f34c52c0d541ed74ac52e6bc9f64749b3e75220",
+          "md5": "7fa5936ec023cf11622df021e9fa5fea"
+        }
+      ]
+    }
+  ]
+}
