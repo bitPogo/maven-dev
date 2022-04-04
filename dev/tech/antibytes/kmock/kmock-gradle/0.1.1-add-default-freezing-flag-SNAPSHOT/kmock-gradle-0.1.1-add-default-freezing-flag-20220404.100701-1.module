@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "0.1.1-add-default-freezing-flag-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-0.1.1-add-default-freezing-flag-SNAPSHOT.jar",
+          "url": "kmock-gradle-0.1.1-add-default-freezing-flag-SNAPSHOT.jar",
+          "size": 33476,
+          "sha512": "1099bb5136eff5e23e1bd36ecf185e7791a59a39a9d2a01a9ce9901a63d73a571848fe54ec735cec77bbfd896559a141986e4f98acd44039c72293c0749176ac",
+          "sha256": "533f0af77147ef4d215aeff15e7e3b0abf7cb1a014657ab6572f95eff9016595",
+          "sha1": "c8b7a4c8832158b41b8e6f87c3311be3f3d0e0f0",
+          "md5": "a82771ea227c2948427e29dbb7741deb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-0.1.1-add-default-freezing-flag-SNAPSHOT.jar",
+          "url": "kmock-gradle-0.1.1-add-default-freezing-flag-SNAPSHOT.jar",
+          "size": 33476,
+          "sha512": "1099bb5136eff5e23e1bd36ecf185e7791a59a39a9d2a01a9ce9901a63d73a571848fe54ec735cec77bbfd896559a141986e4f98acd44039c72293c0749176ac",
+          "sha256": "533f0af77147ef4d215aeff15e7e3b0abf7cb1a014657ab6572f95eff9016595",
+          "sha1": "c8b7a4c8832158b41b8e6f87c3311be3f3d0e0f0",
+          "md5": "a82771ea227c2948427e29dbb7741deb"
+        }
+      ]
+    }
+  ]
+}
