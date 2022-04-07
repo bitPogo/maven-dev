@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "0.1.1-change-overloaded-names-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-0.1.1-change-overloaded-names-SNAPSHOT.jar",
+          "url": "kmock-gradle-0.1.1-change-overloaded-names-SNAPSHOT.jar",
+          "size": 34248,
+          "sha512": "343c50b8e972d71c1c0d30b315bd2118e2f2ad4c8ff1d44ad9c694e63bdbdad414905e3862614f8ae5f16a69a3be8941e0e1e8b95b20b19055a93fab8d3dd966",
+          "sha256": "0e90fbfbf33ba4cac340d5e0ca826893f4510076b492a710eb1b0ddc231f4a86",
+          "sha1": "f03f4bead3402d99e9d4a80776566ff3234411d1",
+          "md5": "e86eeadab4a3b340d53a7d487d6b5d28"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-0.1.1-change-overloaded-names-SNAPSHOT.jar",
+          "url": "kmock-gradle-0.1.1-change-overloaded-names-SNAPSHOT.jar",
+          "size": 34248,
+          "sha512": "343c50b8e972d71c1c0d30b315bd2118e2f2ad4c8ff1d44ad9c694e63bdbdad414905e3862614f8ae5f16a69a3be8941e0e1e8b95b20b19055a93fab8d3dd966",
+          "sha256": "0e90fbfbf33ba4cac340d5e0ca826893f4510076b492a710eb1b0ddc231f4a86",
+          "sha1": "f03f4bead3402d99e9d4a80776566ff3234411d1",
+          "md5": "e86eeadab4a3b340d53a7d487d6b5d28"
+        }
+      ]
+    }
+  ]
+}
