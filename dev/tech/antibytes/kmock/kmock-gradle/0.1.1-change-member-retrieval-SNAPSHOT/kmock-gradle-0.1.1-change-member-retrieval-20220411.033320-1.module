@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "0.1.1-change-member-retrieval-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-0.1.1-change-member-retrieval-SNAPSHOT.jar",
+          "url": "kmock-gradle-0.1.1-change-member-retrieval-SNAPSHOT.jar",
+          "size": 34248,
+          "sha512": "e8f1c07391072ea987ed5235f1624a4b08267d82e971141ca79c7cf2497b19a135d6444a74d8d2e820573fc7691c46657f1df14c3db5747c01dfb5601522564a",
+          "sha256": "b8ad468bf52a8bf62c5c6d2f031f84e005f0d4ec6a48baebd5e45cab6320a82b",
+          "sha1": "a1949ad0a25f27c30598495ddcd8f1aa0fb36bac",
+          "md5": "0534feb65bb3ba40b39c29608548e59f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-0.1.1-change-member-retrieval-SNAPSHOT.jar",
+          "url": "kmock-gradle-0.1.1-change-member-retrieval-SNAPSHOT.jar",
+          "size": 34248,
+          "sha512": "e8f1c07391072ea987ed5235f1624a4b08267d82e971141ca79c7cf2497b19a135d6444a74d8d2e820573fc7691c46657f1df14c3db5747c01dfb5601522564a",
+          "sha256": "b8ad468bf52a8bf62c5c6d2f031f84e005f0d4ec6a48baebd5e45cab6320a82b",
+          "sha1": "a1949ad0a25f27c30598495ddcd8f1aa0fb36bac",
+          "md5": "0534feb65bb3ba40b39c29608548e59f"
+        }
+      ]
+    }
+  ]
+}
