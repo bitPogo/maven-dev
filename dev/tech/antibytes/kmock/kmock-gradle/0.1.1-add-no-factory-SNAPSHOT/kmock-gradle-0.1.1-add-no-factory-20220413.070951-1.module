@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "0.1.1-add-no-factory-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-0.1.1-add-no-factory-SNAPSHOT.jar",
+          "url": "kmock-gradle-0.1.1-add-no-factory-SNAPSHOT.jar",
+          "size": 34260,
+          "sha512": "a2a2651823e621a34c347048ac3051c01d74217adedb731f59da88e2fd306150903316f1260cb8b4e3182106cffaee1898e04514aba29555704c7d859eef3354",
+          "sha256": "795e147e02b1ea1ef73ef625fc6573f15941cb7913beb7487663e216c29acc63",
+          "sha1": "0aebf49e38581ba9c4c05ea7c0ff8d5a96ba1e6c",
+          "md5": "772971b52fdb4ddfc974a90ad8d59ed9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-0.1.1-add-no-factory-SNAPSHOT.jar",
+          "url": "kmock-gradle-0.1.1-add-no-factory-SNAPSHOT.jar",
+          "size": 34260,
+          "sha512": "a2a2651823e621a34c347048ac3051c01d74217adedb731f59da88e2fd306150903316f1260cb8b4e3182106cffaee1898e04514aba29555704c7d859eef3354",
+          "sha256": "795e147e02b1ea1ef73ef625fc6573f15941cb7913beb7487663e216c29acc63",
+          "sha1": "0aebf49e38581ba9c4c05ea7c0ff8d5a96ba1e6c",
+          "md5": "772971b52fdb4ddfc974a90ad8d59ed9"
+        }
+      ]
+    }
+  ]
+}
