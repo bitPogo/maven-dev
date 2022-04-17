@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-dependency",
+    "version": "47d4b73",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-47d4b73.jar",
+          "url": "antibytes-dependency-47d4b73.jar",
+          "size": 71899,
+          "sha512": "689d5d1a19c1f7b8272da60921cde919efe2dc0f42cd9e6041b8389005f4fde50d9c3f8eed916007d4c65d3ada9bfa7b1744e6d3a46b1d11ae8ada9f64110631",
+          "sha256": "eb29029566961d5fd83fc3d53fafeb3f2d44d4af39af62dd1714bf22109f04fd",
+          "sha1": "65d6d2bede9725d2b0b8842384cbe670aa416326",
+          "md5": "dd23c73585717a5c957e45470f188d7f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu-gradle-plugin",
+          "version": {
+            "requires": "0.17.1"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.1.2"
+          }
+        },
+        {
+          "group": "com.github.ben-manes",
+          "module": "gradle-versions-plugin",
+          "version": {
+            "requires": "0.42.0"
+          }
+        },
+        {
+          "group": "org.owasp",
+          "module": "dependency-check-gradle",
+          "version": {
+            "requires": "7.0.4.1"
+          }
+        },
+        {
+          "group": "com.pinterest",
+          "module": "ktlint",
+          "version": {
+            "requires": "0.44.0"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "logback-classic"
+            },
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "com.diffplug.spotless",
+          "module": "spotless-plugin-gradle",
+          "version": {
+            "requires": "6.4.2"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "47d4b73"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-47d4b73.jar",
+          "url": "antibytes-dependency-47d4b73.jar",
+          "size": 71899,
+          "sha512": "689d5d1a19c1f7b8272da60921cde919efe2dc0f42cd9e6041b8389005f4fde50d9c3f8eed916007d4c65d3ada9bfa7b1744e6d3a46b1d11ae8ada9f64110631",
+          "sha256": "eb29029566961d5fd83fc3d53fafeb3f2d44d4af39af62dd1714bf22109f04fd",
+          "sha1": "65d6d2bede9725d2b0b8842384cbe670aa416326",
+          "md5": "dd23c73585717a5c957e45470f188d7f"
+        }
+      ]
+    }
+  ]
+}
