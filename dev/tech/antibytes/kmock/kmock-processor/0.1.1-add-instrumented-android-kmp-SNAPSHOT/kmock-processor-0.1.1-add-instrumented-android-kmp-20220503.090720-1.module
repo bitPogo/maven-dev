@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-processor",
+    "version": "0.1.1-add-instrumented-android-kmp-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.1.1-add-instrumented-android-kmp-SNAPSHOT.jar",
+          "url": "kmock-processor-0.1.1-add-instrumented-android-kmp-SNAPSHOT.jar",
+          "size": 177934,
+          "sha512": "67e4b44ea34cf404c80f2b2b02d98958cfa55282732989f92a495b77f47cf8f537411a0b9194d2541734d757fad555ddba3864a9c06f6967233045985d123568",
+          "sha256": "bd5bb74bdddfcca96154fe5cfbb323294cbb098fde83db1cb36742314f927dd9",
+          "sha1": "88ad5846535c7d60dec3f9e58dc8dbdacec82c66",
+          "md5": "6eebd62942b046b55f87f03a58e68f6f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-ksp",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "tech.antibytes.kmock",
+          "module": "kmock",
+          "version": {
+            "requires": "0.1.1-add-instrumented-android-kmp-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.1.1-add-instrumented-android-kmp-SNAPSHOT.jar",
+          "url": "kmock-processor-0.1.1-add-instrumented-android-kmp-SNAPSHOT.jar",
+          "size": 177934,
+          "sha512": "67e4b44ea34cf404c80f2b2b02d98958cfa55282732989f92a495b77f47cf8f537411a0b9194d2541734d757fad555ddba3864a9c06f6967233045985d123568",
+          "sha256": "bd5bb74bdddfcca96154fe5cfbb323294cbb098fde83db1cb36742314f927dd9",
+          "sha1": "88ad5846535c7d60dec3f9e58dc8dbdacec82c66",
+          "md5": "6eebd62942b046b55f87f03a58e68f6f"
+        }
+      ]
+    }
+  ]
+}
