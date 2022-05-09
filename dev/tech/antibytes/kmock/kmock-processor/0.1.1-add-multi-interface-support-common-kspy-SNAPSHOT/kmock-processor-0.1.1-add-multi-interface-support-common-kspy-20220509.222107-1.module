@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-processor",
+    "version": "0.1.1-add-multi-interface-support-common-kspy-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.1.1-add-multi-interface-support-common-kspy-SNAPSHOT.jar",
+          "url": "kmock-processor-0.1.1-add-multi-interface-support-common-kspy-SNAPSHOT.jar",
+          "size": 238577,
+          "sha512": "e883d29ba138e4307d40b6ddbe6ece6d9c16d5d1df4708ca33c3917e9fb8d4cf9f84201195fd9acc8d3722176fd81d8f313e86cfd7270e5a3cd288cfee1484e9",
+          "sha256": "d6677239e42ac4c5d6abcf3312b2eb1a9a321d595144afd7fab10cf2a7b4d5d6",
+          "sha1": "0d095a8828354439570fa9cc5258d033b1526a02",
+          "md5": "6448e387553dd5f3116a32ba6058e9e5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-ksp",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "tech.antibytes.kmock",
+          "module": "kmock",
+          "version": {
+            "requires": "0.1.1-add-multi-interface-support-common-kspy-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.1.1-add-multi-interface-support-common-kspy-SNAPSHOT.jar",
+          "url": "kmock-processor-0.1.1-add-multi-interface-support-common-kspy-SNAPSHOT.jar",
+          "size": 238577,
+          "sha512": "e883d29ba138e4307d40b6ddbe6ece6d9c16d5d1df4708ca33c3917e9fb8d4cf9f84201195fd9acc8d3722176fd81d8f313e86cfd7270e5a3cd288cfee1484e9",
+          "sha256": "d6677239e42ac4c5d6abcf3312b2eb1a9a321d595144afd7fab10cf2a7b4d5d6",
+          "sha1": "0d095a8828354439570fa9cc5258d033b1526a02",
+          "md5": "6448e387553dd5f3116a32ba6058e9e5"
+        }
+      ]
+    }
+  ]
+}
