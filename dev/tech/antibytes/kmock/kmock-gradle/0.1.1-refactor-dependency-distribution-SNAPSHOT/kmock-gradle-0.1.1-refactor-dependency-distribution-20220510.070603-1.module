@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "0.1.1-refactor-dependency-distribution-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-0.1.1-refactor-dependency-distribution-SNAPSHOT.jar",
+          "url": "kmock-gradle-0.1.1-refactor-dependency-distribution-SNAPSHOT.jar",
+          "size": 34757,
+          "sha512": "b7da6d00655b2be7b1e382a724ae1037672ee8dbddafae4ba5c88038301e9f1c7592945e8f5e79645e8c5cc2c3db7836f297003e7c1f61583da625619de407a1",
+          "sha256": "ae3e50f7e438b7fbe0144f420b743644545fd5fb807c96a3c2dd1ba00bd07016",
+          "sha1": "7c900e23b36189db9e72841a7a45aceebb8b05be",
+          "md5": "b04fbce5a00854753eff98d85361c693"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-0.1.1-refactor-dependency-distribution-SNAPSHOT.jar",
+          "url": "kmock-gradle-0.1.1-refactor-dependency-distribution-SNAPSHOT.jar",
+          "size": 34757,
+          "sha512": "b7da6d00655b2be7b1e382a724ae1037672ee8dbddafae4ba5c88038301e9f1c7592945e8f5e79645e8c5cc2c3db7836f297003e7c1f61583da625619de407a1",
+          "sha256": "ae3e50f7e438b7fbe0144f420b743644545fd5fb807c96a3c2dd1ba00bd07016",
+          "sha1": "7c900e23b36189db9e72841a7a45aceebb8b05be",
+          "md5": "b04fbce5a00854753eff98d85361c693"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-0.1.1-refactor-dependency-distribution-SNAPSHOT-javadoc.jar",
+          "url": "kmock-gradle-0.1.1-refactor-dependency-distribution-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "1220efdd3048a1d03058e101dad3316a124a3c11943e64c98bbbd5ece1660061133d1352276edc75728698501812bd3b06a3647929e688539f03e1d64ea7733d",
+          "sha256": "f5cfd581d65f14a6bf97230eab21f94cef61c51535d69138453fd45ac0a878bf",
+          "sha1": "ac3d3bb9143b752ffc8c69cfb106aedc8459072c",
+          "md5": "ba1ae141de5abbce6508c663d191c39f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-0.1.1-refactor-dependency-distribution-SNAPSHOT-sources.jar",
+          "url": "kmock-gradle-0.1.1-refactor-dependency-distribution-SNAPSHOT-sources.jar",
+          "size": 9410,
+          "sha512": "663ac7ff8028eb01b5c0ab1fdb5939349421ddb2720e5ab9b250454578ab25cab797512cfab641983bffa2d1896b01f4d3fbe2bb4bef9dcab9b78e4907b8cf63",
+          "sha256": "6d9d79aea564d45a93017ffda9d8968c47d3c38c4555666c316486dab3343e55",
+          "sha1": "3a337df53047cfd1c4cf47344f8305a13901345b",
+          "md5": "e0de0951dd3f56df3f3c46ac2016d622"
+        }
+      ]
+    }
+  ]
+}
