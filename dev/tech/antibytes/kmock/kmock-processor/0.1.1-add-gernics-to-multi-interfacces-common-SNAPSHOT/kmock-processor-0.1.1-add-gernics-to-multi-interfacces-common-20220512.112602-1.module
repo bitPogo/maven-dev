@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-processor",
+    "version": "0.1.1-add-gernics-to-multi-interfacces-common-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.1.1-add-gernics-to-multi-interfacces-common-SNAPSHOT.jar",
+          "url": "kmock-processor-0.1.1-add-gernics-to-multi-interfacces-common-SNAPSHOT.jar",
+          "size": 257025,
+          "sha512": "aaabedb5f14dd0f71c6aa4d5780b4e7d6b1d9888cdad0ae9250f92b00b01ca92aa34cc4b4c5bd266f7abd9d629ccbbf3c0e1a8f239e0845abe78c314943622b0",
+          "sha256": "dd1ee0979551bc7b79c59cb2c691a98d727f98943139445b3345dc5e45648278",
+          "sha1": "982ba5dbabbbe312948bfd383bb649fe35f38d7a",
+          "md5": "a4ca8304a4dbb47f2d6a7a297a271e79"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-ksp",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "tech.antibytes.kmock",
+          "module": "kmock",
+          "version": {
+            "requires": "0.1.1-add-gernics-to-multi-interfacces-common-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.1.1-add-gernics-to-multi-interfacces-common-SNAPSHOT.jar",
+          "url": "kmock-processor-0.1.1-add-gernics-to-multi-interfacces-common-SNAPSHOT.jar",
+          "size": 257025,
+          "sha512": "aaabedb5f14dd0f71c6aa4d5780b4e7d6b1d9888cdad0ae9250f92b00b01ca92aa34cc4b4c5bd266f7abd9d629ccbbf3c0e1a8f239e0845abe78c314943622b0",
+          "sha256": "dd1ee0979551bc7b79c59cb2c691a98d727f98943139445b3345dc5e45648278",
+          "sha1": "982ba5dbabbbe312948bfd383bb649fe35f38d7a",
+          "md5": "a4ca8304a4dbb47f2d6a7a297a271e79"
+        }
+      ]
+    }
+  ]
+}
