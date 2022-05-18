@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-processor",
+    "version": "0.1.1-add-reciever-methods-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.1.1-add-reciever-methods-SNAPSHOT.jar",
+          "url": "kmock-processor-0.1.1-add-reciever-methods-SNAPSHOT.jar",
+          "size": 285406,
+          "sha512": "e324ae4840c323a0baf9909c26cad1044397bd3ba945814a148eecf075441a43dad6fb0e72daf09319b33bf34bea80d7272b81dab0c632f6d9e44a453685b9b2",
+          "sha256": "5d3ccf7e6e010b2480018569aac290ed4b53eae69374085825bb2a86dbc6b711",
+          "sha1": "182c8f014fdc527f0dfb87a5276bf3f7caa2ee80",
+          "md5": "9d6b8d845d6c4a8daa61c35bb2b07f8b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-ksp",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "tech.antibytes.kmock",
+          "module": "kmock",
+          "version": {
+            "requires": "0.1.1-add-reciever-methods-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.1.1-add-reciever-methods-SNAPSHOT.jar",
+          "url": "kmock-processor-0.1.1-add-reciever-methods-SNAPSHOT.jar",
+          "size": 285406,
+          "sha512": "e324ae4840c323a0baf9909c26cad1044397bd3ba945814a148eecf075441a43dad6fb0e72daf09319b33bf34bea80d7272b81dab0c632f6d9e44a453685b9b2",
+          "sha256": "5d3ccf7e6e010b2480018569aac290ed4b53eae69374085825bb2a86dbc6b711",
+          "sha1": "182c8f014fdc527f0dfb87a5276bf3f7caa2ee80",
+          "md5": "9d6b8d845d6c4a8daa61c35bb2b07f8b"
+        }
+      ]
+    }
+  ]
+}
