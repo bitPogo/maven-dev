@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-processor",
+    "version": "0.1.1-add-spy-support-receiver-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.1.1-add-spy-support-receiver-SNAPSHOT.jar",
+          "url": "kmock-processor-0.1.1-add-spy-support-receiver-SNAPSHOT.jar",
+          "size": 294483,
+          "sha512": "2124182877fd2d6d46147d1f185599d2ffe43c1db7dba1cb03a2855ed88c9f84ec22fad0bf2ed8a47a19d07dbce7feecbe26e511db74ded5bee93be928600b13",
+          "sha256": "6c66081096257a40f7de5e772861458c5b90fed0fd2b476495344bcc624e2d69",
+          "sha1": "099ccfe382311e97a211a542358967afea5ecd35",
+          "md5": "086e60d4050bd445f3747173310e9114"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-ksp",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "tech.antibytes.kmock",
+          "module": "kmock",
+          "version": {
+            "requires": "0.1.1-add-spy-support-receiver-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.1.1-add-spy-support-receiver-SNAPSHOT.jar",
+          "url": "kmock-processor-0.1.1-add-spy-support-receiver-SNAPSHOT.jar",
+          "size": 294483,
+          "sha512": "2124182877fd2d6d46147d1f185599d2ffe43c1db7dba1cb03a2855ed88c9f84ec22fad0bf2ed8a47a19d07dbce7feecbe26e511db74ded5bee93be928600b13",
+          "sha256": "6c66081096257a40f7de5e772861458c5b90fed0fd2b476495344bcc624e2d69",
+          "sha1": "099ccfe382311e97a211a542358967afea5ecd35",
+          "md5": "086e60d4050bd445f3747173310e9114"
+        }
+      ]
+    }
+  ]
+}
