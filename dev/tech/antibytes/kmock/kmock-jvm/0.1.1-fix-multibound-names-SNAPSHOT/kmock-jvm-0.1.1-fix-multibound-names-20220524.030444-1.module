@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kmock/0.1.1-fix-multibound-names-SNAPSHOT/kmock-0.1.1-fix-multibound-names-SNAPSHOT.module",
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "0.1.1-fix-multibound-names-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-jvm-0.1.1-fix-multibound-names-SNAPSHOT.jar",
+          "url": "kmock-jvm-0.1.1-fix-multibound-names-SNAPSHOT.jar",
+          "size": 381673,
+          "sha512": "ea9d90dc25b237f64c409741755592f3358522ca8ef97dedfdefefb714f1058f92e6d2eb34f313e3c848f7655c40484131eca2dbe82e0ccf61e28985d621692e",
+          "sha256": "364e3247d642728ea049bda5fc7a0f75be22483dc9afdca1ceecc0fc382ace06",
+          "sha1": "5788626f2968b6cbf349f973ca5f85e9bfb41957",
+          "md5": "e257915b7ac5f28f6304875089679e77"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-jvm-0.1.1-fix-multibound-names-SNAPSHOT.jar",
+          "url": "kmock-jvm-0.1.1-fix-multibound-names-SNAPSHOT.jar",
+          "size": 381673,
+          "sha512": "ea9d90dc25b237f64c409741755592f3358522ca8ef97dedfdefefb714f1058f92e6d2eb34f313e3c848f7655c40484131eca2dbe82e0ccf61e28985d621692e",
+          "sha256": "364e3247d642728ea049bda5fc7a0f75be22483dc9afdca1ceecc0fc382ace06",
+          "sha1": "5788626f2968b6cbf349f973ca5f85e9bfb41957",
+          "md5": "e257915b7ac5f28f6304875089679e77"
+        }
+      ]
+    }
+  ]
+}
