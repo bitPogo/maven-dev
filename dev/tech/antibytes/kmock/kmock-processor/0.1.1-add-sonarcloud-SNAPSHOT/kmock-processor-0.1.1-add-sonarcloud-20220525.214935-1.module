@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-processor",
+    "version": "0.1.1-add-sonarcloud-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.1.1-add-sonarcloud-SNAPSHOT.jar",
+          "url": "kmock-processor-0.1.1-add-sonarcloud-SNAPSHOT.jar",
+          "size": 346429,
+          "sha512": "85418008bb9ff2be7b8ff05c2b3711226d7da07311600bee8909ee5dec9d6e349747299babf2f379e335b1884e2db6e21f7333ce162e776eb0a7a7afc36b6c2c",
+          "sha256": "6b75f08fee959e752ce06a33203038ce63c59b0eca964160073c8d4fee51a45f",
+          "sha1": "27457926746b4eb3d62dc1d8049890e740235dfa",
+          "md5": "32fd27e1267234833e856217b1ffb937"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-ksp",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "tech.antibytes.kmock",
+          "module": "kmock",
+          "version": {
+            "requires": "0.1.1-add-sonarcloud-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.1.1-add-sonarcloud-SNAPSHOT.jar",
+          "url": "kmock-processor-0.1.1-add-sonarcloud-SNAPSHOT.jar",
+          "size": 346429,
+          "sha512": "85418008bb9ff2be7b8ff05c2b3711226d7da07311600bee8909ee5dec9d6e349747299babf2f379e335b1884e2db6e21f7333ce162e776eb0a7a7afc36b6c2c",
+          "sha256": "6b75f08fee959e752ce06a33203038ce63c59b0eca964160073c8d4fee51a45f",
+          "sha1": "27457926746b4eb3d62dc1d8049890e740235dfa",
+          "md5": "32fd27e1267234833e856217b1ffb937"
+        }
+      ]
+    }
+  ]
+}
