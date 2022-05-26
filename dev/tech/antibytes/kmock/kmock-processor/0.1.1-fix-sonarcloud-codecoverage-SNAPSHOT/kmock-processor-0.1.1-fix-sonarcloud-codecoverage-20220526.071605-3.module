@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-processor",
+    "version": "0.1.1-fix-sonarcloud-codecoverage-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.1.1-fix-sonarcloud-codecoverage-SNAPSHOT.jar",
+          "url": "kmock-processor-0.1.1-fix-sonarcloud-codecoverage-SNAPSHOT.jar",
+          "size": 346429,
+          "sha512": "883e040fa868cbbf8b12d10ee13cda6965649d2c9689516b8fed0fafd94450c4d67daa156166addc5d6012fe7d2e47fe79710ec5e3db2f1d56850afaaa146c27",
+          "sha256": "05e4d0bac7b1f673776c49346ffc3513f8c0e58110c7374c21a798e0bc1db2ca",
+          "sha1": "1083c84c961bf5b854a23236e81960341170d558",
+          "md5": "84a057d1149cf703c491957258040ed8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-ksp",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "tech.antibytes.kmock",
+          "module": "kmock",
+          "version": {
+            "requires": "0.1.1-fix-sonarcloud-codecoverage-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.1.1-fix-sonarcloud-codecoverage-SNAPSHOT.jar",
+          "url": "kmock-processor-0.1.1-fix-sonarcloud-codecoverage-SNAPSHOT.jar",
+          "size": 346429,
+          "sha512": "883e040fa868cbbf8b12d10ee13cda6965649d2c9689516b8fed0fafd94450c4d67daa156166addc5d6012fe7d2e47fe79710ec5e3db2f1d56850afaaa146c27",
+          "sha256": "05e4d0bac7b1f673776c49346ffc3513f8c0e58110c7374c21a798e0bc1db2ca",
+          "sha1": "1083c84c961bf5b854a23236e81960341170d558",
+          "md5": "84a057d1149cf703c491957258040ed8"
+        }
+      ]
+    }
+  ]
+}
