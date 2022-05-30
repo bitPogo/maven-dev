@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-grammar-tools",
+    "version": "1aafe78",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-grammar-tools-1aafe78.jar",
+          "url": "antibytes-grammar-tools-1aafe78.jar",
+          "size": 39410,
+          "sha512": "c51af51a7351ee75676164537a3cf759646b96d4df91b53397a94128c9f9c2194ec45e1f1f890ad5f60006c5c395b17ea68379404aaa0f3c4eea83fed2c79e17",
+          "sha256": "637cd190e8f5a85e12a46a4fbf117d9f4bce2cf4839cde48ddf1426bdb5ad463",
+          "sha1": "55409245bfefc5433c32436abff96e649f7ab0ae",
+          "md5": "184a3fadbc84076a08d1eeaa14ea1c42"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "de.jflex",
+          "module": "jflex",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "com.lordcodes.turtle",
+          "module": "turtle",
+          "version": {
+            "requires": "0.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-grammar-tools-1aafe78.jar",
+          "url": "antibytes-grammar-tools-1aafe78.jar",
+          "size": 39410,
+          "sha512": "c51af51a7351ee75676164537a3cf759646b96d4df91b53397a94128c9f9c2194ec45e1f1f890ad5f60006c5c395b17ea68379404aaa0f3c4eea83fed2c79e17",
+          "sha256": "637cd190e8f5a85e12a46a4fbf117d9f4bce2cf4839cde48ddf1426bdb5ad463",
+          "sha1": "55409245bfefc5433c32436abff96e649f7ab0ae",
+          "md5": "184a3fadbc84076a08d1eeaa14ea1c42"
+        }
+      ]
+    }
+  ]
+}
