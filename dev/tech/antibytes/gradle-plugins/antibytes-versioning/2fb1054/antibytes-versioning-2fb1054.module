@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-versioning",
+    "version": "2fb1054",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-2fb1054.jar",
+          "url": "antibytes-versioning-2fb1054.jar",
+          "size": 16027,
+          "sha512": "af10ac1da3fe9ef67949a5f361d59e859382fb7f6b5bea6514e52f3acc95ff4772c18f323c23f294c7a6ae2d685a7de4811ca60593f24bc8e6838e4984347654",
+          "sha256": "44379bea8c6c6b21e96f9096890c1dce8d6d102f928b5fb73ccc96c65a7ae963",
+          "sha1": "f68b618a76676b820611e9035ee84e10c895ba4d",
+          "md5": "851347f1c75f7c96d652f09e06e0bcb4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-2fb1054.jar",
+          "url": "antibytes-versioning-2fb1054.jar",
+          "size": 16027,
+          "sha512": "af10ac1da3fe9ef67949a5f361d59e859382fb7f6b5bea6514e52f3acc95ff4772c18f323c23f294c7a6ae2d685a7de4811ca60593f24bc8e6838e4984347654",
+          "sha256": "44379bea8c6c6b21e96f9096890c1dce8d6d102f928b5fb73ccc96c65a7ae963",
+          "sha1": "f68b618a76676b820611e9035ee84e10c895ba4d",
+          "md5": "851347f1c75f7c96d652f09e06e0bcb4"
+        }
+      ]
+    }
+  ]
+}
