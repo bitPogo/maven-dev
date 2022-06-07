@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "0.2.0-rc01-fix-multibound-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-0.2.0-rc01-fix-multibound-SNAPSHOT.jar",
+          "url": "kmock-gradle-0.2.0-rc01-fix-multibound-SNAPSHOT.jar",
+          "size": 56364,
+          "sha512": "59195e1e743162f18d922a9c5ce2a26b9d837df38a0dab3572a76da718844a5682b55d53dde71b52e96a174717f08e6bc1e3f45fb2ab42fbbcc40d31e93f6fd8",
+          "sha256": "63482ca0f11f69b9c17c5aa1386e4c444e8798433fd4f1da275d1ba65e463302",
+          "sha1": "a943cfc2f0ea0a5ecce8e8757cde0d6c2feb703d",
+          "md5": "36d62e61c07227a5baf697ce86c606cf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-0.2.0-rc01-fix-multibound-SNAPSHOT.jar",
+          "url": "kmock-gradle-0.2.0-rc01-fix-multibound-SNAPSHOT.jar",
+          "size": 56364,
+          "sha512": "59195e1e743162f18d922a9c5ce2a26b9d837df38a0dab3572a76da718844a5682b55d53dde71b52e96a174717f08e6bc1e3f45fb2ab42fbbcc40d31e93f6fd8",
+          "sha256": "63482ca0f11f69b9c17c5aa1386e4c444e8798433fd4f1da275d1ba65e463302",
+          "sha1": "a943cfc2f0ea0a5ecce8e8757cde0d6c2feb703d",
+          "md5": "36d62e61c07227a5baf697ce86c606cf"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-0.2.0-rc01-fix-multibound-SNAPSHOT-javadoc.jar",
+          "url": "kmock-gradle-0.2.0-rc01-fix-multibound-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "d5e49f5eb18404a7587f3bdd1524fb7f88aad178971e68047bac3a343651459c916b3d96c6c455f9bafcb08c806e145f6b15a7e14075f34c81ec966dcf3c4fd6",
+          "sha256": "77a9516e6803babe5bf90d5ac143acc710ec56cbe82e67ebfe58dbbe4c60f008",
+          "sha1": "2a45288a7a46dde90c9d38300888e3d9aad22fb7",
+          "md5": "78a603112ed0a98630bd648e3e3d186d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-0.2.0-rc01-fix-multibound-SNAPSHOT-sources.jar",
+          "url": "kmock-gradle-0.2.0-rc01-fix-multibound-SNAPSHOT-sources.jar",
+          "size": 11778,
+          "sha512": "b5c9b04fca5fd38b951917ae137b708aaec03d3a99ea40f0ba261c3edf5f47c8ffba705a4b352f913c3be7acd2b3e8b40009993bc80d3a9fd4822c8232044a99",
+          "sha256": "bc2d922b02b2e81e7d25015f7ae18a2eb732f2d3bcedc814ed7676f2faa73239",
+          "sha1": "8096a60b31d547e7e395d898d53f2d3565237e5c",
+          "md5": "ddfc6f20e5233e48418370776e29a81f"
+        }
+      ]
+    }
+  ]
+}

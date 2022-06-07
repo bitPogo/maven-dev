@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kmock/0.2.0-rc01-fix-multibound-SNAPSHOT/kmock-0.2.0-rc01-fix-multibound-SNAPSHOT.module",
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "0.2.0-rc01-fix-multibound-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-jvm-0.2.0-rc01-fix-multibound-SNAPSHOT.jar",
+          "url": "kmock-jvm-0.2.0-rc01-fix-multibound-SNAPSHOT.jar",
+          "size": 383636,
+          "sha512": "692c2a7ba4a376e8a446735e101a2a5f0dd497be5d41d8162152e4a8d30b5fee662df3b59317e49b9d02d8a05b21d1932a4e18372331f1215b6d5ebf720e0be1",
+          "sha256": "be59fa62a418a5c511ce1153adc0f7466a765d63d50f7928a6fb581b9d82b058",
+          "sha1": "24aef3b07596d6935c8a71282607ea81eb72eb03",
+          "md5": "21f66093c79c26162465c868ff2e6f09"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-jvm-0.2.0-rc01-fix-multibound-SNAPSHOT.jar",
+          "url": "kmock-jvm-0.2.0-rc01-fix-multibound-SNAPSHOT.jar",
+          "size": 383636,
+          "sha512": "692c2a7ba4a376e8a446735e101a2a5f0dd497be5d41d8162152e4a8d30b5fee662df3b59317e49b9d02d8a05b21d1932a4e18372331f1215b6d5ebf720e0be1",
+          "sha256": "be59fa62a418a5c511ce1153adc0f7466a765d63d50f7928a6fb581b9d82b058",
+          "sha1": "24aef3b07596d6935c8a71282607ea81eb72eb03",
+          "md5": "21f66093c79c26162465c868ff2e6f09"
+        }
+      ]
+    }
+  ]
+}
