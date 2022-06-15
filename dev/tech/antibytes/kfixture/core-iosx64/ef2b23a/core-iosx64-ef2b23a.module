@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/ef2b23a/core-ef2b23a.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "ef2b23a",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-iosx64-ef2b23a.klib",
+          "size": 50680,
+          "sha512": "ce38700f9023e322b3c2a996c4a74a5a27d0bce4350e44092801cb7f13271c4d51f3eb592caab1eaf015dbf2dd0ee27e4a28523bd11ffca5cb84f73f562ee2e2",
+          "sha256": "ac666f9b9dfa195418eb7dfc1bda0b169b7ed025b4fc42bcb66178966965c846",
+          "sha1": "8af6147147d9802735c044e6de247c848e4f07a3",
+          "md5": "2f8d7bb71e14f819a9f7b4c86499f296"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-iosx64-ef2b23a-metadata.jar",
+          "url": "core-iosx64-ef2b23a-metadata.jar",
+          "size": 261,
+          "sha512": "0557ceaca13e4ec420dced45d4114add18e5762047d1d28d0a14b5e9196f996249ec2d825e7660427e97ce677a920666fc25eb560f6efbe42dbe8c3827106e32",
+          "sha256": "7868a98a448f5e8f52b79f75cf73b7ad2d8ec0d0508beaccd68d6e44f343283d",
+          "sha1": "25df0756d946ebec67fdd003d476d4d4bcc8750b",
+          "md5": "02d946e9c96cff038c11d2e09a4a2d2f"
+        }
+      ]
+    }
+  ]
+}

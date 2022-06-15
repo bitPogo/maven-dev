@@ -1,0 +1,279 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "ef2b23a",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-metadata-ef2b23a-all.jar",
+          "url": "core-ef2b23a-all.jar",
+          "size": 14783,
+          "sha512": "7bf3425a3bb609af8847e9e06153df0b95f74a5bb5964019efe458620b4fef5d20b4c417f09068425020db55224a53bc1ee354256ac6daf5a923d7aa2d2146c9",
+          "sha256": "a48506cd626dde27e1ced63f7496370078eecd2bd2cc432f239d9f2aac8c2f21",
+          "sha1": "48e20d137c638c60e85c00e8aa0f16ae0cd5c3e3",
+          "md5": "72791b680ed6c907cdf110b15096517e"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "core-ef2b23a.jar",
+          "url": "core-ef2b23a.jar",
+          "size": 20255,
+          "sha512": "2218ab4d5cec7d8bd8df29e52ba24e98ec3eae97c4121b7c1ad07e6fa8a16320a641c483aab43b218f5ab2209dfc730f099917a44d9ea0311f52ad4935b0ae4a",
+          "sha256": "6ffa210b1394d78e54d3ef07c28f837f2a5e43dcce929184a1a1f5dd55248517",
+          "sha1": "b8fcee4686a97279f2c94480c566ffbae3affc47",
+          "md5": "7998756974e7c4e7a5f48c26d806fca5"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-android/ef2b23a/core-android-ef2b23a.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-android",
+        "version": "ef2b23a"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-android/ef2b23a/core-android-ef2b23a.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-android",
+        "version": "ef2b23a"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iosarm64/ef2b23a/core-iosarm64-ef2b23a.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-iosarm64",
+        "version": "ef2b23a"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iosarm64/ef2b23a/core-iosarm64-ef2b23a.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-iosarm64",
+        "version": "ef2b23a"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iossimulatorarm64/ef2b23a/core-iossimulatorarm64-ef2b23a.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-iossimulatorarm64",
+        "version": "ef2b23a"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iossimulatorarm64/ef2b23a/core-iossimulatorarm64-ef2b23a.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-iossimulatorarm64",
+        "version": "ef2b23a"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iosx64/ef2b23a/core-iosx64-ef2b23a.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-iosx64",
+        "version": "ef2b23a"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iosx64/ef2b23a/core-iosx64-ef2b23a.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-iosx64",
+        "version": "ef2b23a"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../core-js/ef2b23a/core-js-ef2b23a.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-js",
+        "version": "ef2b23a"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../core-js/ef2b23a/core-js-ef2b23a.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-js",
+        "version": "ef2b23a"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../core-jvm/ef2b23a/core-jvm-ef2b23a.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-jvm",
+        "version": "ef2b23a"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../core-jvm/ef2b23a/core-jvm-ef2b23a.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-jvm",
+        "version": "ef2b23a"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-linuxx64/ef2b23a/core-linuxx64-ef2b23a.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-linuxx64",
+        "version": "ef2b23a"
+      }
+    }
+  ]
+}
