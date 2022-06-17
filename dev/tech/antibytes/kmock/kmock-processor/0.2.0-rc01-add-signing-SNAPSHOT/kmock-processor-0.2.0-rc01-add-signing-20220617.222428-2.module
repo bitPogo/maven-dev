@@ -1,0 +1,162 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-processor",
+    "version": "0.2.0-rc01-add-signing-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.2.0-rc01-add-signing-SNAPSHOT.jar",
+          "url": "kmock-processor-0.2.0-rc01-add-signing-SNAPSHOT.jar",
+          "size": 383668,
+          "sha512": "e5a6c0a3ac533c2bdce97741c4ff7056333e5594bd0b2ede39f5eb11f6a25be92ad08cce6dd95704dc091f3408ef564aa20fa5a1a0277eee65444e2267217900",
+          "sha256": "5aaf952da6ebb2f3df86a7ba67e7d4387a1401e3e76f0e4cd5b30d7e66a6d27f",
+          "sha1": "528a89180dcfe1b2d27fc3c9e713b09cb1637b09",
+          "md5": "f75206bc1fc9c5b8a2d1a83ef2eb6670"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-ksp",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "tech.antibytes.kmock",
+          "module": "kmock",
+          "version": {
+            "requires": "0.2.0-rc01-add-signing-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.2.0-rc01-add-signing-SNAPSHOT.jar",
+          "url": "kmock-processor-0.2.0-rc01-add-signing-SNAPSHOT.jar",
+          "size": 383668,
+          "sha512": "e5a6c0a3ac533c2bdce97741c4ff7056333e5594bd0b2ede39f5eb11f6a25be92ad08cce6dd95704dc091f3408ef564aa20fa5a1a0277eee65444e2267217900",
+          "sha256": "5aaf952da6ebb2f3df86a7ba67e7d4387a1401e3e76f0e4cd5b30d7e66a6d27f",
+          "sha1": "528a89180dcfe1b2d27fc3c9e713b09cb1637b09",
+          "md5": "f75206bc1fc9c5b8a2d1a83ef2eb6670"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmock-processor-0.2.0-rc01-add-signing-SNAPSHOT-javadoc.jar",
+          "url": "kmock-processor-0.2.0-rc01-add-signing-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "a0c6efda9f2a80f96a357622ed64dd60418f9823196c74ce184484db29b9c923736be76f5afd066b21a69b27621ce323c4f0143cb355009e833aaa6b6ae73981",
+          "sha256": "04b4e75b2649e95305fabb439b558ee37f819b8ea4bec477d8b8df2b6144db01",
+          "sha1": "c7e1c2068f14ec69adaeb32e2a098a350b31471f",
+          "md5": "0c71c269a075c26d003cf6b4648f48e1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmock-processor-0.2.0-rc01-add-signing-SNAPSHOT-sources.jar",
+          "url": "kmock-processor-0.2.0-rc01-add-signing-SNAPSHOT-sources.jar",
+          "size": 80113,
+          "sha512": "18044079337ec99a89573c8042265e8ccf736d85b99f1e6117b92eb3840b51f57b6b6a794207911a56b56f5b781fdcbce1a3b58cac0e61d6e82710eef76a4f65",
+          "sha256": "70ede5d41f72553018d475e24f11bf3bd4c233dac189310d366581f4d2a1eddf",
+          "sha1": "9e9eb2ca3fc47b9e7b72384250cc0322badecdf2",
+          "md5": "bba547f0671ce8327460f0a213fff519"
+        }
+      ]
+    }
+  ]
+}
