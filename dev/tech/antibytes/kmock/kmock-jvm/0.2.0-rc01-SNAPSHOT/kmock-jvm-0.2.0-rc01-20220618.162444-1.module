@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kmock/0.2.0-rc01-SNAPSHOT/kmock-0.2.0-rc01-SNAPSHOT.module",
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "0.2.0-rc01-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-jvm-0.2.0-rc01-SNAPSHOT.jar",
+          "url": "kmock-jvm-0.2.0-rc01-SNAPSHOT.jar",
+          "size": 395076,
+          "sha512": "097ae96bed6027d6e9a5ed2c6b95a17bb0824f46aedede960833b8047bba622b919132bc4f5667e5f191156bf240ed35fffbda1c9d85e3ecc56034f67d50ff11",
+          "sha256": "99de5b3ae414e9265076fe9733df5d1bd882f0f0ecaed555a2af8dbec7d37e5b",
+          "sha1": "f18b49a02cf61a1a9dc4779d330cbf971c0b0c0b",
+          "md5": "184d7c8789863b6a4589aac8046cdf44"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-jvm-0.2.0-rc01-SNAPSHOT.jar",
+          "url": "kmock-jvm-0.2.0-rc01-SNAPSHOT.jar",
+          "size": 395076,
+          "sha512": "097ae96bed6027d6e9a5ed2c6b95a17bb0824f46aedede960833b8047bba622b919132bc4f5667e5f191156bf240ed35fffbda1c9d85e3ecc56034f67d50ff11",
+          "sha256": "99de5b3ae414e9265076fe9733df5d1bd882f0f0ecaed555a2af8dbec7d37e5b",
+          "sha1": "f18b49a02cf61a1a9dc4779d330cbf971c0b0c0b",
+          "md5": "184d7c8789863b6a4589aac8046cdf44"
+        }
+      ]
+    }
+  ]
+}
