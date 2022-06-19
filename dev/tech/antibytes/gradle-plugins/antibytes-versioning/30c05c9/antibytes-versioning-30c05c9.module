@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-versioning",
+    "version": "30c05c9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-30c05c9.jar",
+          "url": "antibytes-versioning-30c05c9.jar",
+          "size": 16027,
+          "sha512": "5f2ef0aec7b665d1bc07315581cc7032585a8996bedfb3f5bd77d880a11ddd0bc57dc7efa71141c99a4135fda8697ea74d432d124cd7cf899fc50402244891a8",
+          "sha256": "b6632bc633fa5c8717f5510b6dc6eb6d43fd0f912d2299fb102eff6ec17e9682",
+          "sha1": "2662dd675ba99e5b56a1e98867470bbd9701f646",
+          "md5": "353e61a76f531c9221530dbad6babc54"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-30c05c9.jar",
+          "url": "antibytes-versioning-30c05c9.jar",
+          "size": 16027,
+          "sha512": "5f2ef0aec7b665d1bc07315581cc7032585a8996bedfb3f5bd77d880a11ddd0bc57dc7efa71141c99a4135fda8697ea74d432d124cd7cf899fc50402244891a8",
+          "sha256": "b6632bc633fa5c8717f5510b6dc6eb6d43fd0f912d2299fb102eff6ec17e9682",
+          "sha1": "2662dd675ba99e5b56a1e98867470bbd9701f646",
+          "md5": "353e61a76f531c9221530dbad6babc54"
+        }
+      ]
+    }
+  ]
+}
