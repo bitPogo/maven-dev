@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-ktor/3f8f5c0-bump-updates-SNAPSHOT/test-utils-ktor-3f8f5c0-bump-updates-SNAPSHOT.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-ktor",
+    "version": "3f8f5c0-bump-updates-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.6.8"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "1.6.8"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor.klib",
+          "url": "test-utils-ktor-iossimulatorarm64-3f8f5c0-bump-updates-SNAPSHOT.klib",
+          "size": 14939,
+          "sha512": "e071df603cf87cbee2954bd31d00c97a3dce9fcabca4a894342af60f35f8d512774fee19fb83b6206256918e51fbc52461968c02789601ab9b5195b86ab9159a",
+          "sha256": "25ce97158f05a5506f2d1695fe4597718f634f156b8433c63b968fa160b95426",
+          "sha1": "ade7a3d7d63fd651fa72a54c791d271ded601f0b",
+          "md5": "210abe10d24509d21f6f5f6682d8b0c7"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.6.8"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "1.6.8"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor-iossimulatorarm64-3f8f5c0-bump-updates-SNAPSHOT-metadata.jar",
+          "url": "test-utils-ktor-iossimulatorarm64-3f8f5c0-bump-updates-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "791c15ecd199708de852c6263b69c16d2b18fccb32e7fa5d80d917dd52f593e3a042c788b906b08e74ec78f8556655463d09e24c2b5f5949de4247767290293a",
+          "sha256": "473fd7c9e3fd217ff3ac4746b176a12344141be4dd352adeadc3ae2ac80ac668",
+          "sha1": "b2bf676eb1bbb5dc336d2fb810800154b029fb7e",
+          "md5": "efc453aab5e8844fd0a9f970efb7d169"
+        }
+      ]
+    }
+  ]
+}
