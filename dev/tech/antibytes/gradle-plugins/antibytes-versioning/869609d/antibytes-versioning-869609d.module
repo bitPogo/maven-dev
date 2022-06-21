@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-versioning",
+    "version": "869609d",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-869609d.jar",
+          "url": "antibytes-versioning-869609d.jar",
+          "size": 16027,
+          "sha512": "ff3fcd56a8777cd3827a22668b1695e69c48ed3c1e2791336eb871bc502cf273f7f00fb83b2e590dd0b065766071d53345490269069c3e65d9c168c919d6612c",
+          "sha256": "17d504983b34a7d439460d0e5043c37eab50311d96d8991ae3802d18bc0f4b5e",
+          "sha1": "4206a0a8e1589f5266d51d00ee2ab6729823936c",
+          "md5": "be936cd13a1aef1d3fcb522c926aa0e6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-869609d.jar",
+          "url": "antibytes-versioning-869609d.jar",
+          "size": 16027,
+          "sha512": "ff3fcd56a8777cd3827a22668b1695e69c48ed3c1e2791336eb871bc502cf273f7f00fb83b2e590dd0b065766071d53345490269069c3e65d9c168c919d6612c",
+          "sha256": "17d504983b34a7d439460d0e5043c37eab50311d96d8991ae3802d18bc0f4b5e",
+          "sha1": "4206a0a8e1589f5266d51d00ee2ab6729823936c",
+          "md5": "be936cd13a1aef1d3fcb522c926aa0e6"
+        }
+      ]
+    }
+  ]
+}
