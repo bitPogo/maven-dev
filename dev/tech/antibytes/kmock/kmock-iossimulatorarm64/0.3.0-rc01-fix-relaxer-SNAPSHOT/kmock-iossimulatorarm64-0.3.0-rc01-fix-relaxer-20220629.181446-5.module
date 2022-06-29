@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kmock/0.3.0-rc01-fix-relaxer-SNAPSHOT/kmock-0.3.0-rc01-fix-relaxer-SNAPSHOT.module",
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "0.3.0-rc01-fix-relaxer-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.3"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock.klib",
+          "url": "kmock-iossimulatorarm64-0.3.0-rc01-fix-relaxer-SNAPSHOT.klib",
+          "size": 202924,
+          "sha512": "a3c7fb41fd5a044e3b65a768aa226a2359e2a1e830fdc07f001e399cd8685fc9efecfa9fc01098d938c861cfd95bd8e69ca1d131b42842e1ae3f7e58b6e42778",
+          "sha256": "a9914f7acdcd8ce3c68e1fba0a901e73a8f2b9dd1488c0b9901386de489bc94b",
+          "sha1": "70bd7022cd54cbe1d0ac3ecc06797be299bb6652",
+          "md5": "6727871b0342fcc2ca3285f59a46cd6e"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.3"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-iossimulatorarm64-0.3.0-rc01-fix-relaxer-SNAPSHOT-metadata.jar",
+          "url": "kmock-iossimulatorarm64-0.3.0-rc01-fix-relaxer-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "1081b905d5c3774cd625ad4db410d4bb43693ff83a20eae372288af547bcc5ceb7a7dc1755fd9b0b1a683b8c7a7c17ad3005609ec47fee57acc39099ef2a976d",
+          "sha256": "c4f194a6bb2e8a5c8c8583ad752d839f85ed82dfd45447a35f9334544b08e21c",
+          "sha1": "7a11f3d89d81d520a5f533a1136bc4acbbac4d99",
+          "md5": "5fe81b749d97e5b1aba2ab6ff279da93"
+        }
+      ]
+    }
+  ]
+}

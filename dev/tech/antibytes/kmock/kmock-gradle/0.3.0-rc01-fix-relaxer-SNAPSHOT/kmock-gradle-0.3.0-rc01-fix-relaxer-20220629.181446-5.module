@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "0.3.0-rc01-fix-relaxer-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-0.3.0-rc01-fix-relaxer-SNAPSHOT.jar",
+          "url": "kmock-gradle-0.3.0-rc01-fix-relaxer-SNAPSHOT.jar",
+          "size": 63835,
+          "sha512": "dd3c3536e63d9c1badd30dc3a15ecc87164b0b28d86f3c50de4a3d2ee6800d9bfb35e5440553973d47378a6b6dd2df4d7ab22bad602dabd14a525386d79d768b",
+          "sha256": "3365a2523aa6ee9e8a3dc7d4cd9cb5c08b7505aaf92d94a45c3540103325f4ef",
+          "sha1": "42248824af6911e0639fb4db258799db3aa47e44",
+          "md5": "5e2b447b68f403baf0c2bc512ae40cc0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.21-1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-0.3.0-rc01-fix-relaxer-SNAPSHOT.jar",
+          "url": "kmock-gradle-0.3.0-rc01-fix-relaxer-SNAPSHOT.jar",
+          "size": 63835,
+          "sha512": "dd3c3536e63d9c1badd30dc3a15ecc87164b0b28d86f3c50de4a3d2ee6800d9bfb35e5440553973d47378a6b6dd2df4d7ab22bad602dabd14a525386d79d768b",
+          "sha256": "3365a2523aa6ee9e8a3dc7d4cd9cb5c08b7505aaf92d94a45c3540103325f4ef",
+          "sha1": "42248824af6911e0639fb4db258799db3aa47e44",
+          "md5": "5e2b447b68f403baf0c2bc512ae40cc0"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-0.3.0-rc01-fix-relaxer-SNAPSHOT-javadoc.jar",
+          "url": "kmock-gradle-0.3.0-rc01-fix-relaxer-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "5c96e5430f8ccdfb11431f5beac5933f881dd23ac2c6eebeafbc610e6b840ce9a2fefa9365b8286936c5d79fe27ebaf316644d1d15b1315e78ab3f1c23050162",
+          "sha256": "dd93904baa2fae3598dc53641bda5212abc42acf4d2b186e2a8e9bf1c57ff8af",
+          "sha1": "3cee6576bb00c0181671195d56015a6abce6e737",
+          "md5": "97ceff36add4662089e2fe337a621792"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-0.3.0-rc01-fix-relaxer-SNAPSHOT-sources.jar",
+          "url": "kmock-gradle-0.3.0-rc01-fix-relaxer-SNAPSHOT-sources.jar",
+          "size": 12687,
+          "sha512": "a49b41935b711de38304c089c2bd2441f04b8ff5fb90063a0d2b26c0151883611ce30a603926ec8eb33f625ae5db7f196bd24c412d5b94121a1483357aadd97f",
+          "sha256": "38a45c13c9ce22fadc8c5dff1ce7791a55b65fc4a18e5887fa2e7a0c90e1ff9f",
+          "sha1": "f3eec95466fdeb14a27b8d4bea2e8c149b4f63af",
+          "md5": "85ba51189a84f1514d7c6b276da707e7"
+        }
+      ]
+    }
+  ]
+}
