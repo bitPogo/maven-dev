@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-versioning",
+    "version": "120720e",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-120720e.jar",
+          "url": "antibytes-versioning-120720e.jar",
+          "size": 16027,
+          "sha512": "97bdefe0d12e3ccd1b857b5cf815f821825ddaab297d0f135ac0e086807bcfd4b8616b5abd31d9e66c02d70a4d2b26905cbdeb2ecf2d3c48e160059e70672003",
+          "sha256": "ba205b3bfda69ccc43dd3176ac5446ec8f6069bc9d7ea959e553c3a69750a4fe",
+          "sha1": "aeccd13ec241599b5c1a3461aabefda25cb9071a",
+          "md5": "f05edf7a99047965866eeefbcf5127a9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-120720e.jar",
+          "url": "antibytes-versioning-120720e.jar",
+          "size": 16027,
+          "sha512": "97bdefe0d12e3ccd1b857b5cf815f821825ddaab297d0f135ac0e086807bcfd4b8616b5abd31d9e66c02d70a4d2b26905cbdeb2ecf2d3c48e160059e70672003",
+          "sha256": "ba205b3bfda69ccc43dd3176ac5446ec8f6069bc9d7ea959e553c3a69750a4fe",
+          "sha1": "aeccd13ec241599b5c1a3461aabefda25cb9071a",
+          "md5": "f05edf7a99047965866eeefbcf5127a9"
+        }
+      ]
+    }
+  ]
+}
