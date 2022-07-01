@@ -1,0 +1,162 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-processor",
+    "version": "0.3.0-rc01-fix-artifact-cleanup-f3c1acfe2e-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.3.0-rc01-fix-artifact-cleanup-f3c1acfe2e-SNAPSHOT.jar",
+          "url": "kmock-processor-0.3.0-rc01-fix-artifact-cleanup-f3c1acfe2e-SNAPSHOT.jar",
+          "size": 384124,
+          "sha512": "7f2c953b824e4999826eed2cd2ee8a37e75e2e7ab9e3697b17c79cf4608f7eaf0ce565a0b2812ff3ad036d955bfc5eba44f1cfa85763079859769c458cef7cff",
+          "sha256": "84267f7de1e9526cf7946677cbf8336daab389d29adfcc0ad1cc69b5b6846298",
+          "sha1": "a961efeab2f00807362f2bcc14dfff5099a9e8ad",
+          "md5": "b151d8bbff599113933cb4a8b795f300"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.6.21-1.0.6"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-ksp",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "tech.antibytes.kmock",
+          "module": "kmock",
+          "version": {
+            "requires": "0.3.0-rc01-fix-artifact-cleanup-f3c1acfe2e-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.3.0-rc01-fix-artifact-cleanup-f3c1acfe2e-SNAPSHOT.jar",
+          "url": "kmock-processor-0.3.0-rc01-fix-artifact-cleanup-f3c1acfe2e-SNAPSHOT.jar",
+          "size": 384124,
+          "sha512": "7f2c953b824e4999826eed2cd2ee8a37e75e2e7ab9e3697b17c79cf4608f7eaf0ce565a0b2812ff3ad036d955bfc5eba44f1cfa85763079859769c458cef7cff",
+          "sha256": "84267f7de1e9526cf7946677cbf8336daab389d29adfcc0ad1cc69b5b6846298",
+          "sha1": "a961efeab2f00807362f2bcc14dfff5099a9e8ad",
+          "md5": "b151d8bbff599113933cb4a8b795f300"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmock-processor-0.3.0-rc01-fix-artifact-cleanup-f3c1acfe2e-SNAPSHOT-javadoc.jar",
+          "url": "kmock-processor-0.3.0-rc01-fix-artifact-cleanup-f3c1acfe2e-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "969c477a7eb63755e0679fe71a816edf43f6fe78a54c9c85551ef89cb0bd3412f108d10d9a8ee3a62bdd802d23be9a6434478ff0c7c865e8e3bb0a7062604897",
+          "sha256": "13332fab939f6688824e685b01c02d43155ec2abf9aef32f4dd5bf0836b89cd4",
+          "sha1": "d6989c8623f0b4efafa2311537f00dacaff3e4ed",
+          "md5": "c35541c45e44f35b984b4a5484ffa409"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmock-processor-0.3.0-rc01-fix-artifact-cleanup-f3c1acfe2e-SNAPSHOT-sources.jar",
+          "url": "kmock-processor-0.3.0-rc01-fix-artifact-cleanup-f3c1acfe2e-SNAPSHOT-sources.jar",
+          "size": 80445,
+          "sha512": "afdb257db38e7e712040dd5a4f6514a2668504030bc9f415e76a0f5c9f6488b19d39029868ad6e01c45ec0c553ee4bf2d6541cb61d01b8c893046d624958663c",
+          "sha256": "c550f0402d02aa3b565ea9008f28bf931494ca809ca041b939eb8c8df4b13b65",
+          "sha1": "2a60800d2d36093340f30e98f642e05473aa3d22",
+          "md5": "e52ba76a4cd374ccce596ab90ef059b4"
+        }
+      ]
+    }
+  ]
+}
