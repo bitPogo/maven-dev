@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kmock/0.3.0-rc01-fix-android-flakyness-SNAPSHOT/kmock-0.3.0-rc01-fix-android-flakyness-SNAPSHOT.module",
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "0.3.0-rc01-fix-android-flakyness-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.3"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock.klib",
+          "url": "kmock-iossimulatorarm64-0.3.0-rc01-fix-android-flakyness-SNAPSHOT.klib",
+          "size": 202924,
+          "sha512": "a3c7fb41fd5a044e3b65a768aa226a2359e2a1e830fdc07f001e399cd8685fc9efecfa9fc01098d938c861cfd95bd8e69ca1d131b42842e1ae3f7e58b6e42778",
+          "sha256": "a9914f7acdcd8ce3c68e1fba0a901e73a8f2b9dd1488c0b9901386de489bc94b",
+          "sha1": "70bd7022cd54cbe1d0ac3ecc06797be299bb6652",
+          "md5": "6727871b0342fcc2ca3285f59a46cd6e"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.3"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-iossimulatorarm64-0.3.0-rc01-fix-android-flakyness-SNAPSHOT-metadata.jar",
+          "url": "kmock-iossimulatorarm64-0.3.0-rc01-fix-android-flakyness-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "3ffe36de001f0610d35272082b19eba4b3cb21919d7ec40904cd6300b5353197aa12c08e6e0062747ee9f87058a2e8ba836609d64478eea32bdd19d77e4553a7",
+          "sha256": "ed46beab6ece060463f02ebe6a34286553618e15e2811bc1f7ca4c369ac8ac62",
+          "sha1": "7611bd65224a945f66f42a59bc1d5b884f411288",
+          "md5": "cdaefe9992766f3e6541e935b66ba25f"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-processor",
+    "version": "0.3.0-rc01-fix-android-flakyness-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.3.0-rc01-fix-android-flakyness-SNAPSHOT.jar",
+          "url": "kmock-processor-0.3.0-rc01-fix-android-flakyness-SNAPSHOT.jar",
+          "size": 384124,
+          "sha512": "c005b6e43043efe7ced1f50db85aa2977ef5f0f8b7da7bd81708986d5b8df8973f9d362bdc488a92ebf3bdc34aac48bb8beb93c47c1fe90d4e5989096bc92a0c",
+          "sha256": "4d91ed9cdbd65369cb68150a87591a46f348747c0a26512ebb740d0c402dddd8",
+          "sha1": "9e907baf90c4bfe4d98bb17bae594dfdca8bfc38",
+          "md5": "f61e8e2ae91c54e7a858b461adc44aa1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.6.21-1.0.6"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-ksp",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "tech.antibytes.kmock",
+          "module": "kmock",
+          "version": {
+            "requires": "0.3.0-rc01-fix-android-flakyness-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.3.0-rc01-fix-android-flakyness-SNAPSHOT.jar",
+          "url": "kmock-processor-0.3.0-rc01-fix-android-flakyness-SNAPSHOT.jar",
+          "size": 384124,
+          "sha512": "c005b6e43043efe7ced1f50db85aa2977ef5f0f8b7da7bd81708986d5b8df8973f9d362bdc488a92ebf3bdc34aac48bb8beb93c47c1fe90d4e5989096bc92a0c",
+          "sha256": "4d91ed9cdbd65369cb68150a87591a46f348747c0a26512ebb740d0c402dddd8",
+          "sha1": "9e907baf90c4bfe4d98bb17bae594dfdca8bfc38",
+          "md5": "f61e8e2ae91c54e7a858b461adc44aa1"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmock-processor-0.3.0-rc01-fix-android-flakyness-SNAPSHOT-javadoc.jar",
+          "url": "kmock-processor-0.3.0-rc01-fix-android-flakyness-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "3f19080b1aba4d6f7e6aa530b7431421c5a2bfe9b5eed2fff798347c1a0f8e9edb09e97eae12fba518fce79081e9ebbd44cbca26334b3e2eb5231e2f459d8ee0",
+          "sha256": "f9c479b9eea109edefb6d5c1872a22c73e0c0cc23aefdf0ac41fc78462edd8d6",
+          "sha1": "a192d96b0a3f055acfa7467164083f2a6b1fd2d1",
+          "md5": "eb519175e1e5fed6982e4227e1a3fc11"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmock-processor-0.3.0-rc01-fix-android-flakyness-SNAPSHOT-sources.jar",
+          "url": "kmock-processor-0.3.0-rc01-fix-android-flakyness-SNAPSHOT-sources.jar",
+          "size": 80445,
+          "sha512": "7e755567108199d23dfb8a281c555817b663f44dd6fde4650d26f2b4df0493148a993c8bea3b4d047671d0ef21f27c23e9efb222248ca3be728dac373f311c4c",
+          "sha256": "9732b916702db036d70b927952fc416f770e95786bc00071d78a0a12f8f34bca",
+          "sha1": "ada6e50cff565ed6bb20ec9958806061cb0644c4",
+          "md5": "541880317cdf4c41e2fc763114a3ffa4"
+        }
+      ]
+    }
+  ]
+}
