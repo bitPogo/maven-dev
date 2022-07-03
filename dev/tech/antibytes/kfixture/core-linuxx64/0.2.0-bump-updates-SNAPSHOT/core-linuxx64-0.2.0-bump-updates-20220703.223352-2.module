@@ -1,0 +1,63 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.2.0-bump-updates-SNAPSHOT/core-0.2.0-bump-updates-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.2.0-bump-updates-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5-rc-3"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-linuxx64-0.2.0-bump-updates-SNAPSHOT.klib",
+          "size": 50631,
+          "sha512": "6fcc98e0f7d775acbdfb8e26106f0486eb526e7750e375d5338cab2a616daab4f1a1ddf937250abdc4641a14e879b1ca639ce2a74ebaeb1bc769f461adad0bf9",
+          "sha256": "f9364a3afb31c25940ae984eae96b3ce3daf921532c6c997dc94cb0f70e7a8ff",
+          "sha1": "e9f4a308ee5f219123334e12be069979542d5888",
+          "md5": "1d04a3f5fcc194f16dabca3877f57e1c"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.2.0-bump-updates-SNAPSHOT/core-0.2.0-bump-updates-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.2.0-bump-updates-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5-rc-3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "core-jvm-0.2.0-bump-updates-SNAPSHOT.jar",
+          "url": "core-jvm-0.2.0-bump-updates-SNAPSHOT.jar",
+          "size": 100285,
+          "sha512": "ebbf0fe6338355d9b91cf4a7987683ec1bd8d4f65c563302f305368f3b1264f631931785cab6ff3ca9221cbec0d1f4b1505192bd0b3a1fe98678dc2caddc7ba5",
+          "sha256": "3313299b4e8c7b30c62a7207d79b43e043629ee1684f1ba5f4ac09cc4c69f7ca",
+          "sha1": "b6623d8b90d3b8bf3088500bcb5c34f9d1efd8ee",
+          "md5": "f1dd4f50379f59219a0b8d7e3761dcab"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-jvm-0.2.0-bump-updates-SNAPSHOT.jar",
+          "url": "core-jvm-0.2.0-bump-updates-SNAPSHOT.jar",
+          "size": 100285,
+          "sha512": "ebbf0fe6338355d9b91cf4a7987683ec1bd8d4f65c563302f305368f3b1264f631931785cab6ff3ca9221cbec0d1f4b1505192bd0b3a1fe98678dc2caddc7ba5",
+          "sha256": "3313299b4e8c7b30c62a7207d79b43e043629ee1684f1ba5f4ac09cc4c69f7ca",
+          "sha1": "b6623d8b90d3b8bf3088500bcb5c34f9d1efd8ee",
+          "md5": "f1dd4f50379f59219a0b8d7e3761dcab"
+        }
+      ]
+    }
+  ]
+}
