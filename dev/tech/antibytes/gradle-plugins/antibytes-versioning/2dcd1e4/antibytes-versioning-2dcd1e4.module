@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-versioning",
+    "version": "2dcd1e4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5-rc-3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-2dcd1e4.jar",
+          "url": "antibytes-versioning-2dcd1e4.jar",
+          "size": 16029,
+          "sha512": "4a1cbe25428dea872ef25a64994d248c807cb09fec1cb9f1f6237da6ff4a4c713f2ffebed25c3b5995af6555b1e4f3c4e50553aeba7218858a40bc14e4ea4dce",
+          "sha256": "3111cdb7c42f03fc9bab90e8dbf7c897c78fb16473872888dfec1115a95d121f",
+          "sha1": "d266bad4804b0a1743b82ef226bcf11d4fb6fbbd",
+          "md5": "af170b66e0d49aeaf2a16dfe5b185f44"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-2dcd1e4.jar",
+          "url": "antibytes-versioning-2dcd1e4.jar",
+          "size": 16029,
+          "sha512": "4a1cbe25428dea872ef25a64994d248c807cb09fec1cb9f1f6237da6ff4a4c713f2ffebed25c3b5995af6555b1e4f3c4e50553aeba7218858a40bc14e4ea4dce",
+          "sha256": "3111cdb7c42f03fc9bab90e8dbf7c897c78fb16473872888dfec1115a95d121f",
+          "sha1": "d266bad4804b0a1743b82ef226bcf11d4fb6fbbd",
+          "md5": "af170b66e0d49aeaf2a16dfe5b185f44"
+        }
+      ]
+    }
+  ]
+}
