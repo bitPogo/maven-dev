@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-versioning",
+    "version": "50524e8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5-rc-3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-50524e8.jar",
+          "url": "antibytes-versioning-50524e8.jar",
+          "size": 16029,
+          "sha512": "78298617345512a90f1b72caff729e5da19117c7e6766e5edb6ae61aba13ccad99295ac41e17465b2bc09cf9d0c808056465638ce1682db7b239074c12b232d6",
+          "sha256": "a46e4b3664d496055cbd880471e080f2981b129af1d1c423ae2f57d938483d5d",
+          "sha1": "39c673113fa297e6fd2a516f6dd2306be0e06039",
+          "md5": "153e46c80fd1bb40ebafa7413423cba1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-50524e8.jar",
+          "url": "antibytes-versioning-50524e8.jar",
+          "size": 16029,
+          "sha512": "78298617345512a90f1b72caff729e5da19117c7e6766e5edb6ae61aba13ccad99295ac41e17465b2bc09cf9d0c808056465638ce1682db7b239074c12b232d6",
+          "sha256": "a46e4b3664d496055cbd880471e080f2981b129af1d1c423ae2f57d938483d5d",
+          "sha1": "39c673113fa297e6fd2a516f6dd2306be0e06039",
+          "md5": "153e46c80fd1bb40ebafa7413423cba1"
+        }
+      ]
+    }
+  ]
+}
