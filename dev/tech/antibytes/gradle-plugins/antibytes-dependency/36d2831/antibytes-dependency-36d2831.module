@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-dependency",
+    "version": "36d2831",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5-rc-3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-36d2831.jar",
+          "url": "antibytes-dependency-36d2831.jar",
+          "size": 72401,
+          "sha512": "052fa8252aa3c681099d70d686bf54ef53ecac1947156011e1d10001fdcbca9ec785b43dac3924f830e18d90e8a72596d4ce8d01712bac871c1c9f2ca3f23d0e",
+          "sha256": "f2e9d5fc0d5d518cba8fb276bdd867592ff173a3ab21b20657ad8f22df8b14b7",
+          "sha1": "3adb4cee61be458d3ab16aaccf947327ae84103b",
+          "md5": "65c3046d0deb966f7329444872ff1eaa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu-gradle-plugin",
+          "version": {
+            "requires": "0.18.2"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.2.1"
+          }
+        },
+        {
+          "group": "com.github.ben-manes",
+          "module": "gradle-versions-plugin",
+          "version": {
+            "requires": "0.42.0"
+          }
+        },
+        {
+          "group": "org.owasp",
+          "module": "dependency-check-gradle",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "com.pinterest",
+          "module": "ktlint",
+          "version": {
+            "requires": "0.46.1"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "logback-classic"
+            },
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "com.diffplug.spotless",
+          "module": "spotless-plugin-gradle",
+          "version": {
+            "requires": "6.8.0"
+          },
+          "excludes": [
+            {
+              "group": "org.codehaus.groovy",
+              "module": "groovy-xml"
+            }
+          ]
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "36d2831"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-36d2831.jar",
+          "url": "antibytes-dependency-36d2831.jar",
+          "size": 72401,
+          "sha512": "052fa8252aa3c681099d70d686bf54ef53ecac1947156011e1d10001fdcbca9ec785b43dac3924f830e18d90e8a72596d4ce8d01712bac871c1c9f2ca3f23d0e",
+          "sha256": "f2e9d5fc0d5d518cba8fb276bdd867592ff173a3ab21b20657ad8f22df8b14b7",
+          "sha1": "3adb4cee61be458d3ab16aaccf947327ae84103b",
+          "md5": "65c3046d0deb966f7329444872ff1eaa"
+        }
+      ]
+    }
+  ]
+}
