@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.2.0-bump-antibytes-SNAPSHOT/core-0.2.0-bump-antibytes-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.2.0-bump-antibytes-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "core-jvm-0.2.0-bump-antibytes-SNAPSHOT.jar",
+          "url": "core-jvm-0.2.0-bump-antibytes-SNAPSHOT.jar",
+          "size": 100286,
+          "sha512": "895669416ed2279749385d0752e86d5a51ebc19bdb7d445df14d04c1f0c243ebcb2a52da58299b15c97d2fcb9c24a505b9de6bbe4c4e04797bed91f892c47e48",
+          "sha256": "818bf28a15dc266fab9338ba84f8c3786825830bbbe6be911917030ee71e3bc8",
+          "sha1": "88c5413d61bef26f397e9f7ab62fbbbbbb3ba51f",
+          "md5": "12564aabd4b89f026025105ae7025a8b"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-jvm-0.2.0-bump-antibytes-SNAPSHOT.jar",
+          "url": "core-jvm-0.2.0-bump-antibytes-SNAPSHOT.jar",
+          "size": 100286,
+          "sha512": "895669416ed2279749385d0752e86d5a51ebc19bdb7d445df14d04c1f0c243ebcb2a52da58299b15c97d2fcb9c24a505b9de6bbe4c4e04797bed91f892c47e48",
+          "sha256": "818bf28a15dc266fab9338ba84f8c3786825830bbbe6be911917030ee71e3bc8",
+          "sha1": "88c5413d61bef26f397e9f7ab62fbbbbbb3ba51f",
+          "md5": "12564aabd4b89f026025105ae7025a8b"
+        }
+      ]
+    }
+  ]
+}
