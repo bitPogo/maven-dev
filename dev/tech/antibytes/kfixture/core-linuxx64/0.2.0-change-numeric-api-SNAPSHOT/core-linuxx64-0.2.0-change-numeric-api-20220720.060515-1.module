@@ -1,0 +1,63 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.2.0-change-numeric-api-SNAPSHOT/core-0.2.0-change-numeric-api-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.2.0-change-numeric-api-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-linuxx64-0.2.0-change-numeric-api-SNAPSHOT.klib",
+          "size": 59440,
+          "sha512": "73cb2dcd56a7968e45d5f80a9bdc8d72c5fbaf308f54dc2ff2a36e4b0b56065c4dd228fee4d4dc4021c0029058e4e8f54e03200802b4a296607465eca8e11648",
+          "sha256": "7525cf4f00f5d425413f3ad9536289f8b77b0c7ba2b6a596427716c6f7748ac9",
+          "sha1": "048886ebe9727b4de223ef8ae75f748b1c0668ce",
+          "md5": "8ed16e89733614f5b26d3a1c03a5d9de"
+        }
+      ]
+    }
+  ]
+}
