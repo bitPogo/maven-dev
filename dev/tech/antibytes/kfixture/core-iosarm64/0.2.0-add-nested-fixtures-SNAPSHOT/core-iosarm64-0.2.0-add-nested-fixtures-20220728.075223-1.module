@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.2.0-add-nested-fixtures-SNAPSHOT/core-0.2.0-add-nested-fixtures-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.2.0-add-nested-fixtures-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-iosarm64-0.2.0-add-nested-fixtures-SNAPSHOT.klib",
+          "size": 85316,
+          "sha512": "612671365a38f5378d2fe4ba28d0c921f90f0516b15dc892307fc1b0eeeb077edeff34f98c43f7281683d29409fd5ce7526989488f3af039b1520c254d5723d7",
+          "sha256": "40b7086637eabc2dde3c3c5179ea96e9dce692e4429d1f385ef566097acca6a2",
+          "sha1": "5b41e0d2972651d87aac06a28216fc412568674f",
+          "md5": "e354eddedea4e738aec2ab166f85ed25"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-iosarm64-0.2.0-add-nested-fixtures-SNAPSHOT-metadata.jar",
+          "url": "core-iosarm64-0.2.0-add-nested-fixtures-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "f7c7016bf405df7ca3b75bfb03c644f46e09a55394fb6ee428778263b28652c0546cc7e8011fdfa056031e862a3b4a70cc7164bf9d857cff0fc85db88dc82ed0",
+          "sha256": "46140d0a800bb8e1b8f1ee12a7082f98480e1c416bd789db09154451168c9228",
+          "sha1": "6c383c77e49b10ec1ff1ff3f50f9880638f6d1a8",
+          "md5": "907c17926d503d404833bf5b302ace7c"
+        }
+      ]
+    }
+  ]
+}
