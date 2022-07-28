@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.2.0-add-nested-fixtures-set-SNAPSHOT/core-0.2.0-add-nested-fixtures-set-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.2.0-add-nested-fixtures-set-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "core-jvm-0.2.0-add-nested-fixtures-set-SNAPSHOT.jar",
+          "url": "core-jvm-0.2.0-add-nested-fixtures-set-SNAPSHOT.jar",
+          "size": 221603,
+          "sha512": "bff03d5a9b398de05c37b986f92c4b1f348163a2e111ba7d6a529b21c2fd48dd07c0f434a094df6d65ebfe7491d3262738a8f35477f67920a63744e125c03f62",
+          "sha256": "464df888919fa0fff5c74ca43e1d65e060703d34fc620ec11cc12a04f91de504",
+          "sha1": "b6ff52ef361972077bd3709d127ac26720a81508",
+          "md5": "305372519b28fe4a14440c389300dcea"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-jvm-0.2.0-add-nested-fixtures-set-SNAPSHOT.jar",
+          "url": "core-jvm-0.2.0-add-nested-fixtures-set-SNAPSHOT.jar",
+          "size": 221603,
+          "sha512": "bff03d5a9b398de05c37b986f92c4b1f348163a2e111ba7d6a529b21c2fd48dd07c0f434a094df6d65ebfe7491d3262738a8f35477f67920a63744e125c03f62",
+          "sha256": "464df888919fa0fff5c74ca43e1d65e060703d34fc620ec11cc12a04f91de504",
+          "sha1": "b6ff52ef361972077bd3709d127ac26720a81508",
+          "md5": "305372519b28fe4a14440c389300dcea"
+        }
+      ]
+    }
+  ]
+}
