@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.2.0-change-docs-SNAPSHOT/core-0.2.0-change-docs-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.2.0-change-docs-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "core-jvm-0.2.0-change-docs-SNAPSHOT.jar",
+          "url": "core-jvm-0.2.0-change-docs-SNAPSHOT.jar",
+          "size": 251480,
+          "sha512": "0c863663e67dc810ecb3271bfeb5ae9cbe7f916523adfd93f5874ef08cd931c483610c15c7fcda622c69f08c6ccf23c5301d0d32fa08f0ed5e15a2ae37cabd48",
+          "sha256": "9fafd5a26c034ac508829457f658b4e0029bfac04ae2f492edda42fd0ea15b54",
+          "sha1": "7f1a682fc36fc15104bce494dab9de218b4e0ee6",
+          "md5": "6250658b6213ac24d049902a3e9cc345"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-jvm-0.2.0-change-docs-SNAPSHOT.jar",
+          "url": "core-jvm-0.2.0-change-docs-SNAPSHOT.jar",
+          "size": 251480,
+          "sha512": "0c863663e67dc810ecb3271bfeb5ae9cbe7f916523adfd93f5874ef08cd931c483610c15c7fcda622c69f08c6ccf23c5301d0d32fa08f0ed5e15a2ae37cabd48",
+          "sha256": "9fafd5a26c034ac508829457f658b4e0029bfac04ae2f492edda42fd0ea15b54",
+          "sha1": "7f1a682fc36fc15104bce494dab9de218b4e0ee6",
+          "md5": "6250658b6213ac24d049902a3e9cc345"
+        }
+      ]
+    }
+  ]
+}
