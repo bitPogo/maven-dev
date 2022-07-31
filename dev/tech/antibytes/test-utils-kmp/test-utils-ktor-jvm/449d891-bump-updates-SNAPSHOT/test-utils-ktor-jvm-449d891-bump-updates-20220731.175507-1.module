@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-ktor/449d891-bump-updates-SNAPSHOT/test-utils-ktor-449d891-bump-updates-SNAPSHOT.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-ktor",
+    "version": "449d891-bump-updates-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-utils-ktor-jvm-449d891-bump-updates-SNAPSHOT.jar",
+          "url": "test-utils-ktor-jvm-449d891-bump-updates-SNAPSHOT.jar",
+          "size": 26352,
+          "sha512": "fb47fe46057061fe8829a69d15c73cb3d9e2296d74460c41f5f2b107f9339df68c2f618d851300aae91d81e68ce401e56c6df26413f346cc9f989d6dd5831fff",
+          "sha256": "afce08a76a3c9a56034ff17b4e07112e8655f6cbb9e86c1f241068edf0413751",
+          "sha1": "95b6e6b0ed367ac5b51a8b92e335ecac0f45628b",
+          "md5": "23eb07c29824c6b45457c70378ff9360"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-java",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor-jvm-449d891-bump-updates-SNAPSHOT.jar",
+          "url": "test-utils-ktor-jvm-449d891-bump-updates-SNAPSHOT.jar",
+          "size": 26352,
+          "sha512": "fb47fe46057061fe8829a69d15c73cb3d9e2296d74460c41f5f2b107f9339df68c2f618d851300aae91d81e68ce401e56c6df26413f346cc9f989d6dd5831fff",
+          "sha256": "afce08a76a3c9a56034ff17b4e07112e8655f6cbb9e86c1f241068edf0413751",
+          "sha1": "95b6e6b0ed367ac5b51a8b92e335ecac0f45628b",
+          "md5": "23eb07c29824c6b45457c70378ff9360"
+        }
+      ]
+    }
+  ]
+}
