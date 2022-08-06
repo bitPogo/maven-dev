@@ -1,0 +1,162 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-processor",
+    "version": "0.3.0-rc02-fix-transitive-nested-aliases-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.3.0-rc02-fix-transitive-nested-aliases-SNAPSHOT.jar",
+          "url": "kmock-processor-0.3.0-rc02-fix-transitive-nested-aliases-SNAPSHOT.jar",
+          "size": 393891,
+          "sha512": "daf3ef92c094e1f07796cdd0243ab5141871d2ce3dd01e2476f51b0cadb838ba2991cde2dfd4ae72046b85e97d9d12ce9a8016aa2915c48a9e30e80993e5c836",
+          "sha256": "9b7a41c62e19bca82322a2b86b18758263cf8f79a9e31e35874a51ed24cc79df",
+          "sha1": "b9981bc13e492261047d572fc0394e905ad75af6",
+          "md5": "9e54ea8fa29c93d772dcd99277fc8b3d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.6.21-1.0.6"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-ksp",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "tech.antibytes.kmock",
+          "module": "kmock",
+          "version": {
+            "requires": "0.3.0-rc02-fix-transitive-nested-aliases-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.3.0-rc02-fix-transitive-nested-aliases-SNAPSHOT.jar",
+          "url": "kmock-processor-0.3.0-rc02-fix-transitive-nested-aliases-SNAPSHOT.jar",
+          "size": 393891,
+          "sha512": "daf3ef92c094e1f07796cdd0243ab5141871d2ce3dd01e2476f51b0cadb838ba2991cde2dfd4ae72046b85e97d9d12ce9a8016aa2915c48a9e30e80993e5c836",
+          "sha256": "9b7a41c62e19bca82322a2b86b18758263cf8f79a9e31e35874a51ed24cc79df",
+          "sha1": "b9981bc13e492261047d572fc0394e905ad75af6",
+          "md5": "9e54ea8fa29c93d772dcd99277fc8b3d"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmock-processor-0.3.0-rc02-fix-transitive-nested-aliases-SNAPSHOT-javadoc.jar",
+          "url": "kmock-processor-0.3.0-rc02-fix-transitive-nested-aliases-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "a4c6dd2323748dbe823aca9b37d233c1266e0c2c17f9c9ee59e1a6ec7010ab2b7b24f14719059c3ec2a055788e4465d1722c3417cac996b37270e5aa37a2cf23",
+          "sha256": "006cd0aa2f76947137d3133ad49387d98116ac1a1171bb1edc6798aefe99eaf6",
+          "sha1": "0b60711c39ed61e76066e857b34df8f08086e2ea",
+          "md5": "73e5c17f0b4d27e55d93eac2fe68ba37"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmock-processor-0.3.0-rc02-fix-transitive-nested-aliases-SNAPSHOT-sources.jar",
+          "url": "kmock-processor-0.3.0-rc02-fix-transitive-nested-aliases-SNAPSHOT-sources.jar",
+          "size": 82502,
+          "sha512": "32291b9aafef657539528ab3f0223ae823a7256da23cf444557f733e5cb493b81a04a6576720e7b76413c6b0992d89ea338b4d270cc7d22e69cc49e4d3691ffd",
+          "sha256": "61c5a77262589fc3d54658fd2ac7d4ae8c7f08b98d02037873f62868e0a72a26",
+          "sha1": "38da214d4d9a430f0273d42436efa0801ac5327f",
+          "md5": "a092a5bbc276c9c38ff3abd0d5d72b31"
+        }
+      ]
+    }
+  ]
+}
