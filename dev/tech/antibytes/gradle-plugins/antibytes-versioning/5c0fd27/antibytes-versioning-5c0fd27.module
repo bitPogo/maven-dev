@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-versioning",
+    "version": "5c0fd27",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-5c0fd27.jar",
+          "url": "antibytes-versioning-5c0fd27.jar",
+          "size": 16029,
+          "sha512": "ee38cf4b9716d755efeb1025c86448d3654611682c92e45474c0349bc70d906f6b4a6b8eecd6cfbdc817a6e7957b947558c5978939ea01536a7da4bc8a01feb8",
+          "sha256": "1ab43a603be1c21c8585f43cd6c791fb64daa68f89a3827e72a2db487cd88433",
+          "sha1": "121cf9a57e64b61390830a0b64f42bdbe512f550",
+          "md5": "97ce8a408a274cc7a2cc6d3fd0eebf54"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-5c0fd27.jar",
+          "url": "antibytes-versioning-5c0fd27.jar",
+          "size": 16029,
+          "sha512": "ee38cf4b9716d755efeb1025c86448d3654611682c92e45474c0349bc70d906f6b4a6b8eecd6cfbdc817a6e7957b947558c5978939ea01536a7da4bc8a01feb8",
+          "sha256": "1ab43a603be1c21c8585f43cd6c791fb64daa68f89a3827e72a2db487cd88433",
+          "sha1": "121cf9a57e64b61390830a0b64f42bdbe512f550",
+          "md5": "97ce8a408a274cc7a2cc6d3fd0eebf54"
+        }
+      ]
+    }
+  ]
+}
