@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.3.0-fix-dangled-signatures-SNAPSHOT/core-0.3.0-fix-dangled-signatures-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.3.0-fix-dangled-signatures-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-iosx64-0.3.0-fix-dangled-signatures-SNAPSHOT.klib",
+          "size": 99972,
+          "sha512": "15dcc89fc73810c4b85725b49ab86b08bcc4c21d55bc34eecfc0c6a6d0177d75c2aee939c7e36b7461f237beb82951443a0f1d6408f6df310ccb72f1d1b1beb6",
+          "sha256": "e3909ea440ef686765b0877dcfe7b300375235b70a9bdf87fc09adfa9707c669",
+          "sha1": "fb3b713b14cf6834b991fb8044630df76367dcae",
+          "md5": "1ca3cd3d4228fa85d98205a2c70307f4"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-iosx64-0.3.0-fix-dangled-signatures-SNAPSHOT-metadata.jar",
+          "url": "core-iosx64-0.3.0-fix-dangled-signatures-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "faa322e9f709cf2208ff36f8b0ec0c25e94b4ca4fe0fe8b11b3a9be8f3906d10b2d6bb0ac5347e53bd012564ff8d0d8d4663d2b5fa443cc654cb4cd42020c827",
+          "sha256": "1653a6e732afb944294cc56b2823f4561c6b0859dbe8b8009c357c63fbb2642c",
+          "sha1": "fd0eca21881e1b4004ebe7e52fbd6b9761229b8a",
+          "md5": "aa6873cff3698e9432c7179cfb00d018"
+        }
+      ]
+    }
+  ]
+}

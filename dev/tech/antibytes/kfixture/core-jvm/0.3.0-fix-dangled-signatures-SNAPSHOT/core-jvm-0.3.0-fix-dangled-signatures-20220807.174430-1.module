@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.3.0-fix-dangled-signatures-SNAPSHOT/core-0.3.0-fix-dangled-signatures-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.3.0-fix-dangled-signatures-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "core-jvm-0.3.0-fix-dangled-signatures-SNAPSHOT.jar",
+          "url": "core-jvm-0.3.0-fix-dangled-signatures-SNAPSHOT.jar",
+          "size": 251485,
+          "sha512": "a85d6bb45d40cb48e71431d0cfd8e0987a5ff9a4b445b67d18c378c53786682573ebe842aef405a814549ec94daad79d9cdfaeca8db20969af1e39fd360614db",
+          "sha256": "89df96365e6eb8cd2e5639917081b206ae2a5d0ff092a6acbf35d06d93ecde38",
+          "sha1": "e1c73ce8802fb57ffbf7c4a161f5fd3ea2315898",
+          "md5": "ad815896b57e8bfce726b3bf41d745c1"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-jvm-0.3.0-fix-dangled-signatures-SNAPSHOT.jar",
+          "url": "core-jvm-0.3.0-fix-dangled-signatures-SNAPSHOT.jar",
+          "size": 251485,
+          "sha512": "a85d6bb45d40cb48e71431d0cfd8e0987a5ff9a4b445b67d18c378c53786682573ebe842aef405a814549ec94daad79d9cdfaeca8db20969af1e39fd360614db",
+          "sha256": "89df96365e6eb8cd2e5639917081b206ae2a5d0ff092a6acbf35d06d93ecde38",
+          "sha1": "e1c73ce8802fb57ffbf7c4a161f5fd3ea2315898",
+          "md5": "ad815896b57e8bfce726b3bf41d745c1"
+        }
+      ]
+    }
+  ]
+}
