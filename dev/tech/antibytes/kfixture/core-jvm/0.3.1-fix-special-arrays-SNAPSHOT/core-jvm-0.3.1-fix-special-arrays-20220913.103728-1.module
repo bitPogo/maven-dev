@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.3.1-fix-special-arrays-SNAPSHOT/core-0.3.1-fix-special-arrays-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.3.1-fix-special-arrays-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "core-jvm-0.3.1-fix-special-arrays-SNAPSHOT.jar",
+          "url": "core-jvm-0.3.1-fix-special-arrays-SNAPSHOT.jar",
+          "size": 291292,
+          "sha512": "c30d6b672032b07f28b74661d03b7e5b1703f4272b49beea96a1ef3f0120be90f95a8c8422c029dedb4346ef4de6f4dae388178c854ac6047277af7de6d5cf1b",
+          "sha256": "5dc1ed1ca84b2e6e8416b6063317f55b5649550eb5423e3c48a9a397bc338c62",
+          "sha1": "71a172a5d24a820d1a1b413c577bce2f1ae713db",
+          "md5": "d0ce6320fd7b385af5ad56a7cd60a0ac"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-jvm-0.3.1-fix-special-arrays-SNAPSHOT.jar",
+          "url": "core-jvm-0.3.1-fix-special-arrays-SNAPSHOT.jar",
+          "size": 291292,
+          "sha512": "c30d6b672032b07f28b74661d03b7e5b1703f4272b49beea96a1ef3f0120be90f95a8c8422c029dedb4346ef4de6f4dae388178c854ac6047277af7de6d5cf1b",
+          "sha256": "5dc1ed1ca84b2e6e8416b6063317f55b5649550eb5423e3c48a9a397bc338c62",
+          "sha1": "71a172a5d24a820d1a1b413c577bce2f1ae713db",
+          "md5": "d0ce6320fd7b385af5ad56a7cd60a0ac"
+        }
+      ]
+    }
+  ]
+}
