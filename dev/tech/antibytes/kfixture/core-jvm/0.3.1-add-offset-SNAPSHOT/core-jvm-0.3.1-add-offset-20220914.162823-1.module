@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.3.1-add-offset-SNAPSHOT/core-0.3.1-add-offset-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.3.1-add-offset-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "core-jvm-0.3.1-add-offset-SNAPSHOT.jar",
+          "url": "core-jvm-0.3.1-add-offset-SNAPSHOT.jar",
+          "size": 291292,
+          "sha512": "833382be8b0301ff82e11eb73f203c5ce7641ab23af48b3c3f50dee18991681c211ab0d2e3020105873a4b45f2e470076faf4d860eed7d1d1f6a945e66020766",
+          "sha256": "e090740c74c7dd5c73ed573f6593b1031ffc21dfa16b5ef1aae775cf33a15ec4",
+          "sha1": "0f296011943976515a03be68d33b4cb944b69869",
+          "md5": "3221573d03b8bd08a8210743430ddb56"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-jvm-0.3.1-add-offset-SNAPSHOT.jar",
+          "url": "core-jvm-0.3.1-add-offset-SNAPSHOT.jar",
+          "size": 291292,
+          "sha512": "833382be8b0301ff82e11eb73f203c5ce7641ab23af48b3c3f50dee18991681c211ab0d2e3020105873a4b45f2e470076faf4d860eed7d1d1f6a945e66020766",
+          "sha256": "e090740c74c7dd5c73ed573f6593b1031ffc21dfa16b5ef1aae775cf33a15ec4",
+          "sha1": "0f296011943976515a03be68d33b4cb944b69869",
+          "md5": "3221573d03b8bd08a8210743430ddb56"
+        }
+      ]
+    }
+  ]
+}
