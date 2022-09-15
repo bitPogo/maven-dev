@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktx-datetime/0.3.1-add-localized-datetime-SNAPSHOT/ktx-datetime-0.3.1-add-localized-datetime-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "ktx-datetime",
+    "version": "0.3.1-add-localized-datetime-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.kfixture",
+          "module": "core",
+          "version": {
+            "requires": "0.3.1-add-localized-datetime-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime.klib",
+          "url": "ktx-datetime-iosarm64-0.3.1-add-localized-datetime-SNAPSHOT.klib",
+          "size": 28188,
+          "sha512": "e882c6b4fb9dcb30d2bcb186b641c8aeabd6eb0d2295c64deb85cb6c818049663430ca1c322a0696e4c42ba531b1cbf523881be688eacc40d23cc2174a0ebb1b",
+          "sha256": "167b4302d7d599463edae43c7996dfa46e14f1ce99eb685d8ccca79e63b69ff0",
+          "sha1": "cfde4b5e8e50d63481605ee32bdafde4bf2c37f2",
+          "md5": "d5459f8635ae6e367f06dac57d72087c"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.kfixture",
+          "module": "core",
+          "version": {
+            "requires": "0.3.1-add-localized-datetime-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime-iosarm64-0.3.1-add-localized-datetime-SNAPSHOT-metadata.jar",
+          "url": "ktx-datetime-iosarm64-0.3.1-add-localized-datetime-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "0ac38a5890ada907fb7d520853775a34c8002e19cc19510d246b9818443e1102471bdfd2b94589ee3fbb4da60e13568c2ddfa63095dd5515ec401b07cc9b685a",
+          "sha256": "ee32c53870ecdaa440edf41ff2383eb476b41acd5520a6565d075b741d8222f3",
+          "sha1": "48da6b2df441bf22cfd512fd08f28d24d18558cc",
+          "md5": "005f7a7c578b6a4c1b3fca29be1b3f41"
+        }
+      ]
+    }
+  ]
+}
