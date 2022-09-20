@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-versioning",
+    "version": "9aedebe",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-9aedebe.jar",
+          "url": "antibytes-versioning-9aedebe.jar",
+          "size": 16029,
+          "sha512": "0047b0a2ebd91840c57e0a73408a498018b8775d33a3f95398032ad90d6698ca06a659fd7ba573a9793f835c5ea9603f2ff4a9862c24b68cb9f6c749561d41ec",
+          "sha256": "5a020d075d9f17dec11627dfdca7429c0715f28f9960372243cd764a7e7939d8",
+          "sha1": "146c0531f8d69e025b4427216f59ec18110e272c",
+          "md5": "5858a1cfa93f534343bc1f2da3c60cdc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-9aedebe.jar",
+          "url": "antibytes-versioning-9aedebe.jar",
+          "size": 16029,
+          "sha512": "0047b0a2ebd91840c57e0a73408a498018b8775d33a3f95398032ad90d6698ca06a659fd7ba573a9793f835c5ea9603f2ff4a9862c24b68cb9f6c749561d41ec",
+          "sha256": "5a020d075d9f17dec11627dfdca7429c0715f28f9960372243cd764a7e7939d8",
+          "sha1": "146c0531f8d69e025b4427216f59ec18110e272c",
+          "md5": "5858a1cfa93f534343bc1f2da3c60cdc"
+        }
+      ]
+    }
+  ]
+}
