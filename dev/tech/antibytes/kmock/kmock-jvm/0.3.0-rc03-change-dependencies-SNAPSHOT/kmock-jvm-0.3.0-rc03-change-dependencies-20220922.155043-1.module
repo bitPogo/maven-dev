@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kmock/0.3.0-rc03-change-dependencies-SNAPSHOT/kmock-0.3.0-rc03-change-dependencies-SNAPSHOT.module",
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "0.3.0-rc03-change-dependencies-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-jvm-0.3.0-rc03-change-dependencies-SNAPSHOT.jar",
+          "url": "kmock-jvm-0.3.0-rc03-change-dependencies-SNAPSHOT.jar",
+          "size": 401239,
+          "sha512": "80e22e8a1eb9a85952dbbbd35887e0fd9c79bae6b739b5518e0514a41323e01abf504c61203c258577ef76a722e1bccc76a123656b36327385dc8ae76e4c260b",
+          "sha256": "ecff3dd992b0b2673c62aa6c682f1328d39fb396f3cbbf2c0f52fbe2835be9b9",
+          "sha1": "ed509459c4b6e08d63aba3b0e2e733929888bd4c",
+          "md5": "c32f1f926f6eb3d3c87e958c81f70175"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.3"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-jvm-0.3.0-rc03-change-dependencies-SNAPSHOT.jar",
+          "url": "kmock-jvm-0.3.0-rc03-change-dependencies-SNAPSHOT.jar",
+          "size": 401239,
+          "sha512": "80e22e8a1eb9a85952dbbbd35887e0fd9c79bae6b739b5518e0514a41323e01abf504c61203c258577ef76a722e1bccc76a123656b36327385dc8ae76e4c260b",
+          "sha256": "ecff3dd992b0b2673c62aa6c682f1328d39fb396f3cbbf2c0f52fbe2835be9b9",
+          "sha1": "ed509459c4b6e08d63aba3b0e2e733929888bd4c",
+          "md5": "c32f1f926f6eb3d3c87e958c81f70175"
+        }
+      ]
+    }
+  ]
+}
