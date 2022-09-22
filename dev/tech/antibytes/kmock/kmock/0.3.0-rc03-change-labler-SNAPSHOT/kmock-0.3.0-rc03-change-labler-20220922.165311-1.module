@@ -1,0 +1,279 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "0.3.0-rc03-change-labler-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.3"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-metadata-0.3.0-rc03-change-labler-SNAPSHOT-all.jar",
+          "url": "kmock-0.3.0-rc03-change-labler-SNAPSHOT-all.jar",
+          "size": 28039,
+          "sha512": "ce7ac797dd52c7f7295adde7ce721f922c3d9244ee8b35cc03c3abd230ac9ca25a3ac296de8f30736ec619d562e847f6fcf8d15c61082ef89b304d1b95de1f10",
+          "sha256": "0a58dded7dd25b5e281cff824ee98512ceaa21b1c514700be20a939ed86b3d80",
+          "sha1": "9aa36328ccb4dbb6845344f499ca5880c2a8cc64",
+          "md5": "e9bbcab257202ca92f87092007d97f01"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "kmock-0.3.0-rc03-change-labler-SNAPSHOT.jar",
+          "url": "kmock-0.3.0-rc03-change-labler-SNAPSHOT.jar",
+          "size": 47917,
+          "sha512": "bfd6b442e6c79219455ba0e1b9a743c2d7e2a57b5b7d44b10e020097bd538d7e5586e49e5f47727ae1b19a728c72e83dfe1d2b7ebf08acca7690bff501b5b4c8",
+          "sha256": "0ce3f2c46a8c470e9487b49cb216a62d9fc50dac3ee8c1acea9ed923435ed62a",
+          "sha1": "20a9db4083512d4c93841c321ae1d8bcb00d85ab",
+          "md5": "e8fe9f159d5bc267f20c50a0f2f685d5"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../kmock-android/0.3.0-rc03-change-labler-SNAPSHOT/kmock-android-0.3.0-rc03-change-labler-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-android",
+        "version": "0.3.0-rc03-change-labler-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../kmock-android/0.3.0-rc03-change-labler-SNAPSHOT/kmock-android-0.3.0-rc03-change-labler-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-android",
+        "version": "0.3.0-rc03-change-labler-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-iosarm64/0.3.0-rc03-change-labler-SNAPSHOT/kmock-iosarm64-0.3.0-rc03-change-labler-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-iosarm64",
+        "version": "0.3.0-rc03-change-labler-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-iosarm64/0.3.0-rc03-change-labler-SNAPSHOT/kmock-iosarm64-0.3.0-rc03-change-labler-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-iosarm64",
+        "version": "0.3.0-rc03-change-labler-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-iossimulatorarm64/0.3.0-rc03-change-labler-SNAPSHOT/kmock-iossimulatorarm64-0.3.0-rc03-change-labler-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-iossimulatorarm64",
+        "version": "0.3.0-rc03-change-labler-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-iossimulatorarm64/0.3.0-rc03-change-labler-SNAPSHOT/kmock-iossimulatorarm64-0.3.0-rc03-change-labler-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-iossimulatorarm64",
+        "version": "0.3.0-rc03-change-labler-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-iosx64/0.3.0-rc03-change-labler-SNAPSHOT/kmock-iosx64-0.3.0-rc03-change-labler-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-iosx64",
+        "version": "0.3.0-rc03-change-labler-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-iosx64/0.3.0-rc03-change-labler-SNAPSHOT/kmock-iosx64-0.3.0-rc03-change-labler-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-iosx64",
+        "version": "0.3.0-rc03-change-labler-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kmock-js/0.3.0-rc03-change-labler-SNAPSHOT/kmock-js-0.3.0-rc03-change-labler-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-js",
+        "version": "0.3.0-rc03-change-labler-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kmock-js/0.3.0-rc03-change-labler-SNAPSHOT/kmock-js-0.3.0-rc03-change-labler-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-js",
+        "version": "0.3.0-rc03-change-labler-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kmock-jvm/0.3.0-rc03-change-labler-SNAPSHOT/kmock-jvm-0.3.0-rc03-change-labler-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-jvm",
+        "version": "0.3.0-rc03-change-labler-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kmock-jvm/0.3.0-rc03-change-labler-SNAPSHOT/kmock-jvm-0.3.0-rc03-change-labler-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-jvm",
+        "version": "0.3.0-rc03-change-labler-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-linuxx64/0.3.0-rc03-change-labler-SNAPSHOT/kmock-linuxx64-0.3.0-rc03-change-labler-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-linuxx64",
+        "version": "0.3.0-rc03-change-labler-SNAPSHOT"
+      }
+    }
+  ]
+}

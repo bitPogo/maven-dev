@@ -1,0 +1,162 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-processor",
+    "version": "0.3.0-rc03-change-labler-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.3.0-rc03-change-labler-SNAPSHOT.jar",
+          "url": "kmock-processor-0.3.0-rc03-change-labler-SNAPSHOT.jar",
+          "size": 391218,
+          "sha512": "838f89f3bb04f6df300d9bb87fe38640d71eef987855adbbbb4bc8aacfa1b6e5953a67a84f073fe9515dcdc5dbf8aa68cd60019637757210a5ea03a62795a428",
+          "sha256": "f18a88454155a95da47d4c9759e479952a6b7e6cadd8825d8fcbaf4b7ee6d669",
+          "sha1": "59dacf393467db2cd3505dbf8484274bd270fe13",
+          "md5": "05382f0bd9e4e69ab3365152facd789e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.7.10-1.0.6"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-ksp",
+          "version": {
+            "requires": "1.12.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "tech.antibytes.kmock",
+          "module": "kmock",
+          "version": {
+            "requires": "0.3.0-rc03-change-labler-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.3.0-rc03-change-labler-SNAPSHOT.jar",
+          "url": "kmock-processor-0.3.0-rc03-change-labler-SNAPSHOT.jar",
+          "size": 391218,
+          "sha512": "838f89f3bb04f6df300d9bb87fe38640d71eef987855adbbbb4bc8aacfa1b6e5953a67a84f073fe9515dcdc5dbf8aa68cd60019637757210a5ea03a62795a428",
+          "sha256": "f18a88454155a95da47d4c9759e479952a6b7e6cadd8825d8fcbaf4b7ee6d669",
+          "sha1": "59dacf393467db2cd3505dbf8484274bd270fe13",
+          "md5": "05382f0bd9e4e69ab3365152facd789e"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmock-processor-0.3.0-rc03-change-labler-SNAPSHOT-javadoc.jar",
+          "url": "kmock-processor-0.3.0-rc03-change-labler-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "82fd092070bb9456b1f798fbb803a5dfddd4aca28615c2097d1a0cffa9a80f0f1fced59441928861de0453501f6d2d94d82affaf97931131d78dbded1a032356",
+          "sha256": "b746b660ef49fda998bef1c645fcac55e3f394326cd14ba21af6326608e385da",
+          "sha1": "ed598579e4b26c751a870ddd08ef973a9847c3ba",
+          "md5": "e720fdf02cba10478e4cb6757be79fbc"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmock-processor-0.3.0-rc03-change-labler-SNAPSHOT-sources.jar",
+          "url": "kmock-processor-0.3.0-rc03-change-labler-SNAPSHOT-sources.jar",
+          "size": 81704,
+          "sha512": "f88803b66665d2612c5a182fcf0cd1bd47f85ae54158ed60d47aa996acb910fd8ae50ada401b290766cc11424055ba3beacb53452c1af52c010c402d3f7e7312",
+          "sha256": "c1a8a6b44dfbb642b8658a410048f1514dfeff63bb4b0e02d5f0f30020c34a31",
+          "sha1": "fb65db1254ccd2d406589a8c1000529cf526c750",
+          "md5": "a203bbecf8716fc7753e6fee4baca5aa"
+        }
+      ]
+    }
+  ]
+}
