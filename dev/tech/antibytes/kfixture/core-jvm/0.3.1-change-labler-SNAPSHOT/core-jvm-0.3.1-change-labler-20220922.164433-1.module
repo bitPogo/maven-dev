@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.3.1-change-labler-SNAPSHOT/core-0.3.1-change-labler-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.3.1-change-labler-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "core-jvm-0.3.1-change-labler-SNAPSHOT.jar",
+          "url": "core-jvm-0.3.1-change-labler-SNAPSHOT.jar",
+          "size": 292810,
+          "sha512": "ec0fbc87464f3676fd151bc35da33c1e4229899a97cd72aaf5153429ecf91a1aca31e1908391fdf281a51fab10b7d112eda713133930f05b6531de26d549ba8b",
+          "sha256": "4956ab339cb96101eecf65ac7efbf60ee1d8f32c54e9c62c7d924308a79a31b1",
+          "sha1": "02b3a298198d19c6d17750fff8cabc9fe064289f",
+          "md5": "88b799a62e70b6369242f78d9cde785d"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-jvm-0.3.1-change-labler-SNAPSHOT.jar",
+          "url": "core-jvm-0.3.1-change-labler-SNAPSHOT.jar",
+          "size": 292810,
+          "sha512": "ec0fbc87464f3676fd151bc35da33c1e4229899a97cd72aaf5153429ecf91a1aca31e1908391fdf281a51fab10b7d112eda713133930f05b6531de26d549ba8b",
+          "sha256": "4956ab339cb96101eecf65ac7efbf60ee1d8f32c54e9c62c7d924308a79a31b1",
+          "sha1": "02b3a298198d19c6d17750fff8cabc9fe064289f",
+          "md5": "88b799a62e70b6369242f78d9cde785d"
+        }
+      ]
+    }
+  ]
+}
