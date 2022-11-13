@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-dependency-catalog",
+    "version": "517272e",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-catalog-517272e.jar",
+          "url": "antibytes-dependency-catalog-517272e.jar",
+          "size": 176561,
+          "sha512": "8bde06462f95666bc60efde1fc109722928925ada099a239a2ff8d9c184599403720d6db51b77cf1d74f8ec3018dfe98798a60d68e4f82491ea13d8f5fce2fdb",
+          "sha256": "12ff340b581e85f07f6dda129fc45bceda18ed7d089dd0d17826e8fb59afcf4b",
+          "sha1": "2d0ca9020ed681b5da8e29009a62713a8db3d1a6",
+          "md5": "cdc3ca82bc18c35e58313a2382222a16"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu-gradle-plugin",
+          "version": {
+            "requires": "0.18.3"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-catalog-517272e.jar",
+          "url": "antibytes-dependency-catalog-517272e.jar",
+          "size": 176561,
+          "sha512": "8bde06462f95666bc60efde1fc109722928925ada099a239a2ff8d9c184599403720d6db51b77cf1d74f8ec3018dfe98798a60d68e4f82491ea13d8f5fce2fdb",
+          "sha256": "12ff340b581e85f07f6dda129fc45bceda18ed7d089dd0d17826e8fb59afcf4b",
+          "sha1": "2d0ca9020ed681b5da8e29009a62713a8db3d1a6",
+          "md5": "cdc3ca82bc18c35e58313a2382222a16"
+        }
+      ]
+    }
+  ]
+}
