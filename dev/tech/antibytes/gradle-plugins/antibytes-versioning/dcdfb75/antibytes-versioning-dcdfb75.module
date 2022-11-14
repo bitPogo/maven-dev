@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-versioning",
+    "version": "dcdfb75",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-dcdfb75.jar",
+          "url": "antibytes-versioning-dcdfb75.jar",
+          "size": 16029,
+          "sha512": "f5ca5a08f64ebcddf82035b9dffce0859ccb97699bfda42e82f964d444e6995facaa6b07b508a6862c82dc0ed59e33ac7f04f608b06b02a00780c9bb20b78ea9",
+          "sha256": "d6e0be685c97944bd8fa66fb887739454225eff8e4ea5c0ffcd0dd81251d572b",
+          "sha1": "17fd21f8fe8ecac730aaada18ac9e6099ace4e6d",
+          "md5": "2fcc4b69ba3ace50522b3bfb46d314a2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-dcdfb75.jar",
+          "url": "antibytes-versioning-dcdfb75.jar",
+          "size": 16029,
+          "sha512": "f5ca5a08f64ebcddf82035b9dffce0859ccb97699bfda42e82f964d444e6995facaa6b07b508a6862c82dc0ed59e33ac7f04f608b06b02a00780c9bb20b78ea9",
+          "sha256": "d6e0be685c97944bd8fa66fb887739454225eff8e4ea5c0ffcd0dd81251d572b",
+          "sha1": "17fd21f8fe8ecac730aaada18ac9e6099ace4e6d",
+          "md5": "2fcc4b69ba3ace50522b3bfb46d314a2"
+        }
+      ]
+    }
+  ]
+}
