@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-versioning",
+    "version": "1894f51",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-1894f51.jar",
+          "url": "antibytes-versioning-1894f51.jar",
+          "size": 16029,
+          "sha512": "b60192c3bba3a74a16306a9a569d4caaa0838469a0f38c7cdb50d29b19451b5c324377dcb8793115d572d0082e5b7e90757c9e161e4655b021360e011cbad795",
+          "sha256": "f69c2c6dffc2a589394c8ec34ad29f71b712af21ec9cf59bd000cdc74cbd8781",
+          "sha1": "40903a0636c3a0c2b8a149ecf2d5d7d1cb226a8c",
+          "md5": "d934ced9449c8733b94d6449597f04e1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-1894f51.jar",
+          "url": "antibytes-versioning-1894f51.jar",
+          "size": 16029,
+          "sha512": "b60192c3bba3a74a16306a9a569d4caaa0838469a0f38c7cdb50d29b19451b5c324377dcb8793115d572d0082e5b7e90757c9e161e4655b021360e011cbad795",
+          "sha256": "f69c2c6dffc2a589394c8ec34ad29f71b712af21ec9cf59bd000cdc74cbd8781",
+          "sha1": "40903a0636c3a0c2b8a149ecf2d5d7d1cb226a8c",
+          "md5": "d934ced9449c8733b94d6449597f04e1"
+        }
+      ]
+    }
+  ]
+}
