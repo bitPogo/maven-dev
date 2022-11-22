@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-versioning",
+    "version": "ed364a3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-ed364a3.jar",
+          "url": "antibytes-versioning-ed364a3.jar",
+          "size": 16029,
+          "sha512": "bb7b5714a991216c1d6bb8433e16c420f282bef6c362c801d826c492b5f1d33255dacee6f5185747ef1b9e08be7c798cac436292eb64f8fc0e1e39a45171fb45",
+          "sha256": "6aa7d596661fd8bb91dffa28a6e7f0e82e208fbd1541dbffe8204db4bd0f6e27",
+          "sha1": "99e9ba69c3023cee719af9a8e85d6fdda512ed4d",
+          "md5": "bbfb78142cc10135e816704b9b4d0700"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-ed364a3.jar",
+          "url": "antibytes-versioning-ed364a3.jar",
+          "size": 16029,
+          "sha512": "bb7b5714a991216c1d6bb8433e16c420f282bef6c362c801d826c492b5f1d33255dacee6f5185747ef1b9e08be7c798cac436292eb64f8fc0e1e39a45171fb45",
+          "sha256": "6aa7d596661fd8bb91dffa28a6e7f0e82e208fbd1541dbffe8204db4bd0f6e27",
+          "sha1": "99e9ba69c3023cee719af9a8e85d6fdda512ed4d",
+          "md5": "bbfb78142cc10135e816704b9b4d0700"
+        }
+      ]
+    }
+  ]
+}
