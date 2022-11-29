@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-runtime-configuration",
+    "version": "dbbf9a6-change-testing-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-dbbf9a6-change-testing-SNAPSHOT.jar",
+          "url": "antibytes-runtime-configuration-dbbf9a6-change-testing-SNAPSHOT.jar",
+          "size": 9073,
+          "sha512": "5d883b7219051a04cb78b2e03c3110c11a8332e1a49d5bcee3f4313c4e2d62b46fab174381614c90251922fdf73d427cd43fdb13260102cb3c38e514596fe3a6",
+          "sha256": "b6dfd7e14e446b8bb279c3f2c8274a44f11f5472d5e1c4a0e59ef3bd1312f78a",
+          "sha1": "6de1f8cfaaf12e8c19ba1bc2701450d1bb117ab3",
+          "md5": "64cb66c1384141206ec25ae6d3a45565"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "dbbf9a6-change-testing-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-dbbf9a6-change-testing-SNAPSHOT.jar",
+          "url": "antibytes-runtime-configuration-dbbf9a6-change-testing-SNAPSHOT.jar",
+          "size": 9073,
+          "sha512": "5d883b7219051a04cb78b2e03c3110c11a8332e1a49d5bcee3f4313c4e2d62b46fab174381614c90251922fdf73d427cd43fdb13260102cb3c38e514596fe3a6",
+          "sha256": "b6dfd7e14e446b8bb279c3f2c8274a44f11f5472d5e1c4a0e59ef3bd1312f78a",
+          "sha1": "6de1f8cfaaf12e8c19ba1bc2701450d1bb117ab3",
+          "md5": "64cb66c1384141206ec25ae6d3a45565"
+        }
+      ]
+    }
+  ]
+}
