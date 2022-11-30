@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-dependency",
+    "version": "fab1d15-add-quality-code-analysis-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-fab1d15-add-quality-code-analysis-SNAPSHOT.jar",
+          "url": "antibytes-dependency-fab1d15-add-quality-code-analysis-SNAPSHOT.jar",
+          "size": 88198,
+          "sha512": "c37a414531d5eeb0bf33f8589b68867a9718cdfc623fc3538839a36e185749b692a490f29a0833fb4153cac5126f16370a5896939de7940f3951f852c855c266",
+          "sha256": "cc9601b6091b62b80c5af50b8aa76ef88b35a8fe562f1b4047f1791fea7b15a3",
+          "sha1": "6a413ecab46ba95b65a96afc71993a4c08342a0e",
+          "md5": "35c78b8e687c2e485eb933dc4ea93d76"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.0"
+          }
+        },
+        {
+          "group": "com.github.ben-manes",
+          "module": "gradle-versions-plugin",
+          "version": {
+            "requires": "0.42.0"
+          }
+        },
+        {
+          "group": "org.owasp",
+          "module": "dependency-check-gradle",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "com.pinterest",
+          "module": "ktlint",
+          "version": {
+            "requires": "0.47.1"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "logback-classic"
+            },
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "com.diffplug.spotless",
+          "module": "spotless-plugin-gradle",
+          "version": {
+            "requires": "6.11.0"
+          },
+          "excludes": [
+            {
+              "group": "org.codehaus.groovy",
+              "module": "groovy-xml"
+            }
+          ]
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "fab1d15-add-quality-code-analysis-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-fab1d15-add-quality-code-analysis-SNAPSHOT.jar",
+          "url": "antibytes-dependency-fab1d15-add-quality-code-analysis-SNAPSHOT.jar",
+          "size": 88198,
+          "sha512": "c37a414531d5eeb0bf33f8589b68867a9718cdfc623fc3538839a36e185749b692a490f29a0833fb4153cac5126f16370a5896939de7940f3951f852c855c266",
+          "sha256": "cc9601b6091b62b80c5af50b8aa76ef88b35a8fe562f1b4047f1791fea7b15a3",
+          "sha1": "6a413ecab46ba95b65a96afc71993a4c08342a0e",
+          "md5": "35c78b8e687c2e485eb933dc4ea93d76"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-dependency-bridge",
+    "version": "fab1d15-add-quality-code-analysis-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-fab1d15-add-quality-code-analysis-SNAPSHOT.jar",
+          "url": "antibytes-dependency-bridge-fab1d15-add-quality-code-analysis-SNAPSHOT.jar",
+          "size": 38501,
+          "sha512": "0c27c7c50c2002ba2b36b5b0d71a027b5e301d4217c9b6b99e5d8b9067c159a816d61df809541ddb3ea5af58697b74420c22beccac4ae21cf04c94df59cc16f7",
+          "sha256": "245e063a8976533e43c94cbc6645975a34658ac4ad2aba76f9bb1bec5c1f714e",
+          "sha1": "442c9b3c9ea3703146b9baddefc4f1bd2156eb95",
+          "md5": "3184546384353449d782936705e4a49f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-fab1d15-add-quality-code-analysis-SNAPSHOT.jar",
+          "url": "antibytes-dependency-bridge-fab1d15-add-quality-code-analysis-SNAPSHOT.jar",
+          "size": 38501,
+          "sha512": "0c27c7c50c2002ba2b36b5b0d71a027b5e301d4217c9b6b99e5d8b9067c159a816d61df809541ddb3ea5af58697b74420c22beccac4ae21cf04c94df59cc16f7",
+          "sha256": "245e063a8976533e43c94cbc6645975a34658ac4ad2aba76f9bb1bec5c1f714e",
+          "sha1": "442c9b3c9ea3703146b9baddefc4f1bd2156eb95",
+          "md5": "3184546384353449d782936705e4a49f"
+        }
+      ]
+    }
+  ]
+}

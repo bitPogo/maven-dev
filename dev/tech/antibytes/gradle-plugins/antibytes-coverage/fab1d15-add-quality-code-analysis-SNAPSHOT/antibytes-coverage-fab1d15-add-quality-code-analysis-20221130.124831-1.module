@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-coverage",
+    "version": "fab1d15-add-quality-code-analysis-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-coverage-fab1d15-add-quality-code-analysis-SNAPSHOT.jar",
+          "url": "antibytes-coverage-fab1d15-add-quality-code-analysis-SNAPSHOT.jar",
+          "size": 135215,
+          "sha512": "1af1d79adc48d2042ecefb6454628bca91139cf2faf1a2d2144b9293955f9862acdce59a4d32293ed40fc7904324aa4863d28448e89e5855d985b43667235df8",
+          "sha256": "543cdd4ba0d99f36e57345a38353706343d3dbe619dc1aaabafe1316befb5db1",
+          "sha1": "c4c471f6709cb92ef4486254476c007057db189a",
+          "md5": "6648890bbaa17de7b8cbad67846ee689"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.0"
+          }
+        },
+        {
+          "group": "org.jacoco",
+          "module": "org.jacoco.core",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "fab1d15-add-quality-code-analysis-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-coverage-fab1d15-add-quality-code-analysis-SNAPSHOT.jar",
+          "url": "antibytes-coverage-fab1d15-add-quality-code-analysis-SNAPSHOT.jar",
+          "size": 135215,
+          "sha512": "1af1d79adc48d2042ecefb6454628bca91139cf2faf1a2d2144b9293955f9862acdce59a4d32293ed40fc7904324aa4863d28448e89e5855d985b43667235df8",
+          "sha256": "543cdd4ba0d99f36e57345a38353706343d3dbe619dc1aaabafe1316befb5db1",
+          "sha1": "c4c471f6709cb92ef4486254476c007057db189a",
+          "md5": "6648890bbaa17de7b8cbad67846ee689"
+        }
+      ]
+    }
+  ]
+}

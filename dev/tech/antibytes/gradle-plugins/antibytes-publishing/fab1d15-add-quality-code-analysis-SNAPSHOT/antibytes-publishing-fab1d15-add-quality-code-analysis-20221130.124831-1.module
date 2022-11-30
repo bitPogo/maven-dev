@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-publishing",
+    "version": "fab1d15-add-quality-code-analysis-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-versioning",
+          "version": {
+            "requires": "fab1d15-add-quality-code-analysis-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-fab1d15-add-quality-code-analysis-SNAPSHOT.jar",
+          "url": "antibytes-publishing-fab1d15-add-quality-code-analysis-SNAPSHOT.jar",
+          "size": 124525,
+          "sha512": "5924b0f9118d73e0bbe733a4a0679252c77a7f328fd877764786fb0b232cd630d690bbaee5eb79e093a8034891241111642b0f6cae4f48bc00e01145799ff347",
+          "sha256": "11cda0e4494208e1147546c3bb317df804492579d45d386a4a589fb52f7a5c32",
+          "sha1": "f068fea34d71ce2debcf24b54ccb0e8e4ac275ba",
+          "md5": "6e3f226e51da0dcd63eb0858c01b39e1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "6.3.0.202209071007-r"
+          }
+        },
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "fab1d15-add-quality-code-analysis-SNAPSHOT"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-versioning",
+          "version": {
+            "requires": "fab1d15-add-quality-code-analysis-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-fab1d15-add-quality-code-analysis-SNAPSHOT.jar",
+          "url": "antibytes-publishing-fab1d15-add-quality-code-analysis-SNAPSHOT.jar",
+          "size": 124525,
+          "sha512": "5924b0f9118d73e0bbe733a4a0679252c77a7f328fd877764786fb0b232cd630d690bbaee5eb79e093a8034891241111642b0f6cae4f48bc00e01145799ff347",
+          "sha256": "11cda0e4494208e1147546c3bb317df804492579d45d386a4a589fb52f7a5c32",
+          "sha1": "f068fea34d71ce2debcf24b54ccb0e8e4ac275ba",
+          "md5": "6e3f226e51da0dcd63eb0858c01b39e1"
+        }
+      ]
+    }
+  ]
+}
