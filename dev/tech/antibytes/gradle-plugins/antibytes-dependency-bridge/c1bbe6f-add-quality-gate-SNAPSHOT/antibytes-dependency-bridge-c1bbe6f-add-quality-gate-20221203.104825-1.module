@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-dependency-bridge",
+    "version": "c1bbe6f-add-quality-gate-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-c1bbe6f-add-quality-gate-SNAPSHOT.jar",
+          "url": "antibytes-dependency-bridge-c1bbe6f-add-quality-gate-SNAPSHOT.jar",
+          "size": 38501,
+          "sha512": "2202de9bbae51a471043aa1b482848663326782c2bbb7043dac0d7750419e5933bac27b48cd8cfd5082b93a0f8ad1b5738c53814d20046843e2e040374120685",
+          "sha256": "a03291c9f4c9b16b02b828c7cee56b7cac90c4eea21353c2aeef55208f04917b",
+          "sha1": "b75000585e88c99cf73092e713e1f653c5caf672",
+          "md5": "c9349caffabc897d9e0cc4aff65ef56d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-c1bbe6f-add-quality-gate-SNAPSHOT.jar",
+          "url": "antibytes-dependency-bridge-c1bbe6f-add-quality-gate-SNAPSHOT.jar",
+          "size": 38501,
+          "sha512": "2202de9bbae51a471043aa1b482848663326782c2bbb7043dac0d7750419e5933bac27b48cd8cfd5082b93a0f8ad1b5738c53814d20046843e2e040374120685",
+          "sha256": "a03291c9f4c9b16b02b828c7cee56b7cac90c4eea21353c2aeef55208f04917b",
+          "sha1": "b75000585e88c99cf73092e713e1f653c5caf672",
+          "md5": "c9349caffabc897d9e0cc4aff65ef56d"
+        }
+      ]
+    }
+  ]
+}

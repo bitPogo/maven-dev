@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-dependency-helper",
+    "version": "c1bbe6f-add-quality-gate-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-helper-c1bbe6f-add-quality-gate-SNAPSHOT.jar",
+          "url": "antibytes-dependency-helper-c1bbe6f-add-quality-gate-SNAPSHOT.jar",
+          "size": 44923,
+          "sha512": "9687571fd2f901998bbaaf601e637e21f7c30967d728e413dd23b16256424e5395c6f0474d9e26237f992a3b93bb79f7d427819b0a149ba3a810ceb1efec8212",
+          "sha256": "5d52939153c3b1f430b1510daed807fdd246165b18f9a133ab764fc0e9bc4959",
+          "sha1": "06e977d6ed8b41a69b464a28ee374d21e0024133",
+          "md5": "05c98315923d9fd08421f983a09e41f5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "com.github.ben-manes",
+          "module": "gradle-versions-plugin",
+          "version": {
+            "requires": "0.42.0"
+          }
+        },
+        {
+          "group": "org.owasp",
+          "module": "dependency-check-gradle",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "c1bbe6f-add-quality-gate-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-helper-c1bbe6f-add-quality-gate-SNAPSHOT.jar",
+          "url": "antibytes-dependency-helper-c1bbe6f-add-quality-gate-SNAPSHOT.jar",
+          "size": 44923,
+          "sha512": "9687571fd2f901998bbaaf601e637e21f7c30967d728e413dd23b16256424e5395c6f0474d9e26237f992a3b93bb79f7d427819b0a149ba3a810ceb1efec8212",
+          "sha256": "5d52939153c3b1f430b1510daed807fdd246165b18f9a133ab764fc0e9bc4959",
+          "sha1": "06e977d6ed8b41a69b464a28ee374d21e0024133",
+          "md5": "05c98315923d9fd08421f983a09e41f5"
+        }
+      ]
+    }
+  ]
+}
