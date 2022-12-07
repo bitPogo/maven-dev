@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-dependency-bridge",
+    "version": "4c324f2-change-quality-plugin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-4c324f2-change-quality-plugin-SNAPSHOT.jar",
+          "url": "antibytes-dependency-bridge-4c324f2-change-quality-plugin-SNAPSHOT.jar",
+          "size": 38501,
+          "sha512": "cdfcd3dfc9d87be66ea1a9587275eef04c139a716b63cae71f18a2467ab0f2d349a61f6550c459d92c88e76f70566024c39fe6ff3eeb34fee62cd94932e1ab28",
+          "sha256": "1f858915b244c1a94f8f604542e73b3aec4c3e4446554e739800febfd0de843d",
+          "sha1": "9e24bc57abf58266eb2834dba04f0e5fc792582b",
+          "md5": "13942bcd6dcafbdda45d6d084788c31e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-4c324f2-change-quality-plugin-SNAPSHOT.jar",
+          "url": "antibytes-dependency-bridge-4c324f2-change-quality-plugin-SNAPSHOT.jar",
+          "size": 38501,
+          "sha512": "cdfcd3dfc9d87be66ea1a9587275eef04c139a716b63cae71f18a2467ab0f2d349a61f6550c459d92c88e76f70566024c39fe6ff3eeb34fee62cd94932e1ab28",
+          "sha256": "1f858915b244c1a94f8f604542e73b3aec4c3e4446554e739800febfd0de843d",
+          "sha1": "9e24bc57abf58266eb2834dba04f0e5fc792582b",
+          "md5": "13942bcd6dcafbdda45d6d084788c31e"
+        }
+      ]
+    }
+  ]
+}
