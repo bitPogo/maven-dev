@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-coverage",
+    "version": "6ad5323-add-shared-detekt-config",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-coverage-6ad5323-add-shared-detekt-config.jar",
+          "url": "antibytes-coverage-6ad5323-add-shared-detekt-config.jar",
+          "size": 135215,
+          "sha512": "265db47c47ccdb6208695f4b45fa50c5ad238c9f6b93535264b6fd6812b315789d49011852f0a8bc1d36571214b44e188459e415c91037559289d84536c662fa",
+          "sha256": "7ccee43c69f70bf7f5f6bc333e416ee4bb507d1de1a185ff73961ee276042a44",
+          "sha1": "76ba979a317860d3a01512bfac19a7c94ee736a0",
+          "md5": "97803055b53f3ef066476e922c2c1d85"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.0"
+          }
+        },
+        {
+          "group": "org.jacoco",
+          "module": "org.jacoco.core",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "6ad5323-add-shared-detekt-config"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-coverage-6ad5323-add-shared-detekt-config.jar",
+          "url": "antibytes-coverage-6ad5323-add-shared-detekt-config.jar",
+          "size": 135215,
+          "sha512": "265db47c47ccdb6208695f4b45fa50c5ad238c9f6b93535264b6fd6812b315789d49011852f0a8bc1d36571214b44e188459e415c91037559289d84536c662fa",
+          "sha256": "7ccee43c69f70bf7f5f6bc333e416ee4bb507d1de1a185ff73961ee276042a44",
+          "sha1": "76ba979a317860d3a01512bfac19a7c94ee736a0",
+          "md5": "97803055b53f3ef066476e922c2c1d85"
+        }
+      ]
+    }
+  ]
+}

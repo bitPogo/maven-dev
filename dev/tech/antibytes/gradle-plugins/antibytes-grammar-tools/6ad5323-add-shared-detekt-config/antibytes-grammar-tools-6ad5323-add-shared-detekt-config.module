@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-grammar-tools",
+    "version": "6ad5323-add-shared-detekt-config",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-grammar-tools-6ad5323-add-shared-detekt-config.jar",
+          "url": "antibytes-grammar-tools-6ad5323-add-shared-detekt-config.jar",
+          "size": 39371,
+          "sha512": "8fdb29cec66bf6b763e669e811ef1af62a84a0923ca5903d1b3ceb669375691b8effbe8b468116734b078d94d560b4598e341b5ca2bc5e50f9668f702bcad30d",
+          "sha256": "02a497fbb38962ad03bdc194af9f6949826a9412c221f637e92530b119e4ab8b",
+          "sha1": "76154f5a4ae378d887a238e170ec89c54d44a666",
+          "md5": "a7be74804c66faf4ed92c4dc5c7a7006"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "de.jflex",
+          "module": "jflex",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "com.lordcodes.turtle",
+          "module": "turtle",
+          "version": {
+            "requires": "0.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-grammar-tools-6ad5323-add-shared-detekt-config.jar",
+          "url": "antibytes-grammar-tools-6ad5323-add-shared-detekt-config.jar",
+          "size": 39371,
+          "sha512": "8fdb29cec66bf6b763e669e811ef1af62a84a0923ca5903d1b3ceb669375691b8effbe8b468116734b078d94d560b4598e341b5ca2bc5e50f9668f702bcad30d",
+          "sha256": "02a497fbb38962ad03bdc194af9f6949826a9412c221f637e92530b119e4ab8b",
+          "sha1": "76154f5a4ae378d887a238e170ec89c54d44a666",
+          "md5": "a7be74804c66faf4ed92c4dc5c7a7006"
+        }
+      ]
+    }
+  ]
+}
