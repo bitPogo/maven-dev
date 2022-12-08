@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-publishing",
+    "version": "46427ea-add-shared-detekt-config-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-versioning",
+          "version": {
+            "requires": "46427ea-add-shared-detekt-config-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-46427ea-add-shared-detekt-config-SNAPSHOT.jar",
+          "url": "antibytes-publishing-46427ea-add-shared-detekt-config-SNAPSHOT.jar",
+          "size": 129526,
+          "sha512": "c9336a37da10c3a219986906bcdbb922b02247b98a14e6ab2beb67b20caeba6d94c0d03a5ea191939a1dadd2b92f43f64a4e0841eefd2f0d85ba8425361edb41",
+          "sha256": "a9446bcec43cb82fc491b3f58c7a5a65b5b61be8a8621b2bdbdfaa5aacca87bd",
+          "sha1": "f48cb78eabc641f2ce386239dd87df25cf6c1504",
+          "md5": "7d25347affd8efc3869bc64715a41417"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "6.3.0.202209071007-r"
+          }
+        },
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "46427ea-add-shared-detekt-config-SNAPSHOT"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-versioning",
+          "version": {
+            "requires": "46427ea-add-shared-detekt-config-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-46427ea-add-shared-detekt-config-SNAPSHOT.jar",
+          "url": "antibytes-publishing-46427ea-add-shared-detekt-config-SNAPSHOT.jar",
+          "size": 129526,
+          "sha512": "c9336a37da10c3a219986906bcdbb922b02247b98a14e6ab2beb67b20caeba6d94c0d03a5ea191939a1dadd2b92f43f64a4e0841eefd2f0d85ba8425361edb41",
+          "sha256": "a9446bcec43cb82fc491b3f58c7a5a65b5b61be8a8621b2bdbdfaa5aacca87bd",
+          "sha1": "f48cb78eabc641f2ce386239dd87df25cf6c1504",
+          "md5": "7d25347affd8efc3869bc64715a41417"
+        }
+      ]
+    }
+  ]
+}
