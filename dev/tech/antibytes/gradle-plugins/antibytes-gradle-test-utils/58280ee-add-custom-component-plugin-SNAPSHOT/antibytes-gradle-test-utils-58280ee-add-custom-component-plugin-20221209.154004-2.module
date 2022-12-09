@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-gradle-test-utils",
+    "version": "58280ee-add-custom-component-plugin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-gradle-test-utils-58280ee-add-custom-component-plugin-SNAPSHOT.jar",
+          "url": "antibytes-gradle-test-utils-58280ee-add-custom-component-plugin-SNAPSHOT.jar",
+          "size": 17223,
+          "sha512": "9d05d54275bf6bd1e98de5ba396b20c9b87ead79fac35dbff1cf0a0de2ab0e460ed52f9255c1c2796f5607c2f4815be1fedfead82a12afed42f689094605574d",
+          "sha256": "669cfb6867195982994ca71113cdcecae81d0a5ca2dc5394803d66e0e5b2f0ab",
+          "sha1": "8a3daaabf9d66f012a31122ef6d4c8b7f9987fb0",
+          "md5": "6d24d41b9d899aef79daa1161a7d32e0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.mockk",
+          "module": "mockk",
+          "version": {
+            "requires": "1.12.8"
+          }
+        },
+        {
+          "group": "com.appmattus.fixture",
+          "module": "fixture",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-gradle-test-utils-58280ee-add-custom-component-plugin-SNAPSHOT.jar",
+          "url": "antibytes-gradle-test-utils-58280ee-add-custom-component-plugin-SNAPSHOT.jar",
+          "size": 17223,
+          "sha512": "9d05d54275bf6bd1e98de5ba396b20c9b87ead79fac35dbff1cf0a0de2ab0e460ed52f9255c1c2796f5607c2f4815be1fedfead82a12afed42f689094605574d",
+          "sha256": "669cfb6867195982994ca71113cdcecae81d0a5ca2dc5394803d66e0e5b2f0ab",
+          "sha1": "8a3daaabf9d66f012a31122ef6d4c8b7f9987fb0",
+          "md5": "6d24d41b9d899aef79daa1161a7d32e0"
+        }
+      ]
+    }
+  ]
+}
