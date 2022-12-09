@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-dependency-bridge",
+    "version": "2693ec7-change-shared-detekt-configuration-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-2693ec7-change-shared-detekt-configuration-SNAPSHOT.jar",
+          "url": "antibytes-dependency-bridge-2693ec7-change-shared-detekt-configuration-SNAPSHOT.jar",
+          "size": 38501,
+          "sha512": "05a61054af26514c27f57cdccd31090a1188bfee1356ab3063b896bfc7ae1a8a1f8ca844249f871051ff8b12f5168b4afdd84978b6afab8097aa4ebfa37f0651",
+          "sha256": "03fa9eb700d50699cf481314bb9bb9d4162641a442d451470a0e9b3079dff56e",
+          "sha1": "8a59fd132621bd6cce00bfdf6c086d5d2cda7399",
+          "md5": "505e3342cd0e1a7f86ec4f121c0072f8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-2693ec7-change-shared-detekt-configuration-SNAPSHOT.jar",
+          "url": "antibytes-dependency-bridge-2693ec7-change-shared-detekt-configuration-SNAPSHOT.jar",
+          "size": 38501,
+          "sha512": "05a61054af26514c27f57cdccd31090a1188bfee1356ab3063b896bfc7ae1a8a1f8ca844249f871051ff8b12f5168b4afdd84978b6afab8097aa4ebfa37f0651",
+          "sha256": "03fa9eb700d50699cf481314bb9bb9d4162641a442d451470a0e9b3079dff56e",
+          "sha1": "8a59fd132621bd6cce00bfdf6c086d5d2cda7399",
+          "md5": "505e3342cd0e1a7f86ec4f121c0072f8"
+        }
+      ]
+    }
+  ]
+}

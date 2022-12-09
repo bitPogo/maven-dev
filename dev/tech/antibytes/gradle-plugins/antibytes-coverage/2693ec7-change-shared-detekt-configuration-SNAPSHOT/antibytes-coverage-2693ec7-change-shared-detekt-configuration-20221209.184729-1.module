@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-coverage",
+    "version": "2693ec7-change-shared-detekt-configuration-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-coverage-2693ec7-change-shared-detekt-configuration-SNAPSHOT.jar",
+          "url": "antibytes-coverage-2693ec7-change-shared-detekt-configuration-SNAPSHOT.jar",
+          "size": 135215,
+          "sha512": "e40a968a0d6d6387a1e93aa7e4b1126e888f9009d8b2c06454fb488b8c1567ce0b64772539fcb245dd71cb084b01ec204c9870ed7337a91f5578fa68f335ea5d",
+          "sha256": "28aa50c820fbeb72c33e05dd9e84863f30a3bac0e12dab875d98d5237d15b13f",
+          "sha1": "8842bacf5fefb864d3580352891079ebaad4d1bd",
+          "md5": "e1e9caa09f6a864936f4f789fbc7cbea"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.0"
+          }
+        },
+        {
+          "group": "org.jacoco",
+          "module": "org.jacoco.core",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "2693ec7-change-shared-detekt-configuration-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-coverage-2693ec7-change-shared-detekt-configuration-SNAPSHOT.jar",
+          "url": "antibytes-coverage-2693ec7-change-shared-detekt-configuration-SNAPSHOT.jar",
+          "size": 135215,
+          "sha512": "e40a968a0d6d6387a1e93aa7e4b1126e888f9009d8b2c06454fb488b8c1567ce0b64772539fcb245dd71cb084b01ec204c9870ed7337a91f5578fa68f335ea5d",
+          "sha256": "28aa50c820fbeb72c33e05dd9e84863f30a3bac0e12dab875d98d5237d15b13f",
+          "sha1": "8842bacf5fefb864d3580352891079ebaad4d1bd",
+          "md5": "e1e9caa09f6a864936f4f789fbc7cbea"
+        }
+      ]
+    }
+  ]
+}
