@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-coverage",
+    "version": "c414c01-remove-classifier-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-coverage-c414c01-remove-classifier-SNAPSHOT.jar",
+          "url": "antibytes-coverage-c414c01-remove-classifier-SNAPSHOT.jar",
+          "size": 135215,
+          "sha512": "18e37f2ee1c4e6e48c8cfe9294ae154c2230c068fcd62c41c90397340a746ae1c8e6c98c0afb2c0c36ef67a3d28a2469dadbe41118cffb2c4c30587d2538db91",
+          "sha256": "189ad479a64e43a97c1a520f6bc58b22306ce8aab341aaecd5661baa8e66c283",
+          "sha1": "fde2d9d5778419d5eb186c638f741eba505d5e65",
+          "md5": "c7f31b1248f12469d0243191794475f1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.0"
+          }
+        },
+        {
+          "group": "org.jacoco",
+          "module": "org.jacoco.core",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "c414c01-remove-classifier-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-coverage-c414c01-remove-classifier-SNAPSHOT.jar",
+          "url": "antibytes-coverage-c414c01-remove-classifier-SNAPSHOT.jar",
+          "size": 135215,
+          "sha512": "18e37f2ee1c4e6e48c8cfe9294ae154c2230c068fcd62c41c90397340a746ae1c8e6c98c0afb2c0c36ef67a3d28a2469dadbe41118cffb2c4c30587d2538db91",
+          "sha256": "189ad479a64e43a97c1a520f6bc58b22306ce8aab341aaecd5661baa8e66c283",
+          "sha1": "fde2d9d5778419d5eb186c638f741eba505d5e65",
+          "md5": "c7f31b1248f12469d0243191794475f1"
+        }
+      ]
+    }
+  ]
+}

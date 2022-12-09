@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-dependency-bridge",
+    "version": "c414c01-remove-classifier-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-c414c01-remove-classifier-SNAPSHOT.jar",
+          "url": "antibytes-dependency-bridge-c414c01-remove-classifier-SNAPSHOT.jar",
+          "size": 38501,
+          "sha512": "ec834ecbf77d6dbb24342340685c9e0f7463a961fc4af253d93d672aab6101d64b5825f19ab87677d93f13ca34fa79d06cb8b86039638093dcfdebd45f81a179",
+          "sha256": "a9f80e4914795c71833c6dc6a4fdf03b040c4eca5f32b16794e1fd6090f4679c",
+          "sha1": "93abfd1a412a3cae4d2d5351e024d61f995d9e60",
+          "md5": "63f6b41e5158907e44d2d64a1500e3da"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-c414c01-remove-classifier-SNAPSHOT.jar",
+          "url": "antibytes-dependency-bridge-c414c01-remove-classifier-SNAPSHOT.jar",
+          "size": 38501,
+          "sha512": "ec834ecbf77d6dbb24342340685c9e0f7463a961fc4af253d93d672aab6101d64b5825f19ab87677d93f13ca34fa79d06cb8b86039638093dcfdebd45f81a179",
+          "sha256": "a9f80e4914795c71833c6dc6a4fdf03b040c4eca5f32b16794e1fd6090f4679c",
+          "sha1": "93abfd1a412a3cae4d2d5351e024d61f995d9e60",
+          "md5": "63f6b41e5158907e44d2d64a1500e3da"
+        }
+      ]
+    }
+  ]
+}
