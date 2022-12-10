@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-versioning",
+    "version": "72b787f-add-artifact-resolver-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-72b787f-add-artifact-resolver-SNAPSHOT.jar",
+          "url": "antibytes-versioning-72b787f-add-artifact-resolver-SNAPSHOT.jar",
+          "size": 17440,
+          "sha512": "55b41cfaed89981af4592a905a0de2be4a73e802d585df81b64286508e25115b0a38c90bfe9a8da9ce624428deb25bcac72f029732d9cc8b5066adf48512f958",
+          "sha256": "28f1fa50f5d8466f7a2670d9446aaf2465cdff97c0a3a41a2beb761c3fa33881",
+          "sha1": "6c4910cf8cea44e51f75e5eb90ea4b1e28bd1550",
+          "md5": "92cf2462b41615261e7e000542e22f74"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-72b787f-add-artifact-resolver-SNAPSHOT.jar",
+          "url": "antibytes-versioning-72b787f-add-artifact-resolver-SNAPSHOT.jar",
+          "size": 17440,
+          "sha512": "55b41cfaed89981af4592a905a0de2be4a73e802d585df81b64286508e25115b0a38c90bfe9a8da9ce624428deb25bcac72f029732d9cc8b5066adf48512f958",
+          "sha256": "28f1fa50f5d8466f7a2670d9446aaf2465cdff97c0a3a41a2beb761c3fa33881",
+          "sha1": "6c4910cf8cea44e51f75e5eb90ea4b1e28bd1550",
+          "md5": "92cf2462b41615261e7e000542e22f74"
+        }
+      ]
+    }
+  ]
+}

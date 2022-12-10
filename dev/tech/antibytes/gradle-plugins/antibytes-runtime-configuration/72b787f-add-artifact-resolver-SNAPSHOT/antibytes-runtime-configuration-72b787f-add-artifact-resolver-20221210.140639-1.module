@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-runtime-configuration",
+    "version": "72b787f-add-artifact-resolver-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-72b787f-add-artifact-resolver-SNAPSHOT.jar",
+          "url": "antibytes-runtime-configuration-72b787f-add-artifact-resolver-SNAPSHOT.jar",
+          "size": 9073,
+          "sha512": "03ab7290425b71194b03733f4019e28a21bc1dbaec10bc29e06a424720e960c53143e9f67375916cc25396f0080d181f9084ef08feaff95d9fca5122a888e7a7",
+          "sha256": "91676e3e2071eeb6d234b9f71c1bda5d21143178e459ce1453fc732611a9d4e8",
+          "sha1": "f3536c622ef28095afae5cf949e0bea447f1c7cb",
+          "md5": "5a34215d3f632a8c3e2641d16c15a594"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "72b787f-add-artifact-resolver-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-72b787f-add-artifact-resolver-SNAPSHOT.jar",
+          "url": "antibytes-runtime-configuration-72b787f-add-artifact-resolver-SNAPSHOT.jar",
+          "size": 9073,
+          "sha512": "03ab7290425b71194b03733f4019e28a21bc1dbaec10bc29e06a424720e960c53143e9f67375916cc25396f0080d181f9084ef08feaff95d9fca5122a888e7a7",
+          "sha256": "91676e3e2071eeb6d234b9f71c1bda5d21143178e459ce1453fc732611a9d4e8",
+          "sha1": "f3536c622ef28095afae5cf949e0bea447f1c7cb",
+          "md5": "5a34215d3f632a8c3e2641d16c15a594"
+        }
+      ]
+    }
+  ]
+}
