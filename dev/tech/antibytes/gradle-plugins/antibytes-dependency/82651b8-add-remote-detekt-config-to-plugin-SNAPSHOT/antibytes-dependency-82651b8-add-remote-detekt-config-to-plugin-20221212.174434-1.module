@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-dependency",
+    "version": "82651b8-add-remote-detekt-config-to-plugin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-82651b8-add-remote-detekt-config-to-plugin-SNAPSHOT.jar",
+          "url": "antibytes-dependency-82651b8-add-remote-detekt-config-to-plugin-SNAPSHOT.jar",
+          "size": 88198,
+          "sha512": "83ed057de7e7013e50be7ad92099ebfff3f0c162d4564c207b19abff6587d09c0ea6072e673bfdc91e021072f41ac004f954e255dc83fe5a2d3d75194cff67d1",
+          "sha256": "b16ddd328e5d45d7023c109b05939e1f277157bdbd217a32eafdea0d2d8a09aa",
+          "sha1": "d34e746b7628f114ead72778f0b3239c7a6a9950",
+          "md5": "44ae1440e9080671932d9f69ff20aef8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.0"
+          }
+        },
+        {
+          "group": "com.github.ben-manes",
+          "module": "gradle-versions-plugin",
+          "version": {
+            "requires": "0.42.0"
+          }
+        },
+        {
+          "group": "org.owasp",
+          "module": "dependency-check-gradle",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "com.pinterest",
+          "module": "ktlint",
+          "version": {
+            "requires": "0.47.1"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "logback-classic"
+            },
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "com.diffplug.spotless",
+          "module": "spotless-plugin-gradle",
+          "version": {
+            "requires": "6.11.0"
+          },
+          "excludes": [
+            {
+              "group": "org.codehaus.groovy",
+              "module": "groovy-xml"
+            }
+          ]
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "82651b8-add-remote-detekt-config-to-plugin-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-82651b8-add-remote-detekt-config-to-plugin-SNAPSHOT.jar",
+          "url": "antibytes-dependency-82651b8-add-remote-detekt-config-to-plugin-SNAPSHOT.jar",
+          "size": 88198,
+          "sha512": "83ed057de7e7013e50be7ad92099ebfff3f0c162d4564c207b19abff6587d09c0ea6072e673bfdc91e021072f41ac004f954e255dc83fe5a2d3d75194cff67d1",
+          "sha256": "b16ddd328e5d45d7023c109b05939e1f277157bdbd217a32eafdea0d2d8a09aa",
+          "sha1": "d34e746b7628f114ead72778f0b3239c7a6a9950",
+          "md5": "44ae1440e9080671932d9f69ff20aef8"
+        }
+      ]
+    }
+  ]
+}
