@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-coverage",
+    "version": "bb86acb-add-snapshot-supression-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-coverage-bb86acb-add-snapshot-supression-SNAPSHOT.jar",
+          "url": "antibytes-coverage-bb86acb-add-snapshot-supression-SNAPSHOT.jar",
+          "size": 135215,
+          "sha512": "0cc52d857e99c9b3c0c311343cb91b97dd22adbf961a914b9abcc3dffec2a6647e08c7d3f24866f78c92fa187aeff3d76bc4d53c78cfb27bfd0085bd0dd84907",
+          "sha256": "37b05daef8f88c9a0ebc995fc5d075f61dffa3fe5307e727b5858553a97b3df4",
+          "sha1": "6b81bf9aab81c68d9a76981f6ca7e8904fc2fcd3",
+          "md5": "4e2fc8224b2784beb05344ee81b4402d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.0"
+          }
+        },
+        {
+          "group": "org.jacoco",
+          "module": "org.jacoco.core",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "bb86acb-add-snapshot-supression-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-coverage-bb86acb-add-snapshot-supression-SNAPSHOT.jar",
+          "url": "antibytes-coverage-bb86acb-add-snapshot-supression-SNAPSHOT.jar",
+          "size": 135215,
+          "sha512": "0cc52d857e99c9b3c0c311343cb91b97dd22adbf961a914b9abcc3dffec2a6647e08c7d3f24866f78c92fa187aeff3d76bc4d53c78cfb27bfd0085bd0dd84907",
+          "sha256": "37b05daef8f88c9a0ebc995fc5d075f61dffa3fe5307e727b5858553a97b3df4",
+          "sha1": "6b81bf9aab81c68d9a76981f6ca7e8904fc2fcd3",
+          "md5": "4e2fc8224b2784beb05344ee81b4402d"
+        }
+      ]
+    }
+  ]
+}
