@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-runtime-configuration",
+    "version": "fb3fdb1-add-snapshot-supression-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-fb3fdb1-add-snapshot-supression-SNAPSHOT.jar",
+          "url": "antibytes-runtime-configuration-fb3fdb1-add-snapshot-supression-SNAPSHOT.jar",
+          "size": 9073,
+          "sha512": "83d13278d44147367528c570cf24b21f057a7dd7d160e250988838f0177025d92d10e7b5b5b90d2319a72624763b01b13f75ee68bd923a48bf3caa459750d615",
+          "sha256": "69deb1c9c37f65c58b79cf185c8e80611876ec8535101bf3dfbfd128e5389885",
+          "sha1": "3b918b3004ea413f735526512f372e498476ff22",
+          "md5": "6b58f49d90793fa53b8d25d41b5926f4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "fb3fdb1-add-snapshot-supression-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-fb3fdb1-add-snapshot-supression-SNAPSHOT.jar",
+          "url": "antibytes-runtime-configuration-fb3fdb1-add-snapshot-supression-SNAPSHOT.jar",
+          "size": 9073,
+          "sha512": "83d13278d44147367528c570cf24b21f057a7dd7d160e250988838f0177025d92d10e7b5b5b90d2319a72624763b01b13f75ee68bd923a48bf3caa459750d615",
+          "sha256": "69deb1c9c37f65c58b79cf185c8e80611876ec8535101bf3dfbfd128e5389885",
+          "sha1": "3b918b3004ea413f735526512f372e498476ff22",
+          "md5": "6b58f49d90793fa53b8d25d41b5926f4"
+        }
+      ]
+    }
+  ]
+}
