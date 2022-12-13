@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-coverage",
+    "version": "de75989-change-settings-plugin",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-coverage-de75989-change-settings-plugin.jar",
+          "url": "antibytes-coverage-de75989-change-settings-plugin.jar",
+          "size": 135215,
+          "sha512": "0b74a4f224c7cbd1d7dfadb0e6b4b28a162706433175f2bb4aa99c5ac182f10e11814909ef1008d6b7885bc610b18b9e16a0276b32b3df0b9f6dbe43622dc68a",
+          "sha256": "e95cce8e89f8cd01d60723b5856a9bfd44996e56acdd732c16cf6e86085b3bdf",
+          "sha1": "55abb0244629872bf9400620c78234028017f3a0",
+          "md5": "8e469e053731a4be526fc95e04c8eadb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.0"
+          }
+        },
+        {
+          "group": "org.jacoco",
+          "module": "org.jacoco.core",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "de75989-change-settings-plugin"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-coverage-de75989-change-settings-plugin.jar",
+          "url": "antibytes-coverage-de75989-change-settings-plugin.jar",
+          "size": 135215,
+          "sha512": "0b74a4f224c7cbd1d7dfadb0e6b4b28a162706433175f2bb4aa99c5ac182f10e11814909ef1008d6b7885bc610b18b9e16a0276b32b3df0b9f6dbe43622dc68a",
+          "sha256": "e95cce8e89f8cd01d60723b5856a9bfd44996e56acdd732c16cf6e86085b3bdf",
+          "sha1": "55abb0244629872bf9400620c78234028017f3a0",
+          "md5": "8e469e053731a4be526fc95e04c8eadb"
+        }
+      ]
+    }
+  ]
+}

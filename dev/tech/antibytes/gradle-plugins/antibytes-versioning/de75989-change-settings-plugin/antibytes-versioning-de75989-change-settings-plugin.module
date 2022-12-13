@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-versioning",
+    "version": "de75989-change-settings-plugin",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-de75989-change-settings-plugin.jar",
+          "url": "antibytes-versioning-de75989-change-settings-plugin.jar",
+          "size": 17802,
+          "sha512": "a55c6540209a7e72e94a70dd3e6412559b35b99b951ef6b41721e2041a19282824dd73545736941a0d622c97bad52bdf89071d9e52b1c53f4d0482ff8b833468",
+          "sha256": "5dac3bb03f62541a2efa982166dbe542954b2e5231a50433a078be48924b9a2f",
+          "sha1": "00ce12634c78c1a4b7159daf34ecf68bc0ed0412",
+          "md5": "141b7a7046cb101d0190f442bd9f723b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-de75989-change-settings-plugin.jar",
+          "url": "antibytes-versioning-de75989-change-settings-plugin.jar",
+          "size": 17802,
+          "sha512": "a55c6540209a7e72e94a70dd3e6412559b35b99b951ef6b41721e2041a19282824dd73545736941a0d622c97bad52bdf89071d9e52b1c53f4d0482ff8b833468",
+          "sha256": "5dac3bb03f62541a2efa982166dbe542954b2e5231a50433a078be48924b9a2f",
+          "sha1": "00ce12634c78c1a4b7159daf34ecf68bc0ed0412",
+          "md5": "141b7a7046cb101d0190f442bd9f723b"
+        }
+      ]
+    }
+  ]
+}
