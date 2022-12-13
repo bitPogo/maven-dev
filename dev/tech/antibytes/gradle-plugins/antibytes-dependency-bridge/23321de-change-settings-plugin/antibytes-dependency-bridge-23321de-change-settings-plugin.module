@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-dependency-bridge",
+    "version": "23321de-change-settings-plugin",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-23321de-change-settings-plugin.jar",
+          "url": "antibytes-dependency-bridge-23321de-change-settings-plugin.jar",
+          "size": 38501,
+          "sha512": "816939e3d67338a07aba5c52d7eaec31c3633f1d36f517a9f41c5ac57a3975bab9a0a160384d4c0a12edc9739f5868cdc97ec012e0d643b9108ad2f6b7fcf920",
+          "sha256": "e87113a54abc92345a8e2234ee459ec41ac0de00af3a0e129e02ed601f04afbd",
+          "sha1": "d0ab88709eea9e0fc85ea5a27e84acaa8ac35b36",
+          "md5": "2cbbc8c03d0241c171da98f9e93b81e7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-23321de-change-settings-plugin.jar",
+          "url": "antibytes-dependency-bridge-23321de-change-settings-plugin.jar",
+          "size": 38501,
+          "sha512": "816939e3d67338a07aba5c52d7eaec31c3633f1d36f517a9f41c5ac57a3975bab9a0a160384d4c0a12edc9739f5868cdc97ec012e0d643b9108ad2f6b7fcf920",
+          "sha256": "e87113a54abc92345a8e2234ee459ec41ac0de00af3a0e129e02ed601f04afbd",
+          "sha1": "d0ab88709eea9e0fc85ea5a27e84acaa8ac35b36",
+          "md5": "2cbbc8c03d0241c171da98f9e93b81e7"
+        }
+      ]
+    }
+  ]
+}
