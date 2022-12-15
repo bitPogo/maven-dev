@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "55f63ce-change-plugins",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-55f63ce-change-plugins.jar",
+          "url": "antibytes-dependency-bridge-55f63ce-change-plugins.jar",
+          "size": 38501,
+          "sha512": "c1e30474e1a0461677cb30aaffc9289c9c412dfe8aa03ea290ba7da858c8be72268c164463b8c66101f1a3786a50f298814ae4c80b94e732aa0dbff383ed8dbb",
+          "sha256": "46b011292095284a52523e7b39586d00460f082100bf384e60d7dc3fbae4040f",
+          "sha1": "65c4aedcba450812532c71dec70c095593be2c38",
+          "md5": "53b1761fd0bf712bfdd6d65965b91684"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-55f63ce-change-plugins.jar",
+          "url": "antibytes-dependency-bridge-55f63ce-change-plugins.jar",
+          "size": 38501,
+          "sha512": "c1e30474e1a0461677cb30aaffc9289c9c412dfe8aa03ea290ba7da858c8be72268c164463b8c66101f1a3786a50f298814ae4c80b94e732aa0dbff383ed8dbb",
+          "sha256": "46b011292095284a52523e7b39586d00460f082100bf384e60d7dc3fbae4040f",
+          "sha1": "65c4aedcba450812532c71dec70c095593be2c38",
+          "md5": "53b1761fd0bf712bfdd6d65965b91684"
+        }
+      ]
+    }
+  ]
+}
