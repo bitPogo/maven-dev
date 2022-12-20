@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.coverage",
+    "module": "antibytes-coverage",
+    "version": "6c63031-change-plugin-cut",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-coverage-6c63031-change-plugin-cut.jar",
+          "url": "antibytes-coverage-6c63031-change-plugin-cut.jar",
+          "size": 135215,
+          "sha512": "c7b4d97b4c6122b493aebbca888063df76f28a5e003ff44e96c237d2ff4134f8fd481bbf6327e12b78a4187262c6f19f13e5289c5e2c9b3ad8c77e24bf58c8ad",
+          "sha256": "330d565a5ff7f21fd2877638397ec25993bcdda9f43594b3e3c1e1add99e3d24",
+          "sha1": "fc1ca422e7ad8921e3ae8bd3c4cdfb69f2afa03e",
+          "md5": "cf7bba1bb38ecd4b29e0a153878dc844"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.0"
+          }
+        },
+        {
+          "group": "org.jacoco",
+          "module": "org.jacoco.core",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "6c63031-change-plugin-cut"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-coverage-6c63031-change-plugin-cut.jar",
+          "url": "antibytes-coverage-6c63031-change-plugin-cut.jar",
+          "size": 135215,
+          "sha512": "c7b4d97b4c6122b493aebbca888063df76f28a5e003ff44e96c237d2ff4134f8fd481bbf6327e12b78a4187262c6f19f13e5289c5e2c9b3ad8c77e24bf58c8ad",
+          "sha256": "330d565a5ff7f21fd2877638397ec25993bcdda9f43594b3e3c1e1add99e3d24",
+          "sha1": "fc1ca422e7ad8921e3ae8bd3c4cdfb69f2afa03e",
+          "md5": "cf7bba1bb38ecd4b29e0a153878dc844"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "6c63031-change-plugin-cut",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-6c63031-change-plugin-cut.jar",
+          "url": "antibytes-dependency-bridge-6c63031-change-plugin-cut.jar",
+          "size": 38501,
+          "sha512": "b0131fa441f3472e7a818263216d15570485cbf47cb362c42b46f181a76cad676403d46d8f0a28c5abe2a9279f25cf68d6b7a116a57f52ea5408a82108b76a09",
+          "sha256": "9b44a79bb5a54997b8d433a415a117238bfea453d40f19c0274298643b64c73e",
+          "sha1": "955a13380e0679ab7b3b429033e1526a4f5ff392",
+          "md5": "b70011b7f286f6f53748ccfead3ab1eb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-6c63031-change-plugin-cut.jar",
+          "url": "antibytes-dependency-bridge-6c63031-change-plugin-cut.jar",
+          "size": 38501,
+          "sha512": "b0131fa441f3472e7a818263216d15570485cbf47cb362c42b46f181a76cad676403d46d8f0a28c5abe2a9279f25cf68d6b7a116a57f52ea5408a82108b76a09",
+          "sha256": "9b44a79bb5a54997b8d433a415a117238bfea453d40f19c0274298643b64c73e",
+          "sha1": "955a13380e0679ab7b3b429033e1526a4f5ff392",
+          "md5": "b70011b7f286f6f53748ccfead3ab1eb"
+        }
+      ]
+    }
+  ]
+}
