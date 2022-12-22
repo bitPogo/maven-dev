@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-ktor/d03b409-change-workflows-SNAPSHOT/test-utils-ktor-d03b409-change-workflows-SNAPSHOT.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-ktor",
+    "version": "d03b409-change-workflows-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor-jvm-d03b409-change-workflows-SNAPSHOT.jar",
+          "url": "test-utils-ktor-jvm-d03b409-change-workflows-SNAPSHOT.jar",
+          "size": 26352,
+          "sha512": "fa54bb5f8a2a21f30d96eb8186c3370580416fc720c8bfef8d7b0ce79391c349048ed038e250c1d1d24a4edf9124a4e83edf7bc5138bee92dd145904344a85c0",
+          "sha256": "ec4fb75205b56038b775baf310e6dc439574d6032ca7d7db2d18f6bdda259639",
+          "sha1": "d2c2f09641828428648dc79f141755845e3ff6c7",
+          "md5": "6de1ae66fe54059127ec0c45c0b4a40d"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor-jvm-d03b409-change-workflows-SNAPSHOT.jar",
+          "url": "test-utils-ktor-jvm-d03b409-change-workflows-SNAPSHOT.jar",
+          "size": 26352,
+          "sha512": "fa54bb5f8a2a21f30d96eb8186c3370580416fc720c8bfef8d7b0ce79391c349048ed038e250c1d1d24a4edf9124a4e83edf7bc5138bee92dd145904344a85c0",
+          "sha256": "ec4fb75205b56038b775baf310e6dc439574d6032ca7d7db2d18f6bdda259639",
+          "sha1": "d2c2f09641828428648dc79f141755845e3ff6c7",
+          "md5": "6de1ae66fe54059127ec0c45c0b4a40d"
+        }
+      ]
+    }
+  ]
+}
