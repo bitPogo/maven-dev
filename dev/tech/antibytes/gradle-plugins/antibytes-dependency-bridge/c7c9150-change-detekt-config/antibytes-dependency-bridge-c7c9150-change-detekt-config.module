@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-dependency-bridge",
+    "version": "c7c9150-change-detekt-config",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-c7c9150-change-detekt-config.jar",
+          "url": "antibytes-dependency-bridge-c7c9150-change-detekt-config.jar",
+          "size": 38501,
+          "sha512": "0031ef30761e8a37113cd14e69f3e01b922666e40dc0e6b8f0ccffe4b4d9b27cc0bec9996f5c9a851cac38232ce2cefd0c50226b3b83965a076c00c980a97bbe",
+          "sha256": "a33ce0241f6e55765e73db3422325af2eb546af2c722ed3dad18d9949fcdac8a",
+          "sha1": "68381e6b051066f2ad8076c4569e06f35427f88c",
+          "md5": "81a81eeaa3775c66917229acc0c872da"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-c7c9150-change-detekt-config.jar",
+          "url": "antibytes-dependency-bridge-c7c9150-change-detekt-config.jar",
+          "size": 38501,
+          "sha512": "0031ef30761e8a37113cd14e69f3e01b922666e40dc0e6b8f0ccffe4b4d9b27cc0bec9996f5c9a851cac38232ce2cefd0c50226b3b83965a076c00c980a97bbe",
+          "sha256": "a33ce0241f6e55765e73db3422325af2eb546af2c722ed3dad18d9949fcdac8a",
+          "sha1": "68381e6b051066f2ad8076c4569e06f35427f88c",
+          "md5": "81a81eeaa3775c66917229acc0c872da"
+        }
+      ]
+    }
+  ]
+}
