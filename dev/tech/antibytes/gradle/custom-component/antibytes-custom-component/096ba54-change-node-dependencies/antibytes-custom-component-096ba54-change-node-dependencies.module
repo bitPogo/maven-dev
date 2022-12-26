@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.custom-component",
+    "module": "antibytes-custom-component",
+    "version": "096ba54-change-node-dependencies",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-custom-component-096ba54-change-node-dependencies.jar",
+          "url": "antibytes-custom-component-096ba54-change-node-dependencies.jar",
+          "size": 16190,
+          "sha512": "ca301d645905a785d9700b8c2f2dd79cb61b14c562f17b19e3675a56648b612c0e98afe425db1517cab631bbaf610330107152dafd26ac71039b78a1d9a11218",
+          "sha256": "20d9cabe075c89fd2ef4f3374ed2affafc260a7ffe4d12bc68b207897f96d460",
+          "sha1": "838e071b72a682ab1dead15949c355eb3ae3caa3",
+          "md5": "d5ba9a2d849f099e502494eb4a0073e2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-custom-component-096ba54-change-node-dependencies.jar",
+          "url": "antibytes-custom-component-096ba54-change-node-dependencies.jar",
+          "size": 16190,
+          "sha512": "ca301d645905a785d9700b8c2f2dd79cb61b14c562f17b19e3675a56648b612c0e98afe425db1517cab631bbaf610330107152dafd26ac71039b78a1d9a11218",
+          "sha256": "20d9cabe075c89fd2ef4f3374ed2affafc260a7ffe4d12bc68b207897f96d460",
+          "sha1": "838e071b72a682ab1dead15949c355eb3ae3caa3",
+          "md5": "d5ba9a2d849f099e502494eb4a0073e2"
+        }
+      ]
+    }
+  ]
+}
