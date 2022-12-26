@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.dokka",
+    "module": "antibytes-dokka-configuration",
+    "version": "f3ac00b-change-node-dependencies",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-f3ac00b-change-node-dependencies.jar",
+          "url": "antibytes-dokka-configuration-f3ac00b-change-node-dependencies.jar",
+          "size": 7894,
+          "sha512": "64035b42bb5b89abce0aa6177a2417cb69f85fd29c89c8d295ea55871adfca0eddd3932e0bbcf499a1e72b5712520ee0c5ac2f2b9f4250dc0356b9a30ab49a43",
+          "sha256": "a9f39805696b9142b355582af75074dc2900be247cc1af7791e784c9fcf4c7f9",
+          "sha1": "e05fd0cc0e4155d190daf8820c6dce6e6a73cb64",
+          "md5": "86b8060f7ccb975283579c0f92ca0cdb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "f3ac00b-change-node-dependencies"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-f3ac00b-change-node-dependencies.jar",
+          "url": "antibytes-dokka-configuration-f3ac00b-change-node-dependencies.jar",
+          "size": 7894,
+          "sha512": "64035b42bb5b89abce0aa6177a2417cb69f85fd29c89c8d295ea55871adfca0eddd3932e0bbcf499a1e72b5712520ee0c5ac2f2b9f4250dc0356b9a30ab49a43",
+          "sha256": "a9f39805696b9142b355582af75074dc2900be247cc1af7791e784c9fcf4c7f9",
+          "sha1": "e05fd0cc0e4155d190daf8820c6dce6e6a73cb64",
+          "md5": "86b8060f7ccb975283579c0f92ca0cdb"
+        }
+      ]
+    }
+  ]
+}
