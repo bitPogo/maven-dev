@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "8a9ec9b-change-node-dependencies",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-8a9ec9b-change-node-dependencies.jar",
+          "url": "antibytes-dependency-bridge-8a9ec9b-change-node-dependencies.jar",
+          "size": 38501,
+          "sha512": "67398187fc7ea0de940ccd3d9fed72887c0f00e1ab84ea7c00ea0a71752521d5a1828dcb60245d5189ea4047ac6b77a4506d6b5993c9a24702890ab08f5f5a04",
+          "sha256": "6fd4ab85c8aa011158fb20a019b848fa149da5b2e404ac9109e23d949dc6b676",
+          "sha1": "9bc978f7bda946b76f023661344fcd660b0d3d6a",
+          "md5": "d025033366fbca6a13a5e62adca345a2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-8a9ec9b-change-node-dependencies.jar",
+          "url": "antibytes-dependency-bridge-8a9ec9b-change-node-dependencies.jar",
+          "size": 38501,
+          "sha512": "67398187fc7ea0de940ccd3d9fed72887c0f00e1ab84ea7c00ea0a71752521d5a1828dcb60245d5189ea4047ac6b77a4506d6b5993c9a24702890ab08f5f5a04",
+          "sha256": "6fd4ab85c8aa011158fb20a019b848fa149da5b2e404ac9109e23d949dc6b676",
+          "sha1": "9bc978f7bda946b76f023661344fcd660b0d3d6a",
+          "md5": "d025033366fbca6a13a5e62adca345a2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-gradle-test-utils",
+    "version": "8a9ec9b-change-node-dependencies",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-gradle-test-utils-8a9ec9b-change-node-dependencies.jar",
+          "url": "antibytes-gradle-test-utils-8a9ec9b-change-node-dependencies.jar",
+          "size": 17226,
+          "sha512": "2d73d064191df4596799b8c6778ca0b7edbb87ba7061c0e5e0abf20e504c52409e7b28a92d7ed292ead3a73d7cafad0f4e295509fe7d5e19b2ce2cf7a7c22ee4",
+          "sha256": "7e6dfb9249da9f9465fa058984e2a17d3510ed814c9a6bc3c5d7fb074a8fe5a6",
+          "sha1": "c79f02a83de0191bd30a2151169a8bebbea81ba0",
+          "md5": "fe8098cedc7006f79ad21ae8c1a2b359"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.mockk",
+          "module": "mockk",
+          "version": {
+            "requires": "1.12.8"
+          }
+        },
+        {
+          "group": "com.appmattus.fixture",
+          "module": "fixture",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-gradle-test-utils-8a9ec9b-change-node-dependencies.jar",
+          "url": "antibytes-gradle-test-utils-8a9ec9b-change-node-dependencies.jar",
+          "size": 17226,
+          "sha512": "2d73d064191df4596799b8c6778ca0b7edbb87ba7061c0e5e0abf20e504c52409e7b28a92d7ed292ead3a73d7cafad0f4e295509fe7d5e19b2ce2cf7a7c22ee4",
+          "sha256": "7e6dfb9249da9f9465fa058984e2a17d3510ed814c9a6bc3c5d7fb074a8fe5a6",
+          "sha1": "c79f02a83de0191bd30a2151169a8bebbea81ba0",
+          "md5": "fe8098cedc7006f79ad21ae8c1a2b359"
+        }
+      ]
+    }
+  ]
+}
