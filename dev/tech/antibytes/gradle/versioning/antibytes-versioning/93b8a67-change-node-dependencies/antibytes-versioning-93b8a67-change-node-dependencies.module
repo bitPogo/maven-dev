@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.versioning",
+    "module": "antibytes-versioning",
+    "version": "93b8a67-change-node-dependencies",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-93b8a67-change-node-dependencies.jar",
+          "url": "antibytes-versioning-93b8a67-change-node-dependencies.jar",
+          "size": 21893,
+          "sha512": "79d418351efe7d7ccc98a4a781e5c5c9d77f1725462cf2595428efbe541e5b2c9dc8e6214e3e7c9aff9c460128969dbbb39d7065ae3e0d261bf3fab5a4ff3af9",
+          "sha256": "09bccaa231617160522541d646254761ddb861da6908bb5a141da07c03e1de78",
+          "sha1": "09c4eb17d441d6a4ab18f5df838d4fef6ba423f2",
+          "md5": "bfbd2c11fe409522f82453ef9b1db990"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-93b8a67-change-node-dependencies.jar",
+          "url": "antibytes-versioning-93b8a67-change-node-dependencies.jar",
+          "size": 21893,
+          "sha512": "79d418351efe7d7ccc98a4a781e5c5c9d77f1725462cf2595428efbe541e5b2c9dc8e6214e3e7c9aff9c460128969dbbb39d7065ae3e0d261bf3fab5a4ff3af9",
+          "sha256": "09bccaa231617160522541d646254761ddb861da6908bb5a141da07c03e1de78",
+          "sha1": "09c4eb17d441d6a4ab18f5df838d4fef6ba423f2",
+          "md5": "bfbd2c11fe409522f82453ef9b1db990"
+        }
+      ]
+    }
+  ]
+}
