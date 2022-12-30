@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.publishing",
+    "module": "antibytes-publishing",
+    "version": "669446f-remove-doublets",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.versioning",
+          "module": "antibytes-versioning",
+          "version": {
+            "requires": "669446f-remove-doublets"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-669446f-remove-doublets.jar",
+          "url": "antibytes-publishing-669446f-remove-doublets.jar",
+          "size": 130775,
+          "sha512": "810c9b1a4629d9f5c0dbb285aa55d6855014c553529f7a2d77bf869fd3841f7d76bb5c36fcdb71e3399be5633f4e752a1e79f14dd4c661e8971411cb91ecc215",
+          "sha256": "cb9ea80cd1af5e7ccc46e93293eaededce234a89588d659de545d80d8e48cb57",
+          "sha1": "d7bb6441b01465c3e41af21a66633b2cd5ebea45",
+          "md5": "289586b6e5b6fda531c88d8f1f144b5f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "6.3.0.202209071007-r"
+          }
+        },
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "669446f-remove-doublets"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle.versioning",
+          "module": "antibytes-versioning",
+          "version": {
+            "requires": "669446f-remove-doublets"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-669446f-remove-doublets.jar",
+          "url": "antibytes-publishing-669446f-remove-doublets.jar",
+          "size": 130775,
+          "sha512": "810c9b1a4629d9f5c0dbb285aa55d6855014c553529f7a2d77bf869fd3841f7d76bb5c36fcdb71e3399be5633f4e752a1e79f14dd4c661e8971411cb91ecc215",
+          "sha256": "cb9ea80cd1af5e7ccc46e93293eaededce234a89588d659de545d80d8e48cb57",
+          "sha1": "d7bb6441b01465c3e41af21a66633b2cd5ebea45",
+          "md5": "289586b6e5b6fda531c88d8f1f144b5f"
+        }
+      ]
+    }
+  ]
+}
