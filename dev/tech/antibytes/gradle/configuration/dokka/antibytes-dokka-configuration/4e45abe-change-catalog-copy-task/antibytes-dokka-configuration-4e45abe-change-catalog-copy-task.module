@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.dokka",
+    "module": "antibytes-dokka-configuration",
+    "version": "4e45abe-change-catalog-copy-task",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-4e45abe-change-catalog-copy-task.jar",
+          "url": "antibytes-dokka-configuration-4e45abe-change-catalog-copy-task.jar",
+          "size": 7889,
+          "sha512": "a1a1ea31923e39fc014fd3c691de4f9655038545f5f81ae986a2b22292c77e6459a99a4833875d47446419fdac7d0016546a372777bc67161777516eda470c0b",
+          "sha256": "2b725125efcc4fc73523cfb75ae03280284a0fa4e657977f8affa96704047a02",
+          "sha1": "ea7a42491d74dab1b858d5d2ea84bcc93f787221",
+          "md5": "0f1b5770f837a7381b3d377002f5a0bd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "4e45abe-change-catalog-copy-task"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-4e45abe-change-catalog-copy-task.jar",
+          "url": "antibytes-dokka-configuration-4e45abe-change-catalog-copy-task.jar",
+          "size": 7889,
+          "sha512": "a1a1ea31923e39fc014fd3c691de4f9655038545f5f81ae986a2b22292c77e6459a99a4833875d47446419fdac7d0016546a372777bc67161777516eda470c0b",
+          "sha256": "2b725125efcc4fc73523cfb75ae03280284a0fa4e657977f8affa96704047a02",
+          "sha1": "ea7a42491d74dab1b858d5d2ea84bcc93f787221",
+          "md5": "0f1b5770f837a7381b3d377002f5a0bd"
+        }
+      ]
+    }
+  ]
+}

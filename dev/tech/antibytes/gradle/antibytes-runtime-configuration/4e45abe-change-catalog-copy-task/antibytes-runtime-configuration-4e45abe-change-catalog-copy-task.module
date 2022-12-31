@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-runtime-configuration",
+    "version": "4e45abe-change-catalog-copy-task",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-4e45abe-change-catalog-copy-task.jar",
+          "url": "antibytes-runtime-configuration-4e45abe-change-catalog-copy-task.jar",
+          "size": 9073,
+          "sha512": "a9768883064f49988cd4d41773961418992c69d4c74d45fc2e4f54ee2f42e199d84c163671bf4540ea29e9052f1e48b300d9ccae0d16d3b30bfa2250d7e601d7",
+          "sha256": "48117ee17b43b981c88b72020a3d05b971eacfbe17c11bd1aee2ff0bcbc93b87",
+          "sha1": "035cd76eb6e54e61ddc192180984692a82337d2c",
+          "md5": "957b17ab08cae084863300ab42abf5e2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "4e45abe-change-catalog-copy-task"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-4e45abe-change-catalog-copy-task.jar",
+          "url": "antibytes-runtime-configuration-4e45abe-change-catalog-copy-task.jar",
+          "size": 9073,
+          "sha512": "a9768883064f49988cd4d41773961418992c69d4c74d45fc2e4f54ee2f42e199d84c163671bf4540ea29e9052f1e48b300d9ccae0d16d3b30bfa2250d7e601d7",
+          "sha256": "48117ee17b43b981c88b72020a3d05b971eacfbe17c11bd1aee2ff0bcbc93b87",
+          "sha1": "035cd76eb6e54e61ddc192180984692a82337d2c",
+          "md5": "957b17ab08cae084863300ab42abf5e2"
+        }
+      ]
+    }
+  ]
+}
