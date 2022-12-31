@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.dokka",
+    "module": "antibytes-dokka-configuration",
+    "version": "8329a97-change-node-transformer",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-8329a97-change-node-transformer.jar",
+          "url": "antibytes-dokka-configuration-8329a97-change-node-transformer.jar",
+          "size": 7889,
+          "sha512": "6d7250ab104a6dbc83e0bb1e67944735cd5a1504cb27b2095b7e789a4eb45c6332e3cdbdd44db6744bec680edf835afd3346e55d84fa35e37293950a14734d98",
+          "sha256": "efcbb1b2e80e94024b260990bb6fd0925c2914f3bebfa94616a8fcc70890c31d",
+          "sha1": "f7c4d773aae675401e0677a81a84fa41d6203111",
+          "md5": "255a04745a86504bc288ae1730f9676c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "8329a97-change-node-transformer"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-8329a97-change-node-transformer.jar",
+          "url": "antibytes-dokka-configuration-8329a97-change-node-transformer.jar",
+          "size": 7889,
+          "sha512": "6d7250ab104a6dbc83e0bb1e67944735cd5a1504cb27b2095b7e789a4eb45c6332e3cdbdd44db6744bec680edf835afd3346e55d84fa35e37293950a14734d98",
+          "sha256": "efcbb1b2e80e94024b260990bb6fd0925c2914f3bebfa94616a8fcc70890c31d",
+          "sha1": "f7c4d773aae675401e0677a81a84fa41d6203111",
+          "md5": "255a04745a86504bc288ae1730f9676c"
+        }
+      ]
+    }
+  ]
+}

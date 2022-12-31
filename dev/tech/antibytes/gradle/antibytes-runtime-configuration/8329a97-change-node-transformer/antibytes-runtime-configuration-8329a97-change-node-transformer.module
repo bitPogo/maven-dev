@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-runtime-configuration",
+    "version": "8329a97-change-node-transformer",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-8329a97-change-node-transformer.jar",
+          "url": "antibytes-runtime-configuration-8329a97-change-node-transformer.jar",
+          "size": 9073,
+          "sha512": "0a866efc7d1cbbe9684e34bde32c226a1c9ec9d13d345bc268acb420edd8bb74b9727374971d392ae96d31d0a7bad6e7d589089b3aa53114cb606d6444ea8452",
+          "sha256": "44093f8c7c74d32336fac4967f12af3e6ed7bfd3fa38944779ea32c436baecad",
+          "sha1": "35cf4aa54ecdf895d5fd7deafa2b8b9d3ce3bfa9",
+          "md5": "71b38ff8c1de3bfbc627a319eb2c2d84"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "8329a97-change-node-transformer"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-8329a97-change-node-transformer.jar",
+          "url": "antibytes-runtime-configuration-8329a97-change-node-transformer.jar",
+          "size": 9073,
+          "sha512": "0a866efc7d1cbbe9684e34bde32c226a1c9ec9d13d345bc268acb420edd8bb74b9727374971d392ae96d31d0a7bad6e7d589089b3aa53114cb606d6444ea8452",
+          "sha256": "44093f8c7c74d32336fac4967f12af3e6ed7bfd3fa38944779ea32c436baecad",
+          "sha1": "35cf4aa54ecdf895d5fd7deafa2b8b9d3ce3bfa9",
+          "md5": "71b38ff8c1de3bfbc627a319eb2c2d84"
+        }
+      ]
+    }
+  ]
+}
