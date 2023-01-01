@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.settings",
+    "module": "antibytes-dependency-settings",
+    "version": "12ea545-fix-python-dependencies",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "12ea545-fix-python-dependencies"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-12ea545-fix-python-dependencies.jar",
+          "url": "antibytes-dependency-settings-12ea545-fix-python-dependencies.jar",
+          "size": 78433784,
+          "sha512": "7fc5b703f22784f2502100c4c3359cd76417ae107bf4af378850aae7f8f4a5b842f14489f1f825520ac1fd01492e51ece0dfc176ccac5bbaab62f8c4a143e537",
+          "sha256": "4ef69fa29e98d17d5a2b24568fe10da0e2db61740ed07ab4167c39d40e60d578",
+          "sha1": "4f0e33b76381b4af3cf1088eb2b2808e9ba91127",
+          "md5": "d4c96c9c8635d5fb261e813d8084b0c1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "12ea545-fix-python-dependencies"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-12ea545-fix-python-dependencies.jar",
+          "url": "antibytes-dependency-settings-12ea545-fix-python-dependencies.jar",
+          "size": 78433784,
+          "sha512": "7fc5b703f22784f2502100c4c3359cd76417ae107bf4af378850aae7f8f4a5b842f14489f1f825520ac1fd01492e51ece0dfc176ccac5bbaab62f8c4a143e537",
+          "sha256": "4ef69fa29e98d17d5a2b24568fe10da0e2db61740ed07ab4167c39d40e60d578",
+          "sha1": "4f0e33b76381b4af3cf1088eb2b2808e9ba91127",
+          "md5": "d4c96c9c8635d5fb261e813d8084b0c1"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-12ea545-fix-python-dependencies.jar",
+          "url": "antibytes-dependency-settings-12ea545-fix-python-dependencies.jar",
+          "size": 78433784,
+          "sha512": "7fc5b703f22784f2502100c4c3359cd76417ae107bf4af378850aae7f8f4a5b842f14489f1f825520ac1fd01492e51ece0dfc176ccac5bbaab62f8c4a143e537",
+          "sha256": "4ef69fa29e98d17d5a2b24568fe10da0e2db61740ed07ab4167c39d40e60d578",
+          "sha1": "4f0e33b76381b4af3cf1088eb2b2808e9ba91127",
+          "md5": "d4c96c9c8635d5fb261e813d8084b0c1"
+        }
+      ]
+    }
+  ]
+}

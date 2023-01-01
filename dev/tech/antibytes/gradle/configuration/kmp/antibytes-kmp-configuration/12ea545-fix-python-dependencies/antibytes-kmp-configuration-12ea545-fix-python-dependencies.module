@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.kmp",
+    "module": "antibytes-kmp-configuration",
+    "version": "12ea545-fix-python-dependencies",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-12ea545-fix-python-dependencies.jar",
+          "url": "antibytes-kmp-configuration-12ea545-fix-python-dependencies.jar",
+          "size": 12967,
+          "sha512": "357431f98e6e079278bbd5b11896f736799f2257fc54a258e5b1449a50f6f0a840ecd3147043d4a974dcb247812f8cd027c06524d647125670a75109d4724e08",
+          "sha256": "acd7f7ff5fabf722cdf5d5e46e2c7c7e636d8a37c1a76dc39aa110d5bf64dc87",
+          "sha1": "c5a888f4252447bdfba98840e8fbd476714d11ab",
+          "md5": "12d7314febb9e879bc706ac7f0773c9b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "12ea545-fix-python-dependencies"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-12ea545-fix-python-dependencies.jar",
+          "url": "antibytes-kmp-configuration-12ea545-fix-python-dependencies.jar",
+          "size": 12967,
+          "sha512": "357431f98e6e079278bbd5b11896f736799f2257fc54a258e5b1449a50f6f0a840ecd3147043d4a974dcb247812f8cd027c06524d647125670a75109d4724e08",
+          "sha256": "acd7f7ff5fabf722cdf5d5e46e2c7c7e636d8a37c1a76dc39aa110d5bf64dc87",
+          "sha1": "c5a888f4252447bdfba98840e8fbd476714d11ab",
+          "md5": "12d7314febb9e879bc706ac7f0773c9b"
+        }
+      ]
+    }
+  ]
+}
