@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-change-project-configuration-SNAPSHOT/core-0.4.0-change-project-configuration-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-change-project-configuration-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-jvm-0.4.0-change-project-configuration-SNAPSHOT.jar",
+          "url": "core-jvm-0.4.0-change-project-configuration-SNAPSHOT.jar",
+          "size": 292810,
+          "sha512": "d2c4685e7bdaae614e69d02ea3913c521eaed21bd57ef793c2f186fc4d607550389cd04edc4c0ee212383e6c374e4cdf6320f509f9155c0fac6876dcf06c1ef0",
+          "sha256": "0810a3e4592c4da2641b3ea135e3594d7e36e58cd810f0bb4cdbaa119669bf03",
+          "sha1": "bc1b15e9fa89218e62d7104a386a2f21762ce614",
+          "md5": "51468e4760a60f1fc513c4fa89ff164b"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-jvm-0.4.0-change-project-configuration-SNAPSHOT.jar",
+          "url": "core-jvm-0.4.0-change-project-configuration-SNAPSHOT.jar",
+          "size": 292810,
+          "sha512": "d2c4685e7bdaae614e69d02ea3913c521eaed21bd57ef793c2f186fc4d607550389cd04edc4c0ee212383e6c374e4cdf6320f509f9155c0fac6876dcf06c1ef0",
+          "sha256": "0810a3e4592c4da2641b3ea135e3594d7e36e58cd810f0bb4cdbaa119669bf03",
+          "sha1": "bc1b15e9fa89218e62d7104a386a2f21762ce614",
+          "md5": "51468e4760a60f1fc513c4fa89ff164b"
+        }
+      ]
+    }
+  ]
+}
