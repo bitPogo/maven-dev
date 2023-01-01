@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.helper",
+    "module": "antibytes-dependency-helper",
+    "version": "c8719de-fix-detekt-distribution",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-helper-c8719de-fix-detekt-distribution.jar",
+          "url": "antibytes-dependency-helper-c8719de-fix-detekt-distribution.jar",
+          "size": 68554,
+          "sha512": "aaad10ee550f7ca4e9631a7d2a714702237b608da5fe41efaf1baa50a753e2e1052128a1c768238e7a40599dfef6b732e7573dee2c2ad4c099346cb9420addf9",
+          "sha256": "134bb426be26f27342a9bfa5b4f324e606715c9a88d547678a260d141f9bf428",
+          "sha1": "10ca3a941bc4f0ed986b2ab91bb79b3f9713bd54",
+          "md5": "8210f7b7458b28860ce5b5e2a9b1bd6c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "com.github.ben-manes",
+          "module": "gradle-versions-plugin",
+          "version": {
+            "requires": "0.42.0"
+          }
+        },
+        {
+          "group": "org.owasp",
+          "module": "dependency-check-gradle",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "com.squareup.tools.build",
+          "module": "maven-archeologist",
+          "version": {
+            "requires": "0.0.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "c8719de-fix-detekt-distribution"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-helper-c8719de-fix-detekt-distribution.jar",
+          "url": "antibytes-dependency-helper-c8719de-fix-detekt-distribution.jar",
+          "size": 68554,
+          "sha512": "aaad10ee550f7ca4e9631a7d2a714702237b608da5fe41efaf1baa50a753e2e1052128a1c768238e7a40599dfef6b732e7573dee2c2ad4c099346cb9420addf9",
+          "sha256": "134bb426be26f27342a9bfa5b4f324e606715c9a88d547678a260d141f9bf428",
+          "sha1": "10ca3a941bc4f0ed986b2ab91bb79b3f9713bd54",
+          "md5": "8210f7b7458b28860ce5b5e2a9b1bd6c"
+        }
+      ]
+    }
+  ]
+}
