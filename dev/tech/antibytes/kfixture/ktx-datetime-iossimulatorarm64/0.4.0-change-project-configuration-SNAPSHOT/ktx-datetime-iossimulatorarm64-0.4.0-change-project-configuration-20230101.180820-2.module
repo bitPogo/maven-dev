@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktx-datetime/0.4.0-change-project-configuration-SNAPSHOT/ktx-datetime-0.4.0-change-project-configuration-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "ktx-datetime",
+    "version": "0.4.0-change-project-configuration-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.kfixture",
+          "module": "core",
+          "version": {
+            "requires": "0.4.0-change-project-configuration-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime.klib",
+          "url": "ktx-datetime-iossimulatorarm64-0.4.0-change-project-configuration-SNAPSHOT.klib",
+          "size": 34785,
+          "sha512": "8f0b1a31f3112809e249c830ea7dc505cd979b549c66f799f854a8c005e456b87cb265a5642b64c9090441f96a1dc355070b088c49f54bb31ee8fe6de75689a6",
+          "sha256": "f1a3d0355c51be80e881bd041a1cbb722f80aabcf457e03d3d141b141ce99a23",
+          "sha1": "98d8873bffae3b4f6f3e1f2920f94408a0d4de20",
+          "md5": "e73173220ddfd62b626eeec87f235a82"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.kfixture",
+          "module": "core",
+          "version": {
+            "requires": "0.4.0-change-project-configuration-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime-iossimulatorarm64-0.4.0-change-project-configuration-SNAPSHOT-metadata.jar",
+          "url": "ktx-datetime-iossimulatorarm64-0.4.0-change-project-configuration-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "e2d6aa85a332d8f98a2b82f10b5c2647d3593a352cdce6679f15a9d18e5619667d6e155261dda71e4669064b1fbf4f3a2c5544c4569a65a1d58914df00ef4ed3",
+          "sha256": "e863498c3686cabbf8f7d16eefa9826073ef872e0c540cf5224407014710598e",
+          "sha1": "1c6789415f0bb3ddbf29cd25a91467016f87c949",
+          "md5": "ad5acf6cd203693d618364b3755779e7"
+        }
+      ]
+    }
+  ]
+}
