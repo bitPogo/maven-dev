@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.grammar",
+    "module": "antibytes-grammar-tools",
+    "version": "af9df43-add-plattform-hooks",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-grammar-tools-af9df43-add-plattform-hooks.jar",
+          "url": "antibytes-grammar-tools-af9df43-add-plattform-hooks.jar",
+          "size": 39371,
+          "sha512": "652e4a4dd785424a93ceba02e3f684383f423cb66a197d0f4b7e6fde7786ba64de7518a0b84642e02c9b3cd5fedfeaba97eb1d2bc78a196f378181115006affa",
+          "sha256": "775c995e53868c116bfa441be67029ea6579c33cdb65e714a299052a7a685a78",
+          "sha1": "d7728abdc0e1fe98dc218880779d5129c40ba000",
+          "md5": "74c31709613e863a72e5f7927e5dd2d9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "de.jflex",
+          "module": "jflex",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "com.lordcodes.turtle",
+          "module": "turtle",
+          "version": {
+            "requires": "0.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-grammar-tools-af9df43-add-plattform-hooks.jar",
+          "url": "antibytes-grammar-tools-af9df43-add-plattform-hooks.jar",
+          "size": 39371,
+          "sha512": "652e4a4dd785424a93ceba02e3f684383f423cb66a197d0f4b7e6fde7786ba64de7518a0b84642e02c9b3cd5fedfeaba97eb1d2bc78a196f378181115006affa",
+          "sha256": "775c995e53868c116bfa441be67029ea6579c33cdb65e714a299052a7a685a78",
+          "sha1": "d7728abdc0e1fe98dc218880779d5129c40ba000",
+          "md5": "74c31709613e863a72e5f7927e5dd2d9"
+        }
+      ]
+    }
+  ]
+}

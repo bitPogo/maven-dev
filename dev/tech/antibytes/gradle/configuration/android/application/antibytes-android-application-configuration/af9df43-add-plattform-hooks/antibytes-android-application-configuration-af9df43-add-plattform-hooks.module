@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.android.application",
+    "module": "antibytes-android-application-configuration",
+    "version": "af9df43-add-plattform-hooks",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-android-application-configuration-af9df43-add-plattform-hooks.jar",
+          "url": "antibytes-android-application-configuration-af9df43-add-plattform-hooks.jar",
+          "size": 56574,
+          "sha512": "48a82b878153c742e559d75bcfae5d4a4c3d0c9d3d935a4c61669117385cf7219005a66c36d64382901aabd637f908e4901ff682a4e9a4722e7329fc0e4fd09a",
+          "sha256": "33e4677953042d949dbf7b34343220c4448ca8dad5c403fcfe5c49e62f264724",
+          "sha1": "abb846cd7da8c1eb6b10a07cb10ee86f1c229ff9",
+          "md5": "652150cb89aed055348f22e7413d6690"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "af9df43-add-plattform-hooks"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-android-application-configuration-af9df43-add-plattform-hooks.jar",
+          "url": "antibytes-android-application-configuration-af9df43-add-plattform-hooks.jar",
+          "size": 56574,
+          "sha512": "48a82b878153c742e559d75bcfae5d4a4c3d0c9d3d935a4c61669117385cf7219005a66c36d64382901aabd637f908e4901ff682a4e9a4722e7329fc0e4fd09a",
+          "sha256": "33e4677953042d949dbf7b34343220c4448ca8dad5c403fcfe5c49e62f264724",
+          "sha1": "abb846cd7da8c1eb6b10a07cb10ee86f1c229ff9",
+          "md5": "652150cb89aed055348f22e7413d6690"
+        }
+      ]
+    }
+  ]
+}

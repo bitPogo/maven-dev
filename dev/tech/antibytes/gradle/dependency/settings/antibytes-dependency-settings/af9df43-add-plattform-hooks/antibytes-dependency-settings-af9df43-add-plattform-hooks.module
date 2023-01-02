@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.settings",
+    "module": "antibytes-dependency-settings",
+    "version": "af9df43-add-plattform-hooks",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "af9df43-add-plattform-hooks"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-af9df43-add-plattform-hooks.jar",
+          "url": "antibytes-dependency-settings-af9df43-add-plattform-hooks.jar",
+          "size": 78433788,
+          "sha512": "619bbcc0b9982f60580c487ef38e37f6d87106f89e79d912ae38d0d7a52989955a04b77fd0488b436e81ffb25bda06a45d9240290948789699902b0c38fb7897",
+          "sha256": "42b437ca3429768494fbc135d8930b538622049657d3eeed5811cab43d34b687",
+          "sha1": "1de951911d81969c35ad3ba5d7505deb47256444",
+          "md5": "94653cfd9c5b42cef78257c45daf0e96"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "af9df43-add-plattform-hooks"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-af9df43-add-plattform-hooks.jar",
+          "url": "antibytes-dependency-settings-af9df43-add-plattform-hooks.jar",
+          "size": 78433788,
+          "sha512": "619bbcc0b9982f60580c487ef38e37f6d87106f89e79d912ae38d0d7a52989955a04b77fd0488b436e81ffb25bda06a45d9240290948789699902b0c38fb7897",
+          "sha256": "42b437ca3429768494fbc135d8930b538622049657d3eeed5811cab43d34b687",
+          "sha1": "1de951911d81969c35ad3ba5d7505deb47256444",
+          "md5": "94653cfd9c5b42cef78257c45daf0e96"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-af9df43-add-plattform-hooks.jar",
+          "url": "antibytes-dependency-settings-af9df43-add-plattform-hooks.jar",
+          "size": 78433788,
+          "sha512": "619bbcc0b9982f60580c487ef38e37f6d87106f89e79d912ae38d0d7a52989955a04b77fd0488b436e81ffb25bda06a45d9240290948789699902b0c38fb7897",
+          "sha256": "42b437ca3429768494fbc135d8930b538622049657d3eeed5811cab43d34b687",
+          "sha1": "1de951911d81969c35ad3ba5d7505deb47256444",
+          "md5": "94653cfd9c5b42cef78257c45daf0e96"
+        }
+      ]
+    }
+  ]
+}

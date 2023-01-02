@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-runtime-configuration",
+    "version": "af9df43-add-plattform-hooks",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-af9df43-add-plattform-hooks.jar",
+          "url": "antibytes-runtime-configuration-af9df43-add-plattform-hooks.jar",
+          "size": 9073,
+          "sha512": "5c6226a6b05f50a0a67ac6ce44595da21122d70db3d66989aeb4351d7851649f0c3fea0241e97fa22690bf4418491219ffdb8fae87565c538e6deadc8b0eab11",
+          "sha256": "896ce6d69947a8dda29f2f50cc71c548a3e1e261a4a26f6957f99c317c09fd68",
+          "sha1": "acfd3376a761a17e220f2ea36f9d6a5273d14abc",
+          "md5": "90eb760896ae6f3721bb2f308d359698"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "af9df43-add-plattform-hooks"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-af9df43-add-plattform-hooks.jar",
+          "url": "antibytes-runtime-configuration-af9df43-add-plattform-hooks.jar",
+          "size": 9073,
+          "sha512": "5c6226a6b05f50a0a67ac6ce44595da21122d70db3d66989aeb4351d7851649f0c3fea0241e97fa22690bf4418491219ffdb8fae87565c538e6deadc8b0eab11",
+          "sha256": "896ce6d69947a8dda29f2f50cc71c548a3e1e261a4a26f6957f99c317c09fd68",
+          "sha1": "acfd3376a761a17e220f2ea36f9d6a5273d14abc",
+          "md5": "90eb760896ae6f3721bb2f308d359698"
+        }
+      ]
+    }
+  ]
+}
