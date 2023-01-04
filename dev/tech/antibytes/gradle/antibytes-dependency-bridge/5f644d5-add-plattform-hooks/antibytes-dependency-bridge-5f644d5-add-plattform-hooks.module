@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "5f644d5-add-plattform-hooks",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-5f644d5-add-plattform-hooks.jar",
+          "url": "antibytes-dependency-bridge-5f644d5-add-plattform-hooks.jar",
+          "size": 38501,
+          "sha512": "8f5cdc7d2a020d9ebe9fe5d662e0a06a88df627b298193db0299aab5cacc47c9f8338400ba48e4aeeb9c0a15ab5c6483fb8b2c3e6fd10cb8a6d6ffb76c031fcc",
+          "sha256": "f9689cfab547cfcf8cc5de125bbf8b62461414a915dee09310ecf45c2095ebd0",
+          "sha1": "db5645c6bfb62830543cc3445ef7acb8fd535ae4",
+          "md5": "71f41c9ca9aa22db8a2d8c3d6a327c1f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-5f644d5-add-plattform-hooks.jar",
+          "url": "antibytes-dependency-bridge-5f644d5-add-plattform-hooks.jar",
+          "size": 38501,
+          "sha512": "8f5cdc7d2a020d9ebe9fe5d662e0a06a88df627b298193db0299aab5cacc47c9f8338400ba48e4aeeb9c0a15ab5c6483fb8b2c3e6fd10cb8a6d6ffb76c031fcc",
+          "sha256": "f9689cfab547cfcf8cc5de125bbf8b62461414a915dee09310ecf45c2095ebd0",
+          "sha1": "db5645c6bfb62830543cc3445ef7acb8fd535ae4",
+          "md5": "71f41c9ca9aa22db8a2d8c3d6a327c1f"
+        }
+      ]
+    }
+  ]
+}
