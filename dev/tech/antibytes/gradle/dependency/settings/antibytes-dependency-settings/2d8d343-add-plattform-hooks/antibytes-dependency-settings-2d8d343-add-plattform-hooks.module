@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.settings",
+    "module": "antibytes-dependency-settings",
+    "version": "2d8d343-add-plattform-hooks",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "2d8d343-add-plattform-hooks"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-2d8d343-add-plattform-hooks.jar",
+          "url": "antibytes-dependency-settings-2d8d343-add-plattform-hooks.jar",
+          "size": 78433788,
+          "sha512": "d72303067986b949a7ebf067ea29a70cf49431abfa56e33187264b7760069c726befd743b7682974dcdae4704a9d4701e048d5d9a0eb5df076b6984b00fad6cc",
+          "sha256": "40ea3b737665c6134f333269202ca1cd9b73521ab0b8b3a0ce92399b49b0efa4",
+          "sha1": "ba9a8087af3353a5b7a59d95f5c3029dd59d7701",
+          "md5": "d8bc4ca1ad6580fbd719033cc667adb5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "2d8d343-add-plattform-hooks"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-2d8d343-add-plattform-hooks.jar",
+          "url": "antibytes-dependency-settings-2d8d343-add-plattform-hooks.jar",
+          "size": 78433788,
+          "sha512": "d72303067986b949a7ebf067ea29a70cf49431abfa56e33187264b7760069c726befd743b7682974dcdae4704a9d4701e048d5d9a0eb5df076b6984b00fad6cc",
+          "sha256": "40ea3b737665c6134f333269202ca1cd9b73521ab0b8b3a0ce92399b49b0efa4",
+          "sha1": "ba9a8087af3353a5b7a59d95f5c3029dd59d7701",
+          "md5": "d8bc4ca1ad6580fbd719033cc667adb5"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-2d8d343-add-plattform-hooks.jar",
+          "url": "antibytes-dependency-settings-2d8d343-add-plattform-hooks.jar",
+          "size": 78433788,
+          "sha512": "d72303067986b949a7ebf067ea29a70cf49431abfa56e33187264b7760069c726befd743b7682974dcdae4704a9d4701e048d5d9a0eb5df076b6984b00fad6cc",
+          "sha256": "40ea3b737665c6134f333269202ca1cd9b73521ab0b8b3a0ce92399b49b0efa4",
+          "sha1": "ba9a8087af3353a5b7a59d95f5c3029dd59d7701",
+          "md5": "d8bc4ca1ad6580fbd719033cc667adb5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.coverage",
+    "module": "antibytes-coverage",
+    "version": "2d8d343-add-plattform-hooks",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-coverage-2d8d343-add-plattform-hooks.jar",
+          "url": "antibytes-coverage-2d8d343-add-plattform-hooks.jar",
+          "size": 135187,
+          "sha512": "26c382be666341b8d9426d1da8d7236aaedf49b40da422dc4165914c8f35bea18a344c04c7cbcf9087005842c4a65dc1a4b24ce1650d6fd299737da9ade21d2b",
+          "sha256": "39d9d0550ab6da6596070e8a958b83acfa85fddc9d75f1d959fa01494729a26e",
+          "sha1": "48dcff0921e2c38549e4804f6d37ffbda25223fb",
+          "md5": "a4e6bd3b7199badf1a3921a9c23ccecb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.0"
+          }
+        },
+        {
+          "group": "org.jacoco",
+          "module": "org.jacoco.core",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "2d8d343-add-plattform-hooks"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-coverage-2d8d343-add-plattform-hooks.jar",
+          "url": "antibytes-coverage-2d8d343-add-plattform-hooks.jar",
+          "size": 135187,
+          "sha512": "26c382be666341b8d9426d1da8d7236aaedf49b40da422dc4165914c8f35bea18a344c04c7cbcf9087005842c4a65dc1a4b24ce1650d6fd299737da9ade21d2b",
+          "sha256": "39d9d0550ab6da6596070e8a958b83acfa85fddc9d75f1d959fa01494729a26e",
+          "sha1": "48dcff0921e2c38549e4804f6d37ffbda25223fb",
+          "md5": "a4e6bd3b7199badf1a3921a9c23ccecb"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.helper",
+    "module": "antibytes-dependency-helper",
+    "version": "2d8d343-add-plattform-hooks",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-helper-2d8d343-add-plattform-hooks.jar",
+          "url": "antibytes-dependency-helper-2d8d343-add-plattform-hooks.jar",
+          "size": 68558,
+          "sha512": "9b44b6d98a3c030a2d6f8d8cff72dade6870fda163709b27fc5c54e95db360152dde65fd7bdf092d4922f10ee78f7144aeb4eb4f4db3ad1a11a9eae9a99bfd07",
+          "sha256": "ea82d257021a2335c8f7642df9563410cb94266439163a3317b72eb9bf1721eb",
+          "sha1": "be6f6149e8f322d7a2f5336bf53be2e9ebd73028",
+          "md5": "b6ba461b98ea13b41462862e3de576cc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "com.github.ben-manes",
+          "module": "gradle-versions-plugin",
+          "version": {
+            "requires": "0.42.0"
+          }
+        },
+        {
+          "group": "org.owasp",
+          "module": "dependency-check-gradle",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "com.squareup.tools.build",
+          "module": "maven-archeologist",
+          "version": {
+            "requires": "0.0.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "2d8d343-add-plattform-hooks"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-helper-2d8d343-add-plattform-hooks.jar",
+          "url": "antibytes-dependency-helper-2d8d343-add-plattform-hooks.jar",
+          "size": 68558,
+          "sha512": "9b44b6d98a3c030a2d6f8d8cff72dade6870fda163709b27fc5c54e95db360152dde65fd7bdf092d4922f10ee78f7144aeb4eb4f4db3ad1a11a9eae9a99bfd07",
+          "sha256": "ea82d257021a2335c8f7642df9563410cb94266439163a3317b72eb9bf1721eb",
+          "sha1": "be6f6149e8f322d7a2f5336bf53be2e9ebd73028",
+          "md5": "b6ba461b98ea13b41462862e3de576cc"
+        }
+      ]
+    }
+  ]
+}
