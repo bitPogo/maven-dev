@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.publishing",
+    "module": "antibytes-publishing",
+    "version": "3cbbc95-add-plattform-hooks",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.versioning",
+          "module": "antibytes-versioning",
+          "version": {
+            "requires": "3cbbc95-add-plattform-hooks"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-3cbbc95-add-plattform-hooks.jar",
+          "url": "antibytes-publishing-3cbbc95-add-plattform-hooks.jar",
+          "size": 130775,
+          "sha512": "24f0fc6db09e507351dc8a7793830a7727889c78099b90ecb0497e7e556cdad4f702da1ddfb10a550737df8a795c065761ed8d4e530dd283aac5ea48eaed2753",
+          "sha256": "17fe4dbbf656971d99b28c8a7c91278dd546b50e46b89ec9b3294a248138f36a",
+          "sha1": "ec34c7b2c24ea241051f881cfff9a091bc590d14",
+          "md5": "2ae19fedddd20c89c9211024fd4fb7e1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "6.3.0.202209071007-r"
+          }
+        },
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "3cbbc95-add-plattform-hooks"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle.versioning",
+          "module": "antibytes-versioning",
+          "version": {
+            "requires": "3cbbc95-add-plattform-hooks"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-3cbbc95-add-plattform-hooks.jar",
+          "url": "antibytes-publishing-3cbbc95-add-plattform-hooks.jar",
+          "size": 130775,
+          "sha512": "24f0fc6db09e507351dc8a7793830a7727889c78099b90ecb0497e7e556cdad4f702da1ddfb10a550737df8a795c065761ed8d4e530dd283aac5ea48eaed2753",
+          "sha256": "17fe4dbbf656971d99b28c8a7c91278dd546b50e46b89ec9b3294a248138f36a",
+          "sha1": "ec34c7b2c24ea241051f881cfff9a091bc590d14",
+          "md5": "2ae19fedddd20c89c9211024fd4fb7e1"
+        }
+      ]
+    }
+  ]
+}

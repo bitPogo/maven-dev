@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.settings",
+    "module": "antibytes-dependency-settings",
+    "version": "3cbbc95-add-plattform-hooks",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "3cbbc95-add-plattform-hooks"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-3cbbc95-add-plattform-hooks.jar",
+          "url": "antibytes-dependency-settings-3cbbc95-add-plattform-hooks.jar",
+          "size": 78433787,
+          "sha512": "8768799532363189d9e2807a277bb1469b4d1023366f7267ce38068562b6cb66ff8a99516c9247b755c4f4f7031750d9eb3526cdebef73f2324568d06167384f",
+          "sha256": "9c6a0bc71ba24d55f8eb626d025bb7e87020f7d72dc75dba0706ff14b2b54ef3",
+          "sha1": "cdaefcac87904b52ddb14949a302f912a1912829",
+          "md5": "a06729af1d4057611939720d1454057c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "3cbbc95-add-plattform-hooks"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-3cbbc95-add-plattform-hooks.jar",
+          "url": "antibytes-dependency-settings-3cbbc95-add-plattform-hooks.jar",
+          "size": 78433787,
+          "sha512": "8768799532363189d9e2807a277bb1469b4d1023366f7267ce38068562b6cb66ff8a99516c9247b755c4f4f7031750d9eb3526cdebef73f2324568d06167384f",
+          "sha256": "9c6a0bc71ba24d55f8eb626d025bb7e87020f7d72dc75dba0706ff14b2b54ef3",
+          "sha1": "cdaefcac87904b52ddb14949a302f912a1912829",
+          "md5": "a06729af1d4057611939720d1454057c"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-3cbbc95-add-plattform-hooks.jar",
+          "url": "antibytes-dependency-settings-3cbbc95-add-plattform-hooks.jar",
+          "size": 78433787,
+          "sha512": "8768799532363189d9e2807a277bb1469b4d1023366f7267ce38068562b6cb66ff8a99516c9247b755c4f4f7031750d9eb3526cdebef73f2324568d06167384f",
+          "sha256": "9c6a0bc71ba24d55f8eb626d025bb7e87020f7d72dc75dba0706ff14b2b54ef3",
+          "sha1": "cdaefcac87904b52ddb14949a302f912a1912829",
+          "md5": "a06729af1d4057611939720d1454057c"
+        }
+      ]
+    }
+  ]
+}
