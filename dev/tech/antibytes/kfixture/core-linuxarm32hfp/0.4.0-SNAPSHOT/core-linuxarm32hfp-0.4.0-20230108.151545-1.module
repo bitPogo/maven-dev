@@ -1,0 +1,49 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-SNAPSHOT/core-0.4.0-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm32HfpApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-linuxarm32hfp-0.4.0-SNAPSHOT.klib",
+          "size": 105887,
+          "sha512": "d556154aeeb54760b4caf17ebfe6146bda1e038c1a36a24e37a48951ae8affac47909b2922c992b49d76383745cacea8ae03402461e351e1fdbb7b20cc6d8aa7",
+          "sha256": "f8237c6d34083a91ed0e6952e6ea5f79b05faa8e5fb8cfbe9b503100dc5afbf4",
+          "sha1": "3c20860c0365057550ce3ba2f024fcb00102c08e",
+          "md5": "324c16b551a90758526985fb60da5180"
+        }
+      ]
+    }
+  ]
+}
