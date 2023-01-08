@@ -1,0 +1,49 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-SNAPSHOT/core-0.4.0-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-linuxx64-0.4.0-SNAPSHOT.klib",
+          "size": 105834,
+          "sha512": "4b1e9d3d715c7b49427077e612d03df2c6dce7f8c081ec8b62cdbb29ff5ec6cb969f9847b8b6ea3cdbba7da236eec77c2661be50d8a8d154e2a096b4ce565a95",
+          "sha256": "0bb08e6db540ca402cee66ab75feed2adf29ca943850ac5029b537be1c3bc9e7",
+          "sha1": "27979dde34ca8798ea7768564b6bdb15350c5b2e",
+          "md5": "01ccb7c02ec802695769fdc8572c1e0c"
+        }
+      ]
+    }
+  ]
+}
