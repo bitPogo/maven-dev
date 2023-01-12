@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-fix-publishing-SNAPSHOT/core-0.4.0-fix-publishing-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-fix-publishing-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-iosarm32-0.4.0-fix-publishing-SNAPSHOT.klib",
+          "size": 105834,
+          "sha512": "c3d2dfc5a6702050657a03d5351391e4bdb26926a195154abbf6e85269578658faacc631b493fc9159a8d567e7d4ba34cc24380ceedc043f72a21968dfcbbdbc",
+          "sha256": "2f9b59c1de4f75965ecb2465ab2ebbaed21d7d005fe1b8f58c7664df8a0b42fb",
+          "sha1": "c362d854ad4aca10ad5550c7a67ef1e21ca491e5",
+          "md5": "c3d62e1366cf8ee2f4116b9d562930fb"
+        }
+      ]
+    },
+    {
+      "name": "iosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-iosarm32-0.4.0-fix-publishing-SNAPSHOT-metadata.jar",
+          "url": "core-iosarm32-0.4.0-fix-publishing-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "6b89348a9b1060dab50c440d28c0ba511c03cabe6e9cea6ee6b96ae26027ade8d25e7d7abb5539b2ae19b0350972178fb34838f7301f9bf87655d504d940e025",
+          "sha256": "b009cdcb51cc60699a18081aaeb3354a41d1c8d23e52e5dc5ada3f143e40ef08",
+          "sha1": "84efa4cdd35922a16d1faeeca93b81b5ef62eccd",
+          "md5": "740b03b07e84d1535c2899af7b878820"
+        }
+      ]
+    }
+  ]
+}
