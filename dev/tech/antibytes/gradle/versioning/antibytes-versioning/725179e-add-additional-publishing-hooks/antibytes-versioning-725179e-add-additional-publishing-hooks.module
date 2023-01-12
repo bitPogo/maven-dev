@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.versioning",
+    "module": "antibytes-versioning",
+    "version": "725179e-add-additional-publishing-hooks",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-725179e-add-additional-publishing-hooks.jar",
+          "url": "antibytes-versioning-725179e-add-additional-publishing-hooks.jar",
+          "size": 21893,
+          "sha512": "2090c3629f69eff4fa43e9e38cb9057eda326bc2f03c1cdfe652515e20e5bd0c47d755218be7d872ad65696616b0a0747f870134f970b692f7ec7649ae9b1423",
+          "sha256": "80b60594001d1885b4eb811398b974d4fbe670525c70683d610a8109552bc7cf",
+          "sha1": "b662851b2ae24a493e221a571e4959e3ad02c171",
+          "md5": "a175e954f60b921550d558dfb655d671"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-725179e-add-additional-publishing-hooks.jar",
+          "url": "antibytes-versioning-725179e-add-additional-publishing-hooks.jar",
+          "size": 21893,
+          "sha512": "2090c3629f69eff4fa43e9e38cb9057eda326bc2f03c1cdfe652515e20e5bd0c47d755218be7d872ad65696616b0a0747f870134f970b692f7ec7649ae9b1423",
+          "sha256": "80b60594001d1885b4eb811398b974d4fbe670525c70683d610a8109552bc7cf",
+          "sha1": "b662851b2ae24a493e221a571e4959e3ad02c171",
+          "md5": "a175e954f60b921550d558dfb655d671"
+        }
+      ]
+    }
+  ]
+}
