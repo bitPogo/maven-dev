@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.dokka",
+    "module": "antibytes-dokka-configuration",
+    "version": "a302cd4-fix-additional-publishing-hooks",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-a302cd4-fix-additional-publishing-hooks.jar",
+          "url": "antibytes-dokka-configuration-a302cd4-fix-additional-publishing-hooks.jar",
+          "size": 7889,
+          "sha512": "b33d8b56cdfe17bcd3236a29d72d4ed3cfbd4c1de30f6289cbe33f0b5fd782183a7cbb61c18584b7ed395ecabcc8af12bef73d600861b4ecb0e059b7e87fce85",
+          "sha256": "4c461c12026df32d673ec5a35b3589e6b5d27f17b0f86c65ea7f565cbb9ee787",
+          "sha1": "cd6fdc12c7a500bb872d597d7a0462cf410b32dc",
+          "md5": "699fe5daf4d703c76f60aee464a545ea"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "a302cd4-fix-additional-publishing-hooks"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-a302cd4-fix-additional-publishing-hooks.jar",
+          "url": "antibytes-dokka-configuration-a302cd4-fix-additional-publishing-hooks.jar",
+          "size": 7889,
+          "sha512": "b33d8b56cdfe17bcd3236a29d72d4ed3cfbd4c1de30f6289cbe33f0b5fd782183a7cbb61c18584b7ed395ecabcc8af12bef73d600861b4ecb0e059b7e87fce85",
+          "sha256": "4c461c12026df32d673ec5a35b3589e6b5d27f17b0f86c65ea7f565cbb9ee787",
+          "sha1": "cd6fdc12c7a500bb872d597d7a0462cf410b32dc",
+          "md5": "699fe5daf4d703c76f60aee464a545ea"
+        }
+      ]
+    }
+  ]
+}

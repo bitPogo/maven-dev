@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.android.library",
+    "module": "antibytes-android-library-configuration",
+    "version": "a302cd4-fix-additional-publishing-hooks",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-android-library-configuration-a302cd4-fix-additional-publishing-hooks.jar",
+          "url": "antibytes-android-library-configuration-a302cd4-fix-additional-publishing-hooks.jar",
+          "size": 56516,
+          "sha512": "891d3b26d9bc5535920fc81bfa88c9a72d0d606411ab9befba574ab5834c82ba0c7afb9d92d9c44f1ca7f35367b4c4a08939266c9efb1ee7ba27f9cadfc8adef",
+          "sha256": "75e189c9fa7a60b81a71c792c73a0aa0c009ccce05d4680e99474281e28798f7",
+          "sha1": "2c80507de5d2cfd9c28bf1e53d1d5d75b1f94030",
+          "md5": "110947dad6f0af5711b4cabb77e8e2c5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "a302cd4-fix-additional-publishing-hooks"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-android-library-configuration-a302cd4-fix-additional-publishing-hooks.jar",
+          "url": "antibytes-android-library-configuration-a302cd4-fix-additional-publishing-hooks.jar",
+          "size": 56516,
+          "sha512": "891d3b26d9bc5535920fc81bfa88c9a72d0d606411ab9befba574ab5834c82ba0c7afb9d92d9c44f1ca7f35367b4c4a08939266c9efb1ee7ba27f9cadfc8adef",
+          "sha256": "75e189c9fa7a60b81a71c792c73a0aa0c009ccce05d4680e99474281e28798f7",
+          "sha1": "2c80507de5d2cfd9c28bf1e53d1d5d75b1f94030",
+          "md5": "110947dad6f0af5711b4cabb77e8e2c5"
+        }
+      ]
+    }
+  ]
+}
