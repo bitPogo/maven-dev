@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-gradle-test-utils",
+    "version": "14970ca-remove-fat-jar",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-gradle-test-utils-14970ca-remove-fat-jar.jar",
+          "url": "antibytes-gradle-test-utils-14970ca-remove-fat-jar.jar",
+          "size": 17243,
+          "sha512": "5a6f1bb5a94c1eff8352d4e88357c9461f77770242133c67e1551ef1df9638bf11ce1256ca109475e482939f8a768ef10b1262d5e25e355827a0fd9d07b83cca",
+          "sha256": "b4a0a4ad74b178c795a5be0261ee7b3d58ea129c06d4d13a56f515dc4a437bbc",
+          "sha1": "0a969f52bf0b0bed122cfba842c9968f2334f2f1",
+          "md5": "a677043487c2c8850afcdede2d78f500"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.mockk",
+          "module": "mockk",
+          "version": {
+            "requires": "1.12.8"
+          }
+        },
+        {
+          "group": "com.appmattus.fixture",
+          "module": "fixture",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-gradle-test-utils-14970ca-remove-fat-jar.jar",
+          "url": "antibytes-gradle-test-utils-14970ca-remove-fat-jar.jar",
+          "size": 17243,
+          "sha512": "5a6f1bb5a94c1eff8352d4e88357c9461f77770242133c67e1551ef1df9638bf11ce1256ca109475e482939f8a768ef10b1262d5e25e355827a0fd9d07b83cca",
+          "sha256": "b4a0a4ad74b178c795a5be0261ee7b3d58ea129c06d4d13a56f515dc4a437bbc",
+          "sha1": "0a969f52bf0b0bed122cfba842c9968f2334f2f1",
+          "md5": "a677043487c2c8850afcdede2d78f500"
+        }
+      ]
+    }
+  ]
+}

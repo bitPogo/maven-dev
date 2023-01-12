@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.coverage",
+    "module": "antibytes-coverage",
+    "version": "14970ca-remove-fat-jar",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-coverage-14970ca-remove-fat-jar.jar",
+          "url": "antibytes-coverage-14970ca-remove-fat-jar.jar",
+          "size": 135187,
+          "sha512": "107edc3d1c64d96feba722c635b280248fe0e118cbcb3ed832c62cc148466fdd806108ab2256603a00d6e1b2fa6d408edf770203b72899d7a7e201c3c8b16cea",
+          "sha256": "8812f5845b788d4b5e5b83b8685c5edd0c9a0f39e0dd94db692da0d4b0ff73fd",
+          "sha1": "3ac2118a3dcb012c5356b4f214120345139d74ff",
+          "md5": "3ae166f9c52a52d75d55b67075b7886a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.0"
+          }
+        },
+        {
+          "group": "org.jacoco",
+          "module": "org.jacoco.core",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "14970ca-remove-fat-jar"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-coverage-14970ca-remove-fat-jar.jar",
+          "url": "antibytes-coverage-14970ca-remove-fat-jar.jar",
+          "size": 135187,
+          "sha512": "107edc3d1c64d96feba722c635b280248fe0e118cbcb3ed832c62cc148466fdd806108ab2256603a00d6e1b2fa6d408edf770203b72899d7a7e201c3c8b16cea",
+          "sha256": "8812f5845b788d4b5e5b83b8685c5edd0c9a0f39e0dd94db692da0d4b0ff73fd",
+          "sha1": "3ac2118a3dcb012c5356b4f214120345139d74ff",
+          "md5": "3ae166f9c52a52d75d55b67075b7886a"
+        }
+      ]
+    }
+  ]
+}

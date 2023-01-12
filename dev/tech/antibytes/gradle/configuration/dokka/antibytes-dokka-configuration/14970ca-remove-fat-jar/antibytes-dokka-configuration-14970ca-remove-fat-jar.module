@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.dokka",
+    "module": "antibytes-dokka-configuration",
+    "version": "14970ca-remove-fat-jar",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-14970ca-remove-fat-jar.jar",
+          "url": "antibytes-dokka-configuration-14970ca-remove-fat-jar.jar",
+          "size": 7889,
+          "sha512": "093c60cd2756f216b19f7d1efec7c6a2f2a4ce1e73f379653c2367d662a06405b8e26ef56bd3694e8c11172e6ce307690a373c33a7fece714d6580f449622fe0",
+          "sha256": "ab41bfa5c2e1e2dda031ae0e98afa6689d23c156733408b91f2da986ed65325d",
+          "sha1": "6cfa98b382ffc43fcee068cff932b9085aed45a5",
+          "md5": "478c8246584e36d962c4773be64aa944"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "14970ca-remove-fat-jar"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-14970ca-remove-fat-jar.jar",
+          "url": "antibytes-dokka-configuration-14970ca-remove-fat-jar.jar",
+          "size": 7889,
+          "sha512": "093c60cd2756f216b19f7d1efec7c6a2f2a4ce1e73f379653c2367d662a06405b8e26ef56bd3694e8c11172e6ce307690a373c33a7fece714d6580f449622fe0",
+          "sha256": "ab41bfa5c2e1e2dda031ae0e98afa6689d23c156733408b91f2da986ed65325d",
+          "sha1": "6cfa98b382ffc43fcee068cff932b9085aed45a5",
+          "md5": "478c8246584e36d962c4773be64aa944"
+        }
+      ]
+    }
+  ]
+}
