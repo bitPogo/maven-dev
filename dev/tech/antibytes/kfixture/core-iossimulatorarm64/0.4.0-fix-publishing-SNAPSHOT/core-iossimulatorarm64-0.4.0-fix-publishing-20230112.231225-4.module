@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-fix-publishing-SNAPSHOT/core-0.4.0-fix-publishing-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-fix-publishing-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-iossimulatorarm64-0.4.0-fix-publishing-SNAPSHOT.klib",
+          "size": 105923,
+          "sha512": "f201b335872042436de1ab78e34e9d457a26deb6796f4830318a8f88e93825876284e4e9c59ee2e6672026494e4fc1c15a6d4af9ceae9a27aea40ba32bd2875c",
+          "sha256": "9c7a60ba522a6fc2c7595c62f18e9bc937ae555afef5219a86ece7c357a96c43",
+          "sha1": "7a04126c30738c5072e1940d17c2192c810366a2",
+          "md5": "097fd14063df40d2c8b4e1e3edd9f883"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-iossimulatorarm64-0.4.0-fix-publishing-SNAPSHOT-metadata.jar",
+          "url": "core-iossimulatorarm64-0.4.0-fix-publishing-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "52529fe90d6467391c265fbc9284c257f08e8d399d10510d1ec5a0763d64525ed13e6dea43f7d6a3b9dd81990d0795c02b43946ee4064c431b6da8aea8dd73f7",
+          "sha256": "90f236b3fbb97edf87409ea2c41e8de1e63d46adc2305ca04d743b82246c8379",
+          "sha1": "c3cf30d2886623c1bed9774212855f9fcd19cc5c",
+          "md5": "827b3f46d9d1a87dc5c02267971d538b"
+        }
+      ]
+    }
+  ]
+}
