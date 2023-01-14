@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-fix-publishing-SNAPSHOT/core-0.4.0-fix-publishing-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-fix-publishing-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-tvosx64-0.4.0-fix-publishing-SNAPSHOT.klib",
+          "size": 105826,
+          "sha512": "7c96fe4649b351813825ad345d0393d980b57ac7426437a977ce9b9c53739a0f06fa42c9eb5768bbf3a216e747e758209e1531f4bf00455bf59e34c8da83294d",
+          "sha256": "a7e846f9ae6e8deb48faf66edb000630da782d13cd2a2c78a28ec6e5022fdfa4",
+          "sha1": "092cf759437a00c21badff9bf3e52878af235df6",
+          "md5": "52930e08e1753341db938cc862a54a62"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-tvosx64-0.4.0-fix-publishing-SNAPSHOT-metadata.jar",
+          "url": "core-tvosx64-0.4.0-fix-publishing-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "b2a2b0ecd06bfe5c69a78b4c9a61ad0e2befd60379382d0f96ec5ca06f7bafa1cfb4652b70a91b5a2523a7ce4dd009558a987b6624c2d0ca329a008f13033e5e",
+          "sha256": "137e11c8222c5cede93f280c9da0c6832899b57cd5882177782f2676d89c47c2",
+          "sha1": "4623d59a4a3f2ba74f5ba6ed301c56c172f1c419",
+          "md5": "81ee8a6441a675b51f46b5b6001fd605"
+        }
+      ]
+    }
+  ]
+}
