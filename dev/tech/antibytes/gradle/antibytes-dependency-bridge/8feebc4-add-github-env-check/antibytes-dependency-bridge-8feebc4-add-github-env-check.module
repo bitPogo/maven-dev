@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "8feebc4-add-github-env-check",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-8feebc4-add-github-env-check.jar",
+          "url": "antibytes-dependency-bridge-8feebc4-add-github-env-check.jar",
+          "size": 38501,
+          "sha512": "a6398e3469f1089ed5293f33fbf637b360e3f070ce750c38c63f6e36180d12f71fe99b98040c744af36034048af84948a1680cd56f2a31e582507824ee3e8770",
+          "sha256": "e7e98a2e8184a7c07cc0ed1892e7f0790fcf9f751fbcbb786f415b9cd2d16313",
+          "sha1": "0f0090f018d4aa4f0ee99df1cffd2abd0c35a62b",
+          "md5": "63619421a778541b3c0d2eb936cc099c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-8feebc4-add-github-env-check.jar",
+          "url": "antibytes-dependency-bridge-8feebc4-add-github-env-check.jar",
+          "size": 38501,
+          "sha512": "a6398e3469f1089ed5293f33fbf637b360e3f070ce750c38c63f6e36180d12f71fe99b98040c744af36034048af84948a1680cd56f2a31e582507824ee3e8770",
+          "sha256": "e7e98a2e8184a7c07cc0ed1892e7f0790fcf9f751fbcbb786f415b9cd2d16313",
+          "sha1": "0f0090f018d4aa4f0ee99df1cffd2abd0c35a62b",
+          "md5": "63619421a778541b3c0d2eb936cc099c"
+        }
+      ]
+    }
+  ]
+}

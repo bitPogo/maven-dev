@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.android.library",
+    "module": "antibytes-android-library-configuration",
+    "version": "8feebc4-add-github-env-check",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-android-library-configuration-8feebc4-add-github-env-check.jar",
+          "url": "antibytes-android-library-configuration-8feebc4-add-github-env-check.jar",
+          "size": 56516,
+          "sha512": "2fe59db1c95be492f9a07035767e2d1abe0f0faf076348208c04e63e7d4f4cbcc822299ccfc1c6100b4e7756290d9b1820783a63933c62faa2d188b3483a4c35",
+          "sha256": "75dd4b3cd38cecfb575292505ec3b8d989c7812962ae4bf80da0f448242c6b16",
+          "sha1": "549382dcc67acbcef0ffcca99183aad3802c78e4",
+          "md5": "05fa7eadd274aea3a1ac186546ad1159"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "8feebc4-add-github-env-check"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-android-library-configuration-8feebc4-add-github-env-check.jar",
+          "url": "antibytes-android-library-configuration-8feebc4-add-github-env-check.jar",
+          "size": 56516,
+          "sha512": "2fe59db1c95be492f9a07035767e2d1abe0f0faf076348208c04e63e7d4f4cbcc822299ccfc1c6100b4e7756290d9b1820783a63933c62faa2d188b3483a4c35",
+          "sha256": "75dd4b3cd38cecfb575292505ec3b8d989c7812962ae4bf80da0f448242c6b16",
+          "sha1": "549382dcc67acbcef0ffcca99183aad3802c78e4",
+          "md5": "05fa7eadd274aea3a1ac186546ad1159"
+        }
+      ]
+    }
+  ]
+}
