@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktx-datetime/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-0.4.0-fix-publishing-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "ktx-datetime",
+    "version": "0.4.0-fix-publishing-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosX86ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.kfixture",
+          "module": "core",
+          "version": {
+            "requires": "0.4.0-fix-publishing-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime.klib",
+          "url": "ktx-datetime-watchosx86-0.4.0-fix-publishing-SNAPSHOT.klib",
+          "size": 34668,
+          "sha512": "83039bb569b65ae83ccd25f1105acdc30ef5b45b8d9a58dd4a5f2e24c7d8da260b9def4dffa06f442d668821277dcfddcae9b24bab937cb8412c1baf30571e4c",
+          "sha256": "4cd1a2cfdd3e6b229c9f9a771aed948d5e3cdb55953ad8df08f19294765e4f4a",
+          "sha1": "5247d994d7267013c1984b0dce2bc3c6e9f42a3d",
+          "md5": "07876aec2006dd07a1e66c365be2b7bb"
+        }
+      ]
+    },
+    {
+      "name": "watchosX86MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.kfixture",
+          "module": "core",
+          "version": {
+            "requires": "0.4.0-fix-publishing-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime-watchosx86-0.4.0-fix-publishing-SNAPSHOT-metadata.jar",
+          "url": "ktx-datetime-watchosx86-0.4.0-fix-publishing-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "a3e0dea42100bc326c539e2eabc4ad9bddbff008b3087c47a5742aaacd30012b33ebf1f9a4386b94f07a26bbe6145f16a096a3f406efeb95506cc92cc8592187",
+          "sha256": "1a7c4e89738cc796918953bd3e83be63b9048b1e835181dfbf0fff876d498124",
+          "sha1": "6a5bae14a199cb9a1d5290b9d0558a26fcf7d085",
+          "md5": "401874d5dae8f0fb5fd38fea400c8d63"
+        }
+      ]
+    }
+  ]
+}
