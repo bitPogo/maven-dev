@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "ceb410b-add-githubuserhome",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-ceb410b-add-githubuserhome.jar",
+          "url": "antibytes-dependency-bridge-ceb410b-add-githubuserhome.jar",
+          "size": 38501,
+          "sha512": "014ad50189359e7e3f9df3606554f17ca90acba07c5b4f59accc5233281b9f6945bb20e262d0f366d317161d02601df8b9f02af65b58daa686f9dcdc662bde0f",
+          "sha256": "d8ffc43828dd16321e2ba41aa9d169711ffbce35ff8347d2c05893aa9b8896e1",
+          "sha1": "3532042f01ef50c26ae76c141450d2dd231e3f2b",
+          "md5": "294a40871eb402308d1d4cb1d70410b8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-ceb410b-add-githubuserhome.jar",
+          "url": "antibytes-dependency-bridge-ceb410b-add-githubuserhome.jar",
+          "size": 38501,
+          "sha512": "014ad50189359e7e3f9df3606554f17ca90acba07c5b4f59accc5233281b9f6945bb20e262d0f366d317161d02601df8b9f02af65b58daa686f9dcdc662bde0f",
+          "sha256": "d8ffc43828dd16321e2ba41aa9d169711ffbce35ff8347d2c05893aa9b8896e1",
+          "sha1": "3532042f01ef50c26ae76c141450d2dd231e3f2b",
+          "md5": "294a40871eb402308d1d4cb1d70410b8"
+        }
+      ]
+    }
+  ]
+}

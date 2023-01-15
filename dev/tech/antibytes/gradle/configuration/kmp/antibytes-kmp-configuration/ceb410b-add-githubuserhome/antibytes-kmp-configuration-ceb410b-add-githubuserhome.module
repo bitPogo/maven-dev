@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.kmp",
+    "module": "antibytes-kmp-configuration",
+    "version": "ceb410b-add-githubuserhome",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-ceb410b-add-githubuserhome.jar",
+          "url": "antibytes-kmp-configuration-ceb410b-add-githubuserhome.jar",
+          "size": 66404,
+          "sha512": "91c1f9043c4a53a81c6d324e54a893833f3dc50656e1e04552e9fed5f6d701fe2d0efc1f2cfeeb2eb6032db72cbfadb99821d4ef4438662da9d09dad3cfcc475",
+          "sha256": "b6b8d30515cf655a8e863373761a6e26f7fef117555233873897c154c9001dde",
+          "sha1": "6a40d556f370787961ab8e8eb7c9c1a3356a7809",
+          "md5": "07b3a6e9731cde1ff102efbf236a2e98"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "ceb410b-add-githubuserhome"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-ceb410b-add-githubuserhome.jar",
+          "url": "antibytes-kmp-configuration-ceb410b-add-githubuserhome.jar",
+          "size": 66404,
+          "sha512": "91c1f9043c4a53a81c6d324e54a893833f3dc50656e1e04552e9fed5f6d701fe2d0efc1f2cfeeb2eb6032db72cbfadb99821d4ef4438662da9d09dad3cfcc475",
+          "sha256": "b6b8d30515cf655a8e863373761a6e26f7fef117555233873897c154c9001dde",
+          "sha1": "6a40d556f370787961ab8e8eb7c9c1a3356a7809",
+          "md5": "07b3a6e9731cde1ff102efbf236a2e98"
+        }
+      ]
+    }
+  ]
+}

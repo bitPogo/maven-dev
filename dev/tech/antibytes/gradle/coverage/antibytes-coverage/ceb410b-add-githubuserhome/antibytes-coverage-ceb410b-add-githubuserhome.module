@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.coverage",
+    "module": "antibytes-coverage",
+    "version": "ceb410b-add-githubuserhome",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-coverage-ceb410b-add-githubuserhome.jar",
+          "url": "antibytes-coverage-ceb410b-add-githubuserhome.jar",
+          "size": 135187,
+          "sha512": "4c8d3a874a5dbb294366926d4e9bff40628095240cab19cb99d5845fa6a1235461788f518ad161e28472241111f35f79f9ba8b68b13ead0d98a2bf965f60a57b",
+          "sha256": "670b82ea368a8ed73c368143250d11e07e19a34e816fccbb58ef5bf0b20db418",
+          "sha1": "378b8a2d2baa057e9aa7e1167b4671e152d467a3",
+          "md5": "648b8cc09c8ecea97b3e845a92fac4d5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.0"
+          }
+        },
+        {
+          "group": "org.jacoco",
+          "module": "org.jacoco.core",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "ceb410b-add-githubuserhome"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-coverage-ceb410b-add-githubuserhome.jar",
+          "url": "antibytes-coverage-ceb410b-add-githubuserhome.jar",
+          "size": 135187,
+          "sha512": "4c8d3a874a5dbb294366926d4e9bff40628095240cab19cb99d5845fa6a1235461788f518ad161e28472241111f35f79f9ba8b68b13ead0d98a2bf965f60a57b",
+          "sha256": "670b82ea368a8ed73c368143250d11e07e19a34e816fccbb58ef5bf0b20db418",
+          "sha1": "378b8a2d2baa057e9aa7e1167b4671e152d467a3",
+          "md5": "648b8cc09c8ecea97b3e845a92fac4d5"
+        }
+      ]
+    }
+  ]
+}
