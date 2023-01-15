@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-fix-publishing-SNAPSHOT/core-0.4.0-fix-publishing-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-fix-publishing-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-jvm-0.4.0-fix-publishing-SNAPSHOT.jar",
+          "url": "core-jvm-0.4.0-fix-publishing-SNAPSHOT.jar",
+          "size": 273618,
+          "sha512": "a26f71dd4122f32752f53da1f87c72c3cb3913e89897d5a8bd40221aa096871b90a6304ebcea265edc33f8c188453f8e370220896f612540583f21e55252b66d",
+          "sha256": "7bf5c8c07878753c57241fa8d462c88db5d1a6002f28a0246a7fb2b04914f769",
+          "sha1": "4390f17f1b1f5551df4e720f8d6a9d6e734cb0a6",
+          "md5": "6ea3ff0f673778daf27e8a33c4bec05c"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-jvm-0.4.0-fix-publishing-SNAPSHOT.jar",
+          "url": "core-jvm-0.4.0-fix-publishing-SNAPSHOT.jar",
+          "size": 273618,
+          "sha512": "a26f71dd4122f32752f53da1f87c72c3cb3913e89897d5a8bd40221aa096871b90a6304ebcea265edc33f8c188453f8e370220896f612540583f21e55252b66d",
+          "sha256": "7bf5c8c07878753c57241fa8d462c88db5d1a6002f28a0246a7fb2b04914f769",
+          "sha1": "4390f17f1b1f5551df4e720f8d6a9d6e734cb0a6",
+          "md5": "6ea3ff0f673778daf27e8a33c4bec05c"
+        }
+      ]
+    }
+  ]
+}
