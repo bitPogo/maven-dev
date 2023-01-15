@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktx-datetime/0.4.0-remove-android-studio-workaround-SNAPSHOT/ktx-datetime-0.4.0-remove-android-studio-workaround-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "ktx-datetime",
+    "version": "0.4.0-remove-android-studio-workaround-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.kfixture",
+          "module": "core",
+          "version": {
+            "requires": "0.4.0-remove-android-studio-workaround-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime.klib",
+          "url": "ktx-datetime-watchosarm64-0.4.0-remove-android-studio-workaround-SNAPSHOT.klib",
+          "size": 34685,
+          "sha512": "f45f3daec865c771a1c6491afd8f8a76689523551f844f907755ee3a0680d6e7242dbe85b2b3594203fddbcc4819f67f7a377c2c65c3eb33e475a67520fb1321",
+          "sha256": "d84a3bd386febb62aea33c0f2139b03f45fd9e275e6aed88dc5ffe1810d2b8d9",
+          "sha1": "8bba1f799bcb908d529f50fbf6aa671afbc07695",
+          "md5": "412664ef746e8d3547e046efbd98e1e5"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.kfixture",
+          "module": "core",
+          "version": {
+            "requires": "0.4.0-remove-android-studio-workaround-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime-watchosarm64-0.4.0-remove-android-studio-workaround-SNAPSHOT-metadata.jar",
+          "url": "ktx-datetime-watchosarm64-0.4.0-remove-android-studio-workaround-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "1080f91823f7abb3d3dfe832c8a3de7b9a3c585ee846aaf4801f5e4199bf0f5d5615cd2c8da7cc1c83d8bd8b253bc5591f619218cefd6f91cbba0f6987ecb2ef",
+          "sha256": "32a887b9ddfcf2be360a06eae498050f0f518aa70f9c26ec3ba42a8712ac1c01",
+          "sha1": "1042f8550250a56b6eca0970d6bd659c6df73239",
+          "md5": "332fc7404a79aa7b4afab232fd5ff0e9"
+        }
+      ]
+    }
+  ]
+}

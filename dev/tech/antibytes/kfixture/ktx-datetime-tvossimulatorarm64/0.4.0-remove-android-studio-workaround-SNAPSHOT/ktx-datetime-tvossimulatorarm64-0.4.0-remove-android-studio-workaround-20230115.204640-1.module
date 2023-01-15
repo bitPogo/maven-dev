@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktx-datetime/0.4.0-remove-android-studio-workaround-SNAPSHOT/ktx-datetime-0.4.0-remove-android-studio-workaround-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "ktx-datetime",
+    "version": "0.4.0-remove-android-studio-workaround-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.kfixture",
+          "module": "core",
+          "version": {
+            "requires": "0.4.0-remove-android-studio-workaround-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime.klib",
+          "url": "ktx-datetime-tvossimulatorarm64-0.4.0-remove-android-studio-workaround-SNAPSHOT.klib",
+          "size": 34744,
+          "sha512": "37b9148236c1a7843a78548d0944fda1639c81ee1d0fa6995c8ced32a2cf644e28f1042ede00b6e94eda9f4161634c01d353898c0cd9e2bb6f10b31790ecedfa",
+          "sha256": "046a9659534a7ad2f6d0271d1f1f82307896952d695b80c115d3ba3b52389f50",
+          "sha1": "d6823dc4a6036411d38c64c4b7bc55e304820143",
+          "md5": "fedf679260fe5e67b618ac2cfa9fe93c"
+        }
+      ]
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.kfixture",
+          "module": "core",
+          "version": {
+            "requires": "0.4.0-remove-android-studio-workaround-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime-tvossimulatorarm64-0.4.0-remove-android-studio-workaround-SNAPSHOT-metadata.jar",
+          "url": "ktx-datetime-tvossimulatorarm64-0.4.0-remove-android-studio-workaround-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "a28cbb6f03d69059f17ec08d4545666dabb5903db2ef80b86f454e206ca2e6cd41a2ce074de81d6f60ac8fa494d8ea55830c9d2063056b62684a259c2b5eade3",
+          "sha256": "3f0967cef5dd832def18df4340a95855c6baa6fe30daa93f72fa91dc44e475e2",
+          "sha1": "78d2d7f767ec98d0eefc211b40e95f0038e2940d",
+          "md5": "e0f17c4550420ac8624108969765a681"
+        }
+      ]
+    }
+  ]
+}

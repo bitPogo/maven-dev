@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-remove-android-studio-workaround-SNAPSHOT/core-0.4.0-remove-android-studio-workaround-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-remove-android-studio-workaround-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosX86ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-watchosx86-0.4.0-remove-android-studio-workaround-SNAPSHOT.klib",
+          "size": 105854,
+          "sha512": "e329f0c06611b415fbb9c916977e31b532c8f5c4f57beede067057b181d825beca6b22d347cca42785a3333b842b7ca40a24206b07de24b86cadb4c443c3a267",
+          "sha256": "a8f3516fa309affa18f82228abdd015927f6f3cde92eccb4a1f2624fdcc1dfcf",
+          "sha1": "c63d8d0b797ce07f3d4b0c4c2c0c9769537db28a",
+          "md5": "fe87cbe3887090c412b4e53c685a5873"
+        }
+      ]
+    },
+    {
+      "name": "watchosX86MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-watchosx86-0.4.0-remove-android-studio-workaround-SNAPSHOT-metadata.jar",
+          "url": "core-watchosx86-0.4.0-remove-android-studio-workaround-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "f9754168a8d4bd2f4cdb2b4c93dbe958bcfe2e2d4e65cbf2239029b1b7b291b4c2cf2c31228df1a8fc940bec76517650d204bd27a63ccad28534e46d11bd274b",
+          "sha256": "cf00e27243f12946b443d2a902a4b82d550a436eb71b391b34d848a199c4388b",
+          "sha1": "7c05f51d4b9d60af2d1d21af88cb70e5c7fe15ea",
+          "md5": "32d9e998ba0e0007986248fc972d1c15"
+        }
+      ]
+    }
+  ]
+}

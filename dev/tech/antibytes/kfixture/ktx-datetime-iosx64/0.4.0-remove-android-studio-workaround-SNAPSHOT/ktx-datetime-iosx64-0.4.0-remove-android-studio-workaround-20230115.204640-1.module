@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktx-datetime/0.4.0-remove-android-studio-workaround-SNAPSHOT/ktx-datetime-0.4.0-remove-android-studio-workaround-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "ktx-datetime",
+    "version": "0.4.0-remove-android-studio-workaround-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.kfixture",
+          "module": "core",
+          "version": {
+            "requires": "0.4.0-remove-android-studio-workaround-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime.klib",
+          "url": "ktx-datetime-iosx64-0.4.0-remove-android-studio-workaround-SNAPSHOT.klib",
+          "size": 34633,
+          "sha512": "c88e5c39cd1d3e436131eac99b36142e79cbc5e0ae602f2587b2ec563cc58d2373dffc114763b6b4450f6d91a98b389002d0abee158d707717cd806b4823c552",
+          "sha256": "e0d4b1f27a981f5784e9f1e2b7b2373ad26bc1320683f17d66fe5f539e2df58b",
+          "sha1": "2ee6f98d5effa1e56e9ddc3c912b09efb80a7ea2",
+          "md5": "876dbe675d595e0b819f4e3e3b9b7f2f"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.kfixture",
+          "module": "core",
+          "version": {
+            "requires": "0.4.0-remove-android-studio-workaround-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime-iosx64-0.4.0-remove-android-studio-workaround-SNAPSHOT-metadata.jar",
+          "url": "ktx-datetime-iosx64-0.4.0-remove-android-studio-workaround-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "d561d70ede8398680f62e1a1b54a875d1f752e1c0d756144ca7fbea158dd5e2ad410626a58aae79b99d079c9fe54d709105fba7c05170e9ade8b1656a20e4570",
+          "sha256": "5a8a6af6e9450579aaf903e40422ed1b271cc6a731565c1d4978b1b309ec18a5",
+          "sha1": "fbb1dc9fbbbcdf9c64e1142162907f55d6b03649",
+          "md5": "d4774049cf961522b28d49e8a0e070cb"
+        }
+      ]
+    }
+  ]
+}

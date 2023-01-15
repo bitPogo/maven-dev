@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-remove-android-studio-workaround-SNAPSHOT/core-0.4.0-remove-android-studio-workaround-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-remove-android-studio-workaround-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-macosarm64-0.4.0-remove-android-studio-workaround-SNAPSHOT.klib",
+          "size": 105853,
+          "sha512": "59682954cdcce8ae8bf903c168f3616bfe022737c386899ff953dae5e3ef58c2ae5a0a1688cbf4007905c87ebd3ca6fb1e2f040e55eeef419aa99ece3c4240f7",
+          "sha256": "9b86b4b1dc9e1f76700139dd56fcceb647ca299785f2504c72bb5102e63213c5",
+          "sha1": "bd98e1bfb5e34d7ce4a6bb54797e4b0b3201bb3a",
+          "md5": "c6d497be75c9e8e11a1e3e13f90f9456"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-macosarm64-0.4.0-remove-android-studio-workaround-SNAPSHOT-metadata.jar",
+          "url": "core-macosarm64-0.4.0-remove-android-studio-workaround-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "ab485f881fb3f441ebdb29ae7e6a12cea0e34b575b9cf5649b5892214e6085897993bb685913cf5d8d6b2b22add0ed92f7c4c11eea760bec717a09671345ee68",
+          "sha256": "f77e926a0b4906c82961bff44d0ee1f5c2d5abaf3fdbec8cef50a2d7abd52caa",
+          "sha1": "8d58ee49823e4fa88d544fd83eaffd8afb199986",
+          "md5": "a45d9b85a263c5bc5b18eee7f1f4c764"
+        }
+      ]
+    }
+  ]
+}
