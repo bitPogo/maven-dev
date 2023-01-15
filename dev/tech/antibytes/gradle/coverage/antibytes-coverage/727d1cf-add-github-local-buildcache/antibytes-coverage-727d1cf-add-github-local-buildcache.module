@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.coverage",
+    "module": "antibytes-coverage",
+    "version": "727d1cf-add-github-local-buildcache",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-coverage-727d1cf-add-github-local-buildcache.jar",
+          "url": "antibytes-coverage-727d1cf-add-github-local-buildcache.jar",
+          "size": 135187,
+          "sha512": "b9625578de934fe72aaaffb019c6e6a7ecddb4c6429c28882e4c43b8d4922704eeafa26e11d34e81f1a335f3731362014f1cb897db84d881fdf0cdad36772cbf",
+          "sha256": "333ae25c34243c913b5142f46cf32152ee02b1b798fedbb731fabb705de59db9",
+          "sha1": "d2476330b6dd3706aa9bd0ca97d0568b6f30c29a",
+          "md5": "f911247a703727e01bd3d8ca3d8ef713"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.0"
+          }
+        },
+        {
+          "group": "org.jacoco",
+          "module": "org.jacoco.core",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "727d1cf-add-github-local-buildcache"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-coverage-727d1cf-add-github-local-buildcache.jar",
+          "url": "antibytes-coverage-727d1cf-add-github-local-buildcache.jar",
+          "size": 135187,
+          "sha512": "b9625578de934fe72aaaffb019c6e6a7ecddb4c6429c28882e4c43b8d4922704eeafa26e11d34e81f1a335f3731362014f1cb897db84d881fdf0cdad36772cbf",
+          "sha256": "333ae25c34243c913b5142f46cf32152ee02b1b798fedbb731fabb705de59db9",
+          "sha1": "d2476330b6dd3706aa9bd0ca97d0568b6f30c29a",
+          "md5": "f911247a703727e01bd3d8ca3d8ef713"
+        }
+      ]
+    }
+  ]
+}

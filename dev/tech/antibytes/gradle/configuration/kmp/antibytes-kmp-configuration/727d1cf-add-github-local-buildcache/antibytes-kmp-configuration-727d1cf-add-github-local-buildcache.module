@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.kmp",
+    "module": "antibytes-kmp-configuration",
+    "version": "727d1cf-add-github-local-buildcache",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-727d1cf-add-github-local-buildcache.jar",
+          "url": "antibytes-kmp-configuration-727d1cf-add-github-local-buildcache.jar",
+          "size": 66404,
+          "sha512": "ccbf53fbcd188d484e4828d06947d67cbfa0a3a86a98a9b9d2a328d9118a7a22ee8536a3d5180cdac80850b04d0929542ba861841b4c65d66c96b693f3c81638",
+          "sha256": "e186f353ee66dafe104afb55cf17860b70fae394871cf2314ec1bd15287e76b2",
+          "sha1": "9a902963bae9013c6ae9724c392ac9f149b0d402",
+          "md5": "54708117dc51fa1c9944bedb365153ce"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "727d1cf-add-github-local-buildcache"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-727d1cf-add-github-local-buildcache.jar",
+          "url": "antibytes-kmp-configuration-727d1cf-add-github-local-buildcache.jar",
+          "size": 66404,
+          "sha512": "ccbf53fbcd188d484e4828d06947d67cbfa0a3a86a98a9b9d2a328d9118a7a22ee8536a3d5180cdac80850b04d0929542ba861841b4c65d66c96b693f3c81638",
+          "sha256": "e186f353ee66dafe104afb55cf17860b70fae394871cf2314ec1bd15287e76b2",
+          "sha1": "9a902963bae9013c6ae9724c392ac9f149b0d402",
+          "md5": "54708117dc51fa1c9944bedb365153ce"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "727d1cf-add-github-local-buildcache",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-727d1cf-add-github-local-buildcache.jar",
+          "url": "antibytes-dependency-bridge-727d1cf-add-github-local-buildcache.jar",
+          "size": 38501,
+          "sha512": "6dfb78edb4ede0699922625347f239f0c11c0f16ce0f42a0dca5aa03e6a252ccd98d5e99db573a740aaeaecbdd30b06eda3a863e1cf477da32af5f1c884b145c",
+          "sha256": "e9bfc91a4c87d424af75d5cecc1c6e784114f9786598a40d8e1e958b90118409",
+          "sha1": "869f268e33760b13234fd35422dec8f3f4d942ac",
+          "md5": "ba2d745507a1592ff68cf040b43a9e41"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-727d1cf-add-github-local-buildcache.jar",
+          "url": "antibytes-dependency-bridge-727d1cf-add-github-local-buildcache.jar",
+          "size": 38501,
+          "sha512": "6dfb78edb4ede0699922625347f239f0c11c0f16ce0f42a0dca5aa03e6a252ccd98d5e99db573a740aaeaecbdd30b06eda3a863e1cf477da32af5f1c884b145c",
+          "sha256": "e9bfc91a4c87d424af75d5cecc1c6e784114f9786598a40d8e1e958b90118409",
+          "sha1": "869f268e33760b13234fd35422dec8f3f4d942ac",
+          "md5": "ba2d745507a1592ff68cf040b43a9e41"
+        }
+      ]
+    }
+  ]
+}

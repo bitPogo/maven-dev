@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.settings",
+    "module": "antibytes-dependency-settings",
+    "version": "727d1cf-add-github-local-buildcache",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "727d1cf-add-github-local-buildcache"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-727d1cf-add-github-local-buildcache.jar",
+          "url": "antibytes-dependency-settings-727d1cf-add-github-local-buildcache.jar",
+          "size": 15298,
+          "sha512": "46c49202478c47793b0b27861d470329ca6bd27d36aa05cbaae4ce6dc7dabd0a6992657f5ac91f4f027ebbe3b8cf7c3b925e3d623ca36ea841b9ccf859508bff",
+          "sha256": "238f323b0240e8347ecb3a56c0645633448c00b4375dc73166d2faedf04189e9",
+          "sha1": "0348c9a09d229e4a72612ac1dff14121ab5520e2",
+          "md5": "e797c09e82e32c825ef9fefcbc3b724b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "727d1cf-add-github-local-buildcache"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-727d1cf-add-github-local-buildcache.jar",
+          "url": "antibytes-dependency-settings-727d1cf-add-github-local-buildcache.jar",
+          "size": 15298,
+          "sha512": "46c49202478c47793b0b27861d470329ca6bd27d36aa05cbaae4ce6dc7dabd0a6992657f5ac91f4f027ebbe3b8cf7c3b925e3d623ca36ea841b9ccf859508bff",
+          "sha256": "238f323b0240e8347ecb3a56c0645633448c00b4375dc73166d2faedf04189e9",
+          "sha1": "0348c9a09d229e4a72612ac1dff14121ab5520e2",
+          "md5": "e797c09e82e32c825ef9fefcbc3b724b"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.dokka",
+    "module": "antibytes-dokka-configuration",
+    "version": "727d1cf-add-github-local-buildcache",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-727d1cf-add-github-local-buildcache.jar",
+          "url": "antibytes-dokka-configuration-727d1cf-add-github-local-buildcache.jar",
+          "size": 7889,
+          "sha512": "3507bba6871e8c9eae6796fe598dcaad1ae887780737758121748f7c54cd85d5a5ea1d813c9d7cb6902a5296b050426834fbaee506cf3f6f4a8f4a4c5506fab5",
+          "sha256": "1b269779cbc22d4c9086e1a811c92977464360f3791c671dc67ac2ba36f8617c",
+          "sha1": "a94bfe2a0be5965c7de7c578a17358953822d426",
+          "md5": "471dfff1bb2ee508c97ba62d771fd459"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "727d1cf-add-github-local-buildcache"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-727d1cf-add-github-local-buildcache.jar",
+          "url": "antibytes-dokka-configuration-727d1cf-add-github-local-buildcache.jar",
+          "size": 7889,
+          "sha512": "3507bba6871e8c9eae6796fe598dcaad1ae887780737758121748f7c54cd85d5a5ea1d813c9d7cb6902a5296b050426834fbaee506cf3f6f4a8f4a4c5506fab5",
+          "sha256": "1b269779cbc22d4c9086e1a811c92977464360f3791c671dc67ac2ba36f8617c",
+          "sha1": "a94bfe2a0be5965c7de7c578a17358953822d426",
+          "md5": "471dfff1bb2ee508c97ba62d771fd459"
+        }
+      ]
+    }
+  ]
+}
