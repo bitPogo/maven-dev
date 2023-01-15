@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-fix-publishing-SNAPSHOT/core-0.4.0-fix-publishing-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-fix-publishing-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxMips32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_mips32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-linuxmips32-0.4.0-fix-publishing-SNAPSHOT.klib",
+          "size": 105861,
+          "sha512": "1a3b61a6ea3f87be15ae44e19d6827bc2954a54d4c754ed756fb30da5cc1e3549c97883434c9a916d94275f758b5d60adfbf958ce8a7ba28fe776102021c1953",
+          "sha256": "7a9fdba5f18e8a8d5527dd3e28f4a0ae32e4f0dab53c75e96c40c07047b7849e",
+          "sha1": "5ea11d9f6cef264835a82ce25c7b1184fac7d757",
+          "md5": "3aa3574aa6291eb938958459fb92e372"
+        }
+      ]
+    },
+    {
+      "name": "linuxMips32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "linux_mips32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-linuxmips32-0.4.0-fix-publishing-SNAPSHOT-metadata.jar",
+          "url": "core-linuxmips32-0.4.0-fix-publishing-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "a88862e14c9058a78b7b6c544ec10fad558e608ece1d5c7b8645241128a19a30724407ca7e72b955b4ea7eece06a41dbfcd23cd39a49f1ccdb3b16a82ded1c7a",
+          "sha256": "39d8ea60ed29c82b08528a48cacb5847916ba094318995dec1dce0edd2f0244b",
+          "sha1": "9d90fc132aea56b11b23314438e0b474ffb30350",
+          "md5": "8d4b28ca53019eac860d16916096f081"
+        }
+      ]
+    }
+  ]
+}
