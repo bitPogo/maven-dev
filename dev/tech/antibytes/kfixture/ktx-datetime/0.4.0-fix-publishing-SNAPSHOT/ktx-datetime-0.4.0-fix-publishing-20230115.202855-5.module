@@ -1,0 +1,647 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kfixture",
+    "module": "ktx-datetime",
+    "version": "0.4.0-fix-publishing-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.kfixture",
+          "module": "core",
+          "version": {
+            "requires": "0.4.0-fix-publishing-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime-metadata-0.4.0-fix-publishing-SNAPSHOT-all.jar",
+          "url": "ktx-datetime-0.4.0-fix-publishing-SNAPSHOT-all.jar",
+          "size": 9151,
+          "sha512": "1b272907e388aa4978a4e3c5c50b059995bf0d3dfa555c9058d100661dbe647249113a6d14fc48af2a35e8a333c61910ddf23f863cac470b6505e16be48a9324",
+          "sha256": "159abfcdde64cff8f5edc577fbbbd3ac483a97aa12846d0badcb73b71a74c2ef",
+          "sha1": "d6fa72490b22be997b00e9feba48930b38bea055",
+          "md5": "f71a25e3dccd10ad140334962cb84f32"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "ktx-datetime-0.4.0-fix-publishing-SNAPSHOT.jar",
+          "url": "ktx-datetime-0.4.0-fix-publishing-SNAPSHOT.jar",
+          "size": 13895,
+          "sha512": "2d9406c0ee6970e3f515d330587cf24dd4fb04f09c57f9b207c3b443d393fb153a224a352483c2c2914f5457679efe04e3d4716d7ec1c2a196249ed9ede41aab",
+          "sha256": "4f23dfe3bcbcd563aa96d86ceaab342f329756f3a9f7a91e0af08e666e71faac",
+          "sha1": "c79b3a20b09550b3ceda9085035596691dc1e1a1",
+          "md5": "24d3c6f4379ff54e8f4f445c4f8be583"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-android/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-android-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-android",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-android/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-android-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-android",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-iosarm32/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-iosarm32-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-iosarm32",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-iosarm32/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-iosarm32-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-iosarm32",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-iosarm64/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-iosarm64-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-iosarm64",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-iosarm64/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-iosarm64-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-iosarm64",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-iossimulatorarm64/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-iossimulatorarm64-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-iossimulatorarm64",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-iossimulatorarm64/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-iossimulatorarm64-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-iossimulatorarm64",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-iosx64/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-iosx64-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-iosx64",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-iosx64/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-iosx64-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-iosx64",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-js/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-js-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-js",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-js/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-js-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-js",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-jvm/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-jvm-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-jvm",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-jvm/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-jvm-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-jvm",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-linuxx64/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-linuxx64-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-linuxx64",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-macosarm64/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-macosarm64-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-macosarm64",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-macosarm64/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-macosarm64-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-macosarm64",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-macosx64/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-macosx64-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-macosx64",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-macosx64/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-macosx64-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-macosx64",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-mingwx64/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-mingwx64-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-mingwx64",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-tvosarm64/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-tvosarm64-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-tvosarm64",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-tvosarm64/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-tvosarm64-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-tvosarm64",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-tvossimulatorarm64/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-tvossimulatorarm64-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-tvossimulatorarm64",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-tvossimulatorarm64/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-tvossimulatorarm64-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-tvossimulatorarm64",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-tvosx64/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-tvosx64-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-tvosx64",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-tvosx64/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-tvosx64-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-tvosx64",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-watchosarm32/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-watchosarm32-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-watchosarm32",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-watchosarm32/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-watchosarm32-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-watchosarm32",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-watchosarm64/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-watchosarm64-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-watchosarm64",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-watchosarm64/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-watchosarm64-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-watchosarm64",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-watchossimulatorarm64/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-watchossimulatorarm64-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-watchossimulatorarm64",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-watchossimulatorarm64/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-watchossimulatorarm64-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-watchossimulatorarm64",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-watchosx64/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-watchosx64-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-watchosx64",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-watchosx64/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-watchosx64-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-watchosx64",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX86ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-watchosx86/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-watchosx86-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-watchosx86",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX86MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktx-datetime-watchosx86/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-watchosx86-0.4.0-fix-publishing-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "ktx-datetime-watchosx86",
+        "version": "0.4.0-fix-publishing-SNAPSHOT"
+      }
+    }
+  ]
+}

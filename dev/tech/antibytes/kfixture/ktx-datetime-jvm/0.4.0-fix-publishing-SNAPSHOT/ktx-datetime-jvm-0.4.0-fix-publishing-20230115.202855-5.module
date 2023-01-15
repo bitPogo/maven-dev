@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktx-datetime/0.4.0-fix-publishing-SNAPSHOT/ktx-datetime-0.4.0-fix-publishing-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "ktx-datetime",
+    "version": "0.4.0-fix-publishing-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime-jvm-0.4.0-fix-publishing-SNAPSHOT.jar",
+          "url": "ktx-datetime-jvm-0.4.0-fix-publishing-SNAPSHOT.jar",
+          "size": 56621,
+          "sha512": "915e7cdd78cbec54b396dc4d1d80ce10fb02dcb194419f21f24814089fb01b8b6f3e401069d7ab7f79a31612f64eddf49ce7c8842351de50719408f897805155",
+          "sha256": "74aaf2f71f4ce9f208c3609857bff5311aabe9b8677e48943e92ad3a67ae9ab1",
+          "sha1": "577d7a075913458d18a28a3753fccc5c2a677dbf",
+          "md5": "cb69a704e16d421921b86fca171650c3"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.kfixture",
+          "module": "core",
+          "version": {
+            "requires": "0.4.0-fix-publishing-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime-jvm-0.4.0-fix-publishing-SNAPSHOT.jar",
+          "url": "ktx-datetime-jvm-0.4.0-fix-publishing-SNAPSHOT.jar",
+          "size": 56621,
+          "sha512": "915e7cdd78cbec54b396dc4d1d80ce10fb02dcb194419f21f24814089fb01b8b6f3e401069d7ab7f79a31612f64eddf49ce7c8842351de50719408f897805155",
+          "sha256": "74aaf2f71f4ce9f208c3609857bff5311aabe9b8677e48943e92ad3a67ae9ab1",
+          "sha1": "577d7a075913458d18a28a3753fccc5c2a677dbf",
+          "md5": "cb69a704e16d421921b86fca171650c3"
+        }
+      ]
+    }
+  ]
+}
