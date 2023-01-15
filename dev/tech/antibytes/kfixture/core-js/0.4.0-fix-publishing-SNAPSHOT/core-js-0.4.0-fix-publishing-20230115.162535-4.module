@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-fix-publishing-SNAPSHOT/core-0.4.0-fix-publishing-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-fix-publishing-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-nodejs",
+          "version": {
+            "requires": "0.0.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-js-0.4.0-fix-publishing-SNAPSHOT.klib",
+          "url": "core-js-0.4.0-fix-publishing-SNAPSHOT.klib",
+          "size": 129883,
+          "sha512": "e854d6e2fe1a80b1f00de6b3f6dc45bc561eb07ecee9d5d96ff98ec3bbd50e00d8ef5d18440efa9514d25510737d41f15c9391e041ec6ed234f6de40ee79b102",
+          "sha256": "22377d05e2c8544b65404f8df9e1cc4f8ecda095a2e6b057c2ad9a048c905a6f",
+          "sha1": "a919821b78fa749355b69812cf24ca19777b4e8f",
+          "md5": "9d474cc3e1c2ced72e28d132db49c5ef"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-nodejs",
+          "version": {
+            "requires": "0.0.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-js-0.4.0-fix-publishing-SNAPSHOT.klib",
+          "url": "core-js-0.4.0-fix-publishing-SNAPSHOT.klib",
+          "size": 129883,
+          "sha512": "e854d6e2fe1a80b1f00de6b3f6dc45bc561eb07ecee9d5d96ff98ec3bbd50e00d8ef5d18440efa9514d25510737d41f15c9391e041ec6ed234f6de40ee79b102",
+          "sha256": "22377d05e2c8544b65404f8df9e1cc4f8ecda095a2e6b057c2ad9a048c905a6f",
+          "sha1": "a919821b78fa749355b69812cf24ca19777b4e8f",
+          "md5": "9d474cc3e1c2ced72e28d132db49c5ef"
+        }
+      ]
+    }
+  ]
+}
