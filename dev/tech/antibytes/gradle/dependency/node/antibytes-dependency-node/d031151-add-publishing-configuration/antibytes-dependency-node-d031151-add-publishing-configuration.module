@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.node",
+    "module": "antibytes-dependency-node",
+    "version": "d031151-add-publishing-configuration",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-node-d031151-add-publishing-configuration.jar",
+          "url": "antibytes-dependency-node-d031151-add-publishing-configuration.jar",
+          "size": 20143,
+          "sha512": "9968366d3765994128f0078029a0ddc083f704e149d359f172743b876fdd06506c850bf5ba572818d52b5548fc2a732686497c731885d7ba43c015a8dbdd7c2b",
+          "sha256": "fa093ea015458c27b78fa618b4fe31c87f6d3efe94bfaa018cb0a3d261575810",
+          "sha1": "0333a23c9f16f752b239715af32f43cd65f3a74b",
+          "md5": "1775ad6da88cd53dcf8b641283a3f355"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-node-d031151-add-publishing-configuration.jar",
+          "url": "antibytes-dependency-node-d031151-add-publishing-configuration.jar",
+          "size": 20143,
+          "sha512": "9968366d3765994128f0078029a0ddc083f704e149d359f172743b876fdd06506c850bf5ba572818d52b5548fc2a732686497c731885d7ba43c015a8dbdd7c2b",
+          "sha256": "fa093ea015458c27b78fa618b4fe31c87f6d3efe94bfaa018cb0a3d261575810",
+          "sha1": "0333a23c9f16f752b239715af32f43cd65f3a74b",
+          "md5": "1775ad6da88cd53dcf8b641283a3f355"
+        }
+      ]
+    }
+  ]
+}

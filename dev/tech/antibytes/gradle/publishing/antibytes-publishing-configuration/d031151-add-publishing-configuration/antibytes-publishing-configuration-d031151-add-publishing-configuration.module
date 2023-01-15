@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "d031151-add-publishing-configuration",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-d031151-add-publishing-configuration.jar",
+          "url": "antibytes-publishing-configuration-d031151-add-publishing-configuration.jar",
+          "size": 4703,
+          "sha512": "1e8468528e4021393695e6a9f6db5c453ce93d447b7dbe38253c71af7b3e7daa79b009d033dbdf0ad069998b72335788d420696849643d0819e975442915ce01",
+          "sha256": "5ddcca48f4f6f693316a8950a77afeaff77ed434010d2f4621d775a4633f2d82",
+          "sha1": "9b073fd08c854985d5f35e36465de245863dfd84",
+          "md5": "097262de04a82eee01299a0fae390eb2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "d031151-add-publishing-configuration"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-d031151-add-publishing-configuration.jar",
+          "url": "antibytes-publishing-configuration-d031151-add-publishing-configuration.jar",
+          "size": 4703,
+          "sha512": "1e8468528e4021393695e6a9f6db5c453ce93d447b7dbe38253c71af7b3e7daa79b009d033dbdf0ad069998b72335788d420696849643d0819e975442915ce01",
+          "sha256": "5ddcca48f4f6f693316a8950a77afeaff77ed434010d2f4621d775a4633f2d82",
+          "sha1": "9b073fd08c854985d5f35e36465de245863dfd84",
+          "md5": "097262de04a82eee01299a0fae390eb2"
+        }
+      ]
+    }
+  ]
+}

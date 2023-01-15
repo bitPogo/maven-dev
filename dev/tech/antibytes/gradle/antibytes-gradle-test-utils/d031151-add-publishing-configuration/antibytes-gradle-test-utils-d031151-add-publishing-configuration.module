@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-gradle-test-utils",
+    "version": "d031151-add-publishing-configuration",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-gradle-test-utils-d031151-add-publishing-configuration.jar",
+          "url": "antibytes-gradle-test-utils-d031151-add-publishing-configuration.jar",
+          "size": 17243,
+          "sha512": "deac1dbf4f52ccaac9033d61621774f393f8f5bd1267ff73a9e465a25298c42726284d815b2932dc6f931e6508afeafc3eee506450bdaa55b4f75473cb10b94b",
+          "sha256": "c5077566055d30c46f561944d906a9414d60a7011d835c9bda3148bc5120de7f",
+          "sha1": "e67897db76a1b4f253907f04aab388e455dae1fb",
+          "md5": "300ff1e7b745e853442799455523167c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.mockk",
+          "module": "mockk",
+          "version": {
+            "requires": "1.12.8"
+          }
+        },
+        {
+          "group": "com.appmattus.fixture",
+          "module": "fixture",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-gradle-test-utils-d031151-add-publishing-configuration.jar",
+          "url": "antibytes-gradle-test-utils-d031151-add-publishing-configuration.jar",
+          "size": 17243,
+          "sha512": "deac1dbf4f52ccaac9033d61621774f393f8f5bd1267ff73a9e465a25298c42726284d815b2932dc6f931e6508afeafc3eee506450bdaa55b4f75473cb10b94b",
+          "sha256": "c5077566055d30c46f561944d906a9414d60a7011d835c9bda3148bc5120de7f",
+          "sha1": "e67897db76a1b4f253907f04aab388e455dae1fb",
+          "md5": "300ff1e7b745e853442799455523167c"
+        }
+      ]
+    }
+  ]
+}

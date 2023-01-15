@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.grammar",
+    "module": "antibytes-grammar-tools",
+    "version": "d031151-add-publishing-configuration",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-grammar-tools-d031151-add-publishing-configuration.jar",
+          "url": "antibytes-grammar-tools-d031151-add-publishing-configuration.jar",
+          "size": 39371,
+          "sha512": "cb5cd4c2fc893dfbf16495c61f7e295adae51a78bd4dd772f98eb555e5d7497c3189f597d683d35369dea5cf28cca0a49646e8e5fef27f438f8d63eaa2eec7e5",
+          "sha256": "95c3736c5748cfd3434880fea498a10a7278b61f6cf50d9d1fe7c632dff9188e",
+          "sha1": "f531e6bc47b7475ce1627bec9987977ecda4919f",
+          "md5": "60f26a1b5ee43123f3ef96cff4ef6223"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "de.jflex",
+          "module": "jflex",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "com.lordcodes.turtle",
+          "module": "turtle",
+          "version": {
+            "requires": "0.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-grammar-tools-d031151-add-publishing-configuration.jar",
+          "url": "antibytes-grammar-tools-d031151-add-publishing-configuration.jar",
+          "size": 39371,
+          "sha512": "cb5cd4c2fc893dfbf16495c61f7e295adae51a78bd4dd772f98eb555e5d7497c3189f597d683d35369dea5cf28cca0a49646e8e5fef27f438f8d63eaa2eec7e5",
+          "sha256": "95c3736c5748cfd3434880fea498a10a7278b61f6cf50d9d1fe7c632dff9188e",
+          "sha1": "f531e6bc47b7475ce1627bec9987977ecda4919f",
+          "md5": "60f26a1b5ee43123f3ef96cff4ef6223"
+        }
+      ]
+    }
+  ]
+}

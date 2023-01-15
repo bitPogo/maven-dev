@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.versioning",
+    "module": "antibytes-versioning",
+    "version": "d031151-add-publishing-configuration",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-d031151-add-publishing-configuration.jar",
+          "url": "antibytes-versioning-d031151-add-publishing-configuration.jar",
+          "size": 21893,
+          "sha512": "0323791e6a78d6e6e977999b01b5b812a0bc8f6e554960f8330b4cc10b68c1a69a9885deb80d1ef365b898eaa41b63123de938462d701da6bff3299057aae9e0",
+          "sha256": "ea7aad7612f3539a3277268cb29f651aace36e36ed0034a072afbef08aafffbb",
+          "sha1": "189b83c087ced4bbe57cff86fbd19d8d88441a0a",
+          "md5": "5112a86bc67b1d1d940a24f38f1e9746"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-d031151-add-publishing-configuration.jar",
+          "url": "antibytes-versioning-d031151-add-publishing-configuration.jar",
+          "size": 21893,
+          "sha512": "0323791e6a78d6e6e977999b01b5b812a0bc8f6e554960f8330b4cc10b68c1a69a9885deb80d1ef365b898eaa41b63123de938462d701da6bff3299057aae9e0",
+          "sha256": "ea7aad7612f3539a3277268cb29f651aace36e36ed0034a072afbef08aafffbb",
+          "sha1": "189b83c087ced4bbe57cff86fbd19d8d88441a0a",
+          "md5": "5112a86bc67b1d1d940a24f38f1e9746"
+        }
+      ]
+    }
+  ]
+}

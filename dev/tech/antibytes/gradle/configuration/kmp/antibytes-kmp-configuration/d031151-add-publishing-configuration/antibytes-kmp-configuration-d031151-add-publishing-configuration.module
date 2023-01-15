@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.kmp",
+    "module": "antibytes-kmp-configuration",
+    "version": "d031151-add-publishing-configuration",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-d031151-add-publishing-configuration.jar",
+          "url": "antibytes-kmp-configuration-d031151-add-publishing-configuration.jar",
+          "size": 66404,
+          "sha512": "8027a54b9e3164a04f589c130a299d32e57f7a7d26f353e8b1fcab5d8cfbd73f416f7d4bfb60fbe84a5a9f7fadcfc801fecfb3c8a6b59c71ce72df9cb1f975f1",
+          "sha256": "cbc3c421458cf0964a4343ab2b6d0e7ce6973a1df62e60001944391f24a393cf",
+          "sha1": "e3bf59766e39ffa91360806fecb52d441b4f14d3",
+          "md5": "df118b5437984504e8a113550d658309"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "d031151-add-publishing-configuration"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-d031151-add-publishing-configuration.jar",
+          "url": "antibytes-kmp-configuration-d031151-add-publishing-configuration.jar",
+          "size": 66404,
+          "sha512": "8027a54b9e3164a04f589c130a299d32e57f7a7d26f353e8b1fcab5d8cfbd73f416f7d4bfb60fbe84a5a9f7fadcfc801fecfb3c8a6b59c71ce72df9cb1f975f1",
+          "sha256": "cbc3c421458cf0964a4343ab2b6d0e7ce6973a1df62e60001944391f24a393cf",
+          "sha1": "e3bf59766e39ffa91360806fecb52d441b4f14d3",
+          "md5": "df118b5437984504e8a113550d658309"
+        }
+      ]
+    }
+  ]
+}
