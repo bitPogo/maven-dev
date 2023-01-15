@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-remove-android-studio-workaround-SNAPSHOT/core-0.4.0-remove-android-studio-workaround-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-remove-android-studio-workaround-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxMips32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_mips32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-linuxmips32-0.4.0-remove-android-studio-workaround-SNAPSHOT.klib",
+          "size": 105861,
+          "sha512": "1a3b61a6ea3f87be15ae44e19d6827bc2954a54d4c754ed756fb30da5cc1e3549c97883434c9a916d94275f758b5d60adfbf958ce8a7ba28fe776102021c1953",
+          "sha256": "7a9fdba5f18e8a8d5527dd3e28f4a0ae32e4f0dab53c75e96c40c07047b7849e",
+          "sha1": "5ea11d9f6cef264835a82ce25c7b1184fac7d757",
+          "md5": "3aa3574aa6291eb938958459fb92e372"
+        }
+      ]
+    },
+    {
+      "name": "linuxMips32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "linux_mips32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-linuxmips32-0.4.0-remove-android-studio-workaround-SNAPSHOT-metadata.jar",
+          "url": "core-linuxmips32-0.4.0-remove-android-studio-workaround-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "c38956ddfcffdbcd573d58102983b73ec5a602c831b150d2905fcecdd37a3058915c6daea5b8ca40387ed101547491c62a55426d76d31c2928f360c87dba2745",
+          "sha256": "b093ddd97c42f3b1f6c112fa6830f6d5b279dff94875be09523bca04fea92542",
+          "sha1": "d1b485aa091c1091b9635cf200803405ab5ccef5",
+          "md5": "9deec951650b8173ccaf136cb865f3bf"
+        }
+      ]
+    }
+  ]
+}
