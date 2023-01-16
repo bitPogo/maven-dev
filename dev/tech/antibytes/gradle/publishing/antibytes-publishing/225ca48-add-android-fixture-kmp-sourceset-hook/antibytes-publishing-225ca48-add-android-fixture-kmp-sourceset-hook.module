@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.publishing",
+    "module": "antibytes-publishing",
+    "version": "225ca48-add-android-fixture-kmp-sourceset-hook",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.versioning",
+          "module": "antibytes-versioning",
+          "version": {
+            "requires": "225ca48-add-android-fixture-kmp-sourceset-hook"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-225ca48-add-android-fixture-kmp-sourceset-hook.jar",
+          "url": "antibytes-publishing-225ca48-add-android-fixture-kmp-sourceset-hook.jar",
+          "size": 136063,
+          "sha512": "cc63f6ad783ead2504e189aa10b8e461fc8004f977a93437eaeb5443bc736daebdf58115cb06e74d61f6c383be7340795ead55482b56904760c065ce46283fcb",
+          "sha256": "fcc6118412376e1287431d6e12b954b6a5858e58c7678c7e656a1e429caec2be",
+          "sha1": "f0ae7de309156b3ccb6a92641ca04e8b425ae08e",
+          "md5": "2484cc110fc333b30383bf7298d86570"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "6.3.0.202209071007-r"
+          }
+        },
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "225ca48-add-android-fixture-kmp-sourceset-hook"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle.versioning",
+          "module": "antibytes-versioning",
+          "version": {
+            "requires": "225ca48-add-android-fixture-kmp-sourceset-hook"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-225ca48-add-android-fixture-kmp-sourceset-hook.jar",
+          "url": "antibytes-publishing-225ca48-add-android-fixture-kmp-sourceset-hook.jar",
+          "size": 136063,
+          "sha512": "cc63f6ad783ead2504e189aa10b8e461fc8004f977a93437eaeb5443bc736daebdf58115cb06e74d61f6c383be7340795ead55482b56904760c065ce46283fcb",
+          "sha256": "fcc6118412376e1287431d6e12b954b6a5858e58c7678c7e656a1e429caec2be",
+          "sha1": "f0ae7de309156b3ccb6a92641ca04e8b425ae08e",
+          "md5": "2484cc110fc333b30383bf7298d86570"
+        }
+      ]
+    }
+  ]
+}
