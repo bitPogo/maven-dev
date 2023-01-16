@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "f08e47d-add-android-fixture-kmp-sourceset-hook",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-f08e47d-add-android-fixture-kmp-sourceset-hook.jar",
+          "url": "antibytes-publishing-configuration-f08e47d-add-android-fixture-kmp-sourceset-hook.jar",
+          "size": 4768,
+          "sha512": "65e20dc5d3919665f5f07c3413880db8ddbc09e4414f5bd25a1738fa0d53745572ce7728e1b46a43cc5b7f1477a21c675066268f97b1458096a7258b4bb4df7e",
+          "sha256": "d81262ed05101aeab882c018869912ce650fe8f7a7696417b76e568a5d022875",
+          "sha1": "d48aed7393a21f6611011d05bfbfa33d260875fa",
+          "md5": "d7783faca3df1c26c364967619d8405b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "f08e47d-add-android-fixture-kmp-sourceset-hook"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-f08e47d-add-android-fixture-kmp-sourceset-hook.jar",
+          "url": "antibytes-publishing-configuration-f08e47d-add-android-fixture-kmp-sourceset-hook.jar",
+          "size": 4768,
+          "sha512": "65e20dc5d3919665f5f07c3413880db8ddbc09e4414f5bd25a1738fa0d53745572ce7728e1b46a43cc5b7f1477a21c675066268f97b1458096a7258b4bb4df7e",
+          "sha256": "d81262ed05101aeab882c018869912ce650fe8f7a7696417b76e568a5d022875",
+          "sha1": "d48aed7393a21f6611011d05bfbfa33d260875fa",
+          "md5": "d7783faca3df1c26c364967619d8405b"
+        }
+      ]
+    }
+  ]
+}
