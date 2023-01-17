@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.versioning",
+    "module": "antibytes-versioning",
+    "version": "c54ee47-fix-dependency-definitions",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-c54ee47-fix-dependency-definitions.jar",
+          "url": "antibytes-versioning-c54ee47-fix-dependency-definitions.jar",
+          "size": 21893,
+          "sha512": "7f0c0efba8257d085c7c91b6b26c5ddc70c180abb043eb3ae77a8cd20e10ec07847bcec5029eb5f0060b994fa596f30839de520df89096b6f8b4e96448c93c00",
+          "sha256": "c35ba6875c1466b39ea94446630aca6e7cf7bb0a3076dc36fce2aae8802340af",
+          "sha1": "bc0c362cf6dd7e8ae3d245ce8305b105cd788f82",
+          "md5": "caa6c8eba24ce0dc4adb47469bd507f7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-c54ee47-fix-dependency-definitions.jar",
+          "url": "antibytes-versioning-c54ee47-fix-dependency-definitions.jar",
+          "size": 21893,
+          "sha512": "7f0c0efba8257d085c7c91b6b26c5ddc70c180abb043eb3ae77a8cd20e10ec07847bcec5029eb5f0060b994fa596f30839de520df89096b6f8b4e96448c93c00",
+          "sha256": "c35ba6875c1466b39ea94446630aca6e7cf7bb0a3076dc36fce2aae8802340af",
+          "sha1": "bc0c362cf6dd7e8ae3d245ce8305b105cd788f82",
+          "md5": "caa6c8eba24ce0dc4adb47469bd507f7"
+        }
+      ]
+    }
+  ]
+}

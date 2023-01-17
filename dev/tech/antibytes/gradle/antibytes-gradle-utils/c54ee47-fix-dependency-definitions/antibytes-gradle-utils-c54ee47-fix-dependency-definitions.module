@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-gradle-utils",
+    "version": "c54ee47-fix-dependency-definitions",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-gradle-utils-c54ee47-fix-dependency-definitions.jar",
+          "url": "antibytes-gradle-utils-c54ee47-fix-dependency-definitions.jar",
+          "size": 9568,
+          "sha512": "e23c430d9fdf7090e278e567d0df024cb514e568ed0e65eee5744a668d69c53ba0491ff02dc2b73370fa96303833d475561e85caafa999ce46a7b27806d14981",
+          "sha256": "369137278c58b7b9f9910b7e53b28e5def718745173725003354ab90188ac7e5",
+          "sha1": "0262c922707ab8e42af602c4166548e268c1e2c7",
+          "md5": "336326ea1b0b06e98c52f595b0310e96"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-gradle-utils-c54ee47-fix-dependency-definitions.jar",
+          "url": "antibytes-gradle-utils-c54ee47-fix-dependency-definitions.jar",
+          "size": 9568,
+          "sha512": "e23c430d9fdf7090e278e567d0df024cb514e568ed0e65eee5744a668d69c53ba0491ff02dc2b73370fa96303833d475561e85caafa999ce46a7b27806d14981",
+          "sha256": "369137278c58b7b9f9910b7e53b28e5def718745173725003354ab90188ac7e5",
+          "sha1": "0262c922707ab8e42af602c4166548e268c1e2c7",
+          "md5": "336326ea1b0b06e98c52f595b0310e96"
+        }
+      ]
+    }
+  ]
+}

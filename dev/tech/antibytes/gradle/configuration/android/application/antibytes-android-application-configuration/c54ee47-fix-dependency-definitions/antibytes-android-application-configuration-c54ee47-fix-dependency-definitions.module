@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.android.application",
+    "module": "antibytes-android-application-configuration",
+    "version": "c54ee47-fix-dependency-definitions",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-android-application-configuration-c54ee47-fix-dependency-definitions.jar",
+          "url": "antibytes-android-application-configuration-c54ee47-fix-dependency-definitions.jar",
+          "size": 56574,
+          "sha512": "c43519a00fe9254341cac3913e02ef4509f2b541797639b2727421a9a797bef13762cd7780413662b775c8f47ff05485d5c883eb8f10544da8f28cddd441e4d0",
+          "sha256": "bc984f79145efb49885a26bb1ca20ec857b4fae739001c86bada6d1ae73f621e",
+          "sha1": "a6720c6151e7efbe75f1d9aa4c377e9945639abc",
+          "md5": "dfeb3da426aa610fb7353e06562cbcad"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "c54ee47-fix-dependency-definitions"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-android-application-configuration-c54ee47-fix-dependency-definitions.jar",
+          "url": "antibytes-android-application-configuration-c54ee47-fix-dependency-definitions.jar",
+          "size": 56574,
+          "sha512": "c43519a00fe9254341cac3913e02ef4509f2b541797639b2727421a9a797bef13762cd7780413662b775c8f47ff05485d5c883eb8f10544da8f28cddd441e4d0",
+          "sha256": "bc984f79145efb49885a26bb1ca20ec857b4fae739001c86bada6d1ae73f621e",
+          "sha1": "a6720c6151e7efbe75f1d9aa4c377e9945639abc",
+          "md5": "dfeb3da426aa610fb7353e06562cbcad"
+        }
+      ]
+    }
+  ]
+}

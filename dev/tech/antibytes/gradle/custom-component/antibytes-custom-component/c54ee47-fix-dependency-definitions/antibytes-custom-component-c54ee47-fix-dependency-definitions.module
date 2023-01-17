@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.custom-component",
+    "module": "antibytes-custom-component",
+    "version": "c54ee47-fix-dependency-definitions",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-custom-component-c54ee47-fix-dependency-definitions.jar",
+          "url": "antibytes-custom-component-c54ee47-fix-dependency-definitions.jar",
+          "size": 16172,
+          "sha512": "86e33f628d1f9fe8eece2e66538e4f47b61e7ceb61d44d7dc203a2d8a806fe2aa58413575eddf034dfa0885f7de919c3a705bb990d4931156168dbea7393ab70",
+          "sha256": "af83981cc8d652cf80fd7c3d5bafdfcb85877d360564f4c96b4e4ff7ff3a3502",
+          "sha1": "f58e48e3e7af42174bfbfe9e9e02152709b1b47d",
+          "md5": "30f4d767c413e7bbb10ad2d627ef562c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-custom-component-c54ee47-fix-dependency-definitions.jar",
+          "url": "antibytes-custom-component-c54ee47-fix-dependency-definitions.jar",
+          "size": 16172,
+          "sha512": "86e33f628d1f9fe8eece2e66538e4f47b61e7ceb61d44d7dc203a2d8a806fe2aa58413575eddf034dfa0885f7de919c3a705bb990d4931156168dbea7393ab70",
+          "sha256": "af83981cc8d652cf80fd7c3d5bafdfcb85877d360564f4c96b4e4ff7ff3a3502",
+          "sha1": "f58e48e3e7af42174bfbfe9e9e02152709b1b47d",
+          "md5": "30f4d767c413e7bbb10ad2d627ef562c"
+        }
+      ]
+    }
+  ]
+}

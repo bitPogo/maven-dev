@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.dokka",
+    "module": "antibytes-dokka-configuration",
+    "version": "c54ee47-fix-dependency-definitions",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-c54ee47-fix-dependency-definitions.jar",
+          "url": "antibytes-dokka-configuration-c54ee47-fix-dependency-definitions.jar",
+          "size": 7889,
+          "sha512": "45a5085f431fc6c471f13641c67e444a9d1274d0039887a20a022df7e0e9005444ad190678b3d0b72a90402100a74d8d83da91ef5bff0bfa1741256aad057a5c",
+          "sha256": "de97c48922a81eeaf7cca8256c3ce2922d17db15352a42024b0a23db5fa55c79",
+          "sha1": "ea63a344d5348f615f5cdd50b989a220ec15629e",
+          "md5": "14e71f86462a33904f1d66e983df488d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "c54ee47-fix-dependency-definitions"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-c54ee47-fix-dependency-definitions.jar",
+          "url": "antibytes-dokka-configuration-c54ee47-fix-dependency-definitions.jar",
+          "size": 7889,
+          "sha512": "45a5085f431fc6c471f13641c67e444a9d1274d0039887a20a022df7e0e9005444ad190678b3d0b72a90402100a74d8d83da91ef5bff0bfa1741256aad057a5c",
+          "sha256": "de97c48922a81eeaf7cca8256c3ce2922d17db15352a42024b0a23db5fa55c79",
+          "sha1": "ea63a344d5348f615f5cdd50b989a220ec15629e",
+          "md5": "14e71f86462a33904f1d66e983df488d"
+        }
+      ]
+    }
+  ]
+}

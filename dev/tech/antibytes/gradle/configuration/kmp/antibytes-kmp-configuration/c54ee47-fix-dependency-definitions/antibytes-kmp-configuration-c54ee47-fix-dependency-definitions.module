@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.kmp",
+    "module": "antibytes-kmp-configuration",
+    "version": "c54ee47-fix-dependency-definitions",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-c54ee47-fix-dependency-definitions.jar",
+          "url": "antibytes-kmp-configuration-c54ee47-fix-dependency-definitions.jar",
+          "size": 67704,
+          "sha512": "b25a33c04d53db5d79950fb8e76e90dcbb69240284c3b2136b8d6f6c04294fcc06f183105562f79f52eefe00bf539946a0081a8270ae219af248ac1ff2a0c88b",
+          "sha256": "e28e5d322f0b2e6cbfa43ac1e558991a2c71a6267a60a9be9252de04514d8431",
+          "sha1": "b9ae36812bb0e65ee72bcf9b67ee2c5e22f704b3",
+          "md5": "6658a588ee54df1777ef56766a77acab"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "c54ee47-fix-dependency-definitions"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-c54ee47-fix-dependency-definitions.jar",
+          "url": "antibytes-kmp-configuration-c54ee47-fix-dependency-definitions.jar",
+          "size": 67704,
+          "sha512": "b25a33c04d53db5d79950fb8e76e90dcbb69240284c3b2136b8d6f6c04294fcc06f183105562f79f52eefe00bf539946a0081a8270ae219af248ac1ff2a0c88b",
+          "sha256": "e28e5d322f0b2e6cbfa43ac1e558991a2c71a6267a60a9be9252de04514d8431",
+          "sha1": "b9ae36812bb0e65ee72bcf9b67ee2c5e22f704b3",
+          "md5": "6658a588ee54df1777ef56766a77acab"
+        }
+      ]
+    }
+  ]
+}

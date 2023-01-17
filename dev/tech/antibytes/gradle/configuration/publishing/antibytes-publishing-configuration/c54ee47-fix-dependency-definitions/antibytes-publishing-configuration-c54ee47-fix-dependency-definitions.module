@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "c54ee47-fix-dependency-definitions",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-c54ee47-fix-dependency-definitions.jar",
+          "url": "antibytes-publishing-configuration-c54ee47-fix-dependency-definitions.jar",
+          "size": 4768,
+          "sha512": "166883932b05bd8bd5f8554afbc1a4d2f75289b9bb51690bc8d92d310a2077401c0b4f828f9c5c98ad75fb41628067f31132d35f480b6a7534b45460e45bcd44",
+          "sha256": "41b237d31029fa899b16af18e386163d03879cd37620cd01e0035b4a3da0a143",
+          "sha1": "1fd9c13e57719531298610fad76108b64703e318",
+          "md5": "ef4857c23a0031682487b8329e2c6a10"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "c54ee47-fix-dependency-definitions"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-c54ee47-fix-dependency-definitions.jar",
+          "url": "antibytes-publishing-configuration-c54ee47-fix-dependency-definitions.jar",
+          "size": 4768,
+          "sha512": "166883932b05bd8bd5f8554afbc1a4d2f75289b9bb51690bc8d92d310a2077401c0b4f828f9c5c98ad75fb41628067f31132d35f480b6a7534b45460e45bcd44",
+          "sha256": "41b237d31029fa899b16af18e386163d03879cd37620cd01e0035b4a3da0a143",
+          "sha1": "1fd9c13e57719531298610fad76108b64703e318",
+          "md5": "ef4857c23a0031682487b8329e2c6a10"
+        }
+      ]
+    }
+  ]
+}

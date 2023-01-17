@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "c54ee47-fix-dependency-definitions",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-c54ee47-fix-dependency-definitions.jar",
+          "url": "antibytes-dependency-bridge-c54ee47-fix-dependency-definitions.jar",
+          "size": 38501,
+          "sha512": "510909908391e86b6c4ed7f209235202716c1b27ab860bb1e6772c382366872953736d71bb9077c04b824da8a76a7106a18e5786166768e7aa7c62b8c5c3c8fa",
+          "sha256": "5d574f148ae992b14ec719ba471b3d87bf80aad787a58fd2e85c23c725c1a70e",
+          "sha1": "7b94ff7b377eade93a01ea6daf5200c6f8d50ac6",
+          "md5": "ab5d45bb73a104e7f8b6658881ff5f2f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-c54ee47-fix-dependency-definitions.jar",
+          "url": "antibytes-dependency-bridge-c54ee47-fix-dependency-definitions.jar",
+          "size": 38501,
+          "sha512": "510909908391e86b6c4ed7f209235202716c1b27ab860bb1e6772c382366872953736d71bb9077c04b824da8a76a7106a18e5786166768e7aa7c62b8c5c3c8fa",
+          "sha256": "5d574f148ae992b14ec719ba471b3d87bf80aad787a58fd2e85c23c725c1a70e",
+          "sha1": "7b94ff7b377eade93a01ea6daf5200c6f8d50ac6",
+          "md5": "ab5d45bb73a104e7f8b6658881ff5f2f"
+        }
+      ]
+    }
+  ]
+}

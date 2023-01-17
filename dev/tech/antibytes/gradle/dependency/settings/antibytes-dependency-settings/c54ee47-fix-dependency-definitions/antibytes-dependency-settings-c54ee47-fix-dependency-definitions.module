@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.settings",
+    "module": "antibytes-dependency-settings",
+    "version": "c54ee47-fix-dependency-definitions",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "c54ee47-fix-dependency-definitions"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-c54ee47-fix-dependency-definitions.jar",
+          "url": "antibytes-dependency-settings-c54ee47-fix-dependency-definitions.jar",
+          "size": 15283,
+          "sha512": "aa085e5f87ebb07b094bd9fac4054a4481e26474453ba04190d7b614a460d22a500bad158ca7e2f3c095f2e93ce185cfadea0ba2848fd613cb36d10ecfee15f6",
+          "sha256": "74bed81ad6aa2f8d358d0a75cd5c0a6f1a514b77103348402a2e0268a7f9faf7",
+          "sha1": "9a6a5fc16914c4fe5de162b02faf1403463fd5b3",
+          "md5": "89fc0f8374b583e2d733029b36cf061f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "c54ee47-fix-dependency-definitions"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-c54ee47-fix-dependency-definitions.jar",
+          "url": "antibytes-dependency-settings-c54ee47-fix-dependency-definitions.jar",
+          "size": 15283,
+          "sha512": "aa085e5f87ebb07b094bd9fac4054a4481e26474453ba04190d7b614a460d22a500bad158ca7e2f3c095f2e93ce185cfadea0ba2848fd613cb36d10ecfee15f6",
+          "sha256": "74bed81ad6aa2f8d358d0a75cd5c0a6f1a514b77103348402a2e0268a7f9faf7",
+          "sha1": "9a6a5fc16914c4fe5de162b02faf1403463fd5b3",
+          "md5": "89fc0f8374b583e2d733029b36cf061f"
+        }
+      ]
+    }
+  ]
+}
