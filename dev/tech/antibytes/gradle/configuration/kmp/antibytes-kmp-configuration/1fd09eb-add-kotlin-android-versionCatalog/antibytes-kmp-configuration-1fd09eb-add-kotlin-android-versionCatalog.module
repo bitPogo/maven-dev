@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.kmp",
+    "module": "antibytes-kmp-configuration",
+    "version": "1fd09eb-add-kotlin-android-versionCatalog",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-1fd09eb-add-kotlin-android-versionCatalog.jar",
+          "url": "antibytes-kmp-configuration-1fd09eb-add-kotlin-android-versionCatalog.jar",
+          "size": 67704,
+          "sha512": "0def4632fb7d4e15227de16f4720e6291dd9d30b362549a6941d62b26a482d9a3fec31a8d27d17c6cfd4b732f4ddcf2aa25081baa7fc7780c445ce0d4107b703",
+          "sha256": "f3202f166147bfb1516c6d370e559da966878eba7e99fc328865d3cff1d81418",
+          "sha1": "8c9edb474c9eb6f7df7003789c8bc3a25eb5db2b",
+          "md5": "67027e5988c1b834cd4a49478c812c05"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "1fd09eb-add-kotlin-android-versionCatalog"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-1fd09eb-add-kotlin-android-versionCatalog.jar",
+          "url": "antibytes-kmp-configuration-1fd09eb-add-kotlin-android-versionCatalog.jar",
+          "size": 67704,
+          "sha512": "0def4632fb7d4e15227de16f4720e6291dd9d30b362549a6941d62b26a482d9a3fec31a8d27d17c6cfd4b732f4ddcf2aa25081baa7fc7780c445ce0d4107b703",
+          "sha256": "f3202f166147bfb1516c6d370e559da966878eba7e99fc328865d3cff1d81418",
+          "sha1": "8c9edb474c9eb6f7df7003789c8bc3a25eb5db2b",
+          "md5": "67027e5988c1b834cd4a49478c812c05"
+        }
+      ]
+    }
+  ]
+}

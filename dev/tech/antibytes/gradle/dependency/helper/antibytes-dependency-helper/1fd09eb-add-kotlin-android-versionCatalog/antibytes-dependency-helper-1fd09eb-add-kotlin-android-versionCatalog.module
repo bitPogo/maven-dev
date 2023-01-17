@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.helper",
+    "module": "antibytes-dependency-helper",
+    "version": "1fd09eb-add-kotlin-android-versionCatalog",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-helper-1fd09eb-add-kotlin-android-versionCatalog.jar",
+          "url": "antibytes-dependency-helper-1fd09eb-add-kotlin-android-versionCatalog.jar",
+          "size": 68558,
+          "sha512": "821795b708af0124694cf2c71707b4245bdf9fe9f44c984b38c5d3828d1dee1e883bfb36c1d4024bc0d67b02beb9cc0f5641911cebd1c5790ef582eefa1250ed",
+          "sha256": "48ae14730b6d1b6aa86adcdbfa21a772972f0a3fae4e71d7cfcfb4f8e7d4e92f",
+          "sha1": "0e9056d2f75eddbf36787161a2f2f2b906fc7e88",
+          "md5": "f340a78da9beedec4d8c7b5850789271"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "com.github.ben-manes",
+          "module": "gradle-versions-plugin",
+          "version": {
+            "requires": "0.42.0"
+          }
+        },
+        {
+          "group": "org.owasp",
+          "module": "dependency-check-gradle",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "com.squareup.tools.build",
+          "module": "maven-archeologist",
+          "version": {
+            "requires": "0.0.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "1fd09eb-add-kotlin-android-versionCatalog"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-helper-1fd09eb-add-kotlin-android-versionCatalog.jar",
+          "url": "antibytes-dependency-helper-1fd09eb-add-kotlin-android-versionCatalog.jar",
+          "size": 68558,
+          "sha512": "821795b708af0124694cf2c71707b4245bdf9fe9f44c984b38c5d3828d1dee1e883bfb36c1d4024bc0d67b02beb9cc0f5641911cebd1c5790ef582eefa1250ed",
+          "sha256": "48ae14730b6d1b6aa86adcdbfa21a772972f0a3fae4e71d7cfcfb4f8e7d4e92f",
+          "sha1": "0e9056d2f75eddbf36787161a2f2f2b906fc7e88",
+          "md5": "f340a78da9beedec4d8c7b5850789271"
+        }
+      ]
+    }
+  ]
+}
