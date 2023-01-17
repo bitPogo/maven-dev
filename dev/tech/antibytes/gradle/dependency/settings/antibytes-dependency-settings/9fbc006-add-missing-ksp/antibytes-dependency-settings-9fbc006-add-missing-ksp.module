@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.settings",
+    "module": "antibytes-dependency-settings",
+    "version": "9fbc006-add-missing-ksp",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "9fbc006-add-missing-ksp"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-9fbc006-add-missing-ksp.jar",
+          "url": "antibytes-dependency-settings-9fbc006-add-missing-ksp.jar",
+          "size": 15285,
+          "sha512": "4626f842607d880e65612fdb44b03f8278a33f32b2c8f2fbf1c1c182d4ec52ef31f5ea4f10f5c715eab48f3e1b25d4a378fe3effd21b030d35ff6e45f1ecbbb5",
+          "sha256": "84a803bc7a2c2585123c8dfe59405ee0ed6bd06d471e1665d09a5a9c8343e3ee",
+          "sha1": "37d022b7ab7172ad732acf4b1f30ed5b5767d850",
+          "md5": "071bee9095201d917ec2c9805cd16c1a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "9fbc006-add-missing-ksp"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-9fbc006-add-missing-ksp.jar",
+          "url": "antibytes-dependency-settings-9fbc006-add-missing-ksp.jar",
+          "size": 15285,
+          "sha512": "4626f842607d880e65612fdb44b03f8278a33f32b2c8f2fbf1c1c182d4ec52ef31f5ea4f10f5c715eab48f3e1b25d4a378fe3effd21b030d35ff6e45f1ecbbb5",
+          "sha256": "84a803bc7a2c2585123c8dfe59405ee0ed6bd06d471e1665d09a5a9c8343e3ee",
+          "sha1": "37d022b7ab7172ad732acf4b1f30ed5b5767d850",
+          "md5": "071bee9095201d917ec2c9805cd16c1a"
+        }
+      ]
+    }
+  ]
+}

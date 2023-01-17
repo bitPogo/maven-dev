@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.helper",
+    "module": "antibytes-dependency-helper",
+    "version": "9fbc006-add-missing-ksp",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-helper-9fbc006-add-missing-ksp.jar",
+          "url": "antibytes-dependency-helper-9fbc006-add-missing-ksp.jar",
+          "size": 68558,
+          "sha512": "560a23e297baebf5991186ec255179f772c84b37d83371f896f3984b2b339a7b32dc5b8563f847f48f9d5be401eaeff55e2e75630780dd3d6635af620071dd79",
+          "sha256": "48b575040efd374d3f939ef156ebe3c639ca0c4222b3ceca10715ae088a19c1b",
+          "sha1": "2abb53c607763f004c4dfe6b97553a64bfad4daa",
+          "md5": "191d27dc5839ff1f3738ee84330b398f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "com.github.ben-manes",
+          "module": "gradle-versions-plugin",
+          "version": {
+            "requires": "0.42.0"
+          }
+        },
+        {
+          "group": "org.owasp",
+          "module": "dependency-check-gradle",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "com.squareup.tools.build",
+          "module": "maven-archeologist",
+          "version": {
+            "requires": "0.0.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "9fbc006-add-missing-ksp"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-helper-9fbc006-add-missing-ksp.jar",
+          "url": "antibytes-dependency-helper-9fbc006-add-missing-ksp.jar",
+          "size": 68558,
+          "sha512": "560a23e297baebf5991186ec255179f772c84b37d83371f896f3984b2b339a7b32dc5b8563f847f48f9d5be401eaeff55e2e75630780dd3d6635af620071dd79",
+          "sha256": "48b575040efd374d3f939ef156ebe3c639ca0c4222b3ceca10715ae088a19c1b",
+          "sha1": "2abb53c607763f004c4dfe6b97553a64bfad4daa",
+          "md5": "191d27dc5839ff1f3738ee84330b398f"
+        }
+      ]
+    }
+  ]
+}

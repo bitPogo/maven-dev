@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.android.application",
+    "module": "antibytes-android-application-configuration",
+    "version": "9fbc006-add-missing-ksp",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-android-application-configuration-9fbc006-add-missing-ksp.jar",
+          "url": "antibytes-android-application-configuration-9fbc006-add-missing-ksp.jar",
+          "size": 56574,
+          "sha512": "9e6d440d41b48af8bb154fa6ab1996b344da98ea564a968da9f2ad21ac19dacdcdd02080cc7d1cf24432db844b11780028444c9234fbb30e1f6b8d70043abd69",
+          "sha256": "c5595fdf4047bbf0aad674c105570fc02293d05f0d3da9c003a09858e449d6a9",
+          "sha1": "7ffa8da79218e0232c58ddaef0b0ed52b4556047",
+          "md5": "baec7c907429f488297df4961861befc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "9fbc006-add-missing-ksp"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-android-application-configuration-9fbc006-add-missing-ksp.jar",
+          "url": "antibytes-android-application-configuration-9fbc006-add-missing-ksp.jar",
+          "size": 56574,
+          "sha512": "9e6d440d41b48af8bb154fa6ab1996b344da98ea564a968da9f2ad21ac19dacdcdd02080cc7d1cf24432db844b11780028444c9234fbb30e1f6b8d70043abd69",
+          "sha256": "c5595fdf4047bbf0aad674c105570fc02293d05f0d3da9c003a09858e449d6a9",
+          "sha1": "7ffa8da79218e0232c58ddaef0b0ed52b4556047",
+          "md5": "baec7c907429f488297df4961861befc"
+        }
+      ]
+    }
+  ]
+}

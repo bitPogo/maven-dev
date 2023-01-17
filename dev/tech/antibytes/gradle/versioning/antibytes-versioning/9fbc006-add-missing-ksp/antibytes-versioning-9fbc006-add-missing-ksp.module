@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.versioning",
+    "module": "antibytes-versioning",
+    "version": "9fbc006-add-missing-ksp",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-9fbc006-add-missing-ksp.jar",
+          "url": "antibytes-versioning-9fbc006-add-missing-ksp.jar",
+          "size": 21893,
+          "sha512": "0391af3d5e51362fcf98e4f69a53bfaf74d0275b162919a531bdc08ef9c741942c68e483b635cbc346ada4dae2177677aa8024d98eea569ba78534d940ca04af",
+          "sha256": "39ade9c5112394714c2a979a5109e7954c57f86744cd2f3fef7fa07fe0d14218",
+          "sha1": "2573be0c247118f0f6215cf9a02aa36bfdd99766",
+          "md5": "f4c0074b2fa665010bf8315fdc9ff517"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-9fbc006-add-missing-ksp.jar",
+          "url": "antibytes-versioning-9fbc006-add-missing-ksp.jar",
+          "size": 21893,
+          "sha512": "0391af3d5e51362fcf98e4f69a53bfaf74d0275b162919a531bdc08ef9c741942c68e483b635cbc346ada4dae2177677aa8024d98eea569ba78534d940ca04af",
+          "sha256": "39ade9c5112394714c2a979a5109e7954c57f86744cd2f3fef7fa07fe0d14218",
+          "sha1": "2573be0c247118f0f6215cf9a02aa36bfdd99766",
+          "md5": "f4c0074b2fa665010bf8315fdc9ff517"
+        }
+      ]
+    }
+  ]
+}
