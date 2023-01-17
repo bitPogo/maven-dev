@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "c1ca71e-add-kotlin-android-versionCatalog",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-c1ca71e-add-kotlin-android-versionCatalog.jar",
+          "url": "antibytes-publishing-configuration-c1ca71e-add-kotlin-android-versionCatalog.jar",
+          "size": 4768,
+          "sha512": "26150f210e827ad2500a3e5d230d765ff643347ca8558edb932fa9c8b0fe9d9c305b545a032a4cbeb09795c04438b22dc511cc4802afb80b9e4e629a444fef9d",
+          "sha256": "281eb30b661ec6bcc9ad4049dce2aafaed6d3f1db9c0639b58f554f6f56472db",
+          "sha1": "54072b18b31d7f86be71c31bde28ee16dd658a89",
+          "md5": "f268bfd81c2b7e0c84d82ff7405bc387"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "c1ca71e-add-kotlin-android-versionCatalog"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-c1ca71e-add-kotlin-android-versionCatalog.jar",
+          "url": "antibytes-publishing-configuration-c1ca71e-add-kotlin-android-versionCatalog.jar",
+          "size": 4768,
+          "sha512": "26150f210e827ad2500a3e5d230d765ff643347ca8558edb932fa9c8b0fe9d9c305b545a032a4cbeb09795c04438b22dc511cc4802afb80b9e4e629a444fef9d",
+          "sha256": "281eb30b661ec6bcc9ad4049dce2aafaed6d3f1db9c0639b58f554f6f56472db",
+          "sha1": "54072b18b31d7f86be71c31bde28ee16dd658a89",
+          "md5": "f268bfd81c2b7e0c84d82ff7405bc387"
+        }
+      ]
+    }
+  ]
+}
