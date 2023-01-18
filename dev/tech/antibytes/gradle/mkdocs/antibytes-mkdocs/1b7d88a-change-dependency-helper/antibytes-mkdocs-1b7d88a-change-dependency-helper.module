@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.mkdocs",
+    "module": "antibytes-mkdocs",
+    "version": "1b7d88a-change-dependency-helper",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.versioning",
+          "module": "antibytes-versioning",
+          "version": {
+            "requires": "1b7d88a-change-dependency-helper"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-mkdocs-1b7d88a-change-dependency-helper.jar",
+          "url": "antibytes-mkdocs-1b7d88a-change-dependency-helper.jar",
+          "size": 11930,
+          "sha512": "79c2de56628e1f7e7a0b0837a36983169df9b1be0bf5ef36f1e18e648ba17fca32ce4732360467c30b30deb4274fd1bdf52e2ba6638897c7a1451ecf6aa1051a",
+          "sha256": "7fb260b2151a3c87ca4d6085d96da74e4d6c3d2c134f5a12a3f676c4f6d85662",
+          "sha1": "f25f3dc434f2c3aedad9eabab0ce08b3b7801fd1",
+          "md5": "da64520eaf285b4b8f22169b9ecd33c4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "ru.vyarus",
+          "module": "gradle-use-python-plugin",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "ru.vyarus",
+          "module": "gradle-mkdocs-plugin",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "1b7d88a-change-dependency-helper"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle.versioning",
+          "module": "antibytes-versioning",
+          "version": {
+            "requires": "1b7d88a-change-dependency-helper"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-mkdocs-1b7d88a-change-dependency-helper.jar",
+          "url": "antibytes-mkdocs-1b7d88a-change-dependency-helper.jar",
+          "size": 11930,
+          "sha512": "79c2de56628e1f7e7a0b0837a36983169df9b1be0bf5ef36f1e18e648ba17fca32ce4732360467c30b30deb4274fd1bdf52e2ba6638897c7a1451ecf6aa1051a",
+          "sha256": "7fb260b2151a3c87ca4d6085d96da74e4d6c3d2c134f5a12a3f676c4f6d85662",
+          "sha1": "f25f3dc434f2c3aedad9eabab0ce08b3b7801fd1",
+          "md5": "da64520eaf285b4b8f22169b9ecd33c4"
+        }
+      ]
+    }
+  ]
+}

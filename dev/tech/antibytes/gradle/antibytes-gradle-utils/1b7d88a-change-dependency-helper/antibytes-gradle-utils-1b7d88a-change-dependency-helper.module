@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-gradle-utils",
+    "version": "1b7d88a-change-dependency-helper",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-gradle-utils-1b7d88a-change-dependency-helper.jar",
+          "url": "antibytes-gradle-utils-1b7d88a-change-dependency-helper.jar",
+          "size": 9568,
+          "sha512": "1204920ef8ab8edfd65dfbaeca9842f4f7f0c5091525b30acb414bc15b04f230ba206545bacddfd5a2bc2617919250398914d62a258c87d946d9c0585a5018b1",
+          "sha256": "f1c1b7bfa10f446d42891a790939ff849fd2ad576bf2a824c012849db9d59332",
+          "sha1": "6c34b555f0f5ece343f24e6d40f215b842fa440d",
+          "md5": "f115fa50729e4ea062c470f21aa10cc3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-gradle-utils-1b7d88a-change-dependency-helper.jar",
+          "url": "antibytes-gradle-utils-1b7d88a-change-dependency-helper.jar",
+          "size": 9568,
+          "sha512": "1204920ef8ab8edfd65dfbaeca9842f4f7f0c5091525b30acb414bc15b04f230ba206545bacddfd5a2bc2617919250398914d62a258c87d946d9c0585a5018b1",
+          "sha256": "f1c1b7bfa10f446d42891a790939ff849fd2ad576bf2a824c012849db9d59332",
+          "sha1": "6c34b555f0f5ece343f24e6d40f215b842fa440d",
+          "md5": "f115fa50729e4ea062c470f21aa10cc3"
+        }
+      ]
+    }
+  ]
+}
