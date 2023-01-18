@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-ktor/f8d6e50-bump-workflows-SNAPSHOT/test-utils-ktor-f8d6e50-bump-workflows-SNAPSHOT.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-ktor",
+    "version": "f8d6e50-bump-workflows-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor.klib",
+          "url": "test-utils-ktor-macosx64-f8d6e50-bump-workflows-SNAPSHOT.klib",
+          "size": 15083,
+          "sha512": "421120c4949353f43e657758929f08b62251ca83f51cbea2b5d6ede26459cd35317beba043a5c1526c101051cb9e7b676f9ff1ec23402c38e0cce8f3e05d8e8e",
+          "sha256": "22e5d85fd2b8bf8a751832107e3db8dace4019922a51bb5e19d54bf0a6dfb440",
+          "sha1": "7208138eae17b2534cb1fb5a02d262b0a614423c",
+          "md5": "8dd8608eaa4c225faf8add7810fac622"
+        }
+      ]
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor-macosx64-f8d6e50-bump-workflows-SNAPSHOT-metadata.jar",
+          "url": "test-utils-ktor-macosx64-f8d6e50-bump-workflows-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "32ed5c1849c0f18a8319d2e35c2b79e28ac4a6fc2cd60fed35084270d3222d1ea334325178b43ea3e4dc2bc6249ca3b9ff9c39bb956276829ff2c4922472d7ef",
+          "sha256": "2b59ebd2f9f4d9c8e39138706727959ef297159dfde55492a1e2e1e6e386ce11",
+          "sha1": "e6b1cd0f5bab0fbd1fb844699ad489427f060db5",
+          "md5": "1838a92c675f9fc6ab866d6e4aa20af0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-resourceloader/f8d6e50-bump-workflows-SNAPSHOT/test-utils-resourceloader-f8d6e50-bump-workflows-SNAPSHOT.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-resourceloader",
+    "version": "f8d6e50-bump-workflows-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-resourceloader.klib",
+          "url": "test-utils-resourceloader-macosarm64-f8d6e50-bump-workflows-SNAPSHOT.klib",
+          "size": 12883,
+          "sha512": "8cd44fbe86c920833ef1c1d7a1616e1ae86d85a3505e12ab0f4729c83765c476c379eea3326b44bf671d66cffa4e18fd36117f3bf6066a0173fdcebb25447b20",
+          "sha256": "9fcb24ecbfb9e5615854b67e9daaa7b8c542393e37e59d27a721aa3651d27e8a",
+          "sha1": "595c32d401e8eae5b4271f88fc1107851694b0aa",
+          "md5": "7a9bc99e994d40f7f2d6d7942192eef5"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-resourceloader-macosarm64-f8d6e50-bump-workflows-SNAPSHOT-metadata.jar",
+          "url": "test-utils-resourceloader-macosarm64-f8d6e50-bump-workflows-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "35b631e1ccec281a962030e9b60f6d8e73e34b497cd600039d037e9bcb2c3c22f157a0ab18dc9262e4160e5c8e1af7369c4919005e7a93c6a0c26bd2f8e6ab3d",
+          "sha256": "61f92380b984dfa2f3ca83fbfe38aaa27eb3f45d23e6a4800cb56126c7c97dbb",
+          "sha1": "736994225460c5dcc097e7151eccbee257e751cb",
+          "md5": "94ade894c4fa052b4af3c042ea985eee"
+        }
+      ]
+    }
+  ]
+}

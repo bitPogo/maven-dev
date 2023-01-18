@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-ktor/f8d6e50-bump-workflows-SNAPSHOT/test-utils-ktor-f8d6e50-bump-workflows-SNAPSHOT.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-ktor",
+    "version": "f8d6e50-bump-workflows-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor.klib",
+          "url": "test-utils-ktor-watchossimulatorarm64-f8d6e50-bump-workflows-SNAPSHOT.klib",
+          "size": 15147,
+          "sha512": "7e4c229e9a77a84cbeb057eb612546d5d21b3982ce5656b8564674df622a9f545037ec466e97a4f26b0ec06f58967ee3108512aed3fad6cd2cf85475ea96dc77",
+          "sha256": "141250f441b5362f48083257d19a7f29b6fd59fd093e2ecf423a6cc1357d5b9c",
+          "sha1": "fb4dae06a16609ac6be24a724fcb898dd66fc702",
+          "md5": "ac86fad515ace0fde907e57ac1666739"
+        }
+      ]
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor-watchossimulatorarm64-f8d6e50-bump-workflows-SNAPSHOT-metadata.jar",
+          "url": "test-utils-ktor-watchossimulatorarm64-f8d6e50-bump-workflows-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "3cf112865c0bb3493b176dfbff7ae78191b4bf567e5d9e20ef1bc97dc9800289af25ce9fc9520c1cd68c7db843e119eb38fa4a80d76d285fff6e162b072975e3",
+          "sha256": "bcbb532f942ae679da8b2c38c20b1bbf7f7023f6fa7cbd4716b131c15f88e4f7",
+          "sha1": "79d6d9de353135a4a29efa4f5cc9082aef372107",
+          "md5": "1cf6af874b8850f063df94b29d8a6187"
+        }
+      ]
+    }
+  ]
+}

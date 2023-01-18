@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-ktor/f8d6e50-bump-workflows-SNAPSHOT/test-utils-ktor-f8d6e50-bump-workflows-SNAPSHOT.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-ktor",
+    "version": "f8d6e50-bump-workflows-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor-jvm-f8d6e50-bump-workflows-SNAPSHOT.jar",
+          "url": "test-utils-ktor-jvm-f8d6e50-bump-workflows-SNAPSHOT.jar",
+          "size": 26352,
+          "sha512": "995b8b66f0ab2db57899af80b0ef33740c20fc6c25a0ea1f1e03379b48d4b78d3102d780bb04f6ef8b7a5cf942b66231c494de656c0c88aff98efc843da7418e",
+          "sha256": "9657ec6d775a9128ef36538ca08e708b12f3864290a744e51ee3a79771f7810d",
+          "sha1": "76740c4f617d342dbcf393eb788545ad18e4fd9e",
+          "md5": "01b6cf163cfe39b4e640d54bc5df8698"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor-jvm-f8d6e50-bump-workflows-SNAPSHOT.jar",
+          "url": "test-utils-ktor-jvm-f8d6e50-bump-workflows-SNAPSHOT.jar",
+          "size": 26352,
+          "sha512": "995b8b66f0ab2db57899af80b0ef33740c20fc6c25a0ea1f1e03379b48d4b78d3102d780bb04f6ef8b7a5cf942b66231c494de656c0c88aff98efc843da7418e",
+          "sha256": "9657ec6d775a9128ef36538ca08e708b12f3864290a744e51ee3a79771f7810d",
+          "sha1": "76740c4f617d342dbcf393eb788545ad18e4fd9e",
+          "md5": "01b6cf163cfe39b4e640d54bc5df8698"
+        }
+      ]
+    }
+  ]
+}
