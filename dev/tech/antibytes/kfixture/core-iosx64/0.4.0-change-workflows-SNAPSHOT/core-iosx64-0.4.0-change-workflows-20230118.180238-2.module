@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-change-workflows-SNAPSHOT/core-0.4.0-change-workflows-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-change-workflows-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-iosx64-0.4.0-change-workflows-SNAPSHOT.klib",
+          "size": 105817,
+          "sha512": "648ebbbc95f90e17229fb0497b919f66b2007adb0eac8f43b251990be669e50e1e5394ca8cc403152eeb4fc6fcfa621dfc4ef5485dfa849b8583b2d32d3353f1",
+          "sha256": "0ecea98229a391a98340dfaa8e7bf59e2a1400413bc630864ea82c30c79242ce",
+          "sha1": "f44f2724006be0709bd6af40c0241f689785d315",
+          "md5": "9f664b2f86cef0e5808460010cf9a48a"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-iosx64-0.4.0-change-workflows-SNAPSHOT-metadata.jar",
+          "url": "core-iosx64-0.4.0-change-workflows-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "9e92125d298bfdc38b9bbaa50ed49f00c7550063389b645241c0a0c6d78f6ded7313a69d8db4a157ac968c733a295b5dd888102c6d69ec819eb3f72f5780f9c6",
+          "sha256": "fa92024d2e80fabe3ec7f8baeb0676213d245fb620a735aeb97889bd7ca0362e",
+          "sha1": "d021340a1b7ef06ea80909c07723bae3869f934b",
+          "md5": "3a9666a5b3251b08ac85dbde21c3b6c8"
+        }
+      ]
+    }
+  ]
+}
