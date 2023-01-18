@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-bump-settings-SNAPSHOT/core-0.4.0-bump-settings-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-bump-settings-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-iosx64-0.4.0-bump-settings-SNAPSHOT.klib",
+          "size": 105817,
+          "sha512": "648ebbbc95f90e17229fb0497b919f66b2007adb0eac8f43b251990be669e50e1e5394ca8cc403152eeb4fc6fcfa621dfc4ef5485dfa849b8583b2d32d3353f1",
+          "sha256": "0ecea98229a391a98340dfaa8e7bf59e2a1400413bc630864ea82c30c79242ce",
+          "sha1": "f44f2724006be0709bd6af40c0241f689785d315",
+          "md5": "9f664b2f86cef0e5808460010cf9a48a"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-iosx64-0.4.0-bump-settings-SNAPSHOT-metadata.jar",
+          "url": "core-iosx64-0.4.0-bump-settings-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "03e6d51da01bd2d3af9a774efd134b24832bb2c002434cc0d00a18828a27a17e9fbf26391d9a1f3309ec0b974fd9954db0a373315550a35f88ffec32ef774ca5",
+          "sha256": "6d47451b619e04e6065c9dfe28454c153396daba2234f55f2c62666aec333d45",
+          "sha1": "ddd5cf783e84f6600b1d9951935ffcc8974e4e11",
+          "md5": "4b5c54e763756ea2290e81e81391fc21"
+        }
+      ]
+    }
+  ]
+}
