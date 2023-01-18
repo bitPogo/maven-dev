@@ -1,0 +1,821 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-change-workflows-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-metadata-0.4.0-change-workflows-SNAPSHOT-all.jar",
+          "url": "core-0.4.0-change-workflows-SNAPSHOT-all.jar",
+          "size": 22912,
+          "sha512": "7ddbc126df99f10df62a15f53702f9dff96a7ecc449a6216131705cb35c0afded5534d1b4d2d36eb19c376a9caaac3fc462b28c694e65bbaf97d26bf07cc58c5",
+          "sha256": "e04bf9dd1e9b4309ec1d57c39f7eab002f0be093caf1dd116a5b5cebb808e58b",
+          "sha1": "568c48460c0ce9bf771e0ffd8658f4404856577d",
+          "md5": "c2192c5637d9d15c24e8e59e61197378"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "core-0.4.0-change-workflows-SNAPSHOT.jar",
+          "url": "core-0.4.0-change-workflows-SNAPSHOT.jar",
+          "size": 37939,
+          "sha512": "f5e8189d564a35390bdce71697bc989f2e74a9d38232fc8dcbb843b6025904af01d0b27c7916c779d2739cc126c79f54c31ba38100735411f74b4fb3a930ba83",
+          "sha256": "f06ca3478faf0ca30442d1a23e1736e5a373ac801b90d6a75f5d451569688330",
+          "sha1": "db86077e4e4de3299a0edca2fbd12cee60c492ea",
+          "md5": "ce3e24b8560d281216827913fbbb1358"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-android/0.4.0-change-workflows-SNAPSHOT/core-android-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-android",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-android/0.4.0-change-workflows-SNAPSHOT/core-android-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-android",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-androidnativearm32/0.4.0-change-workflows-SNAPSHOT/core-androidnativearm32-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-androidnativearm32",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-androidnativearm64/0.4.0-change-workflows-SNAPSHOT/core-androidnativearm64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-androidnativearm64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-androidnativex64/0.4.0-change-workflows-SNAPSHOT/core-androidnativex64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-androidnativex64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeX86ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-androidnativex86/0.4.0-change-workflows-SNAPSHOT/core-androidnativex86-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-androidnativex86",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iosarm32/0.4.0-change-workflows-SNAPSHOT/core-iosarm32-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-iosarm32",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iosarm32/0.4.0-change-workflows-SNAPSHOT/core-iosarm32-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-iosarm32",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iosarm64/0.4.0-change-workflows-SNAPSHOT/core-iosarm64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-iosarm64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iosarm64/0.4.0-change-workflows-SNAPSHOT/core-iosarm64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-iosarm64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iossimulatorarm64/0.4.0-change-workflows-SNAPSHOT/core-iossimulatorarm64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-iossimulatorarm64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iossimulatorarm64/0.4.0-change-workflows-SNAPSHOT/core-iossimulatorarm64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-iossimulatorarm64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iosx64/0.4.0-change-workflows-SNAPSHOT/core-iosx64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-iosx64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iosx64/0.4.0-change-workflows-SNAPSHOT/core-iosx64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-iosx64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../core-js/0.4.0-change-workflows-SNAPSHOT/core-js-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-js",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../core-js/0.4.0-change-workflows-SNAPSHOT/core-js-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-js",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../core-jvm/0.4.0-change-workflows-SNAPSHOT/core-jvm-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-jvm",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../core-jvm/0.4.0-change-workflows-SNAPSHOT/core-jvm-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-jvm",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxArm32HfpApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-linuxarm32hfp/0.4.0-change-workflows-SNAPSHOT/core-linuxarm32hfp-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-linuxarm32hfp",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-linuxarm64/0.4.0-change-workflows-SNAPSHOT/core-linuxarm64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-linuxarm64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxMips32ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_mips32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-linuxmips32/0.4.0-change-workflows-SNAPSHOT/core-linuxmips32-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-linuxmips32",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxMips32MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "linux_mips32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-linuxmips32/0.4.0-change-workflows-SNAPSHOT/core-linuxmips32-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-linuxmips32",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxMipsel32ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_mipsel32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-linuxmipsel32/0.4.0-change-workflows-SNAPSHOT/core-linuxmipsel32-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-linuxmipsel32",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxMipsel32MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "linux_mipsel32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-linuxmipsel32/0.4.0-change-workflows-SNAPSHOT/core-linuxmipsel32-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-linuxmipsel32",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-linuxx64/0.4.0-change-workflows-SNAPSHOT/core-linuxx64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-linuxx64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-macosarm64/0.4.0-change-workflows-SNAPSHOT/core-macosarm64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-macosarm64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-macosarm64/0.4.0-change-workflows-SNAPSHOT/core-macosarm64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-macosarm64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-macosx64/0.4.0-change-workflows-SNAPSHOT/core-macosx64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-macosx64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-macosx64/0.4.0-change-workflows-SNAPSHOT/core-macosx64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-macosx64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-mingwx64/0.4.0-change-workflows-SNAPSHOT/core-mingwx64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-mingwx64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "mingwX86ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-mingwx86/0.4.0-change-workflows-SNAPSHOT/core-mingwx86-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-mingwx86",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-tvosarm64/0.4.0-change-workflows-SNAPSHOT/core-tvosarm64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-tvosarm64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-tvosarm64/0.4.0-change-workflows-SNAPSHOT/core-tvosarm64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-tvosarm64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-tvossimulatorarm64/0.4.0-change-workflows-SNAPSHOT/core-tvossimulatorarm64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-tvossimulatorarm64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-tvossimulatorarm64/0.4.0-change-workflows-SNAPSHOT/core-tvossimulatorarm64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-tvossimulatorarm64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-tvosx64/0.4.0-change-workflows-SNAPSHOT/core-tvosx64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-tvosx64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-tvosx64/0.4.0-change-workflows-SNAPSHOT/core-tvosx64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-tvosx64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "wasm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-wasm32/0.4.0-change-workflows-SNAPSHOT/core-wasm32-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-wasm32",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-watchosarm32/0.4.0-change-workflows-SNAPSHOT/core-watchosarm32-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-watchosarm32",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-watchosarm32/0.4.0-change-workflows-SNAPSHOT/core-watchosarm32-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-watchosarm32",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-watchosarm64/0.4.0-change-workflows-SNAPSHOT/core-watchosarm64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-watchosarm64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-watchosarm64/0.4.0-change-workflows-SNAPSHOT/core-watchosarm64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-watchosarm64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-watchossimulatorarm64/0.4.0-change-workflows-SNAPSHOT/core-watchossimulatorarm64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-watchossimulatorarm64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-watchossimulatorarm64/0.4.0-change-workflows-SNAPSHOT/core-watchossimulatorarm64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-watchossimulatorarm64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-watchosx64/0.4.0-change-workflows-SNAPSHOT/core-watchosx64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-watchosx64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-watchosx64/0.4.0-change-workflows-SNAPSHOT/core-watchosx64-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-watchosx64",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX86ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-watchosx86/0.4.0-change-workflows-SNAPSHOT/core-watchosx86-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-watchosx86",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX86MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-watchosx86/0.4.0-change-workflows-SNAPSHOT/core-watchosx86-0.4.0-change-workflows-SNAPSHOT.module",
+        "group": "tech.antibytes.kfixture",
+        "module": "core-watchosx86",
+        "version": "0.4.0-change-workflows-SNAPSHOT"
+      }
+    }
+  ]
+}

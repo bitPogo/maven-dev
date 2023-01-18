@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktx-datetime/0.4.0-change-workflows-SNAPSHOT/ktx-datetime-0.4.0-change-workflows-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "ktx-datetime",
+    "version": "0.4.0-change-workflows-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime-jvm-0.4.0-change-workflows-SNAPSHOT.jar",
+          "url": "ktx-datetime-jvm-0.4.0-change-workflows-SNAPSHOT.jar",
+          "size": 56621,
+          "sha512": "5e5ae320367a34f696491708ab1e0f53da117fb0eee8c325507bf9b1bdcf88e96ca5a88cb7d7351ee467b5ffff7ffd33ab7e9fa7ec794e052c56876996e9703b",
+          "sha256": "5b721b5eb21249f38f6b968b5b3e0456e2d1a0084cc9d067385dc2f7ff0413b5",
+          "sha1": "6471fdf5adc25be521fdfe771634a8742dbd52e7",
+          "md5": "aa753acbc27ae8edda6557fc5214f88b"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.kfixture",
+          "module": "core",
+          "version": {
+            "requires": "0.4.0-change-workflows-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime-jvm-0.4.0-change-workflows-SNAPSHOT.jar",
+          "url": "ktx-datetime-jvm-0.4.0-change-workflows-SNAPSHOT.jar",
+          "size": 56621,
+          "sha512": "5e5ae320367a34f696491708ab1e0f53da117fb0eee8c325507bf9b1bdcf88e96ca5a88cb7d7351ee467b5ffff7ffd33ab7e9fa7ec794e052c56876996e9703b",
+          "sha256": "5b721b5eb21249f38f6b968b5b3e0456e2d1a0084cc9d067385dc2f7ff0413b5",
+          "sha1": "6471fdf5adc25be521fdfe771634a8742dbd52e7",
+          "md5": "aa753acbc27ae8edda6557fc5214f88b"
+        }
+      ]
+    }
+  ]
+}

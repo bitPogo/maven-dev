@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-change-workflows-SNAPSHOT/core-0.4.0-change-workflows-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-change-workflows-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-watchosx64-0.4.0-change-workflows-SNAPSHOT.klib",
+          "size": 105854,
+          "sha512": "eb5c018c302040c497855b09ddc9992dbee6beb776786101ac6acf31ca9d359729648ca33093d00a2baa48d263df5f3e5c2510ee58b93cd3d741208d67e79941",
+          "sha256": "5720c1db3183b053a34b3d78a9c3a2b35c0d4ee26458eb7e93c225175a726308",
+          "sha1": "97acd61ec85443383a460fa1155dfb56bf586487",
+          "md5": "841d3784ef0a64c328270fd0ecb6e8ad"
+        }
+      ]
+    },
+    {
+      "name": "watchosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-watchosx64-0.4.0-change-workflows-SNAPSHOT-metadata.jar",
+          "url": "core-watchosx64-0.4.0-change-workflows-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "e74a51955c5db0f124ca52f4cece4596759bf6d551ec8fdffefde7f8e9d7ec331848e214112d6fd2ffbfe62b458de4b9e68a188b1756e130df6c6dc6d1b52667",
+          "sha256": "4de33cfe2c827f38e70631a0ac60cee1ef46dbdbae3b378683033f3b5c5a088e",
+          "sha1": "58987db5f54abde2ed4941940b6c0fe98a50648d",
+          "md5": "43598dd23142423a55f89f0688a7eddc"
+        }
+      ]
+    }
+  ]
+}
