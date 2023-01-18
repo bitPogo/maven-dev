@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.dokka",
+    "module": "antibytes-dokka-configuration",
+    "version": "849b088-change-cache-location",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-849b088-change-cache-location.jar",
+          "url": "antibytes-dokka-configuration-849b088-change-cache-location.jar",
+          "size": 7889,
+          "sha512": "6cb3c04555d525c3eef9cc8779ccdade903f5ae529d59ef0c40d5a2de5c5bab0413fc5c22d91446fbc9fed4d925def3a74b73f115d8a7efa04c9bbefaefd87c7",
+          "sha256": "736df38012accc468e17e07dce694365d5bbbb4078ad201b75600c0b15e10b58",
+          "sha1": "03d98591681375c477328734ed102a5b3a5b200c",
+          "md5": "086a319b4faa74ed8dc654594f6fc678"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "849b088-change-cache-location"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-849b088-change-cache-location.jar",
+          "url": "antibytes-dokka-configuration-849b088-change-cache-location.jar",
+          "size": 7889,
+          "sha512": "6cb3c04555d525c3eef9cc8779ccdade903f5ae529d59ef0c40d5a2de5c5bab0413fc5c22d91446fbc9fed4d925def3a74b73f115d8a7efa04c9bbefaefd87c7",
+          "sha256": "736df38012accc468e17e07dce694365d5bbbb4078ad201b75600c0b15e10b58",
+          "sha1": "03d98591681375c477328734ed102a5b3a5b200c",
+          "md5": "086a319b4faa74ed8dc654594f6fc678"
+        }
+      ]
+    }
+  ]
+}

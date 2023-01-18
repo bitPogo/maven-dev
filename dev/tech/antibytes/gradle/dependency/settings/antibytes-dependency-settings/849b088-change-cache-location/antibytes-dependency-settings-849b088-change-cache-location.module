@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.settings",
+    "module": "antibytes-dependency-settings",
+    "version": "849b088-change-cache-location",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "849b088-change-cache-location"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-849b088-change-cache-location.jar",
+          "url": "antibytes-dependency-settings-849b088-change-cache-location.jar",
+          "size": 15158,
+          "sha512": "dfcaefc732577dd05cfe34a4f8976609a51597ae4b6d230daaf9916d080ee5052ac79c1891097f9acb4e3d6cb003d21bf4e1ff29875fd8181d8b82a29826a531",
+          "sha256": "2e221a64dbbd9620865e84cade16a9001d5397239dd6e2c1a223bad08e1f4a0c",
+          "sha1": "3e7f2f80450587e4a86668d4ca71e5df7328799b",
+          "md5": "a0d7774b25f7f9cafa0341242d1c1cf4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "849b088-change-cache-location"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-849b088-change-cache-location.jar",
+          "url": "antibytes-dependency-settings-849b088-change-cache-location.jar",
+          "size": 15158,
+          "sha512": "dfcaefc732577dd05cfe34a4f8976609a51597ae4b6d230daaf9916d080ee5052ac79c1891097f9acb4e3d6cb003d21bf4e1ff29875fd8181d8b82a29826a531",
+          "sha256": "2e221a64dbbd9620865e84cade16a9001d5397239dd6e2c1a223bad08e1f4a0c",
+          "sha1": "3e7f2f80450587e4a86668d4ca71e5df7328799b",
+          "md5": "a0d7774b25f7f9cafa0341242d1c1cf4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "849b088-change-cache-location",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-849b088-change-cache-location.jar",
+          "url": "antibytes-publishing-configuration-849b088-change-cache-location.jar",
+          "size": 4768,
+          "sha512": "4a53703ba3e0a984574e037928a42390a93446f7669dc3d6e4dd9e8d7ec0a9a034e15263f44047f5999177082858832630f0413641ca0a151cc9e78f51739cae",
+          "sha256": "fbdb8c5381917c4bf5a111c49f37992116341f376e6b0704eaa4ada4e3a3c421",
+          "sha1": "ec7c902615415f95e55a8c51573df6f4f365141b",
+          "md5": "ede20d0969c1016a04a44fc3c9076974"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "849b088-change-cache-location"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-849b088-change-cache-location.jar",
+          "url": "antibytes-publishing-configuration-849b088-change-cache-location.jar",
+          "size": 4768,
+          "sha512": "4a53703ba3e0a984574e037928a42390a93446f7669dc3d6e4dd9e8d7ec0a9a034e15263f44047f5999177082858832630f0413641ca0a151cc9e78f51739cae",
+          "sha256": "fbdb8c5381917c4bf5a111c49f37992116341f376e6b0704eaa4ada4e3a3c421",
+          "sha1": "ec7c902615415f95e55a8c51573df6f4f365141b",
+          "md5": "ede20d0969c1016a04a44fc3c9076974"
+        }
+      ]
+    }
+  ]
+}

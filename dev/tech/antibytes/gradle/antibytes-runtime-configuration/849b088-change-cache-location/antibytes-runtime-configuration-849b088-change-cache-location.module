@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-runtime-configuration",
+    "version": "849b088-change-cache-location",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-849b088-change-cache-location.jar",
+          "url": "antibytes-runtime-configuration-849b088-change-cache-location.jar",
+          "size": 9073,
+          "sha512": "eafa1844f1a9e0f40deed4b879c0e9ecce4d35b9b6ca6e7ff8e226bc8d56b5f97db6df320ac03f6ffee08112db5f357c39403b855a4083e495420117fe58d8ca",
+          "sha256": "af789e1457c5de35fcc1e6c88fbaf59d73cd8d7fac9536f8f93f41bdb536792c",
+          "sha1": "f0c83a904c3eafb82eadd0fde5c5899e90bc7872",
+          "md5": "766e2fc586a22cca031a0815de93173c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "849b088-change-cache-location"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-849b088-change-cache-location.jar",
+          "url": "antibytes-runtime-configuration-849b088-change-cache-location.jar",
+          "size": 9073,
+          "sha512": "eafa1844f1a9e0f40deed4b879c0e9ecce4d35b9b6ca6e7ff8e226bc8d56b5f97db6df320ac03f6ffee08112db5f357c39403b855a4083e495420117fe58d8ca",
+          "sha256": "af789e1457c5de35fcc1e6c88fbaf59d73cd8d7fac9536f8f93f41bdb536792c",
+          "sha1": "f0c83a904c3eafb82eadd0fde5c5899e90bc7872",
+          "md5": "766e2fc586a22cca031a0815de93173c"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.helper",
+    "module": "antibytes-dependency-helper",
+    "version": "849b088-change-cache-location",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-helper-849b088-change-cache-location.jar",
+          "url": "antibytes-dependency-helper-849b088-change-cache-location.jar",
+          "size": 70569,
+          "sha512": "3aa6c277c7aa1d91485f2f6c13be68eff1ea88b5c8a9a0fb00da571a6d0220c0dc2ef89896b3799e509d4085ae0f7b7d8c1cf61bdca0fbcba2d92fc5ff4a75da",
+          "sha256": "f7e309ebf011ea080c59afcdf214f1c92e427be40416a3d297b96e5ae56a3d41",
+          "sha1": "cbc9283e46bb12928670025fd6872ad87911fef1",
+          "md5": "84d51d5096242a098fad4c7e640d6505"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "com.github.ben-manes",
+          "module": "gradle-versions-plugin",
+          "version": {
+            "requires": "0.42.0"
+          }
+        },
+        {
+          "group": "org.owasp",
+          "module": "dependency-check-gradle",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "com.squareup.tools.build",
+          "module": "maven-archeologist",
+          "version": {
+            "requires": "0.0.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "849b088-change-cache-location"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-helper-849b088-change-cache-location.jar",
+          "url": "antibytes-dependency-helper-849b088-change-cache-location.jar",
+          "size": 70569,
+          "sha512": "3aa6c277c7aa1d91485f2f6c13be68eff1ea88b5c8a9a0fb00da571a6d0220c0dc2ef89896b3799e509d4085ae0f7b7d8c1cf61bdca0fbcba2d92fc5ff4a75da",
+          "sha256": "f7e309ebf011ea080c59afcdf214f1c92e427be40416a3d297b96e5ae56a3d41",
+          "sha1": "cbc9283e46bb12928670025fd6872ad87911fef1",
+          "md5": "84d51d5096242a098fad4c7e640d6505"
+        }
+      ]
+    }
+  ]
+}

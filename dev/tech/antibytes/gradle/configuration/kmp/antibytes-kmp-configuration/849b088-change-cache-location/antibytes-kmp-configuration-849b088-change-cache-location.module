@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.kmp",
+    "module": "antibytes-kmp-configuration",
+    "version": "849b088-change-cache-location",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-849b088-change-cache-location.jar",
+          "url": "antibytes-kmp-configuration-849b088-change-cache-location.jar",
+          "size": 67704,
+          "sha512": "da9ee8f6adbfb7781e667cfa430cf8f30cb989c65acab27d063f4c99ab6c9e3dc9fc440031a8f85e6fb7b508bc4dbe1fbe2ece4b06621fb092470175df812139",
+          "sha256": "fdaae2c3ccdd506a3496fd18304066d8721990596e8e127a1710876db3b287dd",
+          "sha1": "39e3ff4d072034e513fc0c2e959935a0a680b5bd",
+          "md5": "4de43656dcee08586cb8ec2e7883248b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "849b088-change-cache-location"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-849b088-change-cache-location.jar",
+          "url": "antibytes-kmp-configuration-849b088-change-cache-location.jar",
+          "size": 67704,
+          "sha512": "da9ee8f6adbfb7781e667cfa430cf8f30cb989c65acab27d063f4c99ab6c9e3dc9fc440031a8f85e6fb7b508bc4dbe1fbe2ece4b06621fb092470175df812139",
+          "sha256": "fdaae2c3ccdd506a3496fd18304066d8721990596e8e127a1710876db3b287dd",
+          "sha1": "39e3ff4d072034e513fc0c2e959935a0a680b5bd",
+          "md5": "4de43656dcee08586cb8ec2e7883248b"
+        }
+      ]
+    }
+  ]
+}
