@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-fix-badges-SNAPSHOT/core-0.4.0-fix-badges-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-fix-badges-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-macosarm64-0.4.0-fix-badges-SNAPSHOT.klib",
+          "size": 105853,
+          "sha512": "59682954cdcce8ae8bf903c168f3616bfe022737c386899ff953dae5e3ef58c2ae5a0a1688cbf4007905c87ebd3ca6fb1e2f040e55eeef419aa99ece3c4240f7",
+          "sha256": "9b86b4b1dc9e1f76700139dd56fcceb647ca299785f2504c72bb5102e63213c5",
+          "sha1": "bd98e1bfb5e34d7ce4a6bb54797e4b0b3201bb3a",
+          "md5": "c6d497be75c9e8e11a1e3e13f90f9456"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-macosarm64-0.4.0-fix-badges-SNAPSHOT-metadata.jar",
+          "url": "core-macosarm64-0.4.0-fix-badges-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "43e2a4fb38be09dfce5023a16b28b6de593cfd654fec2b96c693ae20e77d28c5d3710610885747fb2e2096db92e011db1c735c12e56e0e2ecac10e0c0cf760a1",
+          "sha256": "1a9bd3f3512f8b6c8405728c2f8d097c8121798fe61b1c48330dc8aee51ee849",
+          "sha1": "805d566dc806ba347c0b7620a59002957afb6fc5",
+          "md5": "bd5b031a62f0e853441c9a6713a75f86"
+        }
+      ]
+    }
+  ]
+}
