@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "394665c-bump-updates",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-394665c-bump-updates.jar",
+          "url": "antibytes-publishing-configuration-394665c-bump-updates.jar",
+          "size": 4768,
+          "sha512": "f4a56f24644a4b405a4e7e54f68c381e6fb20cbbd53134eefa9df6530076e4c9a7306ea21a3f5f00a12afa05b29df6414a5c71b880e17c23d273cdaaae4239b0",
+          "sha256": "db859add2a6afed593e00d6def5cadc614728743671352e10004d201df3e1764",
+          "sha1": "1d6024b4c1caa73c7807edcaeaaea8d86ec7a0dc",
+          "md5": "fd1af4b8e8cf1f3806072f7e4700eb0c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "394665c-bump-updates"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-394665c-bump-updates.jar",
+          "url": "antibytes-publishing-configuration-394665c-bump-updates.jar",
+          "size": 4768,
+          "sha512": "f4a56f24644a4b405a4e7e54f68c381e6fb20cbbd53134eefa9df6530076e4c9a7306ea21a3f5f00a12afa05b29df6414a5c71b880e17c23d273cdaaae4239b0",
+          "sha256": "db859add2a6afed593e00d6def5cadc614728743671352e10004d201df3e1764",
+          "sha1": "1d6024b4c1caa73c7807edcaeaaea8d86ec7a0dc",
+          "md5": "fd1af4b8e8cf1f3806072f7e4700eb0c"
+        }
+      ]
+    }
+  ]
+}

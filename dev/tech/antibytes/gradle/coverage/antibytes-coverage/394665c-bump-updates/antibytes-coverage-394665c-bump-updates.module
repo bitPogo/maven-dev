@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.coverage",
+    "module": "antibytes-coverage",
+    "version": "394665c-bump-updates",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-coverage-394665c-bump-updates.jar",
+          "url": "antibytes-coverage-394665c-bump-updates.jar",
+          "size": 135221,
+          "sha512": "809ef91f0b25378a783f1ae2bcf7ae09b3490dca277c4e2c6dc9a152db7b4f3eb672c5c3806647403b92d17582d456554e2d2d3090cf1582b1554255d6da3161",
+          "sha256": "a1fa20c065ad316bbb5b889886cfbcd37a04e0f3cd19c3bf8bebd8bd1436ba8b",
+          "sha1": "84a0318d7bd13888424538d992e0a76f71c6e46b",
+          "md5": "2fdb06b9676abaa1603bf2f331f7449b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "org.jacoco",
+          "module": "org.jacoco.core",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "394665c-bump-updates"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-coverage-394665c-bump-updates.jar",
+          "url": "antibytes-coverage-394665c-bump-updates.jar",
+          "size": 135221,
+          "sha512": "809ef91f0b25378a783f1ae2bcf7ae09b3490dca277c4e2c6dc9a152db7b4f3eb672c5c3806647403b92d17582d456554e2d2d3090cf1582b1554255d6da3161",
+          "sha256": "a1fa20c065ad316bbb5b889886cfbcd37a04e0f3cd19c3bf8bebd8bd1436ba8b",
+          "sha1": "84a0318d7bd13888424538d992e0a76f71c6e46b",
+          "md5": "2fdb06b9676abaa1603bf2f331f7449b"
+        }
+      ]
+    }
+  ]
+}

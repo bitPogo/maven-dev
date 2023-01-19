@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.dokka",
+    "module": "antibytes-dokka-configuration",
+    "version": "394665c-bump-updates",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-394665c-bump-updates.jar",
+          "url": "antibytes-dokka-configuration-394665c-bump-updates.jar",
+          "size": 7889,
+          "sha512": "851acdf27a180249e3236c9d01e1e68ec246029eb8463c18205b58ef69ba96330863922a14365d4b098514a59e415e075fddfce674f237248c94d8b7e9131fc9",
+          "sha256": "83a28b7022fed368604b1f6ec8afc9964450268eb2fbecdf2313e95c91335d06",
+          "sha1": "1dd790ff76008442eff7829f2d3d1ff9140e0f72",
+          "md5": "0844142e3d9c12a8f01b5b657f81d59a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "394665c-bump-updates"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-394665c-bump-updates.jar",
+          "url": "antibytes-dokka-configuration-394665c-bump-updates.jar",
+          "size": 7889,
+          "sha512": "851acdf27a180249e3236c9d01e1e68ec246029eb8463c18205b58ef69ba96330863922a14365d4b098514a59e415e075fddfce674f237248c94d8b7e9131fc9",
+          "sha256": "83a28b7022fed368604b1f6ec8afc9964450268eb2fbecdf2313e95c91335d06",
+          "sha1": "1dd790ff76008442eff7829f2d3d1ff9140e0f72",
+          "md5": "0844142e3d9c12a8f01b5b657f81d59a"
+        }
+      ]
+    }
+  ]
+}

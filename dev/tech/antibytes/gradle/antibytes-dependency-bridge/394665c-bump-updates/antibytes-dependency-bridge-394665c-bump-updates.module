@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "394665c-bump-updates",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-394665c-bump-updates.jar",
+          "url": "antibytes-dependency-bridge-394665c-bump-updates.jar",
+          "size": 38517,
+          "sha512": "79440eb94d8d5e44375a7a0a9c4ccea635a00cc1cef554e9c21b42b57c893b8ac3faea7b36e43d928fce801146325b8da00654cea8d49ba929eda4ce94e783e3",
+          "sha256": "0c177e9b9452809e1fcfee311aa7eaa1e29bfb95f05686eaef50a61a1314a266",
+          "sha1": "bc8d567ef50a3e19fd83781ac55f3709b735157c",
+          "md5": "a4bba91ec3bdb3e4a074e65431d9eaa4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-394665c-bump-updates.jar",
+          "url": "antibytes-dependency-bridge-394665c-bump-updates.jar",
+          "size": 38517,
+          "sha512": "79440eb94d8d5e44375a7a0a9c4ccea635a00cc1cef554e9c21b42b57c893b8ac3faea7b36e43d928fce801146325b8da00654cea8d49ba929eda4ce94e783e3",
+          "sha256": "0c177e9b9452809e1fcfee311aa7eaa1e29bfb95f05686eaef50a61a1314a266",
+          "sha1": "bc8d567ef50a3e19fd83781ac55f3709b735157c",
+          "md5": "a4bba91ec3bdb3e4a074e65431d9eaa4"
+        }
+      ]
+    }
+  ]
+}

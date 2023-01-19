@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.kmp",
+    "module": "antibytes-kmp-configuration",
+    "version": "394665c-bump-updates",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-394665c-bump-updates.jar",
+          "url": "antibytes-kmp-configuration-394665c-bump-updates.jar",
+          "size": 68661,
+          "sha512": "26aaa581a70c6a176a4105ff5ad0514ba671a74eeccf9ef2f9bf0f73d3d0a21707bfb2455ed92c0eaad02f7d7b75821313271613d39bd3aa9c0ed287c4046a62",
+          "sha256": "bbd180e9680def4c46a5a238b9675cc0abddd93bb8dabf58942febb65cad1109",
+          "sha1": "6e1681f801480669a365844c0dfc0b66d3f6504a",
+          "md5": "7943e8f941a7a8412d4ed842c6a0d76f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "394665c-bump-updates"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-394665c-bump-updates.jar",
+          "url": "antibytes-kmp-configuration-394665c-bump-updates.jar",
+          "size": 68661,
+          "sha512": "26aaa581a70c6a176a4105ff5ad0514ba671a74eeccf9ef2f9bf0f73d3d0a21707bfb2455ed92c0eaad02f7d7b75821313271613d39bd3aa9c0ed287c4046a62",
+          "sha256": "bbd180e9680def4c46a5a238b9675cc0abddd93bb8dabf58942febb65cad1109",
+          "sha1": "6e1681f801480669a365844c0dfc0b66d3f6504a",
+          "md5": "7943e8f941a7a8412d4ed842c6a0d76f"
+        }
+      ]
+    }
+  ]
+}
