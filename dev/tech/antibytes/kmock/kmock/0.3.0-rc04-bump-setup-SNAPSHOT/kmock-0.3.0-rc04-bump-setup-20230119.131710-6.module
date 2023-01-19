@@ -1,0 +1,279 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "0.3.0-rc04-bump-setup-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.3"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-metadata-0.3.0-rc04-bump-setup-SNAPSHOT-all.jar",
+          "url": "kmock-0.3.0-rc04-bump-setup-SNAPSHOT-all.jar",
+          "size": 28039,
+          "sha512": "5b23ac253fdc1d1c74a1932b3fd48b6a7c7fb9aa7832a9672f2a4e5bef8cd1fce116f942e2945bc48a1a601c3cfa48f99b77c186bda7917858c91e2bfecdca82",
+          "sha256": "7b25f59af6deb19bb1e74a19de1d5be2d6904ba8efab4c7973cf785354f552f6",
+          "sha1": "ff9f1023406a03d7c4a6ff0b7163765e593944d5",
+          "md5": "513a98b4a8ccb1c6c6baf5756146a1dc"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "kmock-0.3.0-rc04-bump-setup-SNAPSHOT.jar",
+          "url": "kmock-0.3.0-rc04-bump-setup-SNAPSHOT.jar",
+          "size": 47917,
+          "sha512": "7c8c94c29e96ab61c2cf977942ae4a184b23318168a70223d4fd753962f3e5a04d16db8eb3fba4fed7829cd9ede07072f6ffe212e2a6442728666dd77283c757",
+          "sha256": "f356f020486eb061938ccedb265ae802e7be3a0fee5d25e8bd68b46051163758",
+          "sha1": "0afb13fec6d17255e39167baee7b8f02fc85d118",
+          "md5": "38ff9149c3336dfff640a67542b0ce07"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../kmock-android/0.3.0-rc04-bump-setup-SNAPSHOT/kmock-android-0.3.0-rc04-bump-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-android",
+        "version": "0.3.0-rc04-bump-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../kmock-android/0.3.0-rc04-bump-setup-SNAPSHOT/kmock-android-0.3.0-rc04-bump-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-android",
+        "version": "0.3.0-rc04-bump-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-iosarm64/0.3.0-rc04-bump-setup-SNAPSHOT/kmock-iosarm64-0.3.0-rc04-bump-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-iosarm64",
+        "version": "0.3.0-rc04-bump-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-iosarm64/0.3.0-rc04-bump-setup-SNAPSHOT/kmock-iosarm64-0.3.0-rc04-bump-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-iosarm64",
+        "version": "0.3.0-rc04-bump-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-iossimulatorarm64/0.3.0-rc04-bump-setup-SNAPSHOT/kmock-iossimulatorarm64-0.3.0-rc04-bump-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-iossimulatorarm64",
+        "version": "0.3.0-rc04-bump-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-iossimulatorarm64/0.3.0-rc04-bump-setup-SNAPSHOT/kmock-iossimulatorarm64-0.3.0-rc04-bump-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-iossimulatorarm64",
+        "version": "0.3.0-rc04-bump-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-iosx64/0.3.0-rc04-bump-setup-SNAPSHOT/kmock-iosx64-0.3.0-rc04-bump-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-iosx64",
+        "version": "0.3.0-rc04-bump-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-iosx64/0.3.0-rc04-bump-setup-SNAPSHOT/kmock-iosx64-0.3.0-rc04-bump-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-iosx64",
+        "version": "0.3.0-rc04-bump-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kmock-js/0.3.0-rc04-bump-setup-SNAPSHOT/kmock-js-0.3.0-rc04-bump-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-js",
+        "version": "0.3.0-rc04-bump-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kmock-js/0.3.0-rc04-bump-setup-SNAPSHOT/kmock-js-0.3.0-rc04-bump-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-js",
+        "version": "0.3.0-rc04-bump-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kmock-jvm/0.3.0-rc04-bump-setup-SNAPSHOT/kmock-jvm-0.3.0-rc04-bump-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-jvm",
+        "version": "0.3.0-rc04-bump-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kmock-jvm/0.3.0-rc04-bump-setup-SNAPSHOT/kmock-jvm-0.3.0-rc04-bump-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-jvm",
+        "version": "0.3.0-rc04-bump-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-linuxx64/0.3.0-rc04-bump-setup-SNAPSHOT/kmock-linuxx64-0.3.0-rc04-bump-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-linuxx64",
+        "version": "0.3.0-rc04-bump-setup-SNAPSHOT"
+      }
+    }
+  ]
+}
