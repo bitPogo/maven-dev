@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktx-datetime/0.4.0-fix-setup-SNAPSHOT/ktx-datetime-0.4.0-fix-setup-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "ktx-datetime",
+    "version": "0.4.0-fix-setup-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.kfixture",
+          "module": "core",
+          "version": {
+            "requires": "0.4.0-fix-setup-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime.klib",
+          "url": "ktx-datetime-macosarm64-0.4.0-fix-setup-SNAPSHOT.klib",
+          "size": 34716,
+          "sha512": "08830e9935ffc25a9dc74bfc751af26ffa52fba0b6e5b0d378c205d7d085b3515d811409fa2c6bddff53bd4e4d20933d63a9c95142a697dc08b3f615a845667c",
+          "sha256": "4fba40e0fe219e5a696d302d135555e1b852e3fdfb20a1acd6369f0dd9582309",
+          "sha1": "8c8ae8e945a6a02fd4e41fae61b2cce630253757",
+          "md5": "31fae951709c8caa5620321799bfec28"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.kfixture",
+          "module": "core",
+          "version": {
+            "requires": "0.4.0-fix-setup-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime-macosarm64-0.4.0-fix-setup-SNAPSHOT-metadata.jar",
+          "url": "ktx-datetime-macosarm64-0.4.0-fix-setup-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "73d8b6681b8028259c6ebdafb9fe4e00fda0dff6b53b75527d19dd0cab01fc6a9584bd7cde57449f8f65e565c1246f53ca2a8c0c251e4e6b372b67af9d9565cb",
+          "sha256": "f5f1e1e9e7b350cc9d6e8022c97232e751ba0d8c2e46d033b8502e5a9b5e5f8e",
+          "sha1": "ce822a1999dc121860fbb45b5d59ebedd750e5b3",
+          "md5": "18ce5619bfef3ef313bb1466cedbb273"
+        }
+      ]
+    }
+  ]
+}
