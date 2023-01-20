@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-change-changelog-SNAPSHOT/core-0.4.0-change-changelog-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-change-changelog-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-macosx64-0.4.0-change-changelog-SNAPSHOT.klib",
+          "size": 105834,
+          "sha512": "d8a2a3dfb5cce07ba44fa9b2a1b621e2b70ba426660ae4412cb3689f772bcbed18f96cc75c67e8edbead46fd3b24b8b64bca5aeab7abc1f883d8895d89759bb2",
+          "sha256": "0a357788587658b0d90ab68d3d288700d74f84a8fae96858bd3f9c03f866eca1",
+          "sha1": "bb238872439afdd4ba880cb8cf70c046ea4cae3a",
+          "md5": "1c34d6f420c2024e1f48c9db6acccbfa"
+        }
+      ]
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-macosx64-0.4.0-change-changelog-SNAPSHOT-metadata.jar",
+          "url": "core-macosx64-0.4.0-change-changelog-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "64853a9e5b2cfb6f9e11ca6f9ff5898343dc24eb4d5aa5ce627a188b44f018a5f3b8acab03e156b22446f74b3fd8ff7575c1c5e9a319dc604b0e2b09af072592",
+          "sha256": "ac4b3ae0cc8e131b6f46bc927c5b460d58de16a9aca926cd4068051a79629006",
+          "sha1": "b07182d55a9dc39c99659083aa60788518ea0c35",
+          "md5": "de96ddb33c5c03032447507615665245"
+        }
+      ]
+    }
+  ]
+}
