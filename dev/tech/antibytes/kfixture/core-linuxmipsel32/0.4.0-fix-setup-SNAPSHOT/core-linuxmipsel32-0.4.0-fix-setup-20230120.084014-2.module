@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-fix-setup-SNAPSHOT/core-0.4.0-fix-setup-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-fix-setup-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxMipsel32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_mipsel32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-linuxmipsel32-0.4.0-fix-setup-SNAPSHOT.klib",
+          "size": 105878,
+          "sha512": "8093ff100a2ab122507a2cd181ff0e1e79bd65c989ddfd17fbfdb9aae2dcbd839475fee87675d928e5df6abf5fde4507d9812d613496737bae6e37d407c47f09",
+          "sha256": "43c81fa37227e8ecf7305b48cf0a921e1782a74d2b558a381defe889a3d21e1a",
+          "sha1": "5b30af7edb6eec6bf128f1d341e5768091cfa047",
+          "md5": "688f0d686374839a345df6b5a52aa37a"
+        }
+      ]
+    },
+    {
+      "name": "linuxMipsel32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "linux_mipsel32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-linuxmipsel32-0.4.0-fix-setup-SNAPSHOT-metadata.jar",
+          "url": "core-linuxmipsel32-0.4.0-fix-setup-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "de66c6835a4754cbe2476f84b3a45b7b17e852fc09da5f35a03e3c1a5d4a3f8d3b2d239abad42b661a55ded1c6aa3b9987b26e7d0a065cdb542cbf4f6ac84380",
+          "sha256": "91cb2e77890d19bd2fd4fbf24c49dc57fe1e6a7cac77d09ea0b6e0c289cba560",
+          "sha1": "2982aff4024aa65588ae346cd3401f9e6a776649",
+          "md5": "4736c44f16e102f822162246b419defd"
+        }
+      ]
+    }
+  ]
+}
