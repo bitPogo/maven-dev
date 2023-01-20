@@ -1,0 +1,656 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-coroutine",
+    "version": "694b583-change-setup-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-test",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-coroutine-metadata-694b583-change-setup-SNAPSHOT-all.jar",
+          "url": "test-utils-coroutine-694b583-change-setup-SNAPSHOT-all.jar",
+          "size": 10823,
+          "sha512": "93672e58206e6fadf268a9411039f9fb26cda7e62d196dcfa9b6ebec8d0c2487da5a215c377c96dd827b1626388986b407c5c6c8e2e8466384bb27599e04642b",
+          "sha256": "c6357afdfc1e5a1800c995b3aafbd1aa07c3d2a8fb1c3dc0f36cca38e4a577c8",
+          "sha1": "6efcb1a67deeeb68104da6ce5e7211b4a72214e6",
+          "md5": "c82d4284437743f201647d436bc42e80"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-test",
+          "version": {
+            "requires": "1.6.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-coroutine-694b583-change-setup-SNAPSHOT.jar",
+          "url": "test-utils-coroutine-694b583-change-setup-SNAPSHOT.jar",
+          "size": 3034,
+          "sha512": "57c5e8c11933143e5428e57ebf617b5bc1f485d80f885a213af75a7cb19e0f7dc954a4eac14780b8740488f979f9aa854bf4d0023c5361a348a943c70dba0e90",
+          "sha256": "9d6b8bff63b2150c05983fc1c1d26f3e92b67bcb3e68645e55fe9b0bf6793893",
+          "sha1": "c37839eecce7a832ea2e9d561f1745dc51071dff",
+          "md5": "5c5a63d9ca17d2952b9d848c4a9f6012"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-android/694b583-change-setup-SNAPSHOT/test-utils-coroutine-android-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-android",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-android/694b583-change-setup-SNAPSHOT/test-utils-coroutine-android-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-android",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-iosarm32/694b583-change-setup-SNAPSHOT/test-utils-coroutine-iosarm32-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-iosarm32",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-iosarm32/694b583-change-setup-SNAPSHOT/test-utils-coroutine-iosarm32-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-iosarm32",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-iosarm64/694b583-change-setup-SNAPSHOT/test-utils-coroutine-iosarm64-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-iosarm64",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-iosarm64/694b583-change-setup-SNAPSHOT/test-utils-coroutine-iosarm64-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-iosarm64",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-iossimulatorarm64/694b583-change-setup-SNAPSHOT/test-utils-coroutine-iossimulatorarm64-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-iossimulatorarm64",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-iossimulatorarm64/694b583-change-setup-SNAPSHOT/test-utils-coroutine-iossimulatorarm64-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-iossimulatorarm64",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-iosx64/694b583-change-setup-SNAPSHOT/test-utils-coroutine-iosx64-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-iosx64",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-iosx64/694b583-change-setup-SNAPSHOT/test-utils-coroutine-iosx64-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-iosx64",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-js/694b583-change-setup-SNAPSHOT/test-utils-coroutine-js-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-js",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-js/694b583-change-setup-SNAPSHOT/test-utils-coroutine-js-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-js",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-jvm/694b583-change-setup-SNAPSHOT/test-utils-coroutine-jvm-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-jvm",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-jvm/694b583-change-setup-SNAPSHOT/test-utils-coroutine-jvm-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-jvm",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-linuxx64/694b583-change-setup-SNAPSHOT/test-utils-coroutine-linuxx64-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-linuxx64",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-macosarm64/694b583-change-setup-SNAPSHOT/test-utils-coroutine-macosarm64-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-macosarm64",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-macosarm64/694b583-change-setup-SNAPSHOT/test-utils-coroutine-macosarm64-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-macosarm64",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-macosx64/694b583-change-setup-SNAPSHOT/test-utils-coroutine-macosx64-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-macosx64",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-macosx64/694b583-change-setup-SNAPSHOT/test-utils-coroutine-macosx64-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-macosx64",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-mingwx64/694b583-change-setup-SNAPSHOT/test-utils-coroutine-mingwx64-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-mingwx64",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-tvosarm64/694b583-change-setup-SNAPSHOT/test-utils-coroutine-tvosarm64-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-tvosarm64",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-tvosarm64/694b583-change-setup-SNAPSHOT/test-utils-coroutine-tvosarm64-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-tvosarm64",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-tvossimulatorarm64/694b583-change-setup-SNAPSHOT/test-utils-coroutine-tvossimulatorarm64-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-tvossimulatorarm64",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-tvossimulatorarm64/694b583-change-setup-SNAPSHOT/test-utils-coroutine-tvossimulatorarm64-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-tvossimulatorarm64",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-tvosx64/694b583-change-setup-SNAPSHOT/test-utils-coroutine-tvosx64-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-tvosx64",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-tvosx64/694b583-change-setup-SNAPSHOT/test-utils-coroutine-tvosx64-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-tvosx64",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-watchosarm32/694b583-change-setup-SNAPSHOT/test-utils-coroutine-watchosarm32-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-watchosarm32",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-watchosarm32/694b583-change-setup-SNAPSHOT/test-utils-coroutine-watchosarm32-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-watchosarm32",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-watchosarm64/694b583-change-setup-SNAPSHOT/test-utils-coroutine-watchosarm64-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-watchosarm64",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-watchosarm64/694b583-change-setup-SNAPSHOT/test-utils-coroutine-watchosarm64-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-watchosarm64",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-watchossimulatorarm64/694b583-change-setup-SNAPSHOT/test-utils-coroutine-watchossimulatorarm64-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-watchossimulatorarm64",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-watchossimulatorarm64/694b583-change-setup-SNAPSHOT/test-utils-coroutine-watchossimulatorarm64-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-watchossimulatorarm64",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-watchosx64/694b583-change-setup-SNAPSHOT/test-utils-coroutine-watchosx64-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-watchosx64",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-watchosx64/694b583-change-setup-SNAPSHOT/test-utils-coroutine-watchosx64-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-watchosx64",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX86ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-watchosx86/694b583-change-setup-SNAPSHOT/test-utils-coroutine-watchosx86-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-watchosx86",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX86MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-coroutine-watchosx86/694b583-change-setup-SNAPSHOT/test-utils-coroutine-watchosx86-694b583-change-setup-SNAPSHOT.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-coroutine-watchosx86",
+        "version": "694b583-change-setup-SNAPSHOT"
+      }
+    }
+  ]
+}
