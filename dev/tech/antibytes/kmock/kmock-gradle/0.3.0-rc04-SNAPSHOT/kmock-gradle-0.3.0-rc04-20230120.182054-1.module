@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "0.3.0-rc04-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-0.3.0-rc04-SNAPSHOT.jar",
+          "url": "kmock-gradle-0.3.0-rc04-SNAPSHOT.jar",
+          "size": 75427,
+          "sha512": "9c2b2f76f9e4d528324217303467f031eb8061cbaad49c6ed5397af7e7ad453f57c1e0a155f4b63819e670738a32c8212773280f34b74650156847a78b48f165",
+          "sha256": "1be9b07ce09517892c681f8e157c2f621c62d67797493896ef4359fad1d9c2d7",
+          "sha1": "0a2d3f3d5d1cac505e93787c2d22bab7d08d7409",
+          "md5": "20c33d37238f0f84c09a4f4048ae0789"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-gradle-plugin",
+          "version": {
+            "requires": "1.7.20-1.0.6"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-0.3.0-rc04-SNAPSHOT.jar",
+          "url": "kmock-gradle-0.3.0-rc04-SNAPSHOT.jar",
+          "size": 75427,
+          "sha512": "9c2b2f76f9e4d528324217303467f031eb8061cbaad49c6ed5397af7e7ad453f57c1e0a155f4b63819e670738a32c8212773280f34b74650156847a78b48f165",
+          "sha256": "1be9b07ce09517892c681f8e157c2f621c62d67797493896ef4359fad1d9c2d7",
+          "sha1": "0a2d3f3d5d1cac505e93787c2d22bab7d08d7409",
+          "md5": "20c33d37238f0f84c09a4f4048ae0789"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-0.3.0-rc04-SNAPSHOT-javadoc.jar",
+          "url": "kmock-gradle-0.3.0-rc04-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "609e60e7d515986ff2b0f9ea98d7d1cb1ba74d8a6a993b86cd699722b506d85f935cdeb8de96761a3f54b1aa9175f0e187724b1a431a1846b3364260cc8ef88c",
+          "sha256": "b67e9d7353b70101721fbe938e56f6cf6826de2ecacf713bfb9d33df02c3347f",
+          "sha1": "0e8a51ad7e5dc3b2d1c16f698944863a465904fd",
+          "md5": "2b3901bb43d19eaa571cc6f0134e2bf5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-0.3.0-rc04-SNAPSHOT-sources.jar",
+          "url": "kmock-gradle-0.3.0-rc04-SNAPSHOT-sources.jar",
+          "size": 14711,
+          "sha512": "44ea35fa245b5162d01ac312e7028812ffb8764ff07d840f0af87b369d156d4ba3d2085c416a5e954d0dbd21954f8f8d99cbd7fff783d9c02c1cba45a6a0b976",
+          "sha256": "69f1795612c6f526d548098361046222e1b568ba8df10b88ce30b1c2d56606d9",
+          "sha1": "a08ff60b350b6cd5219b99ae9a1c62d882d17bcd",
+          "md5": "40325aad8d380776a3676dff829032ff"
+        }
+      ]
+    }
+  ]
+}
