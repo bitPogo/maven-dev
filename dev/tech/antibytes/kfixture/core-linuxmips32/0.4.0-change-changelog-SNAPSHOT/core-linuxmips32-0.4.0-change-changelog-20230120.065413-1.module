@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-change-changelog-SNAPSHOT/core-0.4.0-change-changelog-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-change-changelog-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxMips32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_mips32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-linuxmips32-0.4.0-change-changelog-SNAPSHOT.klib",
+          "size": 105861,
+          "sha512": "dcea6c7a2b5c5bd98adedbb08f1130e517081f7a69ab8d3334c3ee95b3187e54197285a25f343bd54902905f08531d16f396b8e33e0d37f68ead3e7aaf202736",
+          "sha256": "04bd5ad96f089d4f303e0fa47191eb0ffb13a770af345485b7617a5df12e5179",
+          "sha1": "f6cc8f31cb61bb8783d3a00841af2d8ff6e169e6",
+          "md5": "7757c6fa4d4e3b01eba97ccb29e99017"
+        }
+      ]
+    },
+    {
+      "name": "linuxMips32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "linux_mips32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-linuxmips32-0.4.0-change-changelog-SNAPSHOT-metadata.jar",
+          "url": "core-linuxmips32-0.4.0-change-changelog-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "ecb25743fd733a537a3702ef1edc28b8768b2639313335f179ca2234a8658fe22ee93a71c374bb94c308590af553cdd00934ba1ee8485b2cc9cfef284317f17b",
+          "sha256": "3b37b0c460e2e218150ff1ea76a273eda4886a3d465cdd428a5275115386564b",
+          "sha1": "9755309e091828d955303d27893482be27421d44",
+          "md5": "d893199558ea01fc7236afc01cf02809"
+        }
+      ]
+    }
+  ]
+}
