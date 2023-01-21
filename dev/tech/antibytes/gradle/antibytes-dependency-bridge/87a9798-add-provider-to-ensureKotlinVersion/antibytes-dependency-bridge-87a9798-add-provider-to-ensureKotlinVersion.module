@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "87a9798-add-provider-to-ensureKotlinVersion",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-87a9798-add-provider-to-ensureKotlinVersion.jar",
+          "url": "antibytes-dependency-bridge-87a9798-add-provider-to-ensureKotlinVersion.jar",
+          "size": 38517,
+          "sha512": "754f3d63f06d8893e26f70a7e6408d57a0565f64dc2dc4eaed7c1bae4995325d35f076ec56a238fab104a0ca1c0a15b05e90f7ea11320fddeab792c2ce62c9e7",
+          "sha256": "36ba0f2052127b83dea1337cfb7498572850e1de1bb212b48a07120f5ecea14c",
+          "sha1": "b5f6d82f218b8992f09993c7e87986dc6ac7c7a3",
+          "md5": "8c5035d699f527c2c9478799d6e88395"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-87a9798-add-provider-to-ensureKotlinVersion.jar",
+          "url": "antibytes-dependency-bridge-87a9798-add-provider-to-ensureKotlinVersion.jar",
+          "size": 38517,
+          "sha512": "754f3d63f06d8893e26f70a7e6408d57a0565f64dc2dc4eaed7c1bae4995325d35f076ec56a238fab104a0ca1c0a15b05e90f7ea11320fddeab792c2ce62c9e7",
+          "sha256": "36ba0f2052127b83dea1337cfb7498572850e1de1bb212b48a07120f5ecea14c",
+          "sha1": "b5f6d82f218b8992f09993c7e87986dc6ac7c7a3",
+          "md5": "8c5035d699f527c2c9478799d6e88395"
+        }
+      ]
+    }
+  ]
+}

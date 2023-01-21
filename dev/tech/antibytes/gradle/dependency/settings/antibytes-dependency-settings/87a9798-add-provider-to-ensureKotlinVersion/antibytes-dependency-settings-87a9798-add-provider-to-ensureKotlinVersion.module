@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.settings",
+    "module": "antibytes-dependency-settings",
+    "version": "87a9798-add-provider-to-ensureKotlinVersion",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "87a9798-add-provider-to-ensureKotlinVersion"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-87a9798-add-provider-to-ensureKotlinVersion.jar",
+          "url": "antibytes-dependency-settings-87a9798-add-provider-to-ensureKotlinVersion.jar",
+          "size": 15178,
+          "sha512": "a92949efaa05356ea30b6b9638062dc3ac475f26c6b133aff966f1aad7dfe3a5bfcad2a806b4487fd26cd3eba9c54a97fb6bb1eada9f5018229b575f7f8e47b8",
+          "sha256": "83ad6cd44be188dc8552889abbba529e800bb0d4bf85702611b60bf99ec38ba5",
+          "sha1": "07bec8b4b1ce82153631d75c2a76b5ea8e1acebc",
+          "md5": "4f62fdb74ee9248d8af5ea9c3885fe56"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "87a9798-add-provider-to-ensureKotlinVersion"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-87a9798-add-provider-to-ensureKotlinVersion.jar",
+          "url": "antibytes-dependency-settings-87a9798-add-provider-to-ensureKotlinVersion.jar",
+          "size": 15178,
+          "sha512": "a92949efaa05356ea30b6b9638062dc3ac475f26c6b133aff966f1aad7dfe3a5bfcad2a806b4487fd26cd3eba9c54a97fb6bb1eada9f5018229b575f7f8e47b8",
+          "sha256": "83ad6cd44be188dc8552889abbba529e800bb0d4bf85702611b60bf99ec38ba5",
+          "sha1": "07bec8b4b1ce82153631d75c2a76b5ea8e1acebc",
+          "md5": "4f62fdb74ee9248d8af5ea9c3885fe56"
+        }
+      ]
+    }
+  ]
+}
