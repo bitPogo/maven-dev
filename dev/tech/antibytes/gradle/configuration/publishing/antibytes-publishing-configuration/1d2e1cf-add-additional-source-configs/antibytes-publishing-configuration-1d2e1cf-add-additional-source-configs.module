@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "1d2e1cf-add-additional-source-configs",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-1d2e1cf-add-additional-source-configs.jar",
+          "url": "antibytes-publishing-configuration-1d2e1cf-add-additional-source-configs.jar",
+          "size": 4768,
+          "sha512": "749d061466703859bfacab19356817b035b85c1a7a8b397d1993c3eb9f1d05c81e38da0f9ca4e7f76a7ece5569c20ec7936646faa42eccf528eb990e8cefabf2",
+          "sha256": "49d8f8408d4040509a121003eb43483e0b742c2b9ac038dc9d9ea1b1947f28f7",
+          "sha1": "523d7b3e85833664eeb9a76a38633b13c9f800be",
+          "md5": "c0376701f4846d79b6941c93846bdde8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "1d2e1cf-add-additional-source-configs"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-1d2e1cf-add-additional-source-configs.jar",
+          "url": "antibytes-publishing-configuration-1d2e1cf-add-additional-source-configs.jar",
+          "size": 4768,
+          "sha512": "749d061466703859bfacab19356817b035b85c1a7a8b397d1993c3eb9f1d05c81e38da0f9ca4e7f76a7ece5569c20ec7936646faa42eccf528eb990e8cefabf2",
+          "sha256": "49d8f8408d4040509a121003eb43483e0b742c2b9ac038dc9d9ea1b1947f28f7",
+          "sha1": "523d7b3e85833664eeb9a76a38633b13c9f800be",
+          "md5": "c0376701f4846d79b6941c93846bdde8"
+        }
+      ]
+    }
+  ]
+}

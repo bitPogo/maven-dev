@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.kmp",
+    "module": "antibytes-kmp-configuration",
+    "version": "1d2e1cf-add-additional-source-configs",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-1d2e1cf-add-additional-source-configs.jar",
+          "url": "antibytes-kmp-configuration-1d2e1cf-add-additional-source-configs.jar",
+          "size": 72741,
+          "sha512": "fd5a9e1588cb1fdd4c77a6c7878eb27fb042beb54fc0ada1fb0b3e9433483a7ee499de4b1145db4fa2cc215da96481f48f56352990ae5313a5328d14cbb1211b",
+          "sha256": "5efba6a9b5204a4a9298457603054cc500ff425314495ba1ca31249fb860e3c1",
+          "sha1": "6f0ec3ff6846e4a015312eb96e071cb45b80b779",
+          "md5": "b9fbddbbc0e8d8c106f3f60aa71bb5df"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "1d2e1cf-add-additional-source-configs"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-1d2e1cf-add-additional-source-configs.jar",
+          "url": "antibytes-kmp-configuration-1d2e1cf-add-additional-source-configs.jar",
+          "size": 72741,
+          "sha512": "fd5a9e1588cb1fdd4c77a6c7878eb27fb042beb54fc0ada1fb0b3e9433483a7ee499de4b1145db4fa2cc215da96481f48f56352990ae5313a5328d14cbb1211b",
+          "sha256": "5efba6a9b5204a4a9298457603054cc500ff425314495ba1ca31249fb860e3c1",
+          "sha1": "6f0ec3ff6846e4a015312eb96e071cb45b80b779",
+          "md5": "b9fbddbbc0e8d8c106f3f60aa71bb5df"
+        }
+      ]
+    }
+  ]
+}
