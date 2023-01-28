@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.mkdocs",
+    "module": "antibytes-mkdocs",
+    "version": "43475c3-change-native-hooks",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.versioning",
+          "module": "antibytes-versioning",
+          "version": {
+            "requires": "43475c3-change-native-hooks"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-mkdocs-43475c3-change-native-hooks.jar",
+          "url": "antibytes-mkdocs-43475c3-change-native-hooks.jar",
+          "size": 11930,
+          "sha512": "fea14f09d149bdd85b7247dc69a2da564b83f489b2134781082f5fa0e4951b098eb619acb9682447883c7551c23d0b15ff71572ff424a19f519bc6145c77c4bb",
+          "sha256": "8bc2ca28e58c17cd915848223e3e6b6e9c31f962c49ba52ce4f8ac8bceb7ecce",
+          "sha1": "32d798cdd3f7ef97b9441202a5ad1528bcfb90c7",
+          "md5": "13825979562e0de61fbd30ed2fd76ce7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "ru.vyarus",
+          "module": "gradle-use-python-plugin",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "ru.vyarus",
+          "module": "gradle-mkdocs-plugin",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "43475c3-change-native-hooks"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle.versioning",
+          "module": "antibytes-versioning",
+          "version": {
+            "requires": "43475c3-change-native-hooks"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-mkdocs-43475c3-change-native-hooks.jar",
+          "url": "antibytes-mkdocs-43475c3-change-native-hooks.jar",
+          "size": 11930,
+          "sha512": "fea14f09d149bdd85b7247dc69a2da564b83f489b2134781082f5fa0e4951b098eb619acb9682447883c7551c23d0b15ff71572ff424a19f519bc6145c77c4bb",
+          "sha256": "8bc2ca28e58c17cd915848223e3e6b6e9c31f962c49ba52ce4f8ac8bceb7ecce",
+          "sha1": "32d798cdd3f7ef97b9441202a5ad1528bcfb90c7",
+          "md5": "13825979562e0de61fbd30ed2fd76ce7"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "43475c3-change-native-hooks",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-43475c3-change-native-hooks.jar",
+          "url": "antibytes-publishing-configuration-43475c3-change-native-hooks.jar",
+          "size": 4768,
+          "sha512": "ab6c19a7776fe371b2eb2bd427101c25201a1226127109090978e8f7ca38b1cac8e62925c243087883b34cd3a0ab70c2030fd47e77c26c2c206bc701a62c1505",
+          "sha256": "2698dfca264302cb60c07e7d3db612babc35166c0e8fee14bf90e8874d76689c",
+          "sha1": "166295f94b12a1c242c6d132c6a4de71f061011f",
+          "md5": "b30bbb91d9164b29d768536c0b223a25"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "43475c3-change-native-hooks"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-43475c3-change-native-hooks.jar",
+          "url": "antibytes-publishing-configuration-43475c3-change-native-hooks.jar",
+          "size": 4768,
+          "sha512": "ab6c19a7776fe371b2eb2bd427101c25201a1226127109090978e8f7ca38b1cac8e62925c243087883b34cd3a0ab70c2030fd47e77c26c2c206bc701a62c1505",
+          "sha256": "2698dfca264302cb60c07e7d3db612babc35166c0e8fee14bf90e8874d76689c",
+          "sha1": "166295f94b12a1c242c6d132c6a4de71f061011f",
+          "md5": "b30bbb91d9164b29d768536c0b223a25"
+        }
+      ]
+    }
+  ]
+}

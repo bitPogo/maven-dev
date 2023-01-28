@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-runtime-configuration",
+    "version": "43475c3-change-native-hooks",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-43475c3-change-native-hooks.jar",
+          "url": "antibytes-runtime-configuration-43475c3-change-native-hooks.jar",
+          "size": 9076,
+          "sha512": "cdcfd09e7b1a8511255136212d210bc06a27e310dcca67cf3fbbea5438e690788f2fbf806ff933a9ed79a03bbe270ee149ce131ba65a2298ef99178aa9480d93",
+          "sha256": "ccad17ed2e1bc31e8f831804b0784780ff590c90289ad34941e73c2ec670fd79",
+          "sha1": "bfc4a3543a2f861ae2cbe88c39f8421f8f6f719f",
+          "md5": "c4f2ae1113d11c10b2f6c79cefdcb238"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "43475c3-change-native-hooks"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-43475c3-change-native-hooks.jar",
+          "url": "antibytes-runtime-configuration-43475c3-change-native-hooks.jar",
+          "size": 9076,
+          "sha512": "cdcfd09e7b1a8511255136212d210bc06a27e310dcca67cf3fbbea5438e690788f2fbf806ff933a9ed79a03bbe270ee149ce131ba65a2298ef99178aa9480d93",
+          "sha256": "ccad17ed2e1bc31e8f831804b0784780ff590c90289ad34941e73c2ec670fd79",
+          "sha1": "bfc4a3543a2f861ae2cbe88c39f8421f8f6f719f",
+          "md5": "c4f2ae1113d11c10b2f6c79cefdcb238"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "43475c3-change-native-hooks",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-43475c3-change-native-hooks.jar",
+          "url": "antibytes-dependency-bridge-43475c3-change-native-hooks.jar",
+          "size": 38517,
+          "sha512": "9372204317ba14c0522d2fbd3438e23550b1a772022664cd6bb28b0dd11decb955024fa218782b7deb0f335e5fd5412536790db79960ec77db932a514d1358c4",
+          "sha256": "2f75e729e84e50abbf148054dfb5fff5d27833fc139b66615ae855e5eef71a99",
+          "sha1": "ee820e956b9974eca36e199615a60da7b874f662",
+          "md5": "d882521cdd57774a2a4e640264186d6b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-43475c3-change-native-hooks.jar",
+          "url": "antibytes-dependency-bridge-43475c3-change-native-hooks.jar",
+          "size": 38517,
+          "sha512": "9372204317ba14c0522d2fbd3438e23550b1a772022664cd6bb28b0dd11decb955024fa218782b7deb0f335e5fd5412536790db79960ec77db932a514d1358c4",
+          "sha256": "2f75e729e84e50abbf148054dfb5fff5d27833fc139b66615ae855e5eef71a99",
+          "sha1": "ee820e956b9974eca36e199615a60da7b874f662",
+          "md5": "d882521cdd57774a2a4e640264186d6b"
+        }
+      ]
+    }
+  ]
+}

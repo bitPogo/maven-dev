@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.coverage",
+    "module": "antibytes-coverage",
+    "version": "43475c3-change-native-hooks",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-coverage-43475c3-change-native-hooks.jar",
+          "url": "antibytes-coverage-43475c3-change-native-hooks.jar",
+          "size": 135221,
+          "sha512": "c0c627f9addc597dd6fb6c64c85c172af5f2e65b0b93024d4397be3f4726a33b98bb62bc61c7045bbe28c0a6fc0b80d3e734d3e152496fd38c398dd33dedb1dc",
+          "sha256": "8d8d6a87f8c746f4432f86ce4b5de7692deef941d9188a02e0c0afd2e23c2516",
+          "sha1": "2bf2a7450ed5f90da0142db4a4c58b87801d7880",
+          "md5": "0a49abbff8a26b045214bb00d68a1514"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "org.jacoco",
+          "module": "org.jacoco.core",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "43475c3-change-native-hooks"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-coverage-43475c3-change-native-hooks.jar",
+          "url": "antibytes-coverage-43475c3-change-native-hooks.jar",
+          "size": 135221,
+          "sha512": "c0c627f9addc597dd6fb6c64c85c172af5f2e65b0b93024d4397be3f4726a33b98bb62bc61c7045bbe28c0a6fc0b80d3e734d3e152496fd38c398dd33dedb1dc",
+          "sha256": "8d8d6a87f8c746f4432f86ce4b5de7692deef941d9188a02e0c0afd2e23c2516",
+          "sha1": "2bf2a7450ed5f90da0142db4a4c58b87801d7880",
+          "md5": "0a49abbff8a26b045214bb00d68a1514"
+        }
+      ]
+    }
+  ]
+}
