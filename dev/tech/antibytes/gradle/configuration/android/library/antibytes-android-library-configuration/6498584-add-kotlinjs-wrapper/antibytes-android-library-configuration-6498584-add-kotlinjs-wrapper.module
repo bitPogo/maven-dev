@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.android.library",
+    "module": "antibytes-android-library-configuration",
+    "version": "6498584-add-kotlinjs-wrapper",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-android-library-configuration-6498584-add-kotlinjs-wrapper.jar",
+          "url": "antibytes-android-library-configuration-6498584-add-kotlinjs-wrapper.jar",
+          "size": 56516,
+          "sha512": "1df9af1fe7b3b7bbdd42f279862e0036b28ccba0b71980468922b6d0bcae76d275252bb2f8ed9138769d9cc045e242be29446e5acc7c9bb5f5a0b1a34651c7b4",
+          "sha256": "b887a58cea2e7bcec4262f401d429e2783c9f3294c89c223e8d9c99a84ca7699",
+          "sha1": "2b88c203aba337bb8de2c9ce9334128e3d6e4d1e",
+          "md5": "62157a8dbb96023d30cc729df0a002fa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "6498584-add-kotlinjs-wrapper"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-android-library-configuration-6498584-add-kotlinjs-wrapper.jar",
+          "url": "antibytes-android-library-configuration-6498584-add-kotlinjs-wrapper.jar",
+          "size": 56516,
+          "sha512": "1df9af1fe7b3b7bbdd42f279862e0036b28ccba0b71980468922b6d0bcae76d275252bb2f8ed9138769d9cc045e242be29446e5acc7c9bb5f5a0b1a34651c7b4",
+          "sha256": "b887a58cea2e7bcec4262f401d429e2783c9f3294c89c223e8d9c99a84ca7699",
+          "sha1": "2b88c203aba337bb8de2c9ce9334128e3d6e4d1e",
+          "md5": "62157a8dbb96023d30cc729df0a002fa"
+        }
+      ]
+    }
+  ]
+}

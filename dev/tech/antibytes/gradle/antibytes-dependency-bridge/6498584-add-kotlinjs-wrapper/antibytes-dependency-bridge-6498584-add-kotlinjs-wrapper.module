@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "6498584-add-kotlinjs-wrapper",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-6498584-add-kotlinjs-wrapper.jar",
+          "url": "antibytes-dependency-bridge-6498584-add-kotlinjs-wrapper.jar",
+          "size": 38517,
+          "sha512": "001aefa83be9cac5e2a173e46ad293704716c315c23b1ffebd73ced44db2b6882d46699c5242b20a9fd98f927fafa6637f7d3f2e46ba6ad3b73a1464e3c9993e",
+          "sha256": "c2a83a78cb202ba125ee5e49b8bca8a703761d15ee7fe2b5a509e2f150db06eb",
+          "sha1": "b9078cbd1febf658e9b694a1267e5286cc15d053",
+          "md5": "98c3aba5c915e904031bdab3d5872339"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-6498584-add-kotlinjs-wrapper.jar",
+          "url": "antibytes-dependency-bridge-6498584-add-kotlinjs-wrapper.jar",
+          "size": 38517,
+          "sha512": "001aefa83be9cac5e2a173e46ad293704716c315c23b1ffebd73ced44db2b6882d46699c5242b20a9fd98f927fafa6637f7d3f2e46ba6ad3b73a1464e3c9993e",
+          "sha256": "c2a83a78cb202ba125ee5e49b8bca8a703761d15ee7fe2b5a509e2f150db06eb",
+          "sha1": "b9078cbd1febf658e9b694a1267e5286cc15d053",
+          "md5": "98c3aba5c915e904031bdab3d5872339"
+        }
+      ]
+    }
+  ]
+}
