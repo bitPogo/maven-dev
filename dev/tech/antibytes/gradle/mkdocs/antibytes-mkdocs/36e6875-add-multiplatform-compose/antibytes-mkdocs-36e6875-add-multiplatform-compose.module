@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.mkdocs",
+    "module": "antibytes-mkdocs",
+    "version": "36e6875-add-multiplatform-compose",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.versioning",
+          "module": "antibytes-versioning",
+          "version": {
+            "requires": "36e6875-add-multiplatform-compose"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-mkdocs-36e6875-add-multiplatform-compose.jar",
+          "url": "antibytes-mkdocs-36e6875-add-multiplatform-compose.jar",
+          "size": 11930,
+          "sha512": "38cdb83d7d4f2c96257aee78af868232e94b040eef7d957574996d5a98020fec7470ec6df5bf8ad84806a2985bb87e08aa326a1342ed665af7fd9a586c091207",
+          "sha256": "f30166432cbe48b6d54eb697f9a4810cef5b35fe3e8318c3ff7bc3dcb77bf942",
+          "sha1": "e4c7ab6865be7ec31f83c4589b4c055315ea6e3d",
+          "md5": "ad471dbd1d92d6e6d1b4e7759b0f57d4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "ru.vyarus",
+          "module": "gradle-use-python-plugin",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "ru.vyarus",
+          "module": "gradle-mkdocs-plugin",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "36e6875-add-multiplatform-compose"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle.versioning",
+          "module": "antibytes-versioning",
+          "version": {
+            "requires": "36e6875-add-multiplatform-compose"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-mkdocs-36e6875-add-multiplatform-compose.jar",
+          "url": "antibytes-mkdocs-36e6875-add-multiplatform-compose.jar",
+          "size": 11930,
+          "sha512": "38cdb83d7d4f2c96257aee78af868232e94b040eef7d957574996d5a98020fec7470ec6df5bf8ad84806a2985bb87e08aa326a1342ed665af7fd9a586c091207",
+          "sha256": "f30166432cbe48b6d54eb697f9a4810cef5b35fe3e8318c3ff7bc3dcb77bf942",
+          "sha1": "e4c7ab6865be7ec31f83c4589b4c055315ea6e3d",
+          "md5": "ad471dbd1d92d6e6d1b4e7759b0f57d4"
+        }
+      ]
+    }
+  ]
+}

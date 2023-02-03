@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "36e6875-add-multiplatform-compose",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-36e6875-add-multiplatform-compose.jar",
+          "url": "antibytes-dependency-bridge-36e6875-add-multiplatform-compose.jar",
+          "size": 38517,
+          "sha512": "adb08edb69ba136c924f1e8261b5677d36520f2b3e8ddd44ea31a75ef62b0285486931a56fa3067db404aefd16770f9c47be328e250711e746668ffa868dcaa0",
+          "sha256": "22abe1aa04701c043171dee4643a4e057532a85f7021279e91f074226b8fbe9d",
+          "sha1": "c0b58c344254751bece578aa12fc7a05703cdfe1",
+          "md5": "3a21add26b91b2e2ffee912aab4ae8cd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-36e6875-add-multiplatform-compose.jar",
+          "url": "antibytes-dependency-bridge-36e6875-add-multiplatform-compose.jar",
+          "size": 38517,
+          "sha512": "adb08edb69ba136c924f1e8261b5677d36520f2b3e8ddd44ea31a75ef62b0285486931a56fa3067db404aefd16770f9c47be328e250711e746668ffa868dcaa0",
+          "sha256": "22abe1aa04701c043171dee4643a4e057532a85f7021279e91f074226b8fbe9d",
+          "sha1": "c0b58c344254751bece578aa12fc7a05703cdfe1",
+          "md5": "3a21add26b91b2e2ffee912aab4ae8cd"
+        }
+      ]
+    }
+  ]
+}

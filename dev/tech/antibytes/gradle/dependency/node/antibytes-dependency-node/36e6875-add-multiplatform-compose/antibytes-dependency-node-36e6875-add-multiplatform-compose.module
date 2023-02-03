@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.node",
+    "module": "antibytes-dependency-node",
+    "version": "36e6875-add-multiplatform-compose",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-node-36e6875-add-multiplatform-compose.jar",
+          "url": "antibytes-dependency-node-36e6875-add-multiplatform-compose.jar",
+          "size": 20149,
+          "sha512": "56ee327e77888d4e46440ed3361d522893c0b69700114229e4c26d887282ac77b17218693a075294ab97f1e503a75929658f1d15a6e7cec114f60fda30740598",
+          "sha256": "92a02da77e9035189cbd6b5a6f2db0be7f225420b5cc0c34fbb5d8f26031471f",
+          "sha1": "d0b0dbf9ae525e96fd92f2f7e625af12a9b95cff",
+          "md5": "aa8445c691ea36f216185690d7779c00"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-node-36e6875-add-multiplatform-compose.jar",
+          "url": "antibytes-dependency-node-36e6875-add-multiplatform-compose.jar",
+          "size": 20149,
+          "sha512": "56ee327e77888d4e46440ed3361d522893c0b69700114229e4c26d887282ac77b17218693a075294ab97f1e503a75929658f1d15a6e7cec114f60fda30740598",
+          "sha256": "92a02da77e9035189cbd6b5a6f2db0be7f225420b5cc0c34fbb5d8f26031471f",
+          "sha1": "d0b0dbf9ae525e96fd92f2f7e625af12a9b95cff",
+          "md5": "aa8445c691ea36f216185690d7779c00"
+        }
+      ]
+    }
+  ]
+}

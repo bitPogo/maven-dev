@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.android.application",
+    "module": "antibytes-android-application-configuration",
+    "version": "36e6875-add-multiplatform-compose",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-android-application-configuration-36e6875-add-multiplatform-compose.jar",
+          "url": "antibytes-android-application-configuration-36e6875-add-multiplatform-compose.jar",
+          "size": 56572,
+          "sha512": "86943b07e06ac65368f7c33a3850930465e94429cc64575e6d7618c305a9db823fd6a0750102bb8ece4754541ec23c352ec896423ac96c2a38e35c9deabbbc80",
+          "sha256": "f222ea07d95bc156736441f716bea5c7029934654f8e0947fd07e2ae4675fc37",
+          "sha1": "9c71ad8327ccca532663d4b39fbd4fa543ac3adc",
+          "md5": "7ce64519813d0c955b5a7dc0ef0dc3d2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "36e6875-add-multiplatform-compose"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-android-application-configuration-36e6875-add-multiplatform-compose.jar",
+          "url": "antibytes-android-application-configuration-36e6875-add-multiplatform-compose.jar",
+          "size": 56572,
+          "sha512": "86943b07e06ac65368f7c33a3850930465e94429cc64575e6d7618c305a9db823fd6a0750102bb8ece4754541ec23c352ec896423ac96c2a38e35c9deabbbc80",
+          "sha256": "f222ea07d95bc156736441f716bea5c7029934654f8e0947fd07e2ae4675fc37",
+          "sha1": "9c71ad8327ccca532663d4b39fbd4fa543ac3adc",
+          "md5": "7ce64519813d0c955b5a7dc0ef0dc3d2"
+        }
+      ]
+    }
+  ]
+}

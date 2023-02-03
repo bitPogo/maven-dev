@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.kmp",
+    "module": "antibytes-kmp-configuration",
+    "version": "36e6875-add-multiplatform-compose",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-36e6875-add-multiplatform-compose.jar",
+          "url": "antibytes-kmp-configuration-36e6875-add-multiplatform-compose.jar",
+          "size": 72745,
+          "sha512": "c49c473de532cd08c9586a9f4fed0032cac770710fd2829e5b7766f29db5bc714b037d399908b4498b0bb0b1fe22e436330da18ca2682c98bc06790fec691d2c",
+          "sha256": "352ed03b7299facc6d375b3733793e5ee1c9496c2892e4599c8e002cf4d67a30",
+          "sha1": "701af3f3b741cb84c545a23eb7d6c78acc226c30",
+          "md5": "97032a2788716db273fae654f952592e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "36e6875-add-multiplatform-compose"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-36e6875-add-multiplatform-compose.jar",
+          "url": "antibytes-kmp-configuration-36e6875-add-multiplatform-compose.jar",
+          "size": 72745,
+          "sha512": "c49c473de532cd08c9586a9f4fed0032cac770710fd2829e5b7766f29db5bc714b037d399908b4498b0bb0b1fe22e436330da18ca2682c98bc06790fec691d2c",
+          "sha256": "352ed03b7299facc6d375b3733793e5ee1c9496c2892e4599c8e002cf4d67a30",
+          "sha1": "701af3f3b741cb84c545a23eb7d6c78acc226c30",
+          "md5": "97032a2788716db273fae654f952592e"
+        }
+      ]
+    }
+  ]
+}
