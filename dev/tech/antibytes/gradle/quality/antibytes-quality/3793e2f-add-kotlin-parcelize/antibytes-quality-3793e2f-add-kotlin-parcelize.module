@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.quality",
+    "module": "antibytes-quality",
+    "version": "3793e2f-add-kotlin-parcelize",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-quality-3793e2f-add-kotlin-parcelize.jar",
+          "url": "antibytes-quality-3793e2f-add-kotlin-parcelize.jar",
+          "size": 62640,
+          "sha512": "8b9501e32c1c9f83c17347d22074b6e4d5a4b6b32f146887a6fb6ca7578d1fa8ccbbc620f371d30e2d6864c4e2ce18bf511fdecc20ddd5616734d46dcf51303a",
+          "sha256": "96415386744b9a9714862b0e111e6c6d296cde7c7b848cdf1afc49e7757f53b8",
+          "sha1": "a3cf5be4ef70f259d77f740c37a2dd6df32d46d2",
+          "md5": "da1ab1ec4307c9adda6531baf68ff627"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "com.diffplug.spotless",
+          "module": "spotless-plugin-gradle",
+          "version": {
+            "requires": "6.11.0"
+          }
+        },
+        {
+          "group": "com.pinterest",
+          "module": "ktlint",
+          "version": {
+            "requires": "0.47.1"
+          }
+        },
+        {
+          "group": "io.gitlab.arturbosch.detekt",
+          "module": "detekt-gradle-plugin",
+          "version": {
+            "requires": "1.22.0"
+          }
+        },
+        {
+          "group": "org.sonarsource.scanner.gradle",
+          "module": "sonarqube-gradle-plugin",
+          "version": {
+            "requires": "3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "binary-compatibility-validator",
+          "version": {
+            "requires": "0.12.1"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "3793e2f-add-kotlin-parcelize"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle.dependency.helper",
+          "module": "antibytes-dependency-helper",
+          "version": {
+            "requires": "3793e2f-add-kotlin-parcelize"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-quality-3793e2f-add-kotlin-parcelize.jar",
+          "url": "antibytes-quality-3793e2f-add-kotlin-parcelize.jar",
+          "size": 62640,
+          "sha512": "8b9501e32c1c9f83c17347d22074b6e4d5a4b6b32f146887a6fb6ca7578d1fa8ccbbc620f371d30e2d6864c4e2ce18bf511fdecc20ddd5616734d46dcf51303a",
+          "sha256": "96415386744b9a9714862b0e111e6c6d296cde7c7b848cdf1afc49e7757f53b8",
+          "sha1": "a3cf5be4ef70f259d77f740c37a2dd6df32d46d2",
+          "md5": "da1ab1ec4307c9adda6531baf68ff627"
+        }
+      ]
+    }
+  ]
+}

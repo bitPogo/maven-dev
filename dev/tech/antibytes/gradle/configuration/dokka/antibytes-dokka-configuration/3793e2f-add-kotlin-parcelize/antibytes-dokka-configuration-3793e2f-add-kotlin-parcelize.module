@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.dokka",
+    "module": "antibytes-dokka-configuration",
+    "version": "3793e2f-add-kotlin-parcelize",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-3793e2f-add-kotlin-parcelize.jar",
+          "url": "antibytes-dokka-configuration-3793e2f-add-kotlin-parcelize.jar",
+          "size": 7889,
+          "sha512": "6f893a62e1ebf17b6518cd694ea67967b30858a43cdb86eb2cfc5b2da4515c383d41fbb91bc92008675de3cbf0e4554855525a2650f3475d6c2f48ea9d097095",
+          "sha256": "9ef918160bc1af4c0cade71d70cfb30ee125ca9fb787b2c6306890099c2f4e6b",
+          "sha1": "91fad1bf02456b96f90bc38553bcab1c0ec0f5df",
+          "md5": "9f8d72dc21d1b2c2406f15912da34209"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "3793e2f-add-kotlin-parcelize"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-3793e2f-add-kotlin-parcelize.jar",
+          "url": "antibytes-dokka-configuration-3793e2f-add-kotlin-parcelize.jar",
+          "size": 7889,
+          "sha512": "6f893a62e1ebf17b6518cd694ea67967b30858a43cdb86eb2cfc5b2da4515c383d41fbb91bc92008675de3cbf0e4554855525a2650f3475d6c2f48ea9d097095",
+          "sha256": "9ef918160bc1af4c0cade71d70cfb30ee125ca9fb787b2c6306890099c2f4e6b",
+          "sha1": "91fad1bf02456b96f90bc38553bcab1c0ec0f5df",
+          "md5": "9f8d72dc21d1b2c2406f15912da34209"
+        }
+      ]
+    }
+  ]
+}

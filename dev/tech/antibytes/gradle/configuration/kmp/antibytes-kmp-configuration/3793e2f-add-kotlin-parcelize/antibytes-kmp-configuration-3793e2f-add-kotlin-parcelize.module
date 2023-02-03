@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.kmp",
+    "module": "antibytes-kmp-configuration",
+    "version": "3793e2f-add-kotlin-parcelize",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-3793e2f-add-kotlin-parcelize.jar",
+          "url": "antibytes-kmp-configuration-3793e2f-add-kotlin-parcelize.jar",
+          "size": 72745,
+          "sha512": "cd42fa7e071348a8163e29c8c1de667016715ff1375089953ca039c1fdb66093ca2471d57cade6f28ffbcd1088ed8636c523d1fb90b61fecb66b7e83097902ec",
+          "sha256": "d12033bffc27b796417dbcec1146472d4313e98b1f7a83173cb115fa275fb3bd",
+          "sha1": "8b235d48729f593988979b1050e9de0349c28891",
+          "md5": "f30612af0aee4c608bd912a19adc9b74"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "3793e2f-add-kotlin-parcelize"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-3793e2f-add-kotlin-parcelize.jar",
+          "url": "antibytes-kmp-configuration-3793e2f-add-kotlin-parcelize.jar",
+          "size": 72745,
+          "sha512": "cd42fa7e071348a8163e29c8c1de667016715ff1375089953ca039c1fdb66093ca2471d57cade6f28ffbcd1088ed8636c523d1fb90b61fecb66b7e83097902ec",
+          "sha256": "d12033bffc27b796417dbcec1146472d4313e98b1f7a83173cb115fa275fb3bd",
+          "sha1": "8b235d48729f593988979b1050e9de0349c28891",
+          "md5": "f30612af0aee4c608bd912a19adc9b74"
+        }
+      ]
+    }
+  ]
+}
