@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.coverage",
+    "module": "antibytes-coverage",
+    "version": "542fbac-add-kotlin-parcelize",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-coverage-542fbac-add-kotlin-parcelize.jar",
+          "url": "antibytes-coverage-542fbac-add-kotlin-parcelize.jar",
+          "size": 135221,
+          "sha512": "81a5a8c68b5c0fa75831b32bcc362f19b915ba9ccdb59b7bc999f564fee324f8f2b2fb9e5a4578baa2808e25d833cd7b67d5e2bc9fe5b95c8b271ab76a7d6276",
+          "sha256": "bc6c171975cfeab8769dcfc3d070e15c384452f8dd3da405347f2a3b2f71e13f",
+          "sha1": "feef4e9498722a0c6739f9905f5a4532e085c8c0",
+          "md5": "5096c6fe7be23a4f8cc24b89acb4c0ce"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "org.jacoco",
+          "module": "org.jacoco.core",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "542fbac-add-kotlin-parcelize"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-coverage-542fbac-add-kotlin-parcelize.jar",
+          "url": "antibytes-coverage-542fbac-add-kotlin-parcelize.jar",
+          "size": 135221,
+          "sha512": "81a5a8c68b5c0fa75831b32bcc362f19b915ba9ccdb59b7bc999f564fee324f8f2b2fb9e5a4578baa2808e25d833cd7b67d5e2bc9fe5b95c8b271ab76a7d6276",
+          "sha256": "bc6c171975cfeab8769dcfc3d070e15c384452f8dd3da405347f2a3b2f71e13f",
+          "sha1": "feef4e9498722a0c6739f9905f5a4532e085c8c0",
+          "md5": "5096c6fe7be23a4f8cc24b89acb4c0ce"
+        }
+      ]
+    }
+  ]
+}

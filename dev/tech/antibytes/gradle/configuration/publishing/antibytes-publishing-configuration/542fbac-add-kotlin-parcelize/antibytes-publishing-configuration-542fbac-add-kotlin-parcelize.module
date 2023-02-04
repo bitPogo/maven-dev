@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "542fbac-add-kotlin-parcelize",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-542fbac-add-kotlin-parcelize.jar",
+          "url": "antibytes-publishing-configuration-542fbac-add-kotlin-parcelize.jar",
+          "size": 4768,
+          "sha512": "055997109a90aa100a8984b1764be87df8fc3f1b966c80a71afc75b138fe5a61eae683ad11956cf18188332a03e3490108047daf3d55f994bc44d7b6d84d34b0",
+          "sha256": "9633fe90a78c02fc924e7bfb135a688f84be530595e41f3a15f62718e07159b5",
+          "sha1": "e7384e96317325103be23e42c86e83c1a89a7a54",
+          "md5": "554acf72b2aaa2c87f4fa46cab09ced1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "542fbac-add-kotlin-parcelize"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-542fbac-add-kotlin-parcelize.jar",
+          "url": "antibytes-publishing-configuration-542fbac-add-kotlin-parcelize.jar",
+          "size": 4768,
+          "sha512": "055997109a90aa100a8984b1764be87df8fc3f1b966c80a71afc75b138fe5a61eae683ad11956cf18188332a03e3490108047daf3d55f994bc44d7b6d84d34b0",
+          "sha256": "9633fe90a78c02fc924e7bfb135a688f84be530595e41f3a15f62718e07159b5",
+          "sha1": "e7384e96317325103be23e42c86e83c1a89a7a54",
+          "md5": "554acf72b2aaa2c87f4fa46cab09ced1"
+        }
+      ]
+    }
+  ]
+}
