@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.android.library",
+    "module": "antibytes-android-library-configuration",
+    "version": "7c5b6aa-add-splash-screen",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-android-library-configuration-7c5b6aa-add-splash-screen.jar",
+          "url": "antibytes-android-library-configuration-7c5b6aa-add-splash-screen.jar",
+          "size": 56516,
+          "sha512": "e05d6fa6d3f05f037d3ae920ed10cc91fa9906c02b0ba112f4997806752f4e1d0da836be132d1a377be2ba1e9db9e3e677ab5cfc2ef2aca0bdfee0485126936f",
+          "sha256": "2c930fd0ed72448b25f149a1e8820d33dccb535474eda34bc0452b554dcad9ec",
+          "sha1": "d5a0f1bd9bbf778ff684b1d38949ee86780e69e6",
+          "md5": "0186fabee47293431102f4797f8872d4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "7c5b6aa-add-splash-screen"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-android-library-configuration-7c5b6aa-add-splash-screen.jar",
+          "url": "antibytes-android-library-configuration-7c5b6aa-add-splash-screen.jar",
+          "size": 56516,
+          "sha512": "e05d6fa6d3f05f037d3ae920ed10cc91fa9906c02b0ba112f4997806752f4e1d0da836be132d1a377be2ba1e9db9e3e677ab5cfc2ef2aca0bdfee0485126936f",
+          "sha256": "2c930fd0ed72448b25f149a1e8820d33dccb535474eda34bc0452b554dcad9ec",
+          "sha1": "d5a0f1bd9bbf778ff684b1d38949ee86780e69e6",
+          "md5": "0186fabee47293431102f4797f8872d4"
+        }
+      ]
+    }
+  ]
+}

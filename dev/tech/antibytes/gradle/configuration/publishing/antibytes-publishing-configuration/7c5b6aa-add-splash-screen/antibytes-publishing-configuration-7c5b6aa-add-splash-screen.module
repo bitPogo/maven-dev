@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "7c5b6aa-add-splash-screen",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-7c5b6aa-add-splash-screen.jar",
+          "url": "antibytes-publishing-configuration-7c5b6aa-add-splash-screen.jar",
+          "size": 4768,
+          "sha512": "b282cf658af9e8828b75b14d6e4024a211de708e2cac59f4f274cdbd3c8cdad295cd6d869c0f6bed93c4e99aa21ddcb3dffa0c482569539d70198343227c3038",
+          "sha256": "7a66935572387332d019403ce5f3e7036e8c663a56b01360ab5bd71dda942c3f",
+          "sha1": "04249eab86b4c6c504e1d939680d5f1dfc474f4e",
+          "md5": "5344eaf9ab6e00b232a1ba05a859908b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "7c5b6aa-add-splash-screen"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-7c5b6aa-add-splash-screen.jar",
+          "url": "antibytes-publishing-configuration-7c5b6aa-add-splash-screen.jar",
+          "size": 4768,
+          "sha512": "b282cf658af9e8828b75b14d6e4024a211de708e2cac59f4f274cdbd3c8cdad295cd6d869c0f6bed93c4e99aa21ddcb3dffa0c482569539d70198343227c3038",
+          "sha256": "7a66935572387332d019403ce5f3e7036e8c663a56b01360ab5bd71dda942c3f",
+          "sha1": "04249eab86b4c6c504e1d939680d5f1dfc474f4e",
+          "md5": "5344eaf9ab6e00b232a1ba05a859908b"
+        }
+      ]
+    }
+  ]
+}

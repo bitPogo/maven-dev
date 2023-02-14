@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "7c5b6aa-add-splash-screen",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-7c5b6aa-add-splash-screen.jar",
+          "url": "antibytes-dependency-bridge-7c5b6aa-add-splash-screen.jar",
+          "size": 38517,
+          "sha512": "e0b0124e116f403357cbc35fced208678cd3780b0edb12e5f6ac93b6879d01a4f499d7e937eafdd2f2551ea637d14ada1728b6d60297d52b21d17dd2af190822",
+          "sha256": "ad45058c037c711ded095af7b2460391b0af3cb58c2a12e89c9716040e200b95",
+          "sha1": "3906468ba0775a188279f58c95a5cb610dc257cb",
+          "md5": "600c9dde5a2207e799beee809d3ce888"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-7c5b6aa-add-splash-screen.jar",
+          "url": "antibytes-dependency-bridge-7c5b6aa-add-splash-screen.jar",
+          "size": 38517,
+          "sha512": "e0b0124e116f403357cbc35fced208678cd3780b0edb12e5f6ac93b6879d01a4f499d7e937eafdd2f2551ea637d14ada1728b6d60297d52b21d17dd2af190822",
+          "sha256": "ad45058c037c711ded095af7b2460391b0af3cb58c2a12e89c9716040e200b95",
+          "sha1": "3906468ba0775a188279f58c95a5cb610dc257cb",
+          "md5": "600c9dde5a2207e799beee809d3ce888"
+        }
+      ]
+    }
+  ]
+}

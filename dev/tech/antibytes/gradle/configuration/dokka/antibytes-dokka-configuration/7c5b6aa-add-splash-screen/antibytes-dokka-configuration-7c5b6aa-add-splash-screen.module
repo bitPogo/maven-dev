@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.dokka",
+    "module": "antibytes-dokka-configuration",
+    "version": "7c5b6aa-add-splash-screen",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-7c5b6aa-add-splash-screen.jar",
+          "url": "antibytes-dokka-configuration-7c5b6aa-add-splash-screen.jar",
+          "size": 7889,
+          "sha512": "fdb485940bfb2cf6399e138286c6654bc1e9a1f6521d2689f94ae74d2167094a445e200479ba80b87aac5c98b6c09aca5fa97ff31582ffb106ed88c902ef81c1",
+          "sha256": "ea4265999ee1ebee055f6f4e3e0f31258a6764ca691da06f08300dbbc815aae2",
+          "sha1": "afd3cccfc065ffcc1c629c1e5a23e8ba6312c1b0",
+          "md5": "e996e4e3d6776552ab8fd846f899c112"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "7c5b6aa-add-splash-screen"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-7c5b6aa-add-splash-screen.jar",
+          "url": "antibytes-dokka-configuration-7c5b6aa-add-splash-screen.jar",
+          "size": 7889,
+          "sha512": "fdb485940bfb2cf6399e138286c6654bc1e9a1f6521d2689f94ae74d2167094a445e200479ba80b87aac5c98b6c09aca5fa97ff31582ffb106ed88c902ef81c1",
+          "sha256": "ea4265999ee1ebee055f6f4e3e0f31258a6764ca691da06f08300dbbc815aae2",
+          "sha1": "afd3cccfc065ffcc1c629c1e5a23e8ba6312c1b0",
+          "md5": "e996e4e3d6776552ab8fd846f899c112"
+        }
+      ]
+    }
+  ]
+}

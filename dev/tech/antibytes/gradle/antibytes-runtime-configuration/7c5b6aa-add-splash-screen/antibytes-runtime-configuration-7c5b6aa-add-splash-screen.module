@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-runtime-configuration",
+    "version": "7c5b6aa-add-splash-screen",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-7c5b6aa-add-splash-screen.jar",
+          "url": "antibytes-runtime-configuration-7c5b6aa-add-splash-screen.jar",
+          "size": 9076,
+          "sha512": "91ce12aff75bffdc93579064894920d1b8dd5263d67788d99a3ac61ad208a1381a66a21ca0b307347818148bbab421725c11d384bdec896a5f974803c5ca86a0",
+          "sha256": "75cb41010a27a0c2879fb236ead17470b18b853a52d1cb92fd2f0a0289a8aaa8",
+          "sha1": "9219198d90f0a5c2dd0c9c71673e2ade69b1eb8d",
+          "md5": "35aa863571dba5b074028ac79b034098"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "7c5b6aa-add-splash-screen"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-7c5b6aa-add-splash-screen.jar",
+          "url": "antibytes-runtime-configuration-7c5b6aa-add-splash-screen.jar",
+          "size": 9076,
+          "sha512": "91ce12aff75bffdc93579064894920d1b8dd5263d67788d99a3ac61ad208a1381a66a21ca0b307347818148bbab421725c11d384bdec896a5f974803c5ca86a0",
+          "sha256": "75cb41010a27a0c2879fb236ead17470b18b853a52d1cb92fd2f0a0289a8aaa8",
+          "sha1": "9219198d90f0a5c2dd0c9c71673e2ade69b1eb8d",
+          "md5": "35aa863571dba5b074028ac79b034098"
+        }
+      ]
+    }
+  ]
+}

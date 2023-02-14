@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.helper",
+    "module": "antibytes-dependency-helper",
+    "version": "7c5b6aa-add-splash-screen",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-helper-7c5b6aa-add-splash-screen.jar",
+          "url": "antibytes-dependency-helper-7c5b6aa-add-splash-screen.jar",
+          "size": 70760,
+          "sha512": "51223e2f4660192eda78be185b2bb77c77e20f5feba01ad3ccfa8a5d5d97c6e21cb62affd80cc770289d030103ea7e4613c6236ad52bb9f85690476803064f44",
+          "sha256": "e60435acd27f66f720a4eaf9766aaea154103d1e84991e34bd02455cd06fc7ec",
+          "sha1": "6d529ee9d461038fefad620bd97d28466b2736d6",
+          "md5": "30eda3f315f880e21c9f5a2ecef15e7f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "com.github.ben-manes",
+          "module": "gradle-versions-plugin",
+          "version": {
+            "requires": "0.42.0"
+          }
+        },
+        {
+          "group": "org.owasp",
+          "module": "dependency-check-gradle",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "com.squareup.tools.build",
+          "module": "maven-archeologist",
+          "version": {
+            "requires": "0.0.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "7c5b6aa-add-splash-screen"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-helper-7c5b6aa-add-splash-screen.jar",
+          "url": "antibytes-dependency-helper-7c5b6aa-add-splash-screen.jar",
+          "size": 70760,
+          "sha512": "51223e2f4660192eda78be185b2bb77c77e20f5feba01ad3ccfa8a5d5d97c6e21cb62affd80cc770289d030103ea7e4613c6236ad52bb9f85690476803064f44",
+          "sha256": "e60435acd27f66f720a4eaf9766aaea154103d1e84991e34bd02455cd06fc7ec",
+          "sha1": "6d529ee9d461038fefad620bd97d28466b2736d6",
+          "md5": "30eda3f315f880e21c9f5a2ecef15e7f"
+        }
+      ]
+    }
+  ]
+}
