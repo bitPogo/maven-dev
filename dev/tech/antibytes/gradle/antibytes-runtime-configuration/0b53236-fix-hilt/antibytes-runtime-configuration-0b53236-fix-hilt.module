@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-runtime-configuration",
+    "version": "0b53236-fix-hilt",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-0b53236-fix-hilt.jar",
+          "url": "antibytes-runtime-configuration-0b53236-fix-hilt.jar",
+          "size": 9076,
+          "sha512": "c28be8706ccebe5b880e685f3042830c9fce614217bdede8786ab2c6443965eff13c68289b54e76cfc7533e285941e9ca3bd2d59815776ccb0da14a2d752d7f0",
+          "sha256": "4ea9cfc90ce8109e1b63aa8dda343434c632b171b4964bdbf3ab2ecb3ca38881",
+          "sha1": "58e2463549806e09244834a0e041f4340b8f049e",
+          "md5": "cde4bd33a35fe87ed341ba59bde30a6d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "0b53236-fix-hilt"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-0b53236-fix-hilt.jar",
+          "url": "antibytes-runtime-configuration-0b53236-fix-hilt.jar",
+          "size": 9076,
+          "sha512": "c28be8706ccebe5b880e685f3042830c9fce614217bdede8786ab2c6443965eff13c68289b54e76cfc7533e285941e9ca3bd2d59815776ccb0da14a2d752d7f0",
+          "sha256": "4ea9cfc90ce8109e1b63aa8dda343434c632b171b4964bdbf3ab2ecb3ca38881",
+          "sha1": "58e2463549806e09244834a0e041f4340b8f049e",
+          "md5": "cde4bd33a35fe87ed341ba59bde30a6d"
+        }
+      ]
+    }
+  ]
+}

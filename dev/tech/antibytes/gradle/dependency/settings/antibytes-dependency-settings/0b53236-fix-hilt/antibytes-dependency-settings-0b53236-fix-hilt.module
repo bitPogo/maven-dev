@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.settings",
+    "module": "antibytes-dependency-settings",
+    "version": "0b53236-fix-hilt",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "0b53236-fix-hilt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-0b53236-fix-hilt.jar",
+          "url": "antibytes-dependency-settings-0b53236-fix-hilt.jar",
+          "size": 15145,
+          "sha512": "005352031a501747b5f2dc64a57e4580ac29d3b96c40ebe05ee1722da05d8026d3da728f4981126fc9934ef88a14c5d4d8c4158d7ce8f5d4d00ff41785961f44",
+          "sha256": "5c6fbd1be47b155202a4aca948911822ac5565a2658a709f0d6d2b747890482b",
+          "sha1": "205a4dc5f0f1618afee645a8b02d1ff420a875a4",
+          "md5": "2ca33941fad44d783870c30816daabf1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "0b53236-fix-hilt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-0b53236-fix-hilt.jar",
+          "url": "antibytes-dependency-settings-0b53236-fix-hilt.jar",
+          "size": 15145,
+          "sha512": "005352031a501747b5f2dc64a57e4580ac29d3b96c40ebe05ee1722da05d8026d3da728f4981126fc9934ef88a14c5d4d8c4158d7ce8f5d4d00ff41785961f44",
+          "sha256": "5c6fbd1be47b155202a4aca948911822ac5565a2658a709f0d6d2b747890482b",
+          "sha1": "205a4dc5f0f1618afee645a8b02d1ff420a875a4",
+          "md5": "2ca33941fad44d783870c30816daabf1"
+        }
+      ]
+    }
+  ]
+}

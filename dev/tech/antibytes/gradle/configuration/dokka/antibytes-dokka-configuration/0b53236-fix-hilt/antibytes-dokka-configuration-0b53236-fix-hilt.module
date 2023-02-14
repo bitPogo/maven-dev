@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.dokka",
+    "module": "antibytes-dokka-configuration",
+    "version": "0b53236-fix-hilt",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-0b53236-fix-hilt.jar",
+          "url": "antibytes-dokka-configuration-0b53236-fix-hilt.jar",
+          "size": 7889,
+          "sha512": "a170c666e3307f77c0c3d09fc8a662f254f999e4ecfbaa19767c67bcc8376db8bf8ad77214588a6d7da1782580a64250493e89b1dce3fe218f89121fa80ff339",
+          "sha256": "496445f4d5c575e1e52c30d24412aa2768afe99a7a94ef3d85d62ba8150966d2",
+          "sha1": "96ad0e895cca0cb8b3160a1394e1b6ad50b8adb9",
+          "md5": "c30ed219b469f6dea9d83379109cd46a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "0b53236-fix-hilt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-0b53236-fix-hilt.jar",
+          "url": "antibytes-dokka-configuration-0b53236-fix-hilt.jar",
+          "size": 7889,
+          "sha512": "a170c666e3307f77c0c3d09fc8a662f254f999e4ecfbaa19767c67bcc8376db8bf8ad77214588a6d7da1782580a64250493e89b1dce3fe218f89121fa80ff339",
+          "sha256": "496445f4d5c575e1e52c30d24412aa2768afe99a7a94ef3d85d62ba8150966d2",
+          "sha1": "96ad0e895cca0cb8b3160a1394e1b6ad50b8adb9",
+          "md5": "c30ed219b469f6dea9d83379109cd46a"
+        }
+      ]
+    }
+  ]
+}

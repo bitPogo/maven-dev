@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.coverage",
+    "module": "antibytes-coverage",
+    "version": "0b53236-fix-hilt",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-coverage-0b53236-fix-hilt.jar",
+          "url": "antibytes-coverage-0b53236-fix-hilt.jar",
+          "size": 135221,
+          "sha512": "150ed89123ffedbc696ddfa19b7001b6d6af6c9522bb33d329d111be6c65c2a761b7b402b855222aeeb7c0f024640f2eb47b019ff890bc5d948587140e981c17",
+          "sha256": "69dd1d69abb4fedb52efe641840ae13856cfaa5f90dbcb6b86b9b2c76f64358b",
+          "sha1": "c844dc9282a42d41fd01bda7a2027dec5a657788",
+          "md5": "f65a657f0e568b8e0c87a206fc77ac16"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "org.jacoco",
+          "module": "org.jacoco.core",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "0b53236-fix-hilt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-coverage-0b53236-fix-hilt.jar",
+          "url": "antibytes-coverage-0b53236-fix-hilt.jar",
+          "size": 135221,
+          "sha512": "150ed89123ffedbc696ddfa19b7001b6d6af6c9522bb33d329d111be6c65c2a761b7b402b855222aeeb7c0f024640f2eb47b019ff890bc5d948587140e981c17",
+          "sha256": "69dd1d69abb4fedb52efe641840ae13856cfaa5f90dbcb6b86b9b2c76f64358b",
+          "sha1": "c844dc9282a42d41fd01bda7a2027dec5a657788",
+          "md5": "f65a657f0e568b8e0c87a206fc77ac16"
+        }
+      ]
+    }
+  ]
+}

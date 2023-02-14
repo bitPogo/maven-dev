@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.helper",
+    "module": "antibytes-dependency-helper",
+    "version": "0b53236-fix-hilt",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-helper-0b53236-fix-hilt.jar",
+          "url": "antibytes-dependency-helper-0b53236-fix-hilt.jar",
+          "size": 70760,
+          "sha512": "cc38ba17d1a5d94390914c3462bc309a007d1e4ba4bfd75ac38d7f69b13e22d0dd63ca5c7e41c51776abd9fe200cc987f33a42380d81c4f5e63e991154faa00c",
+          "sha256": "dd36b7c42c7629c619bb6faca0f3cc9b81c5525cf948fb585af1e4874faac8c2",
+          "sha1": "2473ffd85f4b6b2691bef6820deef5e88c354cf0",
+          "md5": "4d28d832d877fffcc1d4ff17503a11e3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "com.github.ben-manes",
+          "module": "gradle-versions-plugin",
+          "version": {
+            "requires": "0.42.0"
+          }
+        },
+        {
+          "group": "org.owasp",
+          "module": "dependency-check-gradle",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "com.squareup.tools.build",
+          "module": "maven-archeologist",
+          "version": {
+            "requires": "0.0.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "0b53236-fix-hilt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-helper-0b53236-fix-hilt.jar",
+          "url": "antibytes-dependency-helper-0b53236-fix-hilt.jar",
+          "size": 70760,
+          "sha512": "cc38ba17d1a5d94390914c3462bc309a007d1e4ba4bfd75ac38d7f69b13e22d0dd63ca5c7e41c51776abd9fe200cc987f33a42380d81c4f5e63e991154faa00c",
+          "sha256": "dd36b7c42c7629c619bb6faca0f3cc9b81c5525cf948fb585af1e4874faac8c2",
+          "sha1": "2473ffd85f4b6b2691bef6820deef5e88c354cf0",
+          "md5": "4d28d832d877fffcc1d4ff17503a11e3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.android.application",
+    "module": "antibytes-android-application-configuration",
+    "version": "0b53236-fix-hilt",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-android-application-configuration-0b53236-fix-hilt.jar",
+          "url": "antibytes-android-application-configuration-0b53236-fix-hilt.jar",
+          "size": 56572,
+          "sha512": "a0621d4149e8440aae6c9382838575abd8fc71f429e182e851de223c58d105d0e51b8e5442e15b805b90371320b75c6f556458d7a185402437ea07eb235305fe",
+          "sha256": "9965b243d0054659f7d9a4ac1042ba356585a78025cc64b5c13b887553ddbf2b",
+          "sha1": "9df0a6689f58585e369ed7ef9d9ba99708797609",
+          "md5": "d6f4a3694fd8135679bfb9dbb9bcfb5d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "0b53236-fix-hilt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-android-application-configuration-0b53236-fix-hilt.jar",
+          "url": "antibytes-android-application-configuration-0b53236-fix-hilt.jar",
+          "size": 56572,
+          "sha512": "a0621d4149e8440aae6c9382838575abd8fc71f429e182e851de223c58d105d0e51b8e5442e15b805b90371320b75c6f556458d7a185402437ea07eb235305fe",
+          "sha256": "9965b243d0054659f7d9a4ac1042ba356585a78025cc64b5c13b887553ddbf2b",
+          "sha1": "9df0a6689f58585e369ed7ef9d9ba99708797609",
+          "md5": "d6f4a3694fd8135679bfb9dbb9bcfb5d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "0b53236-fix-hilt",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-0b53236-fix-hilt.jar",
+          "url": "antibytes-dependency-bridge-0b53236-fix-hilt.jar",
+          "size": 38517,
+          "sha512": "3d7b656e31343b0b4fdf6d52f6e9ff83188599c44268e40a34106e209541ca6f0ab0ad7b060badc6912777f364801f6c1c9e1cc835f928d8a1bc888ed5f2359b",
+          "sha256": "fc28a188186f75156ece289385649a4655f68c8d5f92dd57e80e390691411a24",
+          "sha1": "52128c2fd04391b6bc891dad6993ec467f0a696e",
+          "md5": "063f32d7ac80a2147cf966cd9b45b0c6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-0b53236-fix-hilt.jar",
+          "url": "antibytes-dependency-bridge-0b53236-fix-hilt.jar",
+          "size": 38517,
+          "sha512": "3d7b656e31343b0b4fdf6d52f6e9ff83188599c44268e40a34106e209541ca6f0ab0ad7b060badc6912777f364801f6c1c9e1cc835f928d8a1bc888ed5f2359b",
+          "sha256": "fc28a188186f75156ece289385649a4655f68c8d5f92dd57e80e390691411a24",
+          "sha1": "52128c2fd04391b6bc891dad6993ec467f0a696e",
+          "md5": "063f32d7ac80a2147cf966cd9b45b0c6"
+        }
+      ]
+    }
+  ]
+}
