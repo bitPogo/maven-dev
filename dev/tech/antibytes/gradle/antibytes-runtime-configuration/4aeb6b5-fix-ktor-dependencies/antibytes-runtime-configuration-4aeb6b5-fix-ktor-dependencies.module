@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-runtime-configuration",
+    "version": "4aeb6b5-fix-ktor-dependencies",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-4aeb6b5-fix-ktor-dependencies.jar",
+          "url": "antibytes-runtime-configuration-4aeb6b5-fix-ktor-dependencies.jar",
+          "size": 9076,
+          "sha512": "ed856bae4d9281aa1ea602cf73664c27a3d037596cce5bd41c25d6fdb1cd35dd2e348ef8e8a75c60f92358efff9313461228c0fcbaa79df42ed56ef871441148",
+          "sha256": "ddb4eddcd3830a154ba2ecc07d8926abc7e09505330aa5a0418775d7c4d819a1",
+          "sha1": "b4b0649389454024d6fcd2f033bb712e3bcbdda3",
+          "md5": "ff066e692ac956bfeafc84a80e268e6d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "4aeb6b5-fix-ktor-dependencies"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-4aeb6b5-fix-ktor-dependencies.jar",
+          "url": "antibytes-runtime-configuration-4aeb6b5-fix-ktor-dependencies.jar",
+          "size": 9076,
+          "sha512": "ed856bae4d9281aa1ea602cf73664c27a3d037596cce5bd41c25d6fdb1cd35dd2e348ef8e8a75c60f92358efff9313461228c0fcbaa79df42ed56ef871441148",
+          "sha256": "ddb4eddcd3830a154ba2ecc07d8926abc7e09505330aa5a0418775d7c4d819a1",
+          "sha1": "b4b0649389454024d6fcd2f033bb712e3bcbdda3",
+          "md5": "ff066e692ac956bfeafc84a80e268e6d"
+        }
+      ]
+    }
+  ]
+}

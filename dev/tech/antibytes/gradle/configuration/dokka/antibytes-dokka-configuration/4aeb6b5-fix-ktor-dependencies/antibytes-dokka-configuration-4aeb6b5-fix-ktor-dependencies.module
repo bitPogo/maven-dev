@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.dokka",
+    "module": "antibytes-dokka-configuration",
+    "version": "4aeb6b5-fix-ktor-dependencies",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-4aeb6b5-fix-ktor-dependencies.jar",
+          "url": "antibytes-dokka-configuration-4aeb6b5-fix-ktor-dependencies.jar",
+          "size": 7889,
+          "sha512": "5b6748fcdc3fa2d57a6739e51462151d6fa1fdbbe68be165d6f3c09b5d495854d45b084efd1c3783b744037d3c9ad9dc6b43df5292b6631dedc8119763e05852",
+          "sha256": "f05867f76b1d2b1b3dd7072eed283f6c193d1e05e40934c1fe0dd2a4df3b7017",
+          "sha1": "79ee951b214266c28fd0877b052eee4764865a5f",
+          "md5": "f04064e9db426c7753caae987e45d1a5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "4aeb6b5-fix-ktor-dependencies"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-4aeb6b5-fix-ktor-dependencies.jar",
+          "url": "antibytes-dokka-configuration-4aeb6b5-fix-ktor-dependencies.jar",
+          "size": 7889,
+          "sha512": "5b6748fcdc3fa2d57a6739e51462151d6fa1fdbbe68be165d6f3c09b5d495854d45b084efd1c3783b744037d3c9ad9dc6b43df5292b6631dedc8119763e05852",
+          "sha256": "f05867f76b1d2b1b3dd7072eed283f6c193d1e05e40934c1fe0dd2a4df3b7017",
+          "sha1": "79ee951b214266c28fd0877b052eee4764865a5f",
+          "md5": "f04064e9db426c7753caae987e45d1a5"
+        }
+      ]
+    }
+  ]
+}

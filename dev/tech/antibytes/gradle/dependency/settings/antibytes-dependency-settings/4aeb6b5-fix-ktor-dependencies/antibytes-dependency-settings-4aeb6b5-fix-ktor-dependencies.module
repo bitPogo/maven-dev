@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.settings",
+    "module": "antibytes-dependency-settings",
+    "version": "4aeb6b5-fix-ktor-dependencies",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "4aeb6b5-fix-ktor-dependencies"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-4aeb6b5-fix-ktor-dependencies.jar",
+          "url": "antibytes-dependency-settings-4aeb6b5-fix-ktor-dependencies.jar",
+          "size": 15153,
+          "sha512": "0a311c6b494716fa1da5b0157f8db0ae3c663e98f875e6fdfdaca874698bb221881731627583335157583609db0addec5e96766b09b45d2cb1e5ca0c2f988e91",
+          "sha256": "efc7f9b621986bee28f33053b20e7525ac252a66186049947c94f5a4f6283304",
+          "sha1": "72fc9b6e43be0d0bdfcbe94e8f529c9a8d6417ac",
+          "md5": "eebd99f1b90c24ad99abae48ecabc043"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "4aeb6b5-fix-ktor-dependencies"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-4aeb6b5-fix-ktor-dependencies.jar",
+          "url": "antibytes-dependency-settings-4aeb6b5-fix-ktor-dependencies.jar",
+          "size": 15153,
+          "sha512": "0a311c6b494716fa1da5b0157f8db0ae3c663e98f875e6fdfdaca874698bb221881731627583335157583609db0addec5e96766b09b45d2cb1e5ca0c2f988e91",
+          "sha256": "efc7f9b621986bee28f33053b20e7525ac252a66186049947c94f5a4f6283304",
+          "sha1": "72fc9b6e43be0d0bdfcbe94e8f529c9a8d6417ac",
+          "md5": "eebd99f1b90c24ad99abae48ecabc043"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.publishing",
+    "module": "antibytes-publishing",
+    "version": "4aeb6b5-fix-ktor-dependencies",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.versioning",
+          "module": "antibytes-versioning",
+          "version": {
+            "requires": "4aeb6b5-fix-ktor-dependencies"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-4aeb6b5-fix-ktor-dependencies.jar",
+          "url": "antibytes-publishing-4aeb6b5-fix-ktor-dependencies.jar",
+          "size": 136094,
+          "sha512": "7fa395d3fa6c84875f64da8cab8b9b07f589c47be750b6bdb7fa02d05f048452dd1ee89844a3f5d572eaf942fee49c4864fadcf3e18dfa30cbe265da6d717e6b",
+          "sha256": "352282db4904984ba87d92218740427e2254963912035cee609fb17121c1d5e7",
+          "sha1": "4576665b152f091e6b210919e602a9862c4d0e69",
+          "md5": "65b9dfbc45ab87a03a2cf5a3bf62029e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "6.3.0.202209071007-r"
+          }
+        },
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "4aeb6b5-fix-ktor-dependencies"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle.versioning",
+          "module": "antibytes-versioning",
+          "version": {
+            "requires": "4aeb6b5-fix-ktor-dependencies"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-4aeb6b5-fix-ktor-dependencies.jar",
+          "url": "antibytes-publishing-4aeb6b5-fix-ktor-dependencies.jar",
+          "size": 136094,
+          "sha512": "7fa395d3fa6c84875f64da8cab8b9b07f589c47be750b6bdb7fa02d05f048452dd1ee89844a3f5d572eaf942fee49c4864fadcf3e18dfa30cbe265da6d717e6b",
+          "sha256": "352282db4904984ba87d92218740427e2254963912035cee609fb17121c1d5e7",
+          "sha1": "4576665b152f091e6b210919e602a9862c4d0e69",
+          "md5": "65b9dfbc45ab87a03a2cf5a3bf62029e"
+        }
+      ]
+    }
+  ]
+}

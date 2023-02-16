@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "4aeb6b5-fix-ktor-dependencies",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-4aeb6b5-fix-ktor-dependencies.jar",
+          "url": "antibytes-publishing-configuration-4aeb6b5-fix-ktor-dependencies.jar",
+          "size": 4768,
+          "sha512": "09edd37f3a20c84db546156ef6a7239be273f932da43da090f57522027d0aa1ddf11fdbe2d8238dd0013fe5bbdc63a6a0ddc10caec87bb5ef800969af41cdd2b",
+          "sha256": "777ac9ff8fcd0c6b538c689940548190f2c4d8c851a299c429562df8946ad845",
+          "sha1": "91231456ec9920ec9dbe03b3023d97ad0a345a26",
+          "md5": "6e32d6b15a6471c3afc7690931adcf12"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "4aeb6b5-fix-ktor-dependencies"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-4aeb6b5-fix-ktor-dependencies.jar",
+          "url": "antibytes-publishing-configuration-4aeb6b5-fix-ktor-dependencies.jar",
+          "size": 4768,
+          "sha512": "09edd37f3a20c84db546156ef6a7239be273f932da43da090f57522027d0aa1ddf11fdbe2d8238dd0013fe5bbdc63a6a0ddc10caec87bb5ef800969af41cdd2b",
+          "sha256": "777ac9ff8fcd0c6b538c689940548190f2c4d8c851a299c429562df8946ad845",
+          "sha1": "91231456ec9920ec9dbe03b3023d97ad0a345a26",
+          "md5": "6e32d6b15a6471c3afc7690931adcf12"
+        }
+      ]
+    }
+  ]
+}
