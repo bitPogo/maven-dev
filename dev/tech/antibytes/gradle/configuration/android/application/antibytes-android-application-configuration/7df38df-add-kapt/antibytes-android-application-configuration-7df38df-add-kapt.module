@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.android.application",
+    "module": "antibytes-android-application-configuration",
+    "version": "7df38df-add-kapt",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-android-application-configuration-7df38df-add-kapt.jar",
+          "url": "antibytes-android-application-configuration-7df38df-add-kapt.jar",
+          "size": 56572,
+          "sha512": "180b624c7f65e0db0c0bdd36c175283dbc39f9daebb215f315337902778034778e3a924fcd72adf0616cd14dbff5aab657c9b149d225294a47d2a3f01b021b8e",
+          "sha256": "bc888ade01de3b80d55d425f3da07298fd0ddd8935d45cdeb4abcbea3eb1ce7b",
+          "sha1": "03d4e9117b967ec84a6c1772285b0b0b289b88ba",
+          "md5": "8347a4a2adb0b7fed54a1372a6b56a16"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "7df38df-add-kapt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-android-application-configuration-7df38df-add-kapt.jar",
+          "url": "antibytes-android-application-configuration-7df38df-add-kapt.jar",
+          "size": 56572,
+          "sha512": "180b624c7f65e0db0c0bdd36c175283dbc39f9daebb215f315337902778034778e3a924fcd72adf0616cd14dbff5aab657c9b149d225294a47d2a3f01b021b8e",
+          "sha256": "bc888ade01de3b80d55d425f3da07298fd0ddd8935d45cdeb4abcbea3eb1ce7b",
+          "sha1": "03d4e9117b967ec84a6c1772285b0b0b289b88ba",
+          "md5": "8347a4a2adb0b7fed54a1372a6b56a16"
+        }
+      ]
+    }
+  ]
+}

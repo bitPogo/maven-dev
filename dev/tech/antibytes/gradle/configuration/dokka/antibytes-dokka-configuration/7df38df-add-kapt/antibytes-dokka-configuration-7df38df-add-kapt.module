@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.dokka",
+    "module": "antibytes-dokka-configuration",
+    "version": "7df38df-add-kapt",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-7df38df-add-kapt.jar",
+          "url": "antibytes-dokka-configuration-7df38df-add-kapt.jar",
+          "size": 7889,
+          "sha512": "271d790b7e28a65cac059adc41e2fbdf4ebdcd90f8559ac5bbf943c835ef4b7cca56f193d74f3853b12f8871cd400beba32e002db174434bbda8896a50fe940a",
+          "sha256": "5d089ab25485a72b4b1d173c8df6535ff10c475992435c24bd2027f335afd7ec",
+          "sha1": "dd5c48c5e64e09f74ae2dba2c5c06eff090a4523",
+          "md5": "e3899fe8c49158b174ffaca2c9a28edb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "7df38df-add-kapt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-7df38df-add-kapt.jar",
+          "url": "antibytes-dokka-configuration-7df38df-add-kapt.jar",
+          "size": 7889,
+          "sha512": "271d790b7e28a65cac059adc41e2fbdf4ebdcd90f8559ac5bbf943c835ef4b7cca56f193d74f3853b12f8871cd400beba32e002db174434bbda8896a50fe940a",
+          "sha256": "5d089ab25485a72b4b1d173c8df6535ff10c475992435c24bd2027f335afd7ec",
+          "sha1": "dd5c48c5e64e09f74ae2dba2c5c06eff090a4523",
+          "md5": "e3899fe8c49158b174ffaca2c9a28edb"
+        }
+      ]
+    }
+  ]
+}

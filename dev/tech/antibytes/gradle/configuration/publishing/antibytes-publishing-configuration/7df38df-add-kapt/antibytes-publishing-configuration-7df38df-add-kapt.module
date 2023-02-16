@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "7df38df-add-kapt",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-7df38df-add-kapt.jar",
+          "url": "antibytes-publishing-configuration-7df38df-add-kapt.jar",
+          "size": 4768,
+          "sha512": "fb3159ce9335fac045d3e027496407dd438d6b005324e11b370c86337e9a957724f3f7d59eaf7f3fa53b777c46c30cb54868c582924422362315082a09094f25",
+          "sha256": "bd6de35af4638a27a6313acd3c493865d65e42238161fdbe2cf15313a9285899",
+          "sha1": "d06a345193cf9dd4a09c4acb9fa94ebf4e99a13a",
+          "md5": "eb0473c966da93dc1471b55b97221f8c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "7df38df-add-kapt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-7df38df-add-kapt.jar",
+          "url": "antibytes-publishing-configuration-7df38df-add-kapt.jar",
+          "size": 4768,
+          "sha512": "fb3159ce9335fac045d3e027496407dd438d6b005324e11b370c86337e9a957724f3f7d59eaf7f3fa53b777c46c30cb54868c582924422362315082a09094f25",
+          "sha256": "bd6de35af4638a27a6313acd3c493865d65e42238161fdbe2cf15313a9285899",
+          "sha1": "d06a345193cf9dd4a09c4acb9fa94ebf4e99a13a",
+          "md5": "eb0473c966da93dc1471b55b97221f8c"
+        }
+      ]
+    }
+  ]
+}

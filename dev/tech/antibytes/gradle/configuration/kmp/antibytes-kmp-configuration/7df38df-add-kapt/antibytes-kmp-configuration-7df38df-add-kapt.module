@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.kmp",
+    "module": "antibytes-kmp-configuration",
+    "version": "7df38df-add-kapt",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-7df38df-add-kapt.jar",
+          "url": "antibytes-kmp-configuration-7df38df-add-kapt.jar",
+          "size": 72745,
+          "sha512": "1f82ec23ec8c1f227b0245af97b6424fee77eaa12e674e29131a8995aadfb2b4649c6c68fdd6a06a5d1eafd6e12c629a80462b49a86e3521fce726bd2067bed9",
+          "sha256": "d5896887cc301c762167e3ebb3a4dc94949b309cc342d9cb5f560e2aef76f483",
+          "sha1": "c6fb021976a0d3347bd1125ab7d5a39f34e6a872",
+          "md5": "c2b83a39bb92fd422ef747bcb14b5f03"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "7df38df-add-kapt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-7df38df-add-kapt.jar",
+          "url": "antibytes-kmp-configuration-7df38df-add-kapt.jar",
+          "size": 72745,
+          "sha512": "1f82ec23ec8c1f227b0245af97b6424fee77eaa12e674e29131a8995aadfb2b4649c6c68fdd6a06a5d1eafd6e12c629a80462b49a86e3521fce726bd2067bed9",
+          "sha256": "d5896887cc301c762167e3ebb3a4dc94949b309cc342d9cb5f560e2aef76f483",
+          "sha1": "c6fb021976a0d3347bd1125ab7d5a39f34e6a872",
+          "md5": "c2b83a39bb92fd422ef747bcb14b5f03"
+        }
+      ]
+    }
+  ]
+}

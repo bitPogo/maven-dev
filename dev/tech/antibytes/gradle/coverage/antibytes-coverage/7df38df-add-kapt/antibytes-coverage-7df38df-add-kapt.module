@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.coverage",
+    "module": "antibytes-coverage",
+    "version": "7df38df-add-kapt",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-coverage-7df38df-add-kapt.jar",
+          "url": "antibytes-coverage-7df38df-add-kapt.jar",
+          "size": 135221,
+          "sha512": "870df2eabcb60fb2e56832d123afd4b10be263fa5691afdd51341e001d275c63460c9147d2be101255e31899608ff1235e8bbe78cb2fccedab40a4cd9bfb2582",
+          "sha256": "21f4d471c92fd4d056f74d430b4066696939084e361dd718698e1a772c7a190b",
+          "sha1": "d63eb5fe11a8b28fad7d34d0d51a755ee0083c78",
+          "md5": "369f08917b9486eae2cc01c131c41461"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "org.jacoco",
+          "module": "org.jacoco.core",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "7df38df-add-kapt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-coverage-7df38df-add-kapt.jar",
+          "url": "antibytes-coverage-7df38df-add-kapt.jar",
+          "size": 135221,
+          "sha512": "870df2eabcb60fb2e56832d123afd4b10be263fa5691afdd51341e001d275c63460c9147d2be101255e31899608ff1235e8bbe78cb2fccedab40a4cd9bfb2582",
+          "sha256": "21f4d471c92fd4d056f74d430b4066696939084e361dd718698e1a772c7a190b",
+          "sha1": "d63eb5fe11a8b28fad7d34d0d51a755ee0083c78",
+          "md5": "369f08917b9486eae2cc01c131c41461"
+        }
+      ]
+    }
+  ]
+}
