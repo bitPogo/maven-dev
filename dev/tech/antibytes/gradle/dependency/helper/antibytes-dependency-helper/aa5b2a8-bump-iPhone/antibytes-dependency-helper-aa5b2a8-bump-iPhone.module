@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.helper",
+    "module": "antibytes-dependency-helper",
+    "version": "aa5b2a8-bump-iPhone",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-helper-aa5b2a8-bump-iPhone.jar",
+          "url": "antibytes-dependency-helper-aa5b2a8-bump-iPhone.jar",
+          "size": 70760,
+          "sha512": "a2a33dd7743d1ba37d98efedaca206594c75f2f4dd904d7536810b5046b7349d925e8e39454f1f7787ad5917fb686c070e0650042a2c8ad9e2b2d7c7729345ad",
+          "sha256": "2986643d12a8b73dfbda0162de8d17e2e77aca4345d8283462621ca9a7676ec9",
+          "sha1": "4df0a9ceed6ec23962a19d7d8a393cf7aa259f71",
+          "md5": "9717c8ab9b9d364866dc9f4693159397"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "com.github.ben-manes",
+          "module": "gradle-versions-plugin",
+          "version": {
+            "requires": "0.42.0"
+          }
+        },
+        {
+          "group": "org.owasp",
+          "module": "dependency-check-gradle",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "com.squareup.tools.build",
+          "module": "maven-archeologist",
+          "version": {
+            "requires": "0.0.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "aa5b2a8-bump-iPhone"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-helper-aa5b2a8-bump-iPhone.jar",
+          "url": "antibytes-dependency-helper-aa5b2a8-bump-iPhone.jar",
+          "size": 70760,
+          "sha512": "a2a33dd7743d1ba37d98efedaca206594c75f2f4dd904d7536810b5046b7349d925e8e39454f1f7787ad5917fb686c070e0650042a2c8ad9e2b2d7c7729345ad",
+          "sha256": "2986643d12a8b73dfbda0162de8d17e2e77aca4345d8283462621ca9a7676ec9",
+          "sha1": "4df0a9ceed6ec23962a19d7d8a393cf7aa259f71",
+          "md5": "9717c8ab9b9d364866dc9f4693159397"
+        }
+      ]
+    }
+  ]
+}

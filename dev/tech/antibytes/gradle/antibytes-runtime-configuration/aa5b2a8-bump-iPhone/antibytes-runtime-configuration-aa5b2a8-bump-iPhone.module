@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-runtime-configuration",
+    "version": "aa5b2a8-bump-iPhone",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-aa5b2a8-bump-iPhone.jar",
+          "url": "antibytes-runtime-configuration-aa5b2a8-bump-iPhone.jar",
+          "size": 9076,
+          "sha512": "41e55ec5387bc715904b4ed693229293dd89edacb5a9ac0fcb55724c093eddcc63919c2f301a33b9c1cdc1aebefa1f50fd846cb2f114160780eadadbc31d5e79",
+          "sha256": "72c9b975725f93637738efa477a65b8e623050710ec7b37eeb64bd15034b2351",
+          "sha1": "a0af2a43db2883a46f07469fdd4c8b7c980d80ae",
+          "md5": "210ba2069173bcb8fdacec31a3b4588c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "aa5b2a8-bump-iPhone"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-aa5b2a8-bump-iPhone.jar",
+          "url": "antibytes-runtime-configuration-aa5b2a8-bump-iPhone.jar",
+          "size": 9076,
+          "sha512": "41e55ec5387bc715904b4ed693229293dd89edacb5a9ac0fcb55724c093eddcc63919c2f301a33b9c1cdc1aebefa1f50fd846cb2f114160780eadadbc31d5e79",
+          "sha256": "72c9b975725f93637738efa477a65b8e623050710ec7b37eeb64bd15034b2351",
+          "sha1": "a0af2a43db2883a46f07469fdd4c8b7c980d80ae",
+          "md5": "210ba2069173bcb8fdacec31a3b4588c"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "aa5b2a8-bump-iPhone",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-aa5b2a8-bump-iPhone.jar",
+          "url": "antibytes-dependency-bridge-aa5b2a8-bump-iPhone.jar",
+          "size": 38517,
+          "sha512": "d39bb616060ffa057216259520194d394bd3b4f54d8235241ff52dbf2088e96a40293b94295ae2e0dad0d05d3186e3fe60ede327f747685632acfbec9cfc1ab2",
+          "sha256": "de550219d05d4c22e2a08f1255339eb0aadd15fe5a6bc2f67475502a05a09f62",
+          "sha1": "949a49d68a821aa2134015d8c001da2fced2618b",
+          "md5": "dda0821dee4be5bbed21b83b9135a772"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-aa5b2a8-bump-iPhone.jar",
+          "url": "antibytes-dependency-bridge-aa5b2a8-bump-iPhone.jar",
+          "size": 38517,
+          "sha512": "d39bb616060ffa057216259520194d394bd3b4f54d8235241ff52dbf2088e96a40293b94295ae2e0dad0d05d3186e3fe60ede327f747685632acfbec9cfc1ab2",
+          "sha256": "de550219d05d4c22e2a08f1255339eb0aadd15fe5a6bc2f67475502a05a09f62",
+          "sha1": "949a49d68a821aa2134015d8c001da2fced2618b",
+          "md5": "dda0821dee4be5bbed21b83b9135a772"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "aa5b2a8-bump-iPhone",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-aa5b2a8-bump-iPhone.jar",
+          "url": "antibytes-publishing-configuration-aa5b2a8-bump-iPhone.jar",
+          "size": 4768,
+          "sha512": "d1f4da5050c8ea487db42109e7b65ce3a59367efc9505d81890e9f723ae8e0dad4d9b86b59837aa0eec5269e360cb360a2b0dd993d4173efc3ed378423654796",
+          "sha256": "0d3521da293325e3e89fc1ace80542c2193fcaafe0b7f76d62853c6c8332934f",
+          "sha1": "e0a4247a3db79e21e99a27860eb67f482d93436c",
+          "md5": "45765d54f56a273738bb7c35f1ba4548"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "aa5b2a8-bump-iPhone"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-aa5b2a8-bump-iPhone.jar",
+          "url": "antibytes-publishing-configuration-aa5b2a8-bump-iPhone.jar",
+          "size": 4768,
+          "sha512": "d1f4da5050c8ea487db42109e7b65ce3a59367efc9505d81890e9f723ae8e0dad4d9b86b59837aa0eec5269e360cb360a2b0dd993d4173efc3ed378423654796",
+          "sha256": "0d3521da293325e3e89fc1ace80542c2193fcaafe0b7f76d62853c6c8332934f",
+          "sha1": "e0a4247a3db79e21e99a27860eb67f482d93436c",
+          "md5": "45765d54f56a273738bb7c35f1ba4548"
+        }
+      ]
+    }
+  ]
+}
