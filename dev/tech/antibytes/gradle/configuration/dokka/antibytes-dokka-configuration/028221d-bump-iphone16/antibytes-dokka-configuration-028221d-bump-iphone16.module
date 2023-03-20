@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.dokka",
+    "module": "antibytes-dokka-configuration",
+    "version": "028221d-bump-iphone16",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-028221d-bump-iphone16.jar",
+          "url": "antibytes-dokka-configuration-028221d-bump-iphone16.jar",
+          "size": 7889,
+          "sha512": "8b7048ba91176364d61a15fcb2976888c337a80a842fd4b0e2a1031ad65474ac1469a9fd479f52b700558c6b5b51ac76f490a8915a26bb75b2bd3514217059fd",
+          "sha256": "8fbec22671481d69c25d2279da759dd9c4784d9b207f5d84a3945dd285a05bca",
+          "sha1": "141e8eedfc3b3a4f552f4db3cb47191f59f9cb94",
+          "md5": "5591f1a60add41787fee05cc305092e8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "028221d-bump-iphone16"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-028221d-bump-iphone16.jar",
+          "url": "antibytes-dokka-configuration-028221d-bump-iphone16.jar",
+          "size": 7889,
+          "sha512": "8b7048ba91176364d61a15fcb2976888c337a80a842fd4b0e2a1031ad65474ac1469a9fd479f52b700558c6b5b51ac76f490a8915a26bb75b2bd3514217059fd",
+          "sha256": "8fbec22671481d69c25d2279da759dd9c4784d9b207f5d84a3945dd285a05bca",
+          "sha1": "141e8eedfc3b3a4f552f4db3cb47191f59f9cb94",
+          "md5": "5591f1a60add41787fee05cc305092e8"
+        }
+      ]
+    }
+  ]
+}
