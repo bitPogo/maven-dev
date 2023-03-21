@@ -1,0 +1,49 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlin-result/05a4d20-customize-SNAPSHOT/kotlin-result-05a4d20-customize-SNAPSHOT.module",
+    "group": "com.michael-bull.kotlin-result",
+    "module": "kotlin-result",
+    "version": "05a4d20-customize-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "wasm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-result.klib",
+          "url": "kotlin-result-wasm32-05a4d20-customize-SNAPSHOT.klib",
+          "size": 54678,
+          "sha512": "213adf0904941b7a08645f8cb21e863f161450046d42bd6fb9ca80c95e50dbc3e7488ecf178dc40837cf01e81ce2cadb72cd7354f934af1a12be7a047fd5641f",
+          "sha256": "835bec20e055e1768ed02202b0588e965d360ce23fa75fedf852319d6b3b4357",
+          "sha1": "f1168b3264f2bac5bc5b867928617eed59a4a134",
+          "md5": "4161994f8a74217de19bc0fb0f7572ac"
+        }
+      ]
+    }
+  ]
+}

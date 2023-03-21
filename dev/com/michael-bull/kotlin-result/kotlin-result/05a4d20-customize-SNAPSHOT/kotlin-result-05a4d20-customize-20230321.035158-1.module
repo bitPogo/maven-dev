@@ -1,0 +1,774 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.michael-bull.kotlin-result",
+    "module": "kotlin-result",
+    "version": "05a4d20-customize-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-result-metadata-05a4d20-customize-SNAPSHOT-all.jar",
+          "url": "kotlin-result-05a4d20-customize-SNAPSHOT-all.jar",
+          "size": 13519,
+          "sha512": "3b98b44b2842392455f04eb9ee0e388a9ee4437528a7657bb371de3101c768eea578976c7371396835235d348f21b263bd965e0b7dfdf8a959fec3b173f3793e",
+          "sha256": "7bc9db9f210003f406202d2af67120a04a775b6947f96bdd60e539a4c5054a22",
+          "sha1": "0b5c4fa9dc128a0ad68a77a34524d790b92fafba",
+          "md5": "567854b5027019732d9750fb61721495"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-result-05a4d20-customize-SNAPSHOT.jar",
+          "url": "kotlin-result-05a4d20-customize-SNAPSHOT.jar",
+          "size": 12598,
+          "sha512": "f32f75b66a81107c2cba97fd38a9fc84e7cbdb52080aae0cc532a57dca0dd9647019285ba7628432e1b896167320ad4e676b7cddcf9f1704c57fa730341c1905",
+          "sha256": "a8ccf5424978f2f396eef321208fc9f76cc3eae03831cf5122ad0f8d3b0aa2f1",
+          "sha1": "9996d9c2d956d35151deed37554e7b0f6d5a34cb",
+          "md5": "fce78cbd57dd6860ce4e7a3292da0349"
+        }
+      ]
+    },
+    {
+      "name": "androidNativeArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-androidnativearm32/05a4d20-customize-SNAPSHOT/kotlin-result-androidnativearm32-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-androidnativearm32",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-androidnativearm64/05a4d20-customize-SNAPSHOT/kotlin-result-androidnativearm64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-androidnativearm64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-androidnativex64/05a4d20-customize-SNAPSHOT/kotlin-result-androidnativex64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-androidnativex64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeX86ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-androidnativex86/05a4d20-customize-SNAPSHOT/kotlin-result-androidnativex86-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-androidnativex86",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-iosarm32/05a4d20-customize-SNAPSHOT/kotlin-result-iosarm32-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-iosarm32",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-iosarm32/05a4d20-customize-SNAPSHOT/kotlin-result-iosarm32-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-iosarm32",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-iosarm64/05a4d20-customize-SNAPSHOT/kotlin-result-iosarm64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-iosarm64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-iosarm64/05a4d20-customize-SNAPSHOT/kotlin-result-iosarm64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-iosarm64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-iossimulatorarm64/05a4d20-customize-SNAPSHOT/kotlin-result-iossimulatorarm64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-iossimulatorarm64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-iossimulatorarm64/05a4d20-customize-SNAPSHOT/kotlin-result-iossimulatorarm64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-iossimulatorarm64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-iosx64/05a4d20-customize-SNAPSHOT/kotlin-result-iosx64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-iosx64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-iosx64/05a4d20-customize-SNAPSHOT/kotlin-result-iosx64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-iosx64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-js/05a4d20-customize-SNAPSHOT/kotlin-result-js-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-js",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-js/05a4d20-customize-SNAPSHOT/kotlin-result-js-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-js",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-jvm/05a4d20-customize-SNAPSHOT/kotlin-result-jvm-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-jvm",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-jvm/05a4d20-customize-SNAPSHOT/kotlin-result-jvm-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-jvm",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxArm32HfpApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-linuxarm32hfp/05a4d20-customize-SNAPSHOT/kotlin-result-linuxarm32hfp-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-linuxarm32hfp",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-linuxarm64/05a4d20-customize-SNAPSHOT/kotlin-result-linuxarm64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-linuxarm64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxMips32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_mips32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-linuxmips32/05a4d20-customize-SNAPSHOT/kotlin-result-linuxmips32-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-linuxmips32",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxMipsel32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_mipsel32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-linuxmipsel32/05a4d20-customize-SNAPSHOT/kotlin-result-linuxmipsel32-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-linuxmipsel32",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-linuxx64/05a4d20-customize-SNAPSHOT/kotlin-result-linuxx64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-linuxx64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-macosarm64/05a4d20-customize-SNAPSHOT/kotlin-result-macosarm64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-macosarm64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-macosarm64/05a4d20-customize-SNAPSHOT/kotlin-result-macosarm64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-macosarm64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-macosx64/05a4d20-customize-SNAPSHOT/kotlin-result-macosx64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-macosx64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-macosx64/05a4d20-customize-SNAPSHOT/kotlin-result-macosx64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-macosx64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-mingwx64/05a4d20-customize-SNAPSHOT/kotlin-result-mingwx64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-mingwx64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "mingwX86ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-mingwx86/05a4d20-customize-SNAPSHOT/kotlin-result-mingwx86-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-mingwx86",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-tvosarm64/05a4d20-customize-SNAPSHOT/kotlin-result-tvosarm64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-tvosarm64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-tvosarm64/05a4d20-customize-SNAPSHOT/kotlin-result-tvosarm64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-tvosarm64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-tvossimulatorarm64/05a4d20-customize-SNAPSHOT/kotlin-result-tvossimulatorarm64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-tvossimulatorarm64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-tvossimulatorarm64/05a4d20-customize-SNAPSHOT/kotlin-result-tvossimulatorarm64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-tvossimulatorarm64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-tvosx64/05a4d20-customize-SNAPSHOT/kotlin-result-tvosx64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-tvosx64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-tvosx64/05a4d20-customize-SNAPSHOT/kotlin-result-tvosx64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-tvosx64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "wasm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-wasm32/05a4d20-customize-SNAPSHOT/kotlin-result-wasm32-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-wasm32",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-watchosarm32/05a4d20-customize-SNAPSHOT/kotlin-result-watchosarm32-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-watchosarm32",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-watchosarm32/05a4d20-customize-SNAPSHOT/kotlin-result-watchosarm32-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-watchosarm32",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-watchosarm64/05a4d20-customize-SNAPSHOT/kotlin-result-watchosarm64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-watchosarm64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-watchosarm64/05a4d20-customize-SNAPSHOT/kotlin-result-watchosarm64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-watchosarm64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-watchossimulatorarm64/05a4d20-customize-SNAPSHOT/kotlin-result-watchossimulatorarm64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-watchossimulatorarm64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-watchossimulatorarm64/05a4d20-customize-SNAPSHOT/kotlin-result-watchossimulatorarm64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-watchossimulatorarm64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-watchosx64/05a4d20-customize-SNAPSHOT/kotlin-result-watchosx64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-watchosx64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-watchosx64/05a4d20-customize-SNAPSHOT/kotlin-result-watchosx64-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-watchosx64",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX86ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-watchosx86/05a4d20-customize-SNAPSHOT/kotlin-result-watchosx86-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-watchosx86",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX86MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-result-watchosx86/05a4d20-customize-SNAPSHOT/kotlin-result-watchosx86-05a4d20-customize-SNAPSHOT.module",
+        "group": "com.michael-bull.kotlin-result",
+        "module": "kotlin-result-watchosx86",
+        "version": "05a4d20-customize-SNAPSHOT"
+      }
+    }
+  ]
+}
