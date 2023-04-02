@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "e192cbe-change-apple-devices",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-e192cbe-change-apple-devices.jar",
+          "url": "antibytes-dependency-bridge-e192cbe-change-apple-devices.jar",
+          "size": 38517,
+          "sha512": "cc178401fdc21b3e5f1a4d448548268f4b0a9bfac3a8d9f6fd6088e415b160647a097ea9c1be9374bdc62e78c1e9f676f24323e668a6db9b0466688245dfdd40",
+          "sha256": "1f3231544fe492216488cfb32b1112d99d77d287cbb6d0f39402a5091c363877",
+          "sha1": "bbab83550a3a58229e4de68f78ad570747690ebc",
+          "md5": "5bdfce44b621fa114f8963ed33c6b625"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-e192cbe-change-apple-devices.jar",
+          "url": "antibytes-dependency-bridge-e192cbe-change-apple-devices.jar",
+          "size": 38517,
+          "sha512": "cc178401fdc21b3e5f1a4d448548268f4b0a9bfac3a8d9f6fd6088e415b160647a097ea9c1be9374bdc62e78c1e9f676f24323e668a6db9b0466688245dfdd40",
+          "sha256": "1f3231544fe492216488cfb32b1112d99d77d287cbb6d0f39402a5091c363877",
+          "sha1": "bbab83550a3a58229e4de68f78ad570747690ebc",
+          "md5": "5bdfce44b621fa114f8963ed33c6b625"
+        }
+      ]
+    }
+  ]
+}

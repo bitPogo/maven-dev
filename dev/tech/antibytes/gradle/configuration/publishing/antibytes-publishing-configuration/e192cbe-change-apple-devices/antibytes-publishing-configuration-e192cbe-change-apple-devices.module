@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "e192cbe-change-apple-devices",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-e192cbe-change-apple-devices.jar",
+          "url": "antibytes-publishing-configuration-e192cbe-change-apple-devices.jar",
+          "size": 4768,
+          "sha512": "91ae8e4d57d8416ce24acdeb16517f8c1605ff6a3008e076b4c5faa3fd0f85663d1a25b77f40218d6727d2d4cbe743d5b886e02d5d9c6f95bcf70190ec976985",
+          "sha256": "38f282d48d7ae42ed2654f02742696e81608bc6179890bb26711569c991ba8b9",
+          "sha1": "9ae164e4093c780136c20d679e2f9505d0af1b3e",
+          "md5": "0888793c565e74f00d1ee6f18a5c8422"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "e192cbe-change-apple-devices"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-e192cbe-change-apple-devices.jar",
+          "url": "antibytes-publishing-configuration-e192cbe-change-apple-devices.jar",
+          "size": 4768,
+          "sha512": "91ae8e4d57d8416ce24acdeb16517f8c1605ff6a3008e076b4c5faa3fd0f85663d1a25b77f40218d6727d2d4cbe743d5b886e02d5d9c6f95bcf70190ec976985",
+          "sha256": "38f282d48d7ae42ed2654f02742696e81608bc6179890bb26711569c991ba8b9",
+          "sha1": "9ae164e4093c780136c20d679e2f9505d0af1b3e",
+          "md5": "0888793c565e74f00d1ee6f18a5c8422"
+        }
+      ]
+    }
+  ]
+}

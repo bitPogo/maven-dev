@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.kmp",
+    "module": "antibytes-kmp-configuration",
+    "version": "e192cbe-change-apple-devices",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-e192cbe-change-apple-devices.jar",
+          "url": "antibytes-kmp-configuration-e192cbe-change-apple-devices.jar",
+          "size": 72927,
+          "sha512": "121d097eb7e66d747ae02da47f7907ebd89b3e2d4df35aa649931db9281f444db9eb4f23e991b451d0f73ad37dff89e8ab17a13f16a46511d94b1dc6b7481257",
+          "sha256": "ce3d627373ce8430263a20fd0847fcce8567f83bb0c6be89deda0c0dc621bdf7",
+          "sha1": "28d76b9262d682378b7bd245d3da6e6826c05739",
+          "md5": "13a0f0ac30f8fd5911c8ad58677fe30e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "e192cbe-change-apple-devices"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-e192cbe-change-apple-devices.jar",
+          "url": "antibytes-kmp-configuration-e192cbe-change-apple-devices.jar",
+          "size": 72927,
+          "sha512": "121d097eb7e66d747ae02da47f7907ebd89b3e2d4df35aa649931db9281f444db9eb4f23e991b451d0f73ad37dff89e8ab17a13f16a46511d94b1dc6b7481257",
+          "sha256": "ce3d627373ce8430263a20fd0847fcce8567f83bb0c6be89deda0c0dc621bdf7",
+          "sha1": "28d76b9262d682378b7bd245d3da6e6826c05739",
+          "md5": "13a0f0ac30f8fd5911c8ad58677fe30e"
+        }
+      ]
+    }
+  ]
+}

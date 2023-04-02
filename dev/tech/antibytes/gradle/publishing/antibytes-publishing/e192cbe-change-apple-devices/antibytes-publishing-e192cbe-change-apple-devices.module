@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.publishing",
+    "module": "antibytes-publishing",
+    "version": "e192cbe-change-apple-devices",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.versioning",
+          "module": "antibytes-versioning",
+          "version": {
+            "requires": "e192cbe-change-apple-devices"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-e192cbe-change-apple-devices.jar",
+          "url": "antibytes-publishing-e192cbe-change-apple-devices.jar",
+          "size": 136094,
+          "sha512": "d9169b678125e484906631533222fd1ba28ebb4131054cb3f0db72b9d8f8f6d285ae0e8b385cd055848d62bbf15a58e1636197e81f7708d619112ad53ca18748",
+          "sha256": "6cb19816607a4fbd82080a89b88f4c0a2c0813dd7c8195fda54b8b39117edf67",
+          "sha1": "ffdfd2fba9bb583e255afcaf9a31f316809fac09",
+          "md5": "28582d8d688323d31f822685f1545d0a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "6.3.0.202209071007-r"
+          }
+        },
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "e192cbe-change-apple-devices"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle.versioning",
+          "module": "antibytes-versioning",
+          "version": {
+            "requires": "e192cbe-change-apple-devices"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-e192cbe-change-apple-devices.jar",
+          "url": "antibytes-publishing-e192cbe-change-apple-devices.jar",
+          "size": 136094,
+          "sha512": "d9169b678125e484906631533222fd1ba28ebb4131054cb3f0db72b9d8f8f6d285ae0e8b385cd055848d62bbf15a58e1636197e81f7708d619112ad53ca18748",
+          "sha256": "6cb19816607a4fbd82080a89b88f4c0a2c0813dd7c8195fda54b8b39117edf67",
+          "sha1": "ffdfd2fba9bb583e255afcaf9a31f316809fac09",
+          "md5": "28582d8d688323d31f822685f1545d0a"
+        }
+      ]
+    }
+  ]
+}

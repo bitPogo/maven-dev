@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.coverage",
+    "module": "antibytes-coverage",
+    "version": "e192cbe-change-apple-devices",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-coverage-e192cbe-change-apple-devices.jar",
+          "url": "antibytes-coverage-e192cbe-change-apple-devices.jar",
+          "size": 135221,
+          "sha512": "3d5a3a55e21611e9347b0f971c4778dfe96e6e5a5acf15c9529de096ff638ddbb27e59f961fc989e48dd16b127ebe75dc4b21bea3168caa1e314901489a76c87",
+          "sha256": "88fbac1676c9bb73be462f39b1fec3b61d36cbd58f60144ed44f8a5425ea1855",
+          "sha1": "7c84011264b513239b6ad46b1e4a420cabc2e8bc",
+          "md5": "c55cf8fb4de70638193183cc0a811dab"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "org.jacoco",
+          "module": "org.jacoco.core",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "e192cbe-change-apple-devices"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-coverage-e192cbe-change-apple-devices.jar",
+          "url": "antibytes-coverage-e192cbe-change-apple-devices.jar",
+          "size": 135221,
+          "sha512": "3d5a3a55e21611e9347b0f971c4778dfe96e6e5a5acf15c9529de096ff638ddbb27e59f961fc989e48dd16b127ebe75dc4b21bea3168caa1e314901489a76c87",
+          "sha256": "88fbac1676c9bb73be462f39b1fec3b61d36cbd58f60144ed44f8a5425ea1855",
+          "sha1": "7c84011264b513239b6ad46b1e4a420cabc2e8bc",
+          "md5": "c55cf8fb4de70638193183cc0a811dab"
+        }
+      ]
+    }
+  ]
+}
