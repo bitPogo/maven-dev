@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kmock/0.3.0-rc06-SNAPSHOT/kmock-0.3.0-rc06-SNAPSHOT.module",
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "0.3.0-rc06-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.22"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock.klib",
+          "url": "kmock-macosx64-0.3.0-rc06-SNAPSHOT.klib",
+          "size": 202549,
+          "sha512": "5cccfa28a8f78dd89af7cc7787e8b2a463c8da711a3639048124800f87e9d98814e93a6848358616c0fe9da3d8c490c4e33a3329a20d00403fdbb8462a9866e4",
+          "sha256": "8b0e97efd43314f1a51d6d37cad12270d14f9c7a5bd480a4ac206fa3946bd537",
+          "sha1": "a3cf08f570ae71c8306d995855df247bc6ffd91a",
+          "md5": "757d4dfa3b61fd7b6e6762422d1e4c51"
+        }
+      ]
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.22"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-macosx64-0.3.0-rc06-SNAPSHOT-metadata.jar",
+          "url": "kmock-macosx64-0.3.0-rc06-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "dc43cbf549c2c34dd81eaf41b6b371cfccdda39786111ca4c287abdf29f922896dad4ba91fc2db85cc03167a434ab7d9cb4857b8ec86e4b89987f215fb6b4515",
+          "sha256": "d0cb7c21b2a54c092763dcff61b4bf89570b79078b934fd001e171ba9c77795e",
+          "sha1": "b5fa113259b1edcee69437c763a1fbf56b8f6c3a",
+          "md5": "f6356c100bca1143a03bce7741fb6dbb"
+        }
+      ]
+    }
+  ]
+}
