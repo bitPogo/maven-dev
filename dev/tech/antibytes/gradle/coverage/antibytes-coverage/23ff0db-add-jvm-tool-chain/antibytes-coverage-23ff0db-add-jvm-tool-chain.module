@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.coverage",
+    "module": "antibytes-coverage",
+    "version": "23ff0db-add-jvm-tool-chain",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-coverage-23ff0db-add-jvm-tool-chain.jar",
+          "url": "antibytes-coverage-23ff0db-add-jvm-tool-chain.jar",
+          "size": 147901,
+          "sha512": "acf79c4898ef43543d9064100facc139a10d265fde37afaf4ea54164628a2794cf36cbc3bd05cfd8d866dff00329395ae9965fcb58e7024b0d0b19d76cf0bf51",
+          "sha256": "b7c0c21b672444da6aa5ee6fdfb26c9b57929214d3dcad6270a657ec98133664",
+          "sha1": "4cccbf87d3b8c0249445a6cedc8e79f658d7e9ea",
+          "md5": "75f87bd41c9cfc950d5b4b4ea1bce373"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "8.1.2"
+          }
+        },
+        {
+          "group": "org.jacoco",
+          "module": "org.jacoco.core",
+          "version": {
+            "requires": "0.8.11"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "23ff0db-add-jvm-tool-chain"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-coverage-23ff0db-add-jvm-tool-chain.jar",
+          "url": "antibytes-coverage-23ff0db-add-jvm-tool-chain.jar",
+          "size": 147901,
+          "sha512": "acf79c4898ef43543d9064100facc139a10d265fde37afaf4ea54164628a2794cf36cbc3bd05cfd8d866dff00329395ae9965fcb58e7024b0d0b19d76cf0bf51",
+          "sha256": "b7c0c21b672444da6aa5ee6fdfb26c9b57929214d3dcad6270a657ec98133664",
+          "sha1": "4cccbf87d3b8c0249445a6cedc8e79f658d7e9ea",
+          "md5": "75f87bd41c9cfc950d5b4b4ea1bce373"
+        }
+      ]
+    }
+  ]
+}

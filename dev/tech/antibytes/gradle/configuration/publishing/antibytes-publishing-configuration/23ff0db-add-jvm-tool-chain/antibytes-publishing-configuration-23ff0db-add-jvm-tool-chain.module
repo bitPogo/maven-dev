@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "23ff0db-add-jvm-tool-chain",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-23ff0db-add-jvm-tool-chain.jar",
+          "url": "antibytes-publishing-configuration-23ff0db-add-jvm-tool-chain.jar",
+          "size": 5078,
+          "sha512": "8b49369d94281f2574f2ee7d871db78b1c98f3c39a589d57c6124010b9e13b0210f06f8a971cf9ca57c5185da862c2d34789218477a7aedcde87d2096cc94a45",
+          "sha256": "85a0b5f6f0433adfad03e95f0d7a1dbfd3a84aad79942eeebc8e6ba8757b7e1f",
+          "sha1": "3a59c60c1c6338bee68ee9e6daf03e846540c898",
+          "md5": "a0d60927666e63c0ccdf47c0f0b31f34"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "23ff0db-add-jvm-tool-chain"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-23ff0db-add-jvm-tool-chain.jar",
+          "url": "antibytes-publishing-configuration-23ff0db-add-jvm-tool-chain.jar",
+          "size": 5078,
+          "sha512": "8b49369d94281f2574f2ee7d871db78b1c98f3c39a589d57c6124010b9e13b0210f06f8a971cf9ca57c5185da862c2d34789218477a7aedcde87d2096cc94a45",
+          "sha256": "85a0b5f6f0433adfad03e95f0d7a1dbfd3a84aad79942eeebc8e6ba8757b7e1f",
+          "sha1": "3a59c60c1c6338bee68ee9e6daf03e846540c898",
+          "md5": "a0d60927666e63c0ccdf47c0f0b31f34"
+        }
+      ]
+    }
+  ]
+}

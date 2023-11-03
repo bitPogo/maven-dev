@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.kmp",
+    "module": "antibytes-kmp-configuration",
+    "version": "23ff0db-add-jvm-tool-chain",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-23ff0db-add-jvm-tool-chain.jar",
+          "url": "antibytes-kmp-configuration-23ff0db-add-jvm-tool-chain.jar",
+          "size": 74853,
+          "sha512": "609e26e598bb405c3ead0c5f7c9116d57ad5b2c9097f4c882700d95ae4cf0d595b66d3e7d25b1ad1c7cd12ad30929ee48aeacc018e2c096339e59a6769c1a8fb",
+          "sha256": "e9ff3b2169106b8f34e94727a3e60e21612f3015252718fb8cd2b2c3f33f08e6",
+          "sha1": "29471fa6eae3bbbad03846995eb1ed69286c6b36",
+          "md5": "b3619169fbaa8dc19e317173031d189e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "23ff0db-add-jvm-tool-chain"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-23ff0db-add-jvm-tool-chain.jar",
+          "url": "antibytes-kmp-configuration-23ff0db-add-jvm-tool-chain.jar",
+          "size": 74853,
+          "sha512": "609e26e598bb405c3ead0c5f7c9116d57ad5b2c9097f4c882700d95ae4cf0d595b66d3e7d25b1ad1c7cd12ad30929ee48aeacc018e2c096339e59a6769c1a8fb",
+          "sha256": "e9ff3b2169106b8f34e94727a3e60e21612f3015252718fb8cd2b2c3f33f08e6",
+          "sha1": "29471fa6eae3bbbad03846995eb1ed69286c6b36",
+          "md5": "b3619169fbaa8dc19e317173031d189e"
+        }
+      ]
+    }
+  ]
+}

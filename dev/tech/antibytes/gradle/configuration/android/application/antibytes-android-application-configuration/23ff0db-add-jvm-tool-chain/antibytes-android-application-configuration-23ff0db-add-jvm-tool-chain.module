@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.android.application",
+    "module": "antibytes-android-application-configuration",
+    "version": "23ff0db-add-jvm-tool-chain",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-android-application-configuration-23ff0db-add-jvm-tool-chain.jar",
+          "url": "antibytes-android-application-configuration-23ff0db-add-jvm-tool-chain.jar",
+          "size": 58039,
+          "sha512": "0696bcb380b0a63d61c4f5eee3bdfa9fbb2ea2a9f6473ca3305f9696856e44f0f6fb2fa9ba9609562c63de308476b5ec2a4d6c2fba39e742578a12621cff2853",
+          "sha256": "ad7890f22c1f97572e6fcc448dba3da4fda03acd75f88ebaf7126ebe67c4a780",
+          "sha1": "eeed3d5c4bb86e9966f7b63618e9c90adb32ccb5",
+          "md5": "c64012c85a3dd2797ebbd14a13ba8e3a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "8.1.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "23ff0db-add-jvm-tool-chain"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-android-application-configuration-23ff0db-add-jvm-tool-chain.jar",
+          "url": "antibytes-android-application-configuration-23ff0db-add-jvm-tool-chain.jar",
+          "size": 58039,
+          "sha512": "0696bcb380b0a63d61c4f5eee3bdfa9fbb2ea2a9f6473ca3305f9696856e44f0f6fb2fa9ba9609562c63de308476b5ec2a4d6c2fba39e742578a12621cff2853",
+          "sha256": "ad7890f22c1f97572e6fcc448dba3da4fda03acd75f88ebaf7126ebe67c4a780",
+          "sha1": "eeed3d5c4bb86e9966f7b63618e9c90adb32ccb5",
+          "md5": "c64012c85a3dd2797ebbd14a13ba8e3a"
+        }
+      ]
+    }
+  ]
+}

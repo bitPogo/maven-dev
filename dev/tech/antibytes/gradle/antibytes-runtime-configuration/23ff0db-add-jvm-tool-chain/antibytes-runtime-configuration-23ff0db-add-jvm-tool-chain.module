@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-runtime-configuration",
+    "version": "23ff0db-add-jvm-tool-chain",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-23ff0db-add-jvm-tool-chain.jar",
+          "url": "antibytes-runtime-configuration-23ff0db-add-jvm-tool-chain.jar",
+          "size": 9666,
+          "sha512": "354ecf807730fb047e567893aacf94e3ec2d793ea0238ad58ebbed5847c3361812d16b1dafaf122eb227bcabac44ffc41d83659ad6869dcff3631d042c1e61ad",
+          "sha256": "61053de4b5e869d11e71ba7981a9724a6b6d068fbb811875d4622eacc088d7c6",
+          "sha1": "db31ccf4671fcccb8d74ed9c9da4f8e97649e6c5",
+          "md5": "54f2e07adb3fbb427c1437bae89f42df"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "23ff0db-add-jvm-tool-chain"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.14.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-23ff0db-add-jvm-tool-chain.jar",
+          "url": "antibytes-runtime-configuration-23ff0db-add-jvm-tool-chain.jar",
+          "size": 9666,
+          "sha512": "354ecf807730fb047e567893aacf94e3ec2d793ea0238ad58ebbed5847c3361812d16b1dafaf122eb227bcabac44ffc41d83659ad6869dcff3631d042c1e61ad",
+          "sha256": "61053de4b5e869d11e71ba7981a9724a6b6d068fbb811875d4622eacc088d7c6",
+          "sha1": "db31ccf4671fcccb8d74ed9c9da4f8e97649e6c5",
+          "md5": "54f2e07adb3fbb427c1437bae89f42df"
+        }
+      ]
+    }
+  ]
+}

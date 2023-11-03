@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.grammar",
+    "module": "antibytes-grammar-tools",
+    "version": "23ff0db-add-jvm-tool-chain",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-grammar-tools-23ff0db-add-jvm-tool-chain.jar",
+          "url": "antibytes-grammar-tools-23ff0db-add-jvm-tool-chain.jar",
+          "size": 39894,
+          "sha512": "2c99c23019b0c7f060270ca07d103d2a88d50247f6e86a1b60342f9013d4b751aa30b6766e263ca5a6760078a1e39150ebd30df7ae0479fb2677b5925e0e8cbb",
+          "sha256": "4466b990187432f9352bc4b3acd10cb77d4657933cf34478effcba1e0222dfc3",
+          "sha1": "771d8ac28a6fe067ef15d0b0c6a69c374464d107",
+          "md5": "a05aa5a7ab2188cfc051fc49b6660c39"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "de.jflex",
+          "module": "jflex",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "com.lordcodes.turtle",
+          "module": "turtle",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-grammar-tools-23ff0db-add-jvm-tool-chain.jar",
+          "url": "antibytes-grammar-tools-23ff0db-add-jvm-tool-chain.jar",
+          "size": 39894,
+          "sha512": "2c99c23019b0c7f060270ca07d103d2a88d50247f6e86a1b60342f9013d4b751aa30b6766e263ca5a6760078a1e39150ebd30df7ae0479fb2677b5925e0e8cbb",
+          "sha256": "4466b990187432f9352bc4b3acd10cb77d4657933cf34478effcba1e0222dfc3",
+          "sha1": "771d8ac28a6fe067ef15d0b0c6a69c374464d107",
+          "md5": "a05aa5a7ab2188cfc051fc49b6660c39"
+        }
+      ]
+    }
+  ]
+}

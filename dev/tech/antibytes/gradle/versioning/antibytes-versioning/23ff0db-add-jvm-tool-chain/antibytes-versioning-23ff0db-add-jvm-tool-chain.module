@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.versioning",
+    "module": "antibytes-versioning",
+    "version": "23ff0db-add-jvm-tool-chain",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-23ff0db-add-jvm-tool-chain.jar",
+          "url": "antibytes-versioning-23ff0db-add-jvm-tool-chain.jar",
+          "size": 22487,
+          "sha512": "46e98f806543fe26eca962c1b6f5857e1de982921148dee449222d45e875f56cf89d92adaff3717cab0e0b8510d417f6d22c5c583a5884bc74ed3bf6deb2a8fc",
+          "sha256": "7f0090940e8c5e034d109de702cc01acb75b5f886064fae35bb07672b86ce3f0",
+          "sha1": "80ee3c020bd9b7902cc84b338490b0eda232691a",
+          "md5": "0e4e55abea8cdc018dbf312406c94c4a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "3.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-23ff0db-add-jvm-tool-chain.jar",
+          "url": "antibytes-versioning-23ff0db-add-jvm-tool-chain.jar",
+          "size": 22487,
+          "sha512": "46e98f806543fe26eca962c1b6f5857e1de982921148dee449222d45e875f56cf89d92adaff3717cab0e0b8510d417f6d22c5c583a5884bc74ed3bf6deb2a8fc",
+          "sha256": "7f0090940e8c5e034d109de702cc01acb75b5f886064fae35bb07672b86ce3f0",
+          "sha1": "80ee3c020bd9b7902cc84b338490b0eda232691a",
+          "md5": "0e4e55abea8cdc018dbf312406c94c4a"
+        }
+      ]
+    }
+  ]
+}
