@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "a037784-bump-dependencies",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-a037784-bump-dependencies.jar",
+          "url": "antibytes-publishing-configuration-a037784-bump-dependencies.jar",
+          "size": 5078,
+          "sha512": "8a9aee838bf458daae856213fdeaa5ca6f9ec9385d2ce0edbb18d4b66048ac08c7b28ac38e40bb6fa63eb5b41f7087afdd0238d9008a099c34f88351dddc7e36",
+          "sha256": "263f5284cf149105e59fcef41d4bd28af9d3626babb2689e0b7912447fa9c269",
+          "sha1": "ac5e35993b31168f42ab2c88f1c78963179f865f",
+          "md5": "39d76e1b7f59938226c3fb73d9f3cfe8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "a037784-bump-dependencies"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-a037784-bump-dependencies.jar",
+          "url": "antibytes-publishing-configuration-a037784-bump-dependencies.jar",
+          "size": 5078,
+          "sha512": "8a9aee838bf458daae856213fdeaa5ca6f9ec9385d2ce0edbb18d4b66048ac08c7b28ac38e40bb6fa63eb5b41f7087afdd0238d9008a099c34f88351dddc7e36",
+          "sha256": "263f5284cf149105e59fcef41d4bd28af9d3626babb2689e0b7912447fa9c269",
+          "sha1": "ac5e35993b31168f42ab2c88f1c78963179f865f",
+          "md5": "39d76e1b7f59938226c3fb73d9f3cfe8"
+        }
+      ]
+    }
+  ]
+}
