@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "8c8c23a-update-configurations",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-8c8c23a-update-configurations.jar",
+          "url": "antibytes-publishing-configuration-8c8c23a-update-configurations.jar",
+          "size": 5078,
+          "sha512": "f0f7e593c97cae9f3eb10410d1379020bf9d8ffdba5dfd312fcf0c04c65a1f286c5806597a5ad1397100b1d44f7fa1fa95eeb89414eae35429b8d1d76952c3c4",
+          "sha256": "73e1baf91b8576ee7f5d0b6eb27c7226ca6adcee1ee496971e41f1d474f3e4ce",
+          "sha1": "936c1d33fc5e80c2e80f21f3001b60b3e28862a9",
+          "md5": "1fe8141a6d0f55fe91da9a0f2ef9af76"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "8c8c23a-update-configurations"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-8c8c23a-update-configurations.jar",
+          "url": "antibytes-publishing-configuration-8c8c23a-update-configurations.jar",
+          "size": 5078,
+          "sha512": "f0f7e593c97cae9f3eb10410d1379020bf9d8ffdba5dfd312fcf0c04c65a1f286c5806597a5ad1397100b1d44f7fa1fa95eeb89414eae35429b8d1d76952c3c4",
+          "sha256": "73e1baf91b8576ee7f5d0b6eb27c7226ca6adcee1ee496971e41f1d474f3e4ce",
+          "sha1": "936c1d33fc5e80c2e80f21f3001b60b3e28862a9",
+          "md5": "1fe8141a6d0f55fe91da9a0f2ef9af76"
+        }
+      ]
+    }
+  ]
+}

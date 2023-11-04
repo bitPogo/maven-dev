@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.kmp",
+    "module": "antibytes-kmp-configuration",
+    "version": "8c8c23a-update-configurations",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-8c8c23a-update-configurations.jar",
+          "url": "antibytes-kmp-configuration-8c8c23a-update-configurations.jar",
+          "size": 73528,
+          "sha512": "02cbe010c969bbbcf3c5354f2e309e0a2a4c9944ae55bcf6b8403e6433a96e0c55f99deeddbca470b05cf03c3f6d0d4652585652cc336d63ab524556aeace4cb",
+          "sha256": "a5aae24be25df2d74901a01c9bb0f41b25609e4b19f756d2ab4382c3ce9f83d2",
+          "sha1": "4a645e498ab0b50f23f586729d8c83cb59058635",
+          "md5": "bfb8fee33a203a0924def1c31156d9d0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "8c8c23a-update-configurations"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-8c8c23a-update-configurations.jar",
+          "url": "antibytes-kmp-configuration-8c8c23a-update-configurations.jar",
+          "size": 73528,
+          "sha512": "02cbe010c969bbbcf3c5354f2e309e0a2a4c9944ae55bcf6b8403e6433a96e0c55f99deeddbca470b05cf03c3f6d0d4652585652cc336d63ab524556aeace4cb",
+          "sha256": "a5aae24be25df2d74901a01c9bb0f41b25609e4b19f756d2ab4382c3ce9f83d2",
+          "sha1": "4a645e498ab0b50f23f586729d8c83cb59058635",
+          "md5": "bfb8fee33a203a0924def1c31156d9d0"
+        }
+      ]
+    }
+  ]
+}
