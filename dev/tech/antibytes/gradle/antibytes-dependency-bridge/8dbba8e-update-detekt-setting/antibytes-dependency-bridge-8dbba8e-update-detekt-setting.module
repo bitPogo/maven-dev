@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "8dbba8e-update-detekt-setting",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-8dbba8e-update-detekt-setting.jar",
+          "url": "antibytes-dependency-bridge-8dbba8e-update-detekt-setting.jar",
+          "size": 39844,
+          "sha512": "f55687162a0f00dcd49747b7d515d6bb03fbd000c0952e6b874c75f9fa29f2d300f50d68d9e8d7b20db2ea990cb121843b5c418c1a047bb1a66f7ab731db9529",
+          "sha256": "600771970910e58d18189efc358da135d82a3c95373f000d480273b139da252f",
+          "sha1": "b23f3598081ce3200c0cf6f5e509989a7900c446",
+          "md5": "a25e5f6c3483fe7aefff10869d3121e8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.14.2"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "8dbba8e-update-detekt-setting"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-8dbba8e-update-detekt-setting.jar",
+          "url": "antibytes-dependency-bridge-8dbba8e-update-detekt-setting.jar",
+          "size": 39844,
+          "sha512": "f55687162a0f00dcd49747b7d515d6bb03fbd000c0952e6b874c75f9fa29f2d300f50d68d9e8d7b20db2ea990cb121843b5c418c1a047bb1a66f7ab731db9529",
+          "sha256": "600771970910e58d18189efc358da135d82a3c95373f000d480273b139da252f",
+          "sha1": "b23f3598081ce3200c0cf6f5e509989a7900c446",
+          "md5": "a25e5f6c3483fe7aefff10869d3121e8"
+        }
+      ]
+    }
+  ]
+}

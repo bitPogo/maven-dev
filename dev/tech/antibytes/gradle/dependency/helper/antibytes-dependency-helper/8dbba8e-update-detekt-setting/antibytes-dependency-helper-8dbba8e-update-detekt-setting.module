@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.helper",
+    "module": "antibytes-dependency-helper",
+    "version": "8dbba8e-update-detekt-setting",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-helper-8dbba8e-update-detekt-setting.jar",
+          "url": "antibytes-dependency-helper-8dbba8e-update-detekt-setting.jar",
+          "size": 69711,
+          "sha512": "58104fd242052f5ec58b09e7a296420650df60d949c7db33958a40840f2365b3727f35d95e519d287d1ac086548ad6821da66483b3f6d52c91ace0062b382fd8",
+          "sha256": "787a3e0e039b5851e1e63d073b85573799b0e136fe2b2437b0c819f5c9ca4ead",
+          "sha1": "79c5f115dcd0054f638cc417b5b7b4aa47e8d9b3",
+          "md5": "cd21e13512fdc6616b42cacd3357058c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "com.github.ben-manes",
+          "module": "gradle-versions-plugin",
+          "version": {
+            "requires": "0.49.0"
+          }
+        },
+        {
+          "group": "org.owasp",
+          "module": "dependency-check-gradle",
+          "version": {
+            "requires": "8.4.2"
+          }
+        },
+        {
+          "group": "com.squareup.tools.build",
+          "module": "maven-archeologist",
+          "version": {
+            "requires": "0.0.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "8dbba8e-update-detekt-setting"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-helper-8dbba8e-update-detekt-setting.jar",
+          "url": "antibytes-dependency-helper-8dbba8e-update-detekt-setting.jar",
+          "size": 69711,
+          "sha512": "58104fd242052f5ec58b09e7a296420650df60d949c7db33958a40840f2365b3727f35d95e519d287d1ac086548ad6821da66483b3f6d52c91ace0062b382fd8",
+          "sha256": "787a3e0e039b5851e1e63d073b85573799b0e136fe2b2437b0c819f5c9ca4ead",
+          "sha1": "79c5f115dcd0054f638cc417b5b7b4aa47e8d9b3",
+          "md5": "cd21e13512fdc6616b42cacd3357058c"
+        }
+      ]
+    }
+  ]
+}

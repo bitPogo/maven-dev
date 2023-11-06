@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.coverage",
+    "module": "antibytes-coverage",
+    "version": "8dbba8e-update-detekt-setting",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-coverage-8dbba8e-update-detekt-setting.jar",
+          "url": "antibytes-coverage-8dbba8e-update-detekt-setting.jar",
+          "size": 147901,
+          "sha512": "03c8a09f59dd343a54a70965d617d8979c31267fd7b19965421938f48ec233efe0b0e320072b393220b3867c84fc412b48be230e987b6e1da82f51032a2f1b6f",
+          "sha256": "0ad086376d0d052c0279fed16aad936b435bff093284bc22f66c3a187eae1c69",
+          "sha1": "7652bcfd2b106eb80f45a3feffdd4aaa85e41649",
+          "md5": "62f9aa37078337f126c83cc21e9c3935"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "8.1.2"
+          }
+        },
+        {
+          "group": "org.jacoco",
+          "module": "org.jacoco.core",
+          "version": {
+            "requires": "0.8.11"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "8dbba8e-update-detekt-setting"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-coverage-8dbba8e-update-detekt-setting.jar",
+          "url": "antibytes-coverage-8dbba8e-update-detekt-setting.jar",
+          "size": 147901,
+          "sha512": "03c8a09f59dd343a54a70965d617d8979c31267fd7b19965421938f48ec233efe0b0e320072b393220b3867c84fc412b48be230e987b6e1da82f51032a2f1b6f",
+          "sha256": "0ad086376d0d052c0279fed16aad936b435bff093284bc22f66c3a187eae1c69",
+          "sha1": "7652bcfd2b106eb80f45a3feffdd4aaa85e41649",
+          "md5": "62f9aa37078337f126c83cc21e9c3935"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.kmp",
+    "module": "antibytes-kmp-configuration",
+    "version": "8dbba8e-update-detekt-setting",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-8dbba8e-update-detekt-setting.jar",
+          "url": "antibytes-kmp-configuration-8dbba8e-update-detekt-setting.jar",
+          "size": 73528,
+          "sha512": "fbfcb9c9ec77da47c943cd96dffd3a3bcc1930047bb59458c7e6b1b56e90efce1045b79f90793d9fc31a066403cb514156a6a07a20d20df1940ee3ca4beb6019",
+          "sha256": "c242ca3c8a11fa275f70d82096d494e75d066372c9534cc3467d4a4b84b4fb4f",
+          "sha1": "5e5d57cf1adf37b439afbf11fad862836dc29d10",
+          "md5": "2deee0f93ae5c23c8dbc027acebfc7a4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "8dbba8e-update-detekt-setting"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-8dbba8e-update-detekt-setting.jar",
+          "url": "antibytes-kmp-configuration-8dbba8e-update-detekt-setting.jar",
+          "size": 73528,
+          "sha512": "fbfcb9c9ec77da47c943cd96dffd3a3bcc1930047bb59458c7e6b1b56e90efce1045b79f90793d9fc31a066403cb514156a6a07a20d20df1940ee3ca4beb6019",
+          "sha256": "c242ca3c8a11fa275f70d82096d494e75d066372c9534cc3467d4a4b84b4fb4f",
+          "sha1": "5e5d57cf1adf37b439afbf11fad862836dc29d10",
+          "md5": "2deee0f93ae5c23c8dbc027acebfc7a4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.dokka",
+    "module": "antibytes-dokka-configuration",
+    "version": "8dbba8e-update-detekt-setting",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-8dbba8e-update-detekt-setting.jar",
+          "url": "antibytes-dokka-configuration-8dbba8e-update-detekt-setting.jar",
+          "size": 8108,
+          "sha512": "a7542b8cdf8661f19e0e31172fd81ec1240cb3a7449655723ae5eab7cde8b3842e80e860333997a5789bd431621da4d8918bb05504f8c7888712363bab74cb0c",
+          "sha256": "35ffcf0c68e7e4c2626391746255dbe8955a5ce8ea26cfd20bdd2397819dbb58",
+          "sha1": "7bf4281a58739a952e7cce49a85fb7820f88f2e4",
+          "md5": "76b3bba0cff52f9509bf2252f2b0cb39"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "8dbba8e-update-detekt-setting"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-8dbba8e-update-detekt-setting.jar",
+          "url": "antibytes-dokka-configuration-8dbba8e-update-detekt-setting.jar",
+          "size": 8108,
+          "sha512": "a7542b8cdf8661f19e0e31172fd81ec1240cb3a7449655723ae5eab7cde8b3842e80e860333997a5789bd431621da4d8918bb05504f8c7888712363bab74cb0c",
+          "sha256": "35ffcf0c68e7e4c2626391746255dbe8955a5ce8ea26cfd20bdd2397819dbb58",
+          "sha1": "7bf4281a58739a952e7cce49a85fb7820f88f2e4",
+          "md5": "76b3bba0cff52f9509bf2252f2b0cb39"
+        }
+      ]
+    }
+  ]
+}
