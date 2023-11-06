@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-runtime-configuration",
+    "version": "c7440c6-update-detekt-setting",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-c7440c6-update-detekt-setting.jar",
+          "url": "antibytes-runtime-configuration-c7440c6-update-detekt-setting.jar",
+          "size": 9666,
+          "sha512": "c0292f349640b35a283b936ba62420b536928877c69ea5172e2d81b8f88bd5fe8866bc446d9fe1138fe372925cca46d8c4a840f733df6b13c7281b1b21f10a66",
+          "sha256": "0ce56befb06889ae4b32047572db753f464b89df6317a554541a159496524177",
+          "sha1": "a2d102ad44929649164392f6a78c093bdf8affbf",
+          "md5": "433ea98fb36aa894a2450d9c7f00506f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "c7440c6-update-detekt-setting"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.14.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-c7440c6-update-detekt-setting.jar",
+          "url": "antibytes-runtime-configuration-c7440c6-update-detekt-setting.jar",
+          "size": 9666,
+          "sha512": "c0292f349640b35a283b936ba62420b536928877c69ea5172e2d81b8f88bd5fe8866bc446d9fe1138fe372925cca46d8c4a840f733df6b13c7281b1b21f10a66",
+          "sha256": "0ce56befb06889ae4b32047572db753f464b89df6317a554541a159496524177",
+          "sha1": "a2d102ad44929649164392f6a78c093bdf8affbf",
+          "md5": "433ea98fb36aa894a2450d9c7f00506f"
+        }
+      ]
+    }
+  ]
+}

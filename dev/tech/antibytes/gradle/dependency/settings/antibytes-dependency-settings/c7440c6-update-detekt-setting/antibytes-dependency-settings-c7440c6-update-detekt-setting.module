@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.settings",
+    "module": "antibytes-dependency-settings",
+    "version": "c7440c6-update-detekt-setting",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "c7440c6-update-detekt-setting"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-c7440c6-update-detekt-setting.jar",
+          "url": "antibytes-dependency-settings-c7440c6-update-detekt-setting.jar",
+          "size": 17188,
+          "sha512": "2c0f8e921b90015c64a7ff89f4081beb721aff5d113196b1580366b973218df9fd1d8103db1be87275f64087a09c47aa8d8e7881a7fa33ebf6a2dfddf2c28b33",
+          "sha256": "5abd3af77ac7321e3e8813bd41b02fd55ce6008d4f99ae0c571aea4e30973d46",
+          "sha1": "ecabac6c61449473c853add524d201676c5d3688",
+          "md5": "79f2cabd3451709f0b630ee80af06e4d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.gradle.toolchains",
+          "module": "foojay-resolver",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "c7440c6-update-detekt-setting"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-c7440c6-update-detekt-setting.jar",
+          "url": "antibytes-dependency-settings-c7440c6-update-detekt-setting.jar",
+          "size": 17188,
+          "sha512": "2c0f8e921b90015c64a7ff89f4081beb721aff5d113196b1580366b973218df9fd1d8103db1be87275f64087a09c47aa8d8e7881a7fa33ebf6a2dfddf2c28b33",
+          "sha256": "5abd3af77ac7321e3e8813bd41b02fd55ce6008d4f99ae0c571aea4e30973d46",
+          "sha1": "ecabac6c61449473c853add524d201676c5d3688",
+          "md5": "79f2cabd3451709f0b630ee80af06e4d"
+        }
+      ]
+    }
+  ]
+}

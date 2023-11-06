@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "c7440c6-update-detekt-setting",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-c7440c6-update-detekt-setting.jar",
+          "url": "antibytes-publishing-configuration-c7440c6-update-detekt-setting.jar",
+          "size": 5078,
+          "sha512": "e0b124ed6ab09e5766bba0a9955ec2dea9f22251ff674f2cc9c613f3bee850e9828e5a6f5406249b85f2423c09c11e45c770942352c3a437c38d4233b8f58613",
+          "sha256": "e88fe6a0c2a4702b0db6a17f8359bbcf5eb5e56a49527305316385812d3fdb62",
+          "sha1": "41c795a4d5d432748bee17105ed19773dea6d90e",
+          "md5": "f9ff3dc40c3b1fda05d37c167f87c05c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "c7440c6-update-detekt-setting"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-c7440c6-update-detekt-setting.jar",
+          "url": "antibytes-publishing-configuration-c7440c6-update-detekt-setting.jar",
+          "size": 5078,
+          "sha512": "e0b124ed6ab09e5766bba0a9955ec2dea9f22251ff674f2cc9c613f3bee850e9828e5a6f5406249b85f2423c09c11e45c770942352c3a437c38d4233b8f58613",
+          "sha256": "e88fe6a0c2a4702b0db6a17f8359bbcf5eb5e56a49527305316385812d3fdb62",
+          "sha1": "41c795a4d5d432748bee17105ed19773dea6d90e",
+          "md5": "f9ff3dc40c3b1fda05d37c167f87c05c"
+        }
+      ]
+    }
+  ]
+}

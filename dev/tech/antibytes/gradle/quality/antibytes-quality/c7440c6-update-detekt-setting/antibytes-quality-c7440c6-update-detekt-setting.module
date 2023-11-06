@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.quality",
+    "module": "antibytes-quality",
+    "version": "c7440c6-update-detekt-setting",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.sonarsource.scanner.gradle",
+          "module": "sonarqube-gradle-plugin",
+          "version": {
+            "requires": "4.4.1.3373"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-quality-c7440c6-update-detekt-setting.jar",
+          "url": "antibytes-quality-c7440c6-update-detekt-setting.jar",
+          "size": 64565,
+          "sha512": "65939b81cd4fa1ecc8209bcd95161a4b367434ebc0707c7f0c1d76bc692659f77842c4286220045a1d032d6ac770522f10caec1b063acfcf5869155e69974174",
+          "sha256": "15c40c0a494cd48c7a9ffaa334458dec4840d332534c88551bdcc612a7d1b886",
+          "sha1": "faef0b8643d89e76b7857308b515252bb35fbd39",
+          "md5": "f8ed3944c5844f30dd44f05c25ed48e6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "com.diffplug.spotless",
+          "module": "spotless-plugin-gradle",
+          "version": {
+            "requires": "6.22.0"
+          }
+        },
+        {
+          "group": "com.pinterest",
+          "module": "ktlint",
+          "version": {
+            "requires": "0.50.0"
+          }
+        },
+        {
+          "group": "io.gitlab.arturbosch.detekt",
+          "module": "detekt-gradle-plugin",
+          "version": {
+            "requires": "1.23.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "binary-compatibility-validator",
+          "version": {
+            "requires": "0.13.2"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "c7440c6-update-detekt-setting"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle.dependency.helper",
+          "module": "antibytes-dependency-helper",
+          "version": {
+            "requires": "c7440c6-update-detekt-setting"
+          }
+        },
+        {
+          "group": "org.sonarsource.scanner.gradle",
+          "module": "sonarqube-gradle-plugin",
+          "version": {
+            "requires": "4.4.1.3373"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-quality-c7440c6-update-detekt-setting.jar",
+          "url": "antibytes-quality-c7440c6-update-detekt-setting.jar",
+          "size": 64565,
+          "sha512": "65939b81cd4fa1ecc8209bcd95161a4b367434ebc0707c7f0c1d76bc692659f77842c4286220045a1d032d6ac770522f10caec1b063acfcf5869155e69974174",
+          "sha256": "15c40c0a494cd48c7a9ffaa334458dec4840d332534c88551bdcc612a7d1b886",
+          "sha1": "faef0b8643d89e76b7857308b515252bb35fbd39",
+          "md5": "f8ed3944c5844f30dd44f05c25ed48e6"
+        }
+      ]
+    }
+  ]
+}

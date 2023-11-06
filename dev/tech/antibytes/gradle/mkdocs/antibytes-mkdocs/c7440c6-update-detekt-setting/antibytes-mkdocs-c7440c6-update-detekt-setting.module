@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.mkdocs",
+    "module": "antibytes-mkdocs",
+    "version": "c7440c6-update-detekt-setting",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.versioning",
+          "module": "antibytes-versioning",
+          "version": {
+            "requires": "c7440c6-update-detekt-setting"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-mkdocs-c7440c6-update-detekt-setting.jar",
+          "url": "antibytes-mkdocs-c7440c6-update-detekt-setting.jar",
+          "size": 12153,
+          "sha512": "02572f1613b4e34feafa1203d42c5dd96802da14b09c89eb48ec3cee3fb974fd9e4fe09cfd06ebebffae9713a7ecc3af8c55ccafdf544ec3c6865d28c4fae0ef",
+          "sha256": "f52764a1da6d08c8e4cb847a55758fb82bd7069083407b9f82f6e8f45cb42a21",
+          "sha1": "2aa418413d6554302d66a2fa4f6647acbe324155",
+          "md5": "887dec8136e4901f1cac00a49362f426"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "ru.vyarus",
+          "module": "gradle-use-python-plugin",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "ru.vyarus",
+          "module": "gradle-mkdocs-plugin",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "c7440c6-update-detekt-setting"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle.versioning",
+          "module": "antibytes-versioning",
+          "version": {
+            "requires": "c7440c6-update-detekt-setting"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-mkdocs-c7440c6-update-detekt-setting.jar",
+          "url": "antibytes-mkdocs-c7440c6-update-detekt-setting.jar",
+          "size": 12153,
+          "sha512": "02572f1613b4e34feafa1203d42c5dd96802da14b09c89eb48ec3cee3fb974fd9e4fe09cfd06ebebffae9713a7ecc3af8c55ccafdf544ec3c6865d28c4fae0ef",
+          "sha256": "f52764a1da6d08c8e4cb847a55758fb82bd7069083407b9f82f6e8f45cb42a21",
+          "sha1": "2aa418413d6554302d66a2fa4f6647acbe324155",
+          "md5": "887dec8136e4901f1cac00a49362f426"
+        }
+      ]
+    }
+  ]
+}
