@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "ce6f4b4-add-iphone15",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-ce6f4b4-add-iphone15.jar",
+          "url": "antibytes-publishing-configuration-ce6f4b4-add-iphone15.jar",
+          "size": 5078,
+          "sha512": "0c7b9ef13efb11432081389dba7758ed98288e478c3fa993f1c2983041c7d8a0e247f5d661e8d148ff1141154acda44024c0c3b801e8d8ecb67e74f088f30b76",
+          "sha256": "8147eeb80f5332f7db35352cf831d2dfe836f3a2a8c0c7c53896a7e610546d9b",
+          "sha1": "976a9acb188337af9a9c04ff089f9c55438ab3c1",
+          "md5": "6009808aaa598c74d0b847d6464e2261"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "ce6f4b4-add-iphone15"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-ce6f4b4-add-iphone15.jar",
+          "url": "antibytes-publishing-configuration-ce6f4b4-add-iphone15.jar",
+          "size": 5078,
+          "sha512": "0c7b9ef13efb11432081389dba7758ed98288e478c3fa993f1c2983041c7d8a0e247f5d661e8d148ff1141154acda44024c0c3b801e8d8ecb67e74f088f30b76",
+          "sha256": "8147eeb80f5332f7db35352cf831d2dfe836f3a2a8c0c7c53896a7e610546d9b",
+          "sha1": "976a9acb188337af9a9c04ff089f9c55438ab3c1",
+          "md5": "6009808aaa598c74d0b847d6464e2261"
+        }
+      ]
+    }
+  ]
+}

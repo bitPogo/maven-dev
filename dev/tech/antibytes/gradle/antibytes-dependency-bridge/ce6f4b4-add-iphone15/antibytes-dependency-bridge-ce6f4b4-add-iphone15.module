@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "ce6f4b4-add-iphone15",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-ce6f4b4-add-iphone15.jar",
+          "url": "antibytes-dependency-bridge-ce6f4b4-add-iphone15.jar",
+          "size": 39844,
+          "sha512": "d4130336499c0c6534e693ca9ee3f4c97ee599d1a628c8acba1413711dab48df6b6965318509e416ba5b126097248b93ab9ce43e66a9f0f8883ec89262b10602",
+          "sha256": "ac17bb2648ab3743673281bff88190822f61f5b821e717b4a814279845475871",
+          "sha1": "934084543367a31527978e17ae2b11db3af296ab",
+          "md5": "76cc759872786d363032218c5f6fb0cc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.14.2"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "ce6f4b4-add-iphone15"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-ce6f4b4-add-iphone15.jar",
+          "url": "antibytes-dependency-bridge-ce6f4b4-add-iphone15.jar",
+          "size": 39844,
+          "sha512": "d4130336499c0c6534e693ca9ee3f4c97ee599d1a628c8acba1413711dab48df6b6965318509e416ba5b126097248b93ab9ce43e66a9f0f8883ec89262b10602",
+          "sha256": "ac17bb2648ab3743673281bff88190822f61f5b821e717b4a814279845475871",
+          "sha1": "934084543367a31527978e17ae2b11db3af296ab",
+          "md5": "76cc759872786d363032218c5f6fb0cc"
+        }
+      ]
+    }
+  ]
+}

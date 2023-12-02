@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.dokka",
+    "module": "antibytes-dokka-configuration",
+    "version": "ce6f4b4-add-iphone15",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-ce6f4b4-add-iphone15.jar",
+          "url": "antibytes-dokka-configuration-ce6f4b4-add-iphone15.jar",
+          "size": 8108,
+          "sha512": "158e2e95b1ad24451f4b0dc9eec5215eaada041e49f8deb6d943ca38db0c2bb189e77cab262216d8bf647b8c741ef8de06f6fc12221aed6ad9231efdab749349",
+          "sha256": "5c6f4b541137ec24705a9906954a96ef3d3cf1b1acad651c9f44a723032a44c4",
+          "sha1": "72d73a7472a8f339eb80dff276bf9e7168f901fc",
+          "md5": "f75051b324592a19f7cb8079ea1992d5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "ce6f4b4-add-iphone15"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-ce6f4b4-add-iphone15.jar",
+          "url": "antibytes-dokka-configuration-ce6f4b4-add-iphone15.jar",
+          "size": 8108,
+          "sha512": "158e2e95b1ad24451f4b0dc9eec5215eaada041e49f8deb6d943ca38db0c2bb189e77cab262216d8bf647b8c741ef8de06f6fc12221aed6ad9231efdab749349",
+          "sha256": "5c6f4b541137ec24705a9906954a96ef3d3cf1b1acad651c9f44a723032a44c4",
+          "sha1": "72d73a7472a8f339eb80dff276bf9e7168f901fc",
+          "md5": "f75051b324592a19f7cb8079ea1992d5"
+        }
+      ]
+    }
+  ]
+}

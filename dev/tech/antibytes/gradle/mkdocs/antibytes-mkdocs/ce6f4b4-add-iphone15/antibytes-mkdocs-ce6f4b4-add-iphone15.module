@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.mkdocs",
+    "module": "antibytes-mkdocs",
+    "version": "ce6f4b4-add-iphone15",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.versioning",
+          "module": "antibytes-versioning",
+          "version": {
+            "requires": "ce6f4b4-add-iphone15"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-mkdocs-ce6f4b4-add-iphone15.jar",
+          "url": "antibytes-mkdocs-ce6f4b4-add-iphone15.jar",
+          "size": 12153,
+          "sha512": "c6e63427dab92c40101bd77819e50f0bdb1eccc7c203e9df50b36dc9438b9e86471ef158bfdd34cb5da5b496ae11c11453ea1973c36cc487bb6476b58e3da27e",
+          "sha256": "49138c0b48b66c92f80b9fc1f25d3dad69647264fb2eaddfca7ad1d63414c2a3",
+          "sha1": "a1d7486b10ee452ed65217f7669597a75ce93bb7",
+          "md5": "680a8935366910ae113feaa25df389e5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "ru.vyarus",
+          "module": "gradle-use-python-plugin",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "ru.vyarus",
+          "module": "gradle-mkdocs-plugin",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "ce6f4b4-add-iphone15"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle.versioning",
+          "module": "antibytes-versioning",
+          "version": {
+            "requires": "ce6f4b4-add-iphone15"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-mkdocs-ce6f4b4-add-iphone15.jar",
+          "url": "antibytes-mkdocs-ce6f4b4-add-iphone15.jar",
+          "size": 12153,
+          "sha512": "c6e63427dab92c40101bd77819e50f0bdb1eccc7c203e9df50b36dc9438b9e86471ef158bfdd34cb5da5b496ae11c11453ea1973c36cc487bb6476b58e3da27e",
+          "sha256": "49138c0b48b66c92f80b9fc1f25d3dad69647264fb2eaddfca7ad1d63414c2a3",
+          "sha1": "a1d7486b10ee452ed65217f7669597a75ce93bb7",
+          "md5": "680a8935366910ae113feaa25df389e5"
+        }
+      ]
+    }
+  ]
+}

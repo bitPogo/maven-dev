@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-runtime-configuration",
+    "version": "ce6f4b4-add-iphone15",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-ce6f4b4-add-iphone15.jar",
+          "url": "antibytes-runtime-configuration-ce6f4b4-add-iphone15.jar",
+          "size": 9666,
+          "sha512": "cce9867077247580fb52718f489ea0fef092e99b5c780a6ee138e974605004007afdb8c1b36092b5c38aa70220823691d5a0aa08306f9eca5fd3d1f233c2506b",
+          "sha256": "2d528e8ed3fec7d24065625e7b486cb1d91a66ad9da642449058c8353e0759df",
+          "sha1": "d0708a2147a91680146f1a85993e03f10e7a9d8b",
+          "md5": "aa7f69e40c9b07e9043743c30522ad86"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "ce6f4b4-add-iphone15"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.14.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-ce6f4b4-add-iphone15.jar",
+          "url": "antibytes-runtime-configuration-ce6f4b4-add-iphone15.jar",
+          "size": 9666,
+          "sha512": "cce9867077247580fb52718f489ea0fef092e99b5c780a6ee138e974605004007afdb8c1b36092b5c38aa70220823691d5a0aa08306f9eca5fd3d1f233c2506b",
+          "sha256": "2d528e8ed3fec7d24065625e7b486cb1d91a66ad9da642449058c8353e0759df",
+          "sha1": "d0708a2147a91680146f1a85993e03f10e7a9d8b",
+          "md5": "aa7f69e40c9b07e9043743c30522ad86"
+        }
+      ]
+    }
+  ]
+}
