@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.kmp",
+    "module": "antibytes-kmp-configuration",
+    "version": "cf059d6-remove-material-python",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-cf059d6-remove-material-python.jar",
+          "url": "antibytes-kmp-configuration-cf059d6-remove-material-python.jar",
+          "size": 73645,
+          "sha512": "d4953839e568fc21706f59b1ebf2a59f4ec3a65b7473a407725cfcf697f452bd9580c3125dd3fcea899c53fcc52563267a4ff090cc877cbcbe64bcab62294587",
+          "sha256": "3ad4f669b13a5c2bb6427a861a59df70de6a166986890270c517b6b11a6846c9",
+          "sha1": "d3ab8b471eed8b4bde9499f61cf963df6b3a940a",
+          "md5": "d4c2e60eba0831a8fa8dadad79e88ddd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "cf059d6-remove-material-python"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-cf059d6-remove-material-python.jar",
+          "url": "antibytes-kmp-configuration-cf059d6-remove-material-python.jar",
+          "size": 73645,
+          "sha512": "d4953839e568fc21706f59b1ebf2a59f4ec3a65b7473a407725cfcf697f452bd9580c3125dd3fcea899c53fcc52563267a4ff090cc877cbcbe64bcab62294587",
+          "sha256": "3ad4f669b13a5c2bb6427a861a59df70de6a166986890270c517b6b11a6846c9",
+          "sha1": "d3ab8b471eed8b4bde9499f61cf963df6b3a940a",
+          "md5": "d4c2e60eba0831a8fa8dadad79e88ddd"
+        }
+      ]
+    }
+  ]
+}

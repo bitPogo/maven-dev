@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-runtime-configuration",
+    "version": "cf059d6-remove-material-python",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-cf059d6-remove-material-python.jar",
+          "url": "antibytes-runtime-configuration-cf059d6-remove-material-python.jar",
+          "size": 9666,
+          "sha512": "27462645cf67f4eff507dd296ac5cadbea56cf7dab84faaf382ed220414334edaa639134c4e39f56de02e8ec38e0cbbc5aa086b123eb90020f80fd7097dc9034",
+          "sha256": "946b3e820660ffeceabb05cd8b7b2c5145f18d358140cba47878231e8579a97c",
+          "sha1": "b9d25beafc29fed87b5dec3f2677ece245bed622",
+          "md5": "bf7883fb07d25b057b60a8bab078a895"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "cf059d6-remove-material-python"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.14.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-cf059d6-remove-material-python.jar",
+          "url": "antibytes-runtime-configuration-cf059d6-remove-material-python.jar",
+          "size": 9666,
+          "sha512": "27462645cf67f4eff507dd296ac5cadbea56cf7dab84faaf382ed220414334edaa639134c4e39f56de02e8ec38e0cbbc5aa086b123eb90020f80fd7097dc9034",
+          "sha256": "946b3e820660ffeceabb05cd8b7b2c5145f18d358140cba47878231e8579a97c",
+          "sha1": "b9d25beafc29fed87b5dec3f2677ece245bed622",
+          "md5": "bf7883fb07d25b057b60a8bab078a895"
+        }
+      ]
+    }
+  ]
+}

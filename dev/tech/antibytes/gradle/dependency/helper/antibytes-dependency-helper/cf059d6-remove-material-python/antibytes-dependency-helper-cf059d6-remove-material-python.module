@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.helper",
+    "module": "antibytes-dependency-helper",
+    "version": "cf059d6-remove-material-python",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-helper-cf059d6-remove-material-python.jar",
+          "url": "antibytes-dependency-helper-cf059d6-remove-material-python.jar",
+          "size": 69711,
+          "sha512": "eb6753337a1bf08356c90aa1b7a28df51c4f09753adaef0c5907db226c97043b07d67f8f50508b90267d0ab3a37627a090a712b146d6b67d8a66a5acf9cad7dc",
+          "sha256": "b45870ed1daf18d1c7d4b5e03ab9a198beaed77a64259d641fe4e3eea250c3fb",
+          "sha1": "f7dc7d834b7c00f8915dac65bab9eaf5ab7cdf6a",
+          "md5": "cc3bd462a886400b7b2cb88763d94d89"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "com.github.ben-manes",
+          "module": "gradle-versions-plugin",
+          "version": {
+            "requires": "0.49.0"
+          }
+        },
+        {
+          "group": "org.owasp",
+          "module": "dependency-check-gradle",
+          "version": {
+            "requires": "8.4.2"
+          }
+        },
+        {
+          "group": "com.squareup.tools.build",
+          "module": "maven-archeologist",
+          "version": {
+            "requires": "0.0.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "cf059d6-remove-material-python"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-helper-cf059d6-remove-material-python.jar",
+          "url": "antibytes-dependency-helper-cf059d6-remove-material-python.jar",
+          "size": 69711,
+          "sha512": "eb6753337a1bf08356c90aa1b7a28df51c4f09753adaef0c5907db226c97043b07d67f8f50508b90267d0ab3a37627a090a712b146d6b67d8a66a5acf9cad7dc",
+          "sha256": "b45870ed1daf18d1c7d4b5e03ab9a198beaed77a64259d641fe4e3eea250c3fb",
+          "sha1": "f7dc7d834b7c00f8915dac65bab9eaf5ab7cdf6a",
+          "md5": "cc3bd462a886400b7b2cb88763d94d89"
+        }
+      ]
+    }
+  ]
+}

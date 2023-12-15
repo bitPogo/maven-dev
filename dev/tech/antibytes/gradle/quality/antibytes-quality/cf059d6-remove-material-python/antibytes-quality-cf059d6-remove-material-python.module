@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.quality",
+    "module": "antibytes-quality",
+    "version": "cf059d6-remove-material-python",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.sonarsource.scanner.gradle",
+          "module": "sonarqube-gradle-plugin",
+          "version": {
+            "requires": "4.4.1.3373"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-quality-cf059d6-remove-material-python.jar",
+          "url": "antibytes-quality-cf059d6-remove-material-python.jar",
+          "size": 64580,
+          "sha512": "feaddc190229541ef728a463c95a3fa146f2b0c0f23674711c330c6dd1270bae7965ecc14e57a000f5f7d95f4971bc0819c1a252775f8a9cf8eb13f7c0027ac2",
+          "sha256": "64e77be947df18d184310cb5cc968662f6424e9f17ff246592c91e4864cccd6e",
+          "sha1": "31e2100be68de5c3200080058f7fbd967577440b",
+          "md5": "fe4344916d39ed6f04830ea4300e7e13"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "com.diffplug.spotless",
+          "module": "spotless-plugin-gradle",
+          "version": {
+            "requires": "6.22.0"
+          }
+        },
+        {
+          "group": "com.pinterest",
+          "module": "ktlint",
+          "version": {
+            "requires": "0.50.0"
+          }
+        },
+        {
+          "group": "io.gitlab.arturbosch.detekt",
+          "module": "detekt-gradle-plugin",
+          "version": {
+            "requires": "1.23.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "binary-compatibility-validator",
+          "version": {
+            "requires": "0.13.2"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "cf059d6-remove-material-python"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle.dependency.helper",
+          "module": "antibytes-dependency-helper",
+          "version": {
+            "requires": "cf059d6-remove-material-python"
+          }
+        },
+        {
+          "group": "org.sonarsource.scanner.gradle",
+          "module": "sonarqube-gradle-plugin",
+          "version": {
+            "requires": "4.4.1.3373"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-quality-cf059d6-remove-material-python.jar",
+          "url": "antibytes-quality-cf059d6-remove-material-python.jar",
+          "size": 64580,
+          "sha512": "feaddc190229541ef728a463c95a3fa146f2b0c0f23674711c330c6dd1270bae7965ecc14e57a000f5f7d95f4971bc0819c1a252775f8a9cf8eb13f7c0027ac2",
+          "sha256": "64e77be947df18d184310cb5cc968662f6424e9f17ff246592c91e4864cccd6e",
+          "sha1": "31e2100be68de5c3200080058f7fbd967577440b",
+          "md5": "fe4344916d39ed6f04830ea4300e7e13"
+        }
+      ]
+    }
+  ]
+}

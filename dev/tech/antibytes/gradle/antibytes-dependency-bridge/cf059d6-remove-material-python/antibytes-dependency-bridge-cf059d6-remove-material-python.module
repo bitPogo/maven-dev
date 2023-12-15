@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "cf059d6-remove-material-python",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-cf059d6-remove-material-python.jar",
+          "url": "antibytes-dependency-bridge-cf059d6-remove-material-python.jar",
+          "size": 39844,
+          "sha512": "c81767081487ea323060a3b28f380e19765c119dc9fa542f6c703ab00b0c7fb40a71649e77d73341cf722e58fbcb9d147ac8c14f77c4d915b620953958de461d",
+          "sha256": "e87ed7d4d11113c07d672fe11c42763bbcdd5102cb8f18ff145d54edc89f1b64",
+          "sha1": "63c07c6fead27a01366780de4ee9365af345efe8",
+          "md5": "b4b5330cf6534821d7e866e81f6c3600"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.14.2"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "cf059d6-remove-material-python"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-cf059d6-remove-material-python.jar",
+          "url": "antibytes-dependency-bridge-cf059d6-remove-material-python.jar",
+          "size": 39844,
+          "sha512": "c81767081487ea323060a3b28f380e19765c119dc9fa542f6c703ab00b0c7fb40a71649e77d73341cf722e58fbcb9d147ac8c14f77c4d915b620953958de461d",
+          "sha256": "e87ed7d4d11113c07d672fe11c42763bbcdd5102cb8f18ff145d54edc89f1b64",
+          "sha1": "63c07c6fead27a01366780de4ee9365af345efe8",
+          "md5": "b4b5330cf6534821d7e866e81f6c3600"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.dokka",
+    "module": "antibytes-dokka-configuration",
+    "version": "cf059d6-remove-material-python",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-cf059d6-remove-material-python.jar",
+          "url": "antibytes-dokka-configuration-cf059d6-remove-material-python.jar",
+          "size": 8108,
+          "sha512": "b58ac65ad3e88f8892144659f2b0869303b0f83fcc74a4af298d6d411adb48e3257fbcfa697d6cb6a94890f3ca98f89178aa0041909f8d83657b042cf84e5a2d",
+          "sha256": "01956259b950261249db6b286f6c900dad20c732cc344c68235091c2699536fe",
+          "sha1": "171c3926d21ad03cff4d9bce70c911889d2d86e5",
+          "md5": "5298ef6f3ea1e424e1f549d5ed0ea7d1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "cf059d6-remove-material-python"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-cf059d6-remove-material-python.jar",
+          "url": "antibytes-dokka-configuration-cf059d6-remove-material-python.jar",
+          "size": 8108,
+          "sha512": "b58ac65ad3e88f8892144659f2b0869303b0f83fcc74a4af298d6d411adb48e3257fbcfa697d6cb6a94890f3ca98f89178aa0041909f8d83657b042cf84e5a2d",
+          "sha256": "01956259b950261249db6b286f6c900dad20c732cc344c68235091c2699536fe",
+          "sha1": "171c3926d21ad03cff4d9bce70c911889d2d86e5",
+          "md5": "5298ef6f3ea1e424e1f549d5ed0ea7d1"
+        }
+      ]
+    }
+  ]
+}

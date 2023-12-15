@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "cf059d6-remove-material-python",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-cf059d6-remove-material-python.jar",
+          "url": "antibytes-publishing-configuration-cf059d6-remove-material-python.jar",
+          "size": 5078,
+          "sha512": "e371c85b7b4a6fa21dd5f7b28fab3bf2c0e8b8d2435334f6a6ea64dab5f3096894f7b02557bd93c75d2f59b2fdaee3fece5d65f75fab3c55a07fae6d82ca8a21",
+          "sha256": "b10a6579903f5d9a9a21b25d94dfeb98844d52c0e73c23ea746b58a5ce76ee3a",
+          "sha1": "31de56ffe82dfdbc64f0563126d484e00871a11c",
+          "md5": "4821b5faa467ee176074f1f99ac8c728"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "cf059d6-remove-material-python"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-cf059d6-remove-material-python.jar",
+          "url": "antibytes-publishing-configuration-cf059d6-remove-material-python.jar",
+          "size": 5078,
+          "sha512": "e371c85b7b4a6fa21dd5f7b28fab3bf2c0e8b8d2435334f6a6ea64dab5f3096894f7b02557bd93c75d2f59b2fdaee3fece5d65f75fab3c55a07fae6d82ca8a21",
+          "sha256": "b10a6579903f5d9a9a21b25d94dfeb98844d52c0e73c23ea746b58a5ce76ee3a",
+          "sha1": "31de56ffe82dfdbc64f0563126d484e00871a11c",
+          "md5": "4821b5faa467ee176074f1f99ac8c728"
+        }
+      ]
+    }
+  ]
+}

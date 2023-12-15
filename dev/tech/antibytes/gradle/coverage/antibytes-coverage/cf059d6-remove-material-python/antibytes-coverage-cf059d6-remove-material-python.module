@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.coverage",
+    "module": "antibytes-coverage",
+    "version": "cf059d6-remove-material-python",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-coverage-cf059d6-remove-material-python.jar",
+          "url": "antibytes-coverage-cf059d6-remove-material-python.jar",
+          "size": 147901,
+          "sha512": "b68673d8c0cbd2ca7f0765502e6739f1e001c72869272a15729dc9a3c6fc447afd61fbb290ca002b692207e0ab7222dc1fc831145211eeefc9f51c40a33249f7",
+          "sha256": "c24fb0ab02f987c441f142f697e4cf6c9717cf9dd80d848b644782d13302e13b",
+          "sha1": "b18ab5ab1fc29a39cc6eb88032b106896403e447",
+          "md5": "d09e34cfee59920f74990afac7eb4aa9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "8.1.2"
+          }
+        },
+        {
+          "group": "org.jacoco",
+          "module": "org.jacoco.core",
+          "version": {
+            "requires": "0.8.11"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "cf059d6-remove-material-python"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-coverage-cf059d6-remove-material-python.jar",
+          "url": "antibytes-coverage-cf059d6-remove-material-python.jar",
+          "size": 147901,
+          "sha512": "b68673d8c0cbd2ca7f0765502e6739f1e001c72869272a15729dc9a3c6fc447afd61fbb290ca002b692207e0ab7222dc1fc831145211eeefc9f51c40a33249f7",
+          "sha256": "c24fb0ab02f987c441f142f697e4cf6c9717cf9dd80d848b644782d13302e13b",
+          "sha1": "b18ab5ab1fc29a39cc6eb88032b106896403e447",
+          "md5": "d09e34cfee59920f74990afac7eb4aa9"
+        }
+      ]
+    }
+  ]
+}
