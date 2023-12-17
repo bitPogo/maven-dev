@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "7b5c888-change-versioning-path",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-7b5c888-change-versioning-path.jar",
+          "url": "antibytes-publishing-configuration-7b5c888-change-versioning-path.jar",
+          "size": 5078,
+          "sha512": "7ddd6cf746db4890b23dcb2b9243e022226db2d6d093ac494bf1182f2973d5cc8e7576fb90b8fbe0f05f0e5aedfb5ebdd8fa2ab39702c2b3fd7f6f15552b0af2",
+          "sha256": "07f3fd13f87cea4d3275ade222f1026cc873c2810f92a964229de223981a021f",
+          "sha1": "7853805597b8009eed827a14048b8b2dd21cd1fe",
+          "md5": "d819a9affb1eae26baa8336e8c71c939"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "7b5c888-change-versioning-path"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-7b5c888-change-versioning-path.jar",
+          "url": "antibytes-publishing-configuration-7b5c888-change-versioning-path.jar",
+          "size": 5078,
+          "sha512": "7ddd6cf746db4890b23dcb2b9243e022226db2d6d093ac494bf1182f2973d5cc8e7576fb90b8fbe0f05f0e5aedfb5ebdd8fa2ab39702c2b3fd7f6f15552b0af2",
+          "sha256": "07f3fd13f87cea4d3275ade222f1026cc873c2810f92a964229de223981a021f",
+          "sha1": "7853805597b8009eed827a14048b8b2dd21cd1fe",
+          "md5": "d819a9affb1eae26baa8336e8c71c939"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "7b5c888-change-versioning-path",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-7b5c888-change-versioning-path.jar",
+          "url": "antibytes-dependency-bridge-7b5c888-change-versioning-path.jar",
+          "size": 39844,
+          "sha512": "8470e84f77c4103e5e68f21cacd4c94a4a5ad986fa786328c4245742ff5a14617eb207b5965189dc2ec9894fc50bee0e9480b9bdf1d51a8117e60a775ca67ce9",
+          "sha256": "cfdb02109da6d293ecae6c32c1afec5c272eda2953f21439fd933fd6a53402d9",
+          "sha1": "1074dcdd14ce09211f91851e3e383b4a9caf4ed5",
+          "md5": "6a8a38eb0aee180ec50b3e0c07525eff"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.14.2"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "7b5c888-change-versioning-path"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-7b5c888-change-versioning-path.jar",
+          "url": "antibytes-dependency-bridge-7b5c888-change-versioning-path.jar",
+          "size": 39844,
+          "sha512": "8470e84f77c4103e5e68f21cacd4c94a4a5ad986fa786328c4245742ff5a14617eb207b5965189dc2ec9894fc50bee0e9480b9bdf1d51a8117e60a775ca67ce9",
+          "sha256": "cfdb02109da6d293ecae6c32c1afec5c272eda2953f21439fd933fd6a53402d9",
+          "sha1": "1074dcdd14ce09211f91851e3e383b4a9caf4ed5",
+          "md5": "6a8a38eb0aee180ec50b3e0c07525eff"
+        }
+      ]
+    }
+  ]
+}

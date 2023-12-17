@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.kmp",
+    "module": "antibytes-kmp-configuration",
+    "version": "7b5c888-change-versioning-path",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-7b5c888-change-versioning-path.jar",
+          "url": "antibytes-kmp-configuration-7b5c888-change-versioning-path.jar",
+          "size": 73645,
+          "sha512": "fd7e766f053cf8d24a26a68fe20dd7e5995f2aedda109fd58c87b1e5d64f75ed958b0693d18a4514adbb84109a321d8154715e59889ecf5fcd22969e587047b7",
+          "sha256": "f6828aa0529580438f1b9729ddabc284fae9ea2d786a5a21841eb5f011af864d",
+          "sha1": "7c6e8f678a83e96b680e077c5d4b49dc6ab6bbf6",
+          "md5": "0abbcdd36d3b6ae6d5be47fe5564cd94"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "7b5c888-change-versioning-path"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-7b5c888-change-versioning-path.jar",
+          "url": "antibytes-kmp-configuration-7b5c888-change-versioning-path.jar",
+          "size": 73645,
+          "sha512": "fd7e766f053cf8d24a26a68fe20dd7e5995f2aedda109fd58c87b1e5d64f75ed958b0693d18a4514adbb84109a321d8154715e59889ecf5fcd22969e587047b7",
+          "sha256": "f6828aa0529580438f1b9729ddabc284fae9ea2d786a5a21841eb5f011af864d",
+          "sha1": "7c6e8f678a83e96b680e077c5d4b49dc6ab6bbf6",
+          "md5": "0abbcdd36d3b6ae6d5be47fe5564cd94"
+        }
+      ]
+    }
+  ]
+}
