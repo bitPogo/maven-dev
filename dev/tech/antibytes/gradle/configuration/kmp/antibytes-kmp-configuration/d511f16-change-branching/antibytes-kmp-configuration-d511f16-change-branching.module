@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.kmp",
+    "module": "antibytes-kmp-configuration",
+    "version": "d511f16-change-branching",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-d511f16-change-branching.jar",
+          "url": "antibytes-kmp-configuration-d511f16-change-branching.jar",
+          "size": 73645,
+          "sha512": "0e4c806b4e681faf4b62b6a946596d49f6cd96ff02dea28c0e207c7884343be5afaa634aec6f697bd2bb00a543420ea6367424cf643709b24446d0fabde3c07e",
+          "sha256": "217dbfb45390f88f04f3e79e1d3650ea642d102ddc48af60a9b06d22c59be9a4",
+          "sha1": "3a7cedb71cd3d006636dd19db49b8f1a7f764435",
+          "md5": "1e5540b421ca0e2cc4ab1c0b395d4861"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "d511f16-change-branching"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-d511f16-change-branching.jar",
+          "url": "antibytes-kmp-configuration-d511f16-change-branching.jar",
+          "size": 73645,
+          "sha512": "0e4c806b4e681faf4b62b6a946596d49f6cd96ff02dea28c0e207c7884343be5afaa634aec6f697bd2bb00a543420ea6367424cf643709b24446d0fabde3c07e",
+          "sha256": "217dbfb45390f88f04f3e79e1d3650ea642d102ddc48af60a9b06d22c59be9a4",
+          "sha1": "3a7cedb71cd3d006636dd19db49b8f1a7f764435",
+          "md5": "1e5540b421ca0e2cc4ab1c0b395d4861"
+        }
+      ]
+    }
+  ]
+}

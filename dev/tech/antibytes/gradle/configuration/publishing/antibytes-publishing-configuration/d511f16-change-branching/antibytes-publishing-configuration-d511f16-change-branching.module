@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "d511f16-change-branching",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-d511f16-change-branching.jar",
+          "url": "antibytes-publishing-configuration-d511f16-change-branching.jar",
+          "size": 5072,
+          "sha512": "8c9bf622e162e18b5afdc032e17d2dcc96a0e5c4c75be0cf086bbc707b9231fd9f23d7bef2eba309742b39a0099b0630796d7377c34b0ffb02bf54e4bc0a9e5e",
+          "sha256": "d9fee7a1faced482f54437a153750e4b989f75001088f5685c1968977cd08d8b",
+          "sha1": "c68c53314dd54774b3e9b0357117f4c12a4a274c",
+          "md5": "20bb78372d22ba31cf20bbdbfe38ba67"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "d511f16-change-branching"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-d511f16-change-branching.jar",
+          "url": "antibytes-publishing-configuration-d511f16-change-branching.jar",
+          "size": 5072,
+          "sha512": "8c9bf622e162e18b5afdc032e17d2dcc96a0e5c4c75be0cf086bbc707b9231fd9f23d7bef2eba309742b39a0099b0630796d7377c34b0ffb02bf54e4bc0a9e5e",
+          "sha256": "d9fee7a1faced482f54437a153750e4b989f75001088f5685c1968977cd08d8b",
+          "sha1": "c68c53314dd54774b3e9b0357117f4c12a4a274c",
+          "md5": "20bb78372d22ba31cf20bbdbfe38ba67"
+        }
+      ]
+    }
+  ]
+}

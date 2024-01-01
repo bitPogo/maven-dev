@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "d511f16-change-branching",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-d511f16-change-branching.jar",
+          "url": "antibytes-dependency-bridge-d511f16-change-branching.jar",
+          "size": 39844,
+          "sha512": "feff5666c4de4bd49de84eb875716825b29353846e5a588b65f23b1c84b01a6cdd086fb41fc26bd865b2231cdac98e20ad0e020096e23a0c4a57482067896252",
+          "sha256": "8cc2d82bb84c46101b7370b8332a6a4659efacce90b8801cf825a2e19f5031ae",
+          "sha1": "a7de70ff304f8facaaf34d5483a8c80a05ea062a",
+          "md5": "4da0636edf02968820797f7fe4855024"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.14.2"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "d511f16-change-branching"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-d511f16-change-branching.jar",
+          "url": "antibytes-dependency-bridge-d511f16-change-branching.jar",
+          "size": 39844,
+          "sha512": "feff5666c4de4bd49de84eb875716825b29353846e5a588b65f23b1c84b01a6cdd086fb41fc26bd865b2231cdac98e20ad0e020096e23a0c4a57482067896252",
+          "sha256": "8cc2d82bb84c46101b7370b8332a6a4659efacce90b8801cf825a2e19f5031ae",
+          "sha1": "a7de70ff304f8facaaf34d5483a8c80a05ea062a",
+          "md5": "4da0636edf02968820797f7fe4855024"
+        }
+      ]
+    }
+  ]
+}

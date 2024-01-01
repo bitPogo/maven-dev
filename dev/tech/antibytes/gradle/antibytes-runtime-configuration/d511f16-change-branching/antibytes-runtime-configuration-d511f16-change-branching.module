@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-runtime-configuration",
+    "version": "d511f16-change-branching",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-d511f16-change-branching.jar",
+          "url": "antibytes-runtime-configuration-d511f16-change-branching.jar",
+          "size": 9666,
+          "sha512": "48ea6906f3d39038b054ec0b1812a42d05520bffdeb17d510b5f7bbc724469fbfba593eb31dacd6851a3794887607f095057fa32a604053c9a1ebe09d7de93ce",
+          "sha256": "1f34d3ba3939572730bc59ed67a4908dacdbbdf9b14e7c268cff1f6957ffdd65",
+          "sha1": "399690a7be9c0ce3e0d92baac7f5c8c2b4cc5944",
+          "md5": "e960ec5904ca9c34530cd2ee9a0fb441"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "d511f16-change-branching"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.14.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-d511f16-change-branching.jar",
+          "url": "antibytes-runtime-configuration-d511f16-change-branching.jar",
+          "size": 9666,
+          "sha512": "48ea6906f3d39038b054ec0b1812a42d05520bffdeb17d510b5f7bbc724469fbfba593eb31dacd6851a3794887607f095057fa32a604053c9a1ebe09d7de93ce",
+          "sha256": "1f34d3ba3939572730bc59ed67a4908dacdbbdf9b14e7c268cff1f6957ffdd65",
+          "sha1": "399690a7be9c0ce3e0d92baac7f5c8c2b4cc5944",
+          "md5": "e960ec5904ca9c34530cd2ee9a0fb441"
+        }
+      ]
+    }
+  ]
+}

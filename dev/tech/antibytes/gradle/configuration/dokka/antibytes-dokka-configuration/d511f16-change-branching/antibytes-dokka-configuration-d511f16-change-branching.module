@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.dokka",
+    "module": "antibytes-dokka-configuration",
+    "version": "d511f16-change-branching",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-d511f16-change-branching.jar",
+          "url": "antibytes-dokka-configuration-d511f16-change-branching.jar",
+          "size": 8108,
+          "sha512": "a1e29a32b730fe8173dbc82c09cf8013d81cf709964c30233362d7f064660cd69e23072404a7097df04cafca0621351a4bb2a430e7dd63ab91868f7285a3bd64",
+          "sha256": "92b26ce3648d4c14bf72b20afb6089c210f5665723e8d31bcfa36f64d6447815",
+          "sha1": "52bc1510ef4c4669575b5f8017d6956c80cc82f0",
+          "md5": "e738386b692e9404d6af64e6652f12b2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "d511f16-change-branching"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-d511f16-change-branching.jar",
+          "url": "antibytes-dokka-configuration-d511f16-change-branching.jar",
+          "size": 8108,
+          "sha512": "a1e29a32b730fe8173dbc82c09cf8013d81cf709964c30233362d7f064660cd69e23072404a7097df04cafca0621351a4bb2a430e7dd63ab91868f7285a3bd64",
+          "sha256": "92b26ce3648d4c14bf72b20afb6089c210f5665723e8d31bcfa36f64d6447815",
+          "sha1": "52bc1510ef4c4669575b5f8017d6956c80cc82f0",
+          "md5": "e738386b692e9404d6af64e6652f12b2"
+        }
+      ]
+    }
+  ]
+}
