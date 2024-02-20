@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.settings",
+    "module": "antibytes-dependency-settings",
+    "version": "129a6fc-bump-updates",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "129a6fc-bump-updates"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-129a6fc-bump-updates.jar",
+          "url": "antibytes-dependency-settings-129a6fc-bump-updates.jar",
+          "size": 19507,
+          "sha512": "d298fcb0606418737bc97d65523c79f698292f0e30774ab8149448d482a412a085ef4f3b3cfee25478cd20052bafb3826b0cdf576eebaf94f303c5e1b6625ca5",
+          "sha256": "8b8b30de87092aaa594cb73aa90499d819e6067cb30beea8148ec8a7f4a4a4c7",
+          "sha1": "750ee096422d3df45f429ed882cfaa4940c0bfbf",
+          "md5": "21f8c0fa594f602408db45fe4f4fecaa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.gradle.toolchains",
+          "module": "foojay-resolver",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "129a6fc-bump-updates"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-129a6fc-bump-updates.jar",
+          "url": "antibytes-dependency-settings-129a6fc-bump-updates.jar",
+          "size": 19507,
+          "sha512": "d298fcb0606418737bc97d65523c79f698292f0e30774ab8149448d482a412a085ef4f3b3cfee25478cd20052bafb3826b0cdf576eebaf94f303c5e1b6625ca5",
+          "sha256": "8b8b30de87092aaa594cb73aa90499d819e6067cb30beea8148ec8a7f4a4a4c7",
+          "sha1": "750ee096422d3df45f429ed882cfaa4940c0bfbf",
+          "md5": "21f8c0fa594f602408db45fe4f4fecaa"
+        }
+      ]
+    }
+  ]
+}
