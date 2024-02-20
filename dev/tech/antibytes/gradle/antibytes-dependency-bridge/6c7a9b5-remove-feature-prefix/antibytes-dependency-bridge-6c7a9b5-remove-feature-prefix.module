@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "6c7a9b5-remove-feature-prefix",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-6c7a9b5-remove-feature-prefix.jar",
+          "url": "antibytes-dependency-bridge-6c7a9b5-remove-feature-prefix.jar",
+          "size": 39850,
+          "sha512": "dfe876e39798a80634ed495aebf89a0886117ac2c654817d2abb8898412a81bc7a0dcca32ecae8f84f924cfa48feb12eca2923e2724b2e811d2bb32db1565953",
+          "sha256": "aee02b4b75dfbdaa7ab89e6abd775b4dc4c1c5daa6606d05ccb8aea43d9fbb5d",
+          "sha1": "0fd7d5d72e2e1fe3a022c83eb450a2419e3496cb",
+          "md5": "fc2710fbe81d8faf51156cfb8b44fec3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "6c7a9b5-remove-feature-prefix"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-6c7a9b5-remove-feature-prefix.jar",
+          "url": "antibytes-dependency-bridge-6c7a9b5-remove-feature-prefix.jar",
+          "size": 39850,
+          "sha512": "dfe876e39798a80634ed495aebf89a0886117ac2c654817d2abb8898412a81bc7a0dcca32ecae8f84f924cfa48feb12eca2923e2724b2e811d2bb32db1565953",
+          "sha256": "aee02b4b75dfbdaa7ab89e6abd775b4dc4c1c5daa6606d05ccb8aea43d9fbb5d",
+          "sha1": "0fd7d5d72e2e1fe3a022c83eb450a2419e3496cb",
+          "md5": "fc2710fbe81d8faf51156cfb8b44fec3"
+        }
+      ]
+    }
+  ]
+}

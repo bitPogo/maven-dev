@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "6c7a9b5-remove-feature-prefix",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-6c7a9b5-remove-feature-prefix.jar",
+          "url": "antibytes-publishing-configuration-6c7a9b5-remove-feature-prefix.jar",
+          "size": 5135,
+          "sha512": "815cb79ab8df939ee81d0ff2f569672ca30e0061efe706ca1353ce0a4eeed04ac0bac982e11fdce324681afaa4f2a3d8e47c9058daed133b13589f03bde1a371",
+          "sha256": "ae142d04cac80e7a27767947a4508c220d4ccfba362d407f6748db65ca1beb45",
+          "sha1": "70e01d7158a84ff0d8fab46d25352963e1ef62ba",
+          "md5": "fb2871c0b541414a267410a99a5f8cac"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "6c7a9b5-remove-feature-prefix"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-6c7a9b5-remove-feature-prefix.jar",
+          "url": "antibytes-publishing-configuration-6c7a9b5-remove-feature-prefix.jar",
+          "size": 5135,
+          "sha512": "815cb79ab8df939ee81d0ff2f569672ca30e0061efe706ca1353ce0a4eeed04ac0bac982e11fdce324681afaa4f2a3d8e47c9058daed133b13589f03bde1a371",
+          "sha256": "ae142d04cac80e7a27767947a4508c220d4ccfba362d407f6748db65ca1beb45",
+          "sha1": "70e01d7158a84ff0d8fab46d25352963e1ef62ba",
+          "md5": "fb2871c0b541414a267410a99a5f8cac"
+        }
+      ]
+    }
+  ]
+}
