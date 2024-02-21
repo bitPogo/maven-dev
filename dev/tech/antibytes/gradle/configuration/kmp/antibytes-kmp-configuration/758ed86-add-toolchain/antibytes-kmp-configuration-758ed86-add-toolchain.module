@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.kmp",
+    "module": "antibytes-kmp-configuration",
+    "version": "758ed86-add-toolchain",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-758ed86-add-toolchain.jar",
+          "url": "antibytes-kmp-configuration-758ed86-add-toolchain.jar",
+          "size": 59396,
+          "sha512": "b83a664df7a85605e69659a04910945b4c6f89c009d39530b71911f5970a10414948b2331f6fe0e5c28eb1947eae0680f84d107f16732227035eebf9395c21d3",
+          "sha256": "a38dbae6961f249c145e04549ca9f4392c41a2f7eb3ad3b90d1f0e2fb9d582f3",
+          "sha1": "ce1be66572bbb1e7c239ea0e2c8c2979c3925e32",
+          "md5": "c57efe436b12abfd7aa4a88ff5ade626"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "758ed86-add-toolchain"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-758ed86-add-toolchain.jar",
+          "url": "antibytes-kmp-configuration-758ed86-add-toolchain.jar",
+          "size": 59396,
+          "sha512": "b83a664df7a85605e69659a04910945b4c6f89c009d39530b71911f5970a10414948b2331f6fe0e5c28eb1947eae0680f84d107f16732227035eebf9395c21d3",
+          "sha256": "a38dbae6961f249c145e04549ca9f4392c41a2f7eb3ad3b90d1f0e2fb9d582f3",
+          "sha1": "ce1be66572bbb1e7c239ea0e2c8c2979c3925e32",
+          "md5": "c57efe436b12abfd7aa4a88ff5ade626"
+        }
+      ]
+    }
+  ]
+}

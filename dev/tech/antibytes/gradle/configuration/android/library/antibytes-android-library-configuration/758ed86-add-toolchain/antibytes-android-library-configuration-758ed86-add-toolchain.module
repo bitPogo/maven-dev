@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.android.library",
+    "module": "antibytes-android-library-configuration",
+    "version": "758ed86-add-toolchain",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-android-library-configuration-758ed86-add-toolchain.jar",
+          "url": "antibytes-android-library-configuration-758ed86-add-toolchain.jar",
+          "size": 63899,
+          "sha512": "e64083514a1db906526e8fbdacdfa51e2b7fd02e2784ea1c5f70dc40dd20b261ce9f2ab61692ef6874d5956d51b420fc5fc3975850e636fabd9a916a2ffd8155",
+          "sha256": "9bdeb3a1788ba7b5e11f3eb87277cbb200af0144f199ef5da1e4c97a93a8f34f",
+          "sha1": "2f86d7c9abecd7fbd2c0ebec1def588266780f0a",
+          "md5": "9ed5439e32c277e9e828ceee7a4a7c1d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "8.2.2"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "758ed86-add-toolchain"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-android-library-configuration-758ed86-add-toolchain.jar",
+          "url": "antibytes-android-library-configuration-758ed86-add-toolchain.jar",
+          "size": 63899,
+          "sha512": "e64083514a1db906526e8fbdacdfa51e2b7fd02e2784ea1c5f70dc40dd20b261ce9f2ab61692ef6874d5956d51b420fc5fc3975850e636fabd9a916a2ffd8155",
+          "sha256": "9bdeb3a1788ba7b5e11f3eb87277cbb200af0144f199ef5da1e4c97a93a8f34f",
+          "sha1": "2f86d7c9abecd7fbd2c0ebec1def588266780f0a",
+          "md5": "9ed5439e32c277e9e828ceee7a4a7c1d"
+        }
+      ]
+    }
+  ]
+}

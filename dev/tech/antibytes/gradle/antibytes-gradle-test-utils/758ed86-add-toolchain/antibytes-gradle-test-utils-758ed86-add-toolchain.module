@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-gradle-test-utils",
+    "version": "758ed86-add-toolchain",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-gradle-test-utils-758ed86-add-toolchain.jar",
+          "url": "antibytes-gradle-test-utils-758ed86-add-toolchain.jar",
+          "size": 17888,
+          "sha512": "1a1d04e7c4c4140b57b20cb8e3d0e6e57cc04c3b919cf7ee57986f74cac67d76fe1b5be7e0949d36b0e859fe5c8b4e44e54723175100d71e3fca6c0fd4c31b38",
+          "sha256": "64d3fa9f337ecf15c6643e2037feb102968776645880c29951a4ebb944e67877",
+          "sha1": "76dc51653c0eaa7709eb15b281e350eba0c638eb",
+          "md5": "1a76f6a1d328ed3104c300654c9e880c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.mockk",
+          "module": "mockk",
+          "version": {
+            "requires": "1.13.9"
+          }
+        },
+        {
+          "group": "com.appmattus.fixture",
+          "module": "fixture",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-gradle-test-utils-758ed86-add-toolchain.jar",
+          "url": "antibytes-gradle-test-utils-758ed86-add-toolchain.jar",
+          "size": 17888,
+          "sha512": "1a1d04e7c4c4140b57b20cb8e3d0e6e57cc04c3b919cf7ee57986f74cac67d76fe1b5be7e0949d36b0e859fe5c8b4e44e54723175100d71e3fca6c0fd4c31b38",
+          "sha256": "64d3fa9f337ecf15c6643e2037feb102968776645880c29951a4ebb944e67877",
+          "sha1": "76dc51653c0eaa7709eb15b281e350eba0c638eb",
+          "md5": "1a76f6a1d328ed3104c300654c9e880c"
+        }
+      ]
+    }
+  ]
+}

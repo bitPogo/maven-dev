@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.versioning",
+    "module": "antibytes-versioning",
+    "version": "758ed86-add-toolchain",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-758ed86-add-toolchain.jar",
+          "url": "antibytes-versioning-758ed86-add-toolchain.jar",
+          "size": 24279,
+          "sha512": "16da0d7d9badd7f103eb77307190534099896443d653222cf97e3a8c226262cc5db4e2fd6c0d402754c236ad81ed3f4dcdfdaf60fbc608fd0701eb2845c2a02a",
+          "sha256": "17b42081d0d80bb8db7818c182af349da24cc410617b1d94f0a5c2793eb29544",
+          "sha1": "193d4f5fff3b96de42f4942b46d228bb3a9b83c8",
+          "md5": "6c2760b3ce57ff014d3aff4ec9c9a98c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "com.lordcodes.turtle",
+          "module": "turtle",
+          "version": {
+            "requires": "0.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-758ed86-add-toolchain.jar",
+          "url": "antibytes-versioning-758ed86-add-toolchain.jar",
+          "size": 24279,
+          "sha512": "16da0d7d9badd7f103eb77307190534099896443d653222cf97e3a8c226262cc5db4e2fd6c0d402754c236ad81ed3f4dcdfdaf60fbc608fd0701eb2845c2a02a",
+          "sha256": "17b42081d0d80bb8db7818c182af349da24cc410617b1d94f0a5c2793eb29544",
+          "sha1": "193d4f5fff3b96de42f4942b46d228bb3a9b83c8",
+          "md5": "6c2760b3ce57ff014d3aff4ec9c9a98c"
+        }
+      ]
+    }
+  ]
+}

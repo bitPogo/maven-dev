@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "758ed86-add-toolchain",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-758ed86-add-toolchain.jar",
+          "url": "antibytes-dependency-bridge-758ed86-add-toolchain.jar",
+          "size": 39850,
+          "sha512": "861f93e7da3fde8b43700a2bde70d292c0218b9ec20961b2d9b589ab0bb1d451ef98e6519e058de5f01d4e1174e21cfda2c8174979a595031b016c5d6766dd2b",
+          "sha256": "48077a944fd9f13e1f3f82eab5833171abb11206e048e5cbb3b0be6f4ea96bdc",
+          "sha1": "2bd156f84023331f29b9e0ed1f55d5a95c332eb3",
+          "md5": "3241e36eab32d2f2c3e36a2b113508d1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "758ed86-add-toolchain"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-758ed86-add-toolchain.jar",
+          "url": "antibytes-dependency-bridge-758ed86-add-toolchain.jar",
+          "size": 39850,
+          "sha512": "861f93e7da3fde8b43700a2bde70d292c0218b9ec20961b2d9b589ab0bb1d451ef98e6519e058de5f01d4e1174e21cfda2c8174979a595031b016c5d6766dd2b",
+          "sha256": "48077a944fd9f13e1f3f82eab5833171abb11206e048e5cbb3b0be6f4ea96bdc",
+          "sha1": "2bd156f84023331f29b9e0ed1f55d5a95c332eb3",
+          "md5": "3241e36eab32d2f2c3e36a2b113508d1"
+        }
+      ]
+    }
+  ]
+}

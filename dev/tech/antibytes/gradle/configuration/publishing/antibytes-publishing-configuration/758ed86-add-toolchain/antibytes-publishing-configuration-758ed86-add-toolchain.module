@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "758ed86-add-toolchain",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-758ed86-add-toolchain.jar",
+          "url": "antibytes-publishing-configuration-758ed86-add-toolchain.jar",
+          "size": 5135,
+          "sha512": "54d632d80fd876180205fd1fd41ff9c741284a3fb64e8cd6226be560af1d471f17042b6148f4dbc333043f648d7541ee174970df6293df5234f8e6dfa3391c3e",
+          "sha256": "f8fda8b9650e67863f4921831b83b94f5357099ee4b9bc6020eea89b24f9bf63",
+          "sha1": "c9398e760aabed01b45475a516eb1053b2ffbba3",
+          "md5": "cbd28242ff58dbdaad3c2ba4c35277d8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "758ed86-add-toolchain"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-758ed86-add-toolchain.jar",
+          "url": "antibytes-publishing-configuration-758ed86-add-toolchain.jar",
+          "size": 5135,
+          "sha512": "54d632d80fd876180205fd1fd41ff9c741284a3fb64e8cd6226be560af1d471f17042b6148f4dbc333043f648d7541ee174970df6293df5234f8e6dfa3391c3e",
+          "sha256": "f8fda8b9650e67863f4921831b83b94f5357099ee4b9bc6020eea89b24f9bf63",
+          "sha1": "c9398e760aabed01b45475a516eb1053b2ffbba3",
+          "md5": "cbd28242ff58dbdaad3c2ba4c35277d8"
+        }
+      ]
+    }
+  ]
+}
