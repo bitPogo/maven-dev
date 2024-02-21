@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "136fb3a-enable-ci-buildcache",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-136fb3a-enable-ci-buildcache.jar",
+          "url": "antibytes-publishing-configuration-136fb3a-enable-ci-buildcache.jar",
+          "size": 5125,
+          "sha512": "4806c3f537c4631b7d98708ef052966dae59cd03324ee2c939d63559ac2a499e1e887768aa22c4d542d0a75731d97daf846146f87c7827262adbb1aaa9c7ccee",
+          "sha256": "d331fd9a36e0c3d7dcf8e394669a2a558c06b0b40af5a17a9c759db714bd7195",
+          "sha1": "b8b13e5b6f91ffc42b5fccba7b7ff7cb674d4d06",
+          "md5": "5ebe6939d95480924bb8739189e5bd1c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "136fb3a-enable-ci-buildcache"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-136fb3a-enable-ci-buildcache.jar",
+          "url": "antibytes-publishing-configuration-136fb3a-enable-ci-buildcache.jar",
+          "size": 5125,
+          "sha512": "4806c3f537c4631b7d98708ef052966dae59cd03324ee2c939d63559ac2a499e1e887768aa22c4d542d0a75731d97daf846146f87c7827262adbb1aaa9c7ccee",
+          "sha256": "d331fd9a36e0c3d7dcf8e394669a2a558c06b0b40af5a17a9c759db714bd7195",
+          "sha1": "b8b13e5b6f91ffc42b5fccba7b7ff7cb674d4d06",
+          "md5": "5ebe6939d95480924bb8739189e5bd1c"
+        }
+      ]
+    }
+  ]
+}

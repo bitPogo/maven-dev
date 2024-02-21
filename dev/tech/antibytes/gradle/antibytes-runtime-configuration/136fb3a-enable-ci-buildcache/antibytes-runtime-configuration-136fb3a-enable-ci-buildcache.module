@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-runtime-configuration",
+    "version": "136fb3a-enable-ci-buildcache",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-136fb3a-enable-ci-buildcache.jar",
+          "url": "antibytes-runtime-configuration-136fb3a-enable-ci-buildcache.jar",
+          "size": 20276,
+          "sha512": "7dd08164722e8eb0895baab185247c79529561901fd37add244bedfbc963f3333f2e5556aae6f84400412fdd432ea88ca99b9f9c7925f6c3cbf829ef56889b74",
+          "sha256": "0bbfdee24ab63b1cb4c37053e01a430d5b1cae87d9e06336adbf200aa4d4279f",
+          "sha1": "f08fa0a6ab22bc5041d3042295de650ba221db36",
+          "md5": "d65607887c8a4cec5452696ad8907abf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "136fb3a-enable-ci-buildcache"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.16.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-136fb3a-enable-ci-buildcache.jar",
+          "url": "antibytes-runtime-configuration-136fb3a-enable-ci-buildcache.jar",
+          "size": 20276,
+          "sha512": "7dd08164722e8eb0895baab185247c79529561901fd37add244bedfbc963f3333f2e5556aae6f84400412fdd432ea88ca99b9f9c7925f6c3cbf829ef56889b74",
+          "sha256": "0bbfdee24ab63b1cb4c37053e01a430d5b1cae87d9e06336adbf200aa4d4279f",
+          "sha1": "f08fa0a6ab22bc5041d3042295de650ba221db36",
+          "md5": "d65607887c8a4cec5452696ad8907abf"
+        }
+      ]
+    }
+  ]
+}

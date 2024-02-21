@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.quality",
+    "module": "antibytes-quality",
+    "version": "136fb3a-enable-ci-buildcache",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.sonarsource.scanner.gradle",
+          "module": "sonarqube-gradle-plugin",
+          "version": {
+            "requires": "4.4.1.3373"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-quality-136fb3a-enable-ci-buildcache.jar",
+          "url": "antibytes-quality-136fb3a-enable-ci-buildcache.jar",
+          "size": 64877,
+          "sha512": "0c9634502d893c62b4d2d5994fddf73510823d46a0b63ff70f80a32645b1c1b8a3346e4b834ccfe7b7e7828db42020fab161ec830805d9531b09f5471576034d",
+          "sha256": "dd33a09336d3b3bcd974a39440820df8f28a3ec30a7318258a15b338d72f8e98",
+          "sha1": "a82c09d71ae9bb87d946f8af8674ee3ef345aa24",
+          "md5": "ad45095fff8f1ae2cd7519cdf3da2df9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "com.diffplug.spotless",
+          "module": "spotless-plugin-gradle",
+          "version": {
+            "requires": "6.25.0"
+          }
+        },
+        {
+          "group": "com.pinterest.ktlint",
+          "module": "ktlint-cli",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "io.gitlab.arturbosch.detekt",
+          "module": "detekt-gradle-plugin",
+          "version": {
+            "requires": "1.23.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "binary-compatibility-validator",
+          "version": {
+            "requires": "0.14.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "136fb3a-enable-ci-buildcache"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle.dependency.helper",
+          "module": "antibytes-dependency-helper",
+          "version": {
+            "requires": "136fb3a-enable-ci-buildcache"
+          }
+        },
+        {
+          "group": "org.sonarsource.scanner.gradle",
+          "module": "sonarqube-gradle-plugin",
+          "version": {
+            "requires": "4.4.1.3373"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-quality-136fb3a-enable-ci-buildcache.jar",
+          "url": "antibytes-quality-136fb3a-enable-ci-buildcache.jar",
+          "size": 64877,
+          "sha512": "0c9634502d893c62b4d2d5994fddf73510823d46a0b63ff70f80a32645b1c1b8a3346e4b834ccfe7b7e7828db42020fab161ec830805d9531b09f5471576034d",
+          "sha256": "dd33a09336d3b3bcd974a39440820df8f28a3ec30a7318258a15b338d72f8e98",
+          "sha1": "a82c09d71ae9bb87d946f8af8674ee3ef345aa24",
+          "md5": "ad45095fff8f1ae2cd7519cdf3da2df9"
+        }
+      ]
+    }
+  ]
+}
