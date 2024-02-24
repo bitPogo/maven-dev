@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-ktor/ef3a5b1-bump-updates-SNAPSHOT/test-utils-ktor-ef3a5b1-bump-updates-SNAPSHOT.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-ktor",
+    "version": "ef3a5b1-bump-updates-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.8"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "2.3.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor.klib",
+          "url": "test-utils-ktor-macosarm64-ef3a5b1-bump-updates-SNAPSHOT.klib",
+          "size": 15602,
+          "sha512": "206aaae211a0539abbc7fcd5e32c3d21b6a6a88d481291f0e279366559e336f17d52b418148cdf6da437006cd7c48d8be5c94bfe9c7148cfc4ad7448b6f431f3",
+          "sha256": "60694f2ddec2e6e49a8fd102727d5126fd4656384b32a78042f95fb6962e79f9",
+          "sha1": "49627b70f9d9a17ed6066e95076216dc32aa4484",
+          "md5": "633b0ef36ba6d375e31c78c5d2e1be40"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "test-utils-ktor-macosarm64-ef3a5b1-bump-updates-SNAPSHOT-sources.jar",
+          "url": "test-utils-ktor-macosarm64-ef3a5b1-bump-updates-SNAPSHOT-sources.jar",
+          "size": 2872,
+          "sha512": "2268f2772929e73f6f4cccb0ebfc887c2fca1a9a7518d50c3a0cd6141b1615740b1bbe8f39f3ae9045c34e283023352c23e1943c8c39a58f65cc05243bf01a94",
+          "sha256": "6d96d8b473fe6fa2ee93d7c4ac375d0570434c9ab65c01bae96d632733a9d562",
+          "sha1": "95f77daf58aa6a77bf8927057cd070da7b9b3409",
+          "md5": "2b46f609ce899dc78e54dabcd42dec8a"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.8"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "2.3.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor-macosarm64-ef3a5b1-bump-updates-SNAPSHOT-metadata.jar",
+          "url": "test-utils-ktor-macosarm64-ef3a5b1-bump-updates-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "43e11dce992b07f88ce1c2313addb3cdab5bed53f94c16eb14b9f731ae1a54401d0ff878464a1111676316b1b556a516e3e7d8671dcc7228d3066e0055b1f0ff",
+          "sha256": "d4d7064bc22017642ad9e50c7e7959bbb9187bbfc8a2d5a723e8b88037f5ed48",
+          "sha1": "e00c5c30f98147c3e3ea14323d72ac363c9ba59b",
+          "md5": "ea91c688bad5f871e065ac7333c690f0"
+        }
+      ]
+    }
+  ]
+}
